@@ -1,0 +1,934 @@
+/////////////////////////////////////////////////////////////////////////////////////
+//                                                                                 //
+//                             U N I Q U E  I T E M S                              //
+//                                                                                 //
+/////////////////////////////////////////////////////////////////////////////////////
+
+// DO NOT COMMENT THIS LINE - with "ForceSellItem" there is no need to sell uniques as a general line command, rather by individual lines!
+[Rarity] == "Unique" # [StashItem] == "true"
+
+
+//////////////////////////////////////////////
+//                                          //
+//                A m u l e t s             //
+//                                          //
+//////////////////////////////////////////////
+ 
+// [Type] == "Agate Amulet" && [Rarity] == "Unique"     # [ForceSellItem] == "true" // Extractor Mentis / Shaper's Seed / The Aylardex / Voll's Devotion
+[Type] == "Agate Amulet" && [Rarity] == "Unique"        # [chance_to_grant_nearby_enemies_unholy_might_on_kill_%] >= "1" && [ForceSellItem] == "true" // Extractor Mentis
+[Type] == "Agate Amulet" && [Rarity] == "Unique"        # [local_display_aura_mana_regeneration_rate_+%] >= "1" && [ForceSellItem] == "true" // Shaper's Seed
+[Type] == "Agate Amulet" && [Rarity] == "Unique"        # [max_power_charges] >= "1" && [ForceSellItem] == "true" // The Aylardex
+// [Type] == "Agate Amulet" && [Rarity] == "Unique"     # [gain_endurance_charge_on_power_charge_expiry] >= "1" && [ForceSellItem] == "true" // Voll's Devotion
+// [Type] == "Amber Amulet" && [Rarity] == "Unique"     # [ForceSellItem] == "true" // Blood of Corruption / The Anvil / Xoph's Blood / Xoph's Heart
+[Type] == "Amber Amulet" && [Rarity] == "Unique"        # [local_display_grants_skill_gluttony_of_elements_level] >= "1" && [ForceSellItem] == "true" // Blood of Corruption
+[Type] == "Amber Amulet" && [Rarity] == "Unique"        # [maximum_physical_damage_to_return_on_block] >= "1" && [ForceSellItem] == "true" // The Anvil
+// [Type] == "Amber Amulet" && [Rarity] == "Unique"     # [keystone_avatar_of_fire] >= "1" && [ForceSellItem] == "true" // Xoph's Blood
+// [Type] == "Amber Amulet" && [Rarity] == "Unique"     # [fire_damage_+%] >= "1" && [ForceSellItem] == "true" // Xoph's Heart
+[Type] == "Blue Pearl Amulet" && [Rarity] == "Unique"   # [ForceSellItem] == "true" // Gloomfang
+[Type] == "Citrine Amulet" && [Rarity] == "Unique"      # [ForceSellItem] == "true" // Daresso's Salute / Eye of Innocence / Retaliation Charm / The Felbog Fang / The Jinxed Juju
+// [Type] == "Coral Amulet" && [Rarity] == "Unique"     # [ForceSellItem] == "true" // Araku Tiki / Ngamahu Tiki / Tavukai / The Primordial Chain
+[Type] == "Coral Amulet" && [Rarity] == "Unique"        # [evasion_rating_+_when_on_low_life] >= "1" && [ForceSellItem] == "true" // Araku Tiki / Ngamahu Tiki
+[Type] == "Coral Amulet" && [Rarity] == "Unique"        # [minion_raging_spirit_%_of_maximum_life_taken_per_minute_as_chaos_damage] >= "1" && [ForceSellItem] == "true" // Tavukai
+// [Type] == "Coral Amulet" && [Rarity] == "Unique"     # [primordial_jewel_count] >= "1" && [ForceSellItem] == "true" // The Primordial Chain
+// [Type] == "Gold Amulet" && [Rarity] == "Unique"      # [ForceSellItem] == "true" // Bisco's Collar / Demigod's Presence / Perquil's Toe / The Ascetic / The Ignomon / Winterheart
+// [Type] == "Gold Amulet" && [Rarity] == "Unique"      # [normal_monster_dropped_item_quantity_+%] >= "1" && [ForceSellItem] == "true" // Bisco's Collar 
+[Type] == "Gold Amulet" && [Rarity] == "Unique"         # [local_display_nearby_allies_extra_damage_rolls] >= "1" && [ForceSellItem] == "true" // Perquil's Toe
+[Type] == "Gold Amulet" && [Rarity] == "Unique"         # [item_found_quantity_+%_if_wearing_a_magic_item] >= "1" && [ForceSellItem] == "true" // The Ascetic
+[Type] == "Gold Amulet" && [Rarity] == "Unique"         # [attack_maximum_added_fire_damage] >= "1" && [ForceSellItem] == "true" // The Ignomon / The Effigon
+[Type] == "Gold Amulet" && [Rarity] == "Unique"         # [life_regeneration_per_minute_%_while_frozen] >= "1" && [ForceSellItem] == "true" // Winterheart
+// [Type] == "Jade Amulet" && [Rarity] == "Unique"      # [ForceSellItem] == "true" // Hyrri's Truth / Karui Ward / Rashkaldor's Patience /  / The Halcyon / Willowgift
+[Type] == "Jade Amulet" && [Rarity] == "Unique"         # [local_display_grants_skill_accuracy_crits_aura_level] >= "1" && [ForceSellItem] == "true" // Hyrri's Truth
+[Type] == "Jade Amulet" && [Rarity] == "Unique"         # [projectile_damage_+%] >= "1" && [ForceSellItem] == "true" // Karui Ward
+[Type] == "Jade Amulet" && [Rarity] == "Unique"         # [cannot_gain_power_charges] >= "1" && [ForceSellItem] == "true" // Rashkaldor's Patience
+// [Type] == "Jade Amulet" && [Rarity] == "Unique"      # [damage_+%_if_you_have_frozen_enemy_recently] >= "1" && [ForceSellItem] == "true" // The Halcyon
+[Type] == "Jade Amulet" && [Rarity] == "Unique"         # [should_use_alternate_fortify] >= "1" && [ForceSellItem] == "true" // Willowgift
+[Type] == "Lapis Amulet" && [Rarity] == "Unique"        # [ForceSellItem] == "true" // Choir of the Storm / Marylene's Fallacy / Stone of Lazhwar / Tear of Purity / The Ephemeral Bond / Voice of the Storm
+[Type] == "Marble Amulet" && [Rarity] == "Unique"       # [ForceSellItem] == "true" // Bloodgrip
+// [Type] == "Onyx Amulet" && [Rarity] == "Unique"      # [ForceSellItem] == "true" // Astramentis / Carnage Heart / Hinekora's Sight / Impresense / Yoke of Suffering / Presence of Chayula
+[Type] == "Onyx Amulet" && [Rarity] == "Unique"         # [extra_gore] >= "1" && [ForceSellItem] == "true" // Carnage Heart
+// [Type] == "Onyx Amulet" && [Rarity] == "Unique"      # [base_cannot_be_stunned] >= "1" && [ForceSellItem] == "true" // Eye of Chayula
+// [Type] == "Paua Amulet" && [Rarity] == "Unique"      # [ForceSellItem] == "true" // Atziri's Foible / Sacrificial Heart / Sidhebreath / Zerphi's Heart
+// [Type] == "Paua Amulet" && [Rarity] == "Unique"      # [maximum_mana_+%] >= "1" && [ForceSellItem] == "true" // Atziri's Foible
+[Type] == "Paua Amulet" && [Rarity] == "Unique"         # [gain_power_charge_on_vaal_skill_use_%] >= "1" && [ForceSellItem] == "true" // Sacrificial Heart
+[Type] == "Paua Amulet" && [Rarity] == "Unique"         # [minion_global_minimum_added_cold_damage] >= "1" && [ForceSellItem] == "true" // Sidhebreath
+// [Type] == "Turquoise Amulet" && [Rarity] == "Unique" # [ForceSellItem] == "true" // Badge of the Brotherhood / Fury Valve / Maligaro's Cruelty / Ungil's Harmony / Victario's Acuity / Warped Timepiece
+// [Type] == "Turquoise Amulet" && [Rarity] == "Unique" # [maximum_frenzy_charges_is_equal_to_maximum_power_charges] >= "1" && [ForceSellItem] == "true" // Badge of the Brotherhood
+[Type] == "Turquoise Amulet" && [Rarity] == "Unique"    # [number_of_additional_projectiles] >= "1" && [ForceSellItem] == "true" // Fury Valve
+[Type] == "Turquoise Amulet" && [Rarity] == "Unique"    # [poison_damage_+%_per_frenzy_charge] >= "1" && [ForceSellItem] == "true" // Maligaro's Cruelty
+[Type] == "Turquoise Amulet" && [Rarity] == "Unique"    # [no_critical_strike_multiplier] >= "1" && [ForceSellItem] == "true" // Ungil's Harmony
+[Type] == "Turquoise Amulet" && [Rarity] == "Unique"    # [projectile_damage_+%_per_power_charge] >= "1" && [ForceSellItem] == "true" // Victario's Acuity
+[Type] == "Turquoise Amulet" && [Rarity] == "Unique"    # [life_mana_es_leech_speed_+%] >= "1" && [ForceSellItem] == "true" // Warped Timepiece
+
+//////////////////////////////////////////////
+//                                          //
+//                B e l t s                 //
+//                                          //
+//////////////////////////////////////////////
+ 
+// [Type] == "Chain Belt" && [Rarity] == "Unique"   # [ForceSellItem] == "true" // Ascent from Flesh / Bated Breath / Chains of Emancipation / Coward's Chains / Coward's Legacy / Maligaro's Restraint 
+[Type] == "Chain Belt" && [Rarity] == "Unique"      # [energy_shield_recharge_rate_+%] >= "1" && [ForceSellItem] == "true" // Bated Breath
+[Type] == "Chain Belt" && [Rarity] == "Unique"      # [shocks_reflected_to_self] >= "1" && [ForceSellItem] == "true" // Maligaro's Restraint
+// [Type] == "Cloth Belt" && [Rarity] == "Unique"   # [ForceSellItem] == "true" // Arn's Anguish / Graven's Secret / Olesya's Delight / Perandus Blazon / Soul Tether / Soulthirst / Sunblast / The Druggery / The Flow Untethered / The Torrent's Reclamation
+// [Type] == "Cloth Belt" && [Rarity] == "Unique"   # [gain_brutal_charges_instead_of_endurance_charges] >= "1" && [ForceSellItem] == "true" // Arn's Anguish
+// [Type] == "Cloth Belt" && [Rarity] == "Unique"   # [gain_absorption_charges_instead_of_power_charges] >= "1" && [ForceSellItem] == "true" // Graven's Secret
+// [Type] == "Cloth Belt" && [Rarity] == "Unique"   # [gain_affliction_charges_instead_of_frenzy_charges] >= "1" && [ForceSellItem] == "true" // Olesya's Delight
+[Type] == "Cloth Belt" && [Rarity] == "Unique"      # [base_item_found_quantity_+%] >= "1" && [ForceSellItem] == "true" // Perandus Blazon
+[Type] == "Cloth Belt" && [Rarity] == "Unique"      # [keystone_soul_tether] >= "1" && [ForceSellItem] == "true" // Soul Tether
+[Type] == "Cloth Belt" && [Rarity] == "Unique"      # [gain_soul_eater_during_flask_effect] >= "1" && [ForceSellItem] == "true" // Soulthirst
+[Type] == "Cloth Belt" && [Rarity] == "Unique"      # [trap_damage_+%] >= "1" && [ForceSellItem] == "true" // Sunblast
+[Type] == "Cloth Belt" && [Rarity] == "Unique"      # [life_recovery_from_flasks_instead_applies_to_nearby_allies_%] >= "1" && [ForceSellItem] == "true" // The Druggery
+// [Type] == "Cloth Belt" && [Rarity] == "Unique"   # [local_display_summon_harbinger_x_on_equip] == "2" && [ForceSellItem] == "true" // The Flow Untethered
+// [Type] == "Cloth Belt" && [Rarity] == "Unique"   # [local_display_summon_harbinger_x_on_equip] == "8" && [ForceSellItem] == "true" // The Torrent's Reclamation
+[Type] == "Crystal Belt" && [Rarity] == "Unique"    # [ForceSellItem] == "true" // Auxium
+// [Type] == "Heavy Belt" && [Rarity] == "Unique"   # [ForceSellItem] == "true" // Belt of the Deceiver / Bisco's Leash / Doryani's Invitation / Dyadian Dawn / Meginord's Girdle / Mother's Embrace / Siegebreaker / String of Servitude / Survivor's Guilt
+[Type] == "Heavy Belt" && [Rarity] == "Unique"      # [local_display_nearby_enemies_are_intimidated] >= "1" && [ForceSellItem] == "true" // Belt of the Deceiver
+[Type] == "Heavy Belt" && [Rarity] == "Unique"      # [item_found_rarity_+1%_per_X_rampage_stacks] >= "1" && [ForceSellItem] == "true" // Bisco's Leash
+[Type] == "Heavy Belt" && [Rarity] == "Unique"      # [faster_burn_from_attacks_%] >= "1" && [ForceSellItem] == "true" // Dyadian Dawn
+[Type] == "Heavy Belt" && [Rarity] == "Unique"      # [flask_life_recovery_rate_+%] >= "1" && [ForceSellItem] == "true" // Meginord's Girdle
+[Type] == "Heavy Belt" && [Rarity] == "Unique"      # [minions_use_parents_flasks_on_summon] >= "1" && [ForceSellItem] == "true" // Mother's Embrace
+[Type] == "Heavy Belt" && [Rarity] == "Unique"      # [minion_caustic_cloud_on_death_maximum_life_per_minute_to_deal_as_chaos_damage_%] >= "1" && [ForceSellItem] == "true" // Siegebreaker
+[Type] == "Heavy Belt" && [Rarity] == "Unique"      # [keystone_sacred_bastion] >= "1" && [ForceSellItem] == "true" // Survivor's Guilt
+// [Type] == "Leather Belt" && [Rarity] == "Unique" # [ForceSellItem] == "true" // Bear's Girdle / Cyclopean Coil / Gluttony / Headhunter / Hyperboreus / Immortal Flesh / Leash of Oblation / Pyroshock Clasp / Umbilicus Immortalis / Wurm's Molt
+[Type] == "Leather Belt" && [Rarity] == "Unique"    # [nearby_enemies_are_crushed_while_you_have_X_rage] >= "1" && [ForceSellItem] == "true" // Bear's Girdle
+[Type] == "Leather Belt" && [Rarity] == "Unique"    # [cannot_be_frozen_with_dex_higher_than_int] >= "1" && [ForceSellItem] == "true" // Cyclopean Coil
+[Type] == "Leather Belt" && [Rarity] == "Unique"    # [culling_strike_vs_cursed_enemies] >= "1" && [ForceSellItem] == "true" // Gluttony
+// [Type] == "Leather Belt" && [Rarity] == "Unique" # [gain_rare_monster_mods_on_kill_ms] >= "1" && [ForceSellItem] == "true" // Headhunter
+[Type] == "Leather Belt" && [Rarity] == "Unique"    # [chill_nearby_enemies_when_you_focus] >= "1" && [ForceSellItem] == "true" // Hyperboreus
+[Type] == "Leather Belt" && [Rarity] == "Unique"    # [physical_damage_reduction_rating_+%_while_not_ignited_frozen_shocked] >= "1" && [ForceSellItem] == "true" // Immortal Flesh
+[Type] == "Leather Belt" && [Rarity] == "Unique"    # [allow_multiple_offerings] >= "1" && [ForceSellItem] == "true" // Leash of Oblation
+[Type] == "Leather Belt" && [Rarity] == "Unique"    # [enemies_ignited_by_you_have_physical_damage_%_converted_to_fire] >= "1" && [ForceSellItem] == "true" // Pyroshock Clasp
+[Type] == "Leather Belt" && [Rarity] == "Unique"    # [flasks_apply_to_your_zombies_and_spectres] >= "1" && [ForceSellItem] == "true" // Umbilicus Immortalis
+[Type] == "Leather Belt" && [Rarity] == "Unique"    # [mana_leech_from_physical_attack_damage_permyriad] >= "1" && [ForceSellItem] == "true" // Wurm's Molt
+[Type] == "Rustic Sash" && [Rarity] == "Unique"     # [ForceSellItem] == "true" // Chains of Time / Faminebind / Feastbind / Prismweave / The Retch
+// [Type] == "Studded Belt" && [Rarity] == "Unique" # [ForceSellItem] == "true" // Ryslatha's Coil / The Magnate / The Nomad / The Tactician
+// [Type] == "Studded Belt" && [Rarity] == "Unique" # [gain_X_life_on_stun] >= "1" && [ForceSellItem] == "true" // Ryslatha's Coil
+[Type] == "Studded Belt" && [Rarity] == "Unique"    # [resist_all_elements_%_with_200_or_more_strength] >= "1" && [ForceSellItem] == "true" // The Magnate
+// [Type] == "Stygian Vise" && [Rarity] == "Unique" # [ForceSellItem] == "true" // Darkness Enthroned
+[Type] == "Vanguard Belt" && [Rarity] == "Unique"   # [ForceSellItem] == "true" // Perseverance
+
+ 
+//////////////////////////////////////////////
+//                                          //
+//                R i n g s                 //
+//                                          //
+//////////////////////////////////////////////
+
+// Keep all for Loreweave recipe
+// [Type] == "Amethyst Ring" && [Rarity] == "Unique"  # [ForceSellItem] == "true" // Blackflame / Circle of Nostalgia / Death Rush / Ming's Heart
+// [Type] == "Coral Ring" && [Rarity] == "Unique"     # [ForceSellItem] == "true" // Bloodboil / Kaom's Sign / Kaom's Way / Sibyl's Lament / Winterweave
+// [Type] == "Diamond Ring" && [Rarity] == "Unique"   # [ForceSellItem] == "true" // Gifts from Above / Romira's Banquet
+// [Type] == "Gold Ring" && [Rarity] == "Unique"      # [ForceSellItem] == "true" // Andvarius / The Highwayman / Ventor's Gamble 
+// [Type] == "Iron Ring" && [Rarity] == "Unique"      # [ForceSellItem] == "true" // Blackheart / Circle of Guilt / Icefang Orbit / Le Heup of All / The Warden's Brand / Venopuncture / Voidheart
+// [Type] == "Moonstone Ring" && [Rarity] == "Unique" # [ForceSellItem] == "true" // Heartbound Loop / Shavronne's Revelation / Timeclasp / Timetwist / Valyrium
+// [Type] == "Opal Ring" && [Rarity] == "Unique"      # [ForceSellItem] == "true" // Mark of the Shaper / Stormfire
+// [Type] == "Paua Ring" && [Rarity] == "Unique"      # [ForceSellItem] == "true" // Doedre's Damning / Fated End / Perandus Signet / Praxis
+// [Type] == "Prismatic Ring" && [Rarity] == "Unique" # [ForceSellItem] == "true" // Lori's Lantern / Precursor's Emblem / The Taming / Thief's Torment
+// [Type] == "Ruby Ring" && [Rarity] == "Unique"      # [ForceSellItem] == "true" // Ahkeli's Meadow/Mountain/Valley / Circle of Anguish / Emberwake / Mokou's Embrace / Ngamahu's Sign / Precursor's Emblem / Warrior's Legacy
+// [Type] == "Sapphire Ring" && [Rarity] == "Unique"  # [ForceSellItem] == "true" // Circle of Fear / Dream Fragments / Precursor's Emblem / Pyre / Snakepit / Tasalio's Sign / Uzaza's Meadow/Mountain/Valley
+// [Type] == "Steel Ring" && [Rarity] == "Unique"     # [ForceSellItem] == "true" // Mark of the Elder
+// [Type] == "Topaz Ring" && [Rarity] == "Unique"     # [ForceSellItem] == "true" // Astral Projector / Circle of Regret / Kikazaru / Precursor's Emblem / Putembo's Meadow/Mountain/Valley / Storm Secret / Valako's Sign
+// [Type] == "Two-Stone Ring" && [Rarity] == "Unique" # [ForceSellItem] == "true" // Berek's Grip / Berek's Pass / Berek's Respite / Call of the Brotherhood / Precursor's Emblem / Rigwald's Crest
+// [Type] == "Two-Stone Ring" && [Rarity] == "Unique" # [spell_chance_to_shock_frozen_enemies_%] >= "1" && [ForceSellItem] == "true" // Call of the Brotherhood
+// [Type] == "Unset Ring" && [Rarity] == "Unique"     # [ForceSellItem] == "true" // Angler's Plait / Brinerot Mark / Essence Worm / Malachai's Artifice / Mark of Submission / Mutewind Seal / Profane Proxy / Redblade Band / Redblade Band / Rotblood Promise / The Hungry Loop / The Pariah / Vivinsect / Voideye
+
+
+//////////////////////////////////////////////
+//                                          //
+//                Q u i v e r s             //
+//                                          //
+//////////////////////////////////////////////
+ 
+// [Type] == "Blunt Arrow Quiver" && [Rarity] == "Unique"       # [ForceSellItem] == "true" // Maloney's Nightfall / The Fracturing Spinner / The Shattered Divinity
+[Type] == "Blunt Arrow Quiver" && [Rarity] == "Unique"          # [ground_smoke_when_hit_%] >= "1" && [ForceSellItem] == "true" // Maloney's Nightfall
+[Type] == "Blunt Arrow Quiver" && [Rarity] == "Unique"          # [local_display_summon_harbinger_x_on_equip] == "4" && [ForceSellItem] == "true" // The Fracturing Spinner
+// [Type] == "Blunt Arrow Quiver" && [Rarity] == "Unique"       # [local_display_summon_harbinger_x_on_equip] == "10" && [ForceSellItem] == "true" // The Shattered Divinity
+[Type] == "Broadhead Arrow Quiver" && [Rarity] == "Unique"      # [ForceSellItem] == "true" // Rearguard / Scorpion's Call
+[Type] == "Fire Arrow Quiver" && [Rarity] == "Unique"           # [ForceSellItem] == "true" // Blackgleam / The Signal Fire
+// [Type] == "Ornate Quiver" && [Rarity] == "Unique"            # [chance_to_trigger_socketed_bow_skill_on_bow_attack_%] == "100" && [ForceSellItem] == "true" // Maloney's Mechanism
+// [Type] == "Penetrating Arrow Quiver" && [Rarity] == "Unique" # [ForceSellItem] == "true" // Drillneck / Voidfletcher
+[Type] == "Penetrating Arrow Quiver" && [Rarity] == "Unique"    # [arrow_damage_+50%_vs_pierced_targets] >= "1" && [ForceSellItem] == "true" // Drillneck 
+// [Type] == "Penetrating Arrow Quiver" && [Rarity] == "Unique" # [maximum_void_arrows] >= "1" && [ForceSellItem] == "true" // Voidfletcher
+[Type] == "Serrated Arrow Quiver" && [Rarity] == "Unique"       # [ForceSellItem] == "true" // Cragfall / Craghead
+[Type] == "Sharktooth Arrow Quiver" && [Rarity] == "Unique"     # [ForceSellItem] == "true" // Hyrri's Bite / Hyrri's Demise
+[Type] == "Spike-Point Arrow Quiver" && [Rarity] == "Unique"    # [ForceSellItem] == "true" // Saemus' Gift / Soul Strike
+// [Type] == "Two-Point Arrow Quiver" && [Rarity] == "Unique"   # [ForceSellItem] == "true" // Asphyxia's Wrath / Rigwald's Quills / Skirmish
+[Type] == "Two-Point Arrow Quiver" && [Rarity] == "Unique"      # [transfer_hexes_to_X_nearby_enemies_on_kill] >= "1" && [ForceSellItem] == "true" // Asphyxia's Wrath
+// [Type] == "Two-Point Arrow Quiver" && [Rarity] == "Unique"   # [projectiles_fork] >= "1" && [ForceSellItem] == "true" // Rigwald's Quills
+[Type] == "Two-Point Arrow Quiver" && [Rarity] == "Unique"      # [attack_skills_additional_totems_allowed] >= "1" && [ForceSellItem] == "true" // Skirmish
+  
+//////////////////////////////////////////////
+//                                          //
+//                A r m o u r               //
+//                                          //
+//////////////////////////////////////////////
+ 
+// Armour Chests
+// [Type] == "Astral Plate" && [Rarity] == "Unique"    # [ForceSellItem] == "true" // Death's Oath / Blunderbore
+[Type] == "Astral Plate" && [Rarity] == "Unique"       # [local_display_grants_skill_death_aura_level] >= "1" && [ForceSellItem] == "true" // Death's Oath
+[Type] == "Astral Plate" && [Rarity] == "Unique"       # [has_unique_massive_shrine_effect] >= "1" && [ForceSellItem] == "true" // Blunderbore
+[Type] == "Copper Plate" && [Rarity] == "Unique"       # [ForceSellItem] == "true" // Solaris Lorica
+// [Type] == "Crusader Plate" && [Rarity] == "Unique"  # [ForceSellItem] == "true" // Iron Heart / Lioneye's Vision / The Iron Fortress
+[Type] == "Crusader Plate" && [Rarity] == "Unique"     # [strength_damage_bonus_grants_melee_physical_damage_+3%_per_10_strength_instead] >= "1" && [ForceSellItem] == "true" // Iron Heart
+[Type] == "Crusader Plate" && [Rarity] == "Unique"     # [projectiles_always_pierce_you] >= "1" && [ForceSellItem] == "true" // Lioneye's Vision
+// [Type] == "Gladiator Plate" && [Rarity] == "Unique" # [ForceSellItem] == "true" // The Brass Dome
+// [Type] == "Glorious Plate" && [Rarity] == "Unique"  # [ForceSellItem] == "true" // Kaom's Heart / Perfidy
+// [Type] == "Glorious Plate" && [Rarity] == "Unique"  # [local_has_no_sockets] >= "1" && [ForceSellItem] == "true" // Kaom's Heart
+[Type] == "Glorious Plate" && [Rarity] == "Unique"     # [allow_2_active_banners] >= "1" && [ForceSellItem] == "true" // Perfidy
+// [Type] == "Golden Plate" && [Rarity] == "Unique"    # [ForceSellItem] == "true" // Greed's Embrace / Craiceann's Carapace
+[Type] == "Plate Vest" && [Rarity] == "Unique"         # [ForceSellItem] == "true" // Bramble Jack / Wall of Brambles
+
+// Evasion Chests
+[Type] == "Assassin's Garb" && [Rarity] == "Unique"      # [ForceSellItem] == "true" // Cospri's Will
+[Type] == "Buckskin Tunic" && [Rarity] == "Unique"       # [ForceSellItem] == "true" // Ashrend
+[Type] == "Coronal Leather" && [Rarity] == "Unique"      # [ForceSellItem] == "true" // The Snowblind Grace
+[Type] == "Cutthroat's Garb" && [Rarity] == "Unique"     # [ForceSellItem] == "true" // Bronn's Lithe
+[Type] == "Destiny Leather" && [Rarity] == "Unique"      # [movement_velocity_+1%_per_X_evasion_rating] >= "1" && [ForceSellItem] == "true" // Queen of the Forest
+// [Type] == "Exquisite Leather" && [Rarity] == "Unique" # [ForceSellItem] == "true" // Kintsugi / Yreiel's Fostering
+[Type] == "Sharkskin Tunic" && [Rarity] == "Unique"      # [ForceSellItem] == "true" // The Rat Cage
+[Type] == "Strapped Leather" && [Rarity] == "Unique"     # [ForceSellItem] == "true" // Briskwrap / Wildwrap
+[Type] == "Wild Leather" && [Rarity] == "Unique"         # [ForceSellItem] == "true" // Foxshade / Fox's Fortune
+// [Type] == "Zodiac Leather" && [Rarity] == "Unique"    # [ForceSellItem] == "true" // Hyrri's Ire / The Perfect Form
+// [Type] == "Zodiac Leather" && [Rarity] == "Unique"    # [attack_minimum_added_cold_damage_with_bows] >= "1" && [ForceSellItem] == "true" // Hyrri's Ire
+[Type] == "Zodiac Leather" && [Rarity] == "Unique"       # [ForceSellItem] == "true" // The Perfect Form
+
+// Energy Shield Chests
+[Type] == "Destroyer Regalia" && [Rarity] == "Unique"       # [ForceSellItem] == "true" // The Coming Calamity
+[Type] == "Necromancer Silks" && [Rarity] == "Unique"       # [ForceSellItem] == "true" // Vis Mortis / Fleshcrafter
+// [Type] == "Occultist's Vestment" && [Rarity] == "Unique" # [ForceSellItem] == "true" // Shavronne's Wrappings 
+[Type] == "Sage's Robe" && [Rarity] == "Unique"             # [ForceSellItem] == "true" // Dialla's Malefaction / Zahndethus' Cassock 
+// [Type] == "Savant's Robe" && [Rarity] == "Unique"        # [ForceSellItem] == "true" // Cloak of Tawm'r Isley / Garb of the Ephemeral
+[Type] == "Savant's Robe" && [Rarity] == "Unique"           # [magic_items_drop_identified] >= "1" && [ForceSellItem] == "true" // Cloak of Tawm'r Isley
+// [Type] == "Savant's Robe" && [Rarity] == "Unique"        # [maximum_divine_charges] >= "1" && [ForceSellItem] == "true" // Garb of the Ephemeral
+[Type] == "Scholar's Robe" && [Rarity] == "Unique"          # [ForceSellItem] == "true" // Cloak of Flame
+[Type] == "Spidersilk Robe" && [Rarity] == "Unique"         # [ForceSellItem] == "true" // The Covenant / Soul Mantle
+// [Type] == "Vaal Regalia" && [Rarity] == "Unique"         # [ForceSellItem] == "true" // The Beast Fur Shawl / The Queen's Hunger
+[Type] == "Vaal Regalia" && [Rarity] == "Unique"            # [energy_shield_recovery_rate_+%] >= "1" && [ForceSellItem] == "true" // The Beast Fur Shawl
+// [Type] == "Vaal Regalia" && [Rarity] == "Unique"         # [local_display_trigger_level_X_offering_every_5_seconds] >= "1" && [ForceSellItem] == "true" // The Queen's Hunger
+// [Type] == "Widowsilk Robe" && [Rarity] == "Unique"       # [ForceSellItem] == "true" // Doedre's Skin / Fenumus' Shroud / Infernal Mantle
+[Type] == "Widowsilk Robe" && [Rarity] == "Unique"          # [local_display_grants_level_x_curse_pillar_skill] >= "1" && [ForceSellItem] == "true" // Doedre's Skin
+// [Type] == "Widowsilk Robe" && [Rarity] == "Unique"       # [spider_aspect_skill_area_of_effect_+%] >= "1" && [ForceSellItem] == "true" // Fenumus' Shroud
+[Type] == "Widowsilk Robe" && [Rarity] == "Unique"          # [local_socketed_fire_gem_level_+] >= "1" && [ForceSellItem] == "true" // Infernal Mantle
+
+// Armour & Evasion Chests
+[Type] == "Desert Brigandine" && [Rarity] == "Unique"      # [ForceSellItem] == "true" // Lightning Coil 
+[Type] == "Full Dragonscale" && [Rarity] == "Unique"       # [ForceSellItem] == "true" // Daresso's Defiance
+[Type] == "Full Scale Armour" && [Rarity] == "Unique"      # [ForceSellItem] == "true" // Viper's Scalea
+// [Type] == "Full Wyrmscale" && [Rarity] == "Unique"      # [ForceSellItem] == "true" // Belly of the Beast 
+//[Type] == "Triumphant Lamellar" && [Rarity] == "Unique"  # [ForceSellItem] == "true" // Cherrubim's Maleficence / Farrul's Fur
+[Type] == "Triumphant Lamellar" && [Rarity] == "Unique"    # [chaos_damage_+%] >= "1" && [ForceSellItem] == "true" // Cherrubim's Maleficence
+// [Type] == "Triumphant Lamellar" && [Rarity] == "Unique" # [cat_aspect_reserves_no_mana] >= "1" && [ForceSellItem] == "true" // Farrul's Fur
+
+// Armour & Energy Shield Chests
+[Type] == "Conquest Chainmail" && [Rarity] == "Unique"  # [ForceSellItem] == "true" // Kingsguard
+[Type] == "Crusader Chainmail" && [Rarity] == "Unique"  # [ForceSellItem] == "true" // Ambu's Charge
+[Type] == "Elegant Ringmail" && [Rarity] == "Unique"    # [regenerate_energy_shield_instead_of_life] >= "1" && [ForceSellItem] == "true" // Geofri's Sanctuary
+// [Type] == "Elegant Ringmail" && [Rarity] == "Unique" # [override_maximum_damage_resistance_%] >= "1" && [ForceSellItem] == "true" // Loreweave
+[Type] == "Holy Chainmail" && [Rarity] == "Unique"      # [ForceSellItem] == "true" // Voll's Protector 
+[Type] == "Latticed Ringmail" && [Rarity] == "Unique"   # [ForceSellItem] == "true" // Icetomb
+[Type] == "Loricated Ringmail" && [Rarity] == "Unique"  # [ForceSellItem] == "true" // Rotting Legion
+[Type] == "Ornate Ringmail" && [Rarity] == "Unique"     # [ForceSellItem] == "true" // Lightbane Raiment
+[Type] == "Saintly Chainmail" && [Rarity] == "Unique"   # [ForceSellItem] == "true" // Incandescent Heart / Chains of Command / Incandescent Heart
+// [Type] == "Saint's Hauberk" && [Rarity] == "Unique"  # [ForceSellItem] == "true" // Doryani's Prototype / Sporeguard / The Ivory Tower
+[Type] == "Saint's Hauberk" && [Rarity] == "Unique"     # [nearby_enemies_lightning_resist_equal_to_yours] >= "1" && [ForceSellItem] == "true" // Doryani's Prototype
+// [Type] == "Saint's Hauberk" && [Rarity] == "Unique"  # [local_display_trigger_level_x_create_fungal_ground_on_kill] >= "1" && [ForceSellItem] == "true" // Sporeguard
+[Type] == "Saint's Hauberk" && [Rarity] == "Unique"     # [chaos_damage_%_taken_from_mana_before_life] >= "1" && [ForceSellItem] == "true" // The Ivory Tower
+
+// Evasion & Energy Shield Chests
+// [Type] == "Blood Raiment" && [Rarity] == "Unique"   # [ForceSellItem] == "true" // Saqawal's Nest / The Eternity Shroud
+[Type] == "Bone Armour" && [Rarity] == "Unique"        # [local_display_grants_level_x_blood_offering_skill] >= "1" && [ForceSellItem] == "true" // Bloodbound
+// [Type] == "Carnal Armour" && [Rarity] == "Unique"   # [ForceSellItem] == "true" // The Restless Ward / Shroud of the Lightless
+[Type] == "Carnal Armour" && [Rarity] == "Unique"      # [movement_velocity_+%_per_frenzy_charge] >= "1" && [ForceSellItem] == "true" // The Restless Ward
+// [Type] == "Carnal Armour" && [Rarity] == "Unique"   # [local_has_X_abyss_sockets] >= "1" && [ForceSellItem] == "true" // Shroud of the Lightless
+[Type] == "Carnal Armour" && [Rarity] == "Unique"      # [local_has_X_abyss_sockets] < "2" && [ForceSellItem] == "true" // Shroud of the Lightless
+// [Type] == "Lacquered Garb" && [Rarity] == "Unique"  # [ForceSellItem] == "true" // Cloak of Defiance / Victario's Influence 
+[Type] == "Lacquered Garb" && [Rarity] == "Unique"     # [keystone_mana_shield] >= "1" && [ForceSellItem] == "true" // Cloak of Defiance
+// [Type] == "Lacquered Garb" && [Rarity] == "Unique"  # [local_socketed_aura_gem_level_+] >= "1" && [ForceSellItem] == "true" // Victario's Influence 
+// [Type] == "Sadist Garb" && [Rarity] == "Unique"     # [ForceSellItem] == "true" // Inpulsa's Broken Heart / Doppelg?nger Guise*
+[Type] == "Sadist Garb" && [Rarity] == "Unique"        # [placing_traps_cooldown_recovery_+%] >= "1" && [ForceSellItem] == "true" // Tinkerskin
+// [Type] == "Sentinel Jacket" && [Rarity] == "Unique" # [ForceSellItem] == "true" // Dendrobate / Expedition's End
+[Type] == "Sentinel Jacket" && [Rarity] == "Unique"    # [poison_damage_+%_with_over_300_dexterity] >= "1" && [ForceSellItem] == "true" // Dendrobate
+// [Type] == "Sentinel Jacket" && [Rarity] == "Unique" # [all_damage_can_freeze] >= "1" && [ForceSellItem] == "true" // Expedition's End
+[Type] == "Simple Robe" && [Rarity] == "Unique"        # [base_fire_damage_resistance_%] >= "1" && [ForceSellItem] == "true" // Thousand Ribbons
+[Type] == "Varnished Coat" && [Rarity] == "Unique"     # [ForceSellItem] == "true" // Carcass Jack / The Admiral
+
+// Armour & Evasion & Energy Shield Chests
+// [Type] == "Sacrificial Garb" && [Rarity] == "Unique" # [ForceSellItem] == "true" // Atziri's Splendour / Shadowstitch
+ 
+//////////////////////////////////////////////
+//                                          //
+//                 B o o t s                //
+//                                          //
+//////////////////////////////////////////////
+
+// Armour Boots
+[Type] == "Ancient Greaves" && [Rarity] == "Unique"       # [ForceSellItem] == "true" // Redblade Tramplers
+[Type] == "Antique Greaves" && [Rarity] == "Unique"       # [ForceSellItem] == "true" //  Torchoak Step
+[Type] == "Goliath Greaves" && [Rarity] == "Unique"       # [ForceSellItem] == "true" // The Infinite Pursuit / Craiceann's Tracks
+[Type] == "Plated Greaves" && [Rarity] == "Unique"        # [ForceSellItem] == "true" // Stormcharger
+// [Type] == "Reinforced Greaves" && [Rarity] == "Unique" # [ForceSellItem] == "true" // Windscream / Windshriek
+// [Type] == "Titan Greaves" && [Rarity] == "Unique"      # [ForceSellItem] == "true" // Doryani's Delusion / Kaom's Roots / The Red Trail
+// [Type] == "Titan Greaves" && [Rarity] == "Unique"      # [local_display_grants_skill_purity_of_fire_level] >= "1" && [ForceSellItem] == "true" // Doryani's Delusion
+// [Type] == "Titan Greaves" && [Rarity] == "Unique"      # [keystone_unwavering_stance] >= "1" && [ForceSellItem] == "true" // Kaom's Roots
+[Type] == "Titan Greaves" && [Rarity] == "Unique"         # [blood_footprints_from_item] >= "1" && [ForceSellItem] == "true" // The Red Trail
+
+// Evasion Boots
+[Type] == "Deerskin Boots" && [Rarity] == "Unique"    # [ForceSellItem] == "true" // Deerstalker
+// [Type] == "Goathide Boots" && [Rarity] == "Unique" # [ForceSellItem] == "true" // Abberath's Hooves / Victario's Flight
+// [Type] == "Goathide Boots" && [Rarity] == "Unique" # [display_abberaths_hooves_skill_level] >= "1" && [ForceSellItem] == "true" // Abberath's Hooves
+[Type] == "Goathide Boots" && [Rarity] == "Unique"    # [local_display_movement_speed_+%_for_you_and_nearby_allies] >= "1" && [ForceSellItem] == "true" // Victario's Flight
+[Type] == "Nubuck Boots" && [Rarity] == "Unique"      # [base_item_found_quantity_+%] > "14" && [ForceSellItem] == "true" // Goldwyrm
+// [Type] == "Rawhide Boots" && [Rarity] == "Unique"  # [ForceSellItem] == "true" // Seven-League Step
+[Type] == "Shagreen Boots" && [Rarity] == "Unique"    # [chance_to_dodge_spells_%_while_phased] >= "1" && [ForceSellItem] == "true" // Three-Step Assault
+[Type] == "Sharkskin Boots" && [Rarity] == "Unique"   # [blood_footprints_from_item] >= "1" && [ForceSellItem] == "true" // The Blood Dance
+[Type] == "Slink Boots" && [Rarity] == "Unique"       # [ForceSellItem] == "true" // Atziri's Step / Farrul's Chase / Doryani's Delusion
+// [Type] == "Stealth Boots" && [Rarity] == "Unique"  # [immune_to_burning_shocks_and_chilled_ground] >= "1" && [ForceSellItem] == "true" // Garukhan's Flight
+[Type] == "Stealth Boots" && [Rarity] == "Unique"     # [cannot_have_life_leeched_from] >= "1" && [ForceSellItem] == "true" // Sin Trek
+
+// Energy Shield Boots
+[Type] == "Arcanist Slippers" && [Rarity] == "Unique" # [damage_+%_per_power_charge] >= "1" && [ForceSellItem] == "true" // Inya's Epiphany
+[Type] == "Conjurer Boots" && [Rarity] == "Unique"    # [base_spell_block_%] >= "1" && [ForceSellItem] == "true" // RainbowStride
+[Type] == "Scholar Boots" && [Rarity] == "Unique"     # [movement_velocity_+%_when_on_full_life] >= "1" && [ForceSellItem] == "true" // Shavronne's Pace
+[Type] == "Riveted Boots" && [Rarity] == "Unique"     # [gain_random_charge_per_second_while_stationary] >= "1" && [ForceSellItem] == "true" // Ralakesh's Impatience
+[Type] == "Silk Slippers" && [Rarity] == "Unique"     # [raise_spectre_gem_level_+] >= "1" && [ForceSellItem] == "true" // Bones of Ullr
+// [Type] == "Sorcerer Boots" && [Rarity] == "Unique" # [ForceSellItem] == "true" // Doryani's Delusion / Skyforth / Steppan Eard
+// [Type] == "Sorcerer Boots" && [Rarity] == "Unique" # [local_display_grants_skill_purity_of_lightning_level] >= "1" && [ForceSellItem] == "true" // Doryani's Delusion
+// [Type] == "Sorcerer Boots" && [Rarity] == "Unique" # [base_mana_reservation_+%] >= "1" && [ForceSellItem] == "true" // Skyforth
+[Type] == "Sorcerer Boots" && [Rarity] == "Unique"    # [unaffected_by_desecrated_ground] >= "1" && [ForceSellItem] == "true" // Steppan Eard
+[Type] == "Velvet Slippers" && [Rarity] == "Unique"   # [item_found_rarity_+%_when_on_low_life] >= "1" && [ForceSellItem] == "true" // Wondertrap
+[Type] == "Wool Shoes" && [Rarity] == "Unique"        # [base_avoid_freeze_%] >= "1" && [ForceSellItem] == "true" // Wanderlust
+
+// Armour & Evasion Boots
+[Type] == "Bronzescale Boots" && [Rarity] == "Unique"  # [local_display_trigger_level_x_rain_of_arrows_on_bow_attack] >= "1" && [ForceSellItem] == "true" // Lioneye's Paws
+[Type] == "Dragonscale Boots" && [Rarity] == "Unique"  # [max_frenzy_charges] >= "1" && [ForceSellItem] == "true" // Darkray Vectors
+[Type] == "Hydrascale Boots" && [Rarity] == "Unique"   # [local_display_grants_skill_bird_aspect_level] >= "1" && [ForceSellItem] == "true" // Saqawal's Talons
+[Type] == "Ironscale Boots" && [Rarity] == "Unique"    # [chaos_resistance_+_while_using_flask] >= "1" && [ForceSellItem] == "true" // Dusktoe
+[Type] == "Serpentscale Boots" && [Rarity] == "Unique" # [unaffected_by_chilled_ground] >= "1" && [ForceSellItem] == "true" // Mutewind Whispersteps
+[Type] == "Two-Toned Boots" && [Rarity] == "Unique"    # [chance_to_deal_double_damage_while_affected_by_glorious_madness_%] >= "1" && [ForceSellItem] == "true" // Beacon of Madness Fire/Cold res, 2x Damage/Fortify Effect
+[Type] == "Wyrmscale Boots" && [Rarity] == "Unique"    # [scorched_earth_ground_scorch_duration_ms] >= "1" && [ForceSellItem] == "true" // Legacy of Fury
+
+// Armour & Energy Shield Boots
+// [Type] == "Crusader Boots" && [Rarity] == "Unique" # [base_cannot_gain_bleeding] >= "1" && [ForceSellItem] == "true" // Death's Door
+// [Type] == "Legion Boots" && [Rarity] == "Unique"   # [ForceSellItem] == "true" // Gang's Momentum / March of the Legion
+[Type] == "Legion Boots" && [Rarity] == "Unique"      # [damage_+%_vs_ignited_enemies] >= "1" && [ForceSellItem] == "true" // Gang's Momentum
+[Type] == "Legion Boots" && [Rarity] == "Unique"      # [local_socketed_aura_gem_level_+] >= "1" && [ForceSellItem] == "true" // March of the Legion
+[Type] == "Mesh Boots" && [Rarity] == "Unique"        # [wake_of_destruction_ground_lightning_duration_ms] >= "1" && [ForceSellItem] == "true" // Wake of Destruction
+[Type] == "Riveted Boots" && [Rarity] == "Unique"     # [gain_random_charge_per_second_while_stationary] >= "1" && [ForceSellItem] == "true" // Ralakesh's Impatience
+[Type] == "Soldier Boots" && [Rarity] == "Unique"     # [number_of_skeletons_allowed_per_2_old] >= "1" && [ForceSellItem] == "true" // Alberon's Warpath
+[Type] == "Two-Toned Boots" && [Rarity] == "Unique"   # [immune_to_elemental_status_ailments_while_affected_by_glorious_madness] >= "1" && [ForceSellItem] == "true" // Beacon of Madness Fire/Lightning res, Ele conflux/Ele Ailment Immunity
+
+// Evasion & Energy Shield Boots
+// [Type] == "Assassin's Boots" && [Rarity] == "Unique" # [ForceSellItem] == "true" // Fenumus' Spinnerets / The Stampede
+// [Type] == "Assassin's Boots" && [Rarity] == "Unique" # [aspect_of_the_spider_web_count_+] >= "1" && [ForceSellItem] == "true" // Fenumus' Spinnerets
+// [Type] == "Assassin's Boots" && [Rarity] == "Unique" # [travel_skill_cooldown_speed_+%] >= "1" && [ForceSellItem] == "true" // The Stampede
+// [Type] == "Carnal Boots" && [Rarity] == "Unique"     # [ForceSellItem] == "true" // Corpsewalker / Omeyocan 
+[Type] == "Carnal Boots" && [Rarity] == "Unique"        # [local_display_trigger_corpse_walk_on_equip_level] >= "1" && [ForceSellItem] == "true" // Corpsewalker
+// [Type] == "Carnal Boots" && [Rarity] == "Unique"     # [gain_onslaught_while_not_on_low_mana] >= "1" && [ForceSellItem] == "true" // Omeyocan 
+[Type] == "Clasped Boots" && [Rarity] == "Unique"       # [base_item_found_rarity_+%] >= "1" && [ForceSellItem] == "true" // Sundance
+// [Type] == "Murder Boots" && [Rarity] == "Unique"     # [ForceSellItem] == "true" // Bubonic Trail / Voidwalker
+// [Type] == "Murder Boots" && [Rarity] == "Unique"     # [local_has_X_abyss_sockets] > "2" && [ForceSellItem] == "true" // Bubonic Trail 2 Abyss Jewel
+[Type] == "Murder Boots" && [Rarity] == "Unique"        # [celestial_footprints_from_item] >= "1" && [ForceSellItem] == "true" // Voidwalker
+// [Type] == "Shackled Boots" && [Rarity] == "Unique"   # [gain_onslaught_while_not_on_low_mana] >= "1" && [ForceSellItem] == "true" // Dance of the Offered
+[Type] == "Strapped Boots" && [Rarity] == "Unique"      # [damage_taken_+%_while_es_full] >= "1" && [ForceSellItem] == "true" // Nomic's Storm
+[Type] == "Trapper Boots" && [Rarity] == "Unique"       # [unaffected_by_shocked_ground] >= "1" && [ForceSellItem] == "true" // Brinerot Whalers
+[Type] == "Two-Toned Boots" && [Rarity] == "Unique"     # [all_damage_can_poison_while_affected_by_glorious_madness] >= "1" && [ForceSellItem] == "true" // Beacon of Madness Cold/Lightning res, Poision/Chaos damage explode
+
+//////////////////////////////////////////////
+//                                          //
+//                 G l o v e s              //
+//                                          //
+//////////////////////////////////////////////
+ 
+// Armour Gloves
+[Type] == "Ancient Gauntlets" && [Rarity] == "Unique"  # [projectile_damage_+%] >= "1" && [ForceSellItem] == "true" // Winds of Change
+[Type] == "Bronze Gauntlets" && [Rarity] == "Unique"   # [keystone_strong_bowman] >= "1" && [ForceSellItem] == "true" // Giantsbane
+[Type] == "Goliath Gauntlets" && [Rarity] == "Unique"  # [enemy_knockback_direction_is_reversed] >= "1" && [ForceSellItem] == "true" // Empire's Grasp
+[Type] == "Iron Gauntlets" && [Rarity] == "Unique"     # [keystone_conduit] >= "1" && [ForceSellItem] == "true" // Lochtonial Caress  
+[Type] == "Steel Gauntlets" && [Rarity] == "Unique"    # [life_regeneration_rate_per_minute_%_with_400_or_more_strength] >= "1" && [ForceSellItem] == "true" // Meginord's Vise
+// [Type] == "Titan Gauntlets" && [Rarity] == "Unique" # [ForceSellItem] == "true" // Veruso's Battering Rams / Craiceann's Pincers
+[Type] == "Titan Gauntlets" && [Rarity] == "Unique"    # [cannot_be_shocked_while_at_maximum_endurance_charges] >= "1" && [ForceSellItem] == "true" // Veruso's Battering Rams
+[Type] == "Titan Gauntlets" && [Rarity] == "Unique"    # [damage_+%_per_crab_charge] >= "1" && [ForceSellItem] == "true" // Craiceann's Pincers
+// [Type] == "Vaal Gauntlets" && [Rarity] == "Unique"  # [ForceSellItem] == "true" // Atziri's Acuity / Doryani's Fist
+// [Type] == "Vaal Gauntlets" && [Rarity] == "Unique"  # [gain_vaal_pact_if_you_have_crit_recently] >= "1" && [ForceSellItem] == "true" // Atziri's Acuity
+[Type] == "Vaal Gauntlets" && [Rarity] == "Unique"     # [local_display_grants_skill_doryanis_touch_level] >= "1" && [ForceSellItem] == "true" // Doryani's Fist
+
+// Evasion Gloves
+// [Type] == "Deerskin Gloves" && [Rarity] == "Unique" # [critical_strike_multiplier_is_300] >= "1" && [ForceSellItem] == "true" // Maligaro's Virtuosity
+[Type] == "Eelskin Gloves" && [Rarity] == "Unique"     # [killed_enemies_apply_impale_damage_to_nearby_enemies_on_death_%_chance] >= "1" && [ForceSellItem] == "true" // Great Old One's Tentacles
+[Type] == "Goathide Gloves" && [Rarity] == "Unique"    # [base_physical_damage_%_to_convert_to_cold] >= "1" && [ForceSellItem] == "true" // Hrimsorrow
+[Type] == "Nubuck Gloves" && [Rarity] == "Unique"      # [attack_critical_strike_chance_+%_per_200_accuracy_rating] >= "1" && [ForceSellItem] == "true" // Oskarm
+[Type] == "Slink Gloves" && [Rarity] == "Unique"       # [your_marks_transfer_to_nearby_enemies_on_death_%_chance] >= "1" && [ForceSellItem] == "true" // Mercenary's Lot
+
+// Energy Shield Gloves
+// [Type] == "Arcanist Gloves" && [Rarity] == "Unique" # [minion_physical_damage_%_to_add_as_cold] >= "1" && [ForceSellItem] == "true" // Grip of the Council
+[Type] == "Conjurer Gloves" && [Rarity] == "Unique"    # [local_socketed_elemental_gem_level_+] >= "1" && [ForceSellItem] == "true" // Voidbringer
+[Type] == "Embroidered Gloves" && [Rarity] == "Unique" # [number_of_additional_curses_allowed] >= "1" && [ForceSellItem] == "true" // Vixen's Entrapment
+[Type] == "Samite Gloves" && [Rarity] == "Unique"      # [gain_critical_strike_chance_%_for_2_seconds_when_you_spend_800_mana] >= "1" && [ForceSellItem] == "true" // Kalisa's Grace
+[Type] == "Satin Gloves" && [Rarity] == "Unique"       # [sacrifice_%_maximum_life_to_gain_as_es_on_spell_cast] >= "1" && [ForceSellItem] == "true" // Demon Stitcher
+// [Type] == "Silk Gloves" && [Rarity] == "Unique"     # [curses_you_inflict_remain_after_death] >= "1" && [ForceSellItem] == "true" // Asenath's Gentle Touch
+[Type] == "Sorcerer Gloves" && [Rarity] == "Unique"    # [you_cannot_be_hindered] >= "1" && [ForceSellItem] == "true" // Allelopathy
+[Type] == "Velvet Gloves" && [Rarity] == "Unique"      # [spell_damage_+%] >= "50" && [ForceSellItem] == "true" // Doedre's Tenure
+// [Type] == "Wool Gloves" && [Rarity] == "Unique"     # [base_item_found_quantity_+%] >= "1" && [ForceSellItem] == "true" // Sadima's Touch
+[Type] == "Wool Gloves" && [Rarity] == "Unique"        # [base_item_found_quantity_+%] < "10" && [ForceSellItem] == "true" // Perfect Qty Sadima's Touch
+
+// Armour & Evasion Gloves
+// [Type] == "Bronzescale Gauntlets" && [Rarity] == "Unique"    # [ForceSellItem] == "true" // Slitherpinch / Vaal Caress 
+[Type] == "Bronzescale Gauntlets" && [Rarity] == "Unique"       # [life_leech_from_physical_attack_damage_permyriad] >= "1" && [ForceSellItem] == "true" // Slitherpinch 
+[Type] == "Bronzescale Gauntlets" && [Rarity] == "Unique"       # [local_socketed_vaal_gem_level_+] >= "1" && [ForceSellItem] == "true" // Vaal Caress 
+[Type] == "Dragonscale Gauntlets" && [Rarity] == "Unique"       # [elemental_damage_+%_per_frenzy_charge] >= "1" && [ForceSellItem] == "true" // Surgebinders 
+[Type] == "Dragonscale Gauntlets" && [Rarity] == "Unique"       # [attack_damage_+%_per_explicit_map_mod_affecting_area] >= "1" && [ForceSellItem] == "true" // Worldcarver
+[Type] == "Hydrascale Gauntlets" && [Rarity] == "Unique"        # [gain_crimson_dance_while_you_have_cat_stealth] >= "1" && [ForceSellItem] == "true" // Farrul's Pounce
+// [Type] == "Hydrascale Gauntlets" && [Rarity] == "Unique"     # [create_blighted_spore_on_killing_rare_enemy] >= "1" && [ForceSellItem] == "true" // Breathstealer
+[Type] == "Ironscale Gauntlets" && [Rarity] == "Unique"         # [gain_an_additional_vaal_soul_on_kill_if_have_rampaged_recently] >= "1" && [ForceSellItem] == "true" // Flesh and Spirit
+[Type] == "Serpentscale Gauntlets" && [Rarity] == "Unique"      # [bleeding_enemies_explode_for_%_life_as_physical_damage] >= "1" && [ForceSellItem] == "true" // Haemophilia
+[Type] == "Steelscale Gauntlets" && [Rarity] == "Unique"        # [base_item_found_rarity_+%] >= "1" && [ForceSellItem] == "true" // Aurseize
+// [Type] == "Steelscale Gauntlets" && [Rarity] == "Unique"     # [local_has_X_abyss_sockets] >= "1" && [ForceSellItem] == "true" // Tombfist w/ 1+ abyssal sockets
+[Type] == "Steelscale Gauntlets" && [Rarity] == "Unique"        # [local_has_X_abyss_sockets] < "2" && [ForceSellItem] == "true" // Tombfist w/ only 2 abyssal sockets
+[Type] == "Wyrmscale Gauntlets" && [Rarity] == "Unique"         # [gain_rampage_while_at_maximum_endurance_charges] >= "1" && [ForceSellItem] == "true" // Wyrmsign
+
+// Armour & Energy Shield Gloves
+// [Type] == "Chain Gloves" && [Rarity] == "Unique"       # [grant_X_frenzy_charges_to_nearby_allies_on_death] >= "1" && [ForceSellItem] == "true" // Shackles of the Wretched
+[Type] == "Crusader Gloves" && [Rarity] == "Unique"       # [strong_casting] >= "1" && [ForceSellItem] == "true" // Repentance 
+// [Type] == "Crusader Gloves" && [Rarity] == "Unique"    # [X_life_per_4_dexterity] >= "1" && [ForceSellItem] == "true" // Shaper's Touch
+// [Type] == "Crusader Gloves" && [Rarity] == "Unique"    # [local_item_allow_modification_while_corrupted] >= "1" && [ForceSellItem] == "true" // Hands of the High Templar
+// [Type] == "Legion Gloves" && [Rarity] == "Unique"      # [dispel_status_ailments_on_rampage_threshold] >= "1" && [ForceSellItem] == "true" // Null and Void
+// [Type] == "Legion Gloves" && [Rarity] == "Unique"      # [life_leech_does_not_stop_at_full_life] >= "1" && [ForceSellItem] == "true" // Offering to the Serpent
+[Type] == "Mesh Gloves" && [Rarity] == "Unique"           # [minion_base_physical_damage_%_to_convert_to_chaos_per_white_socket_on_item] >= "1" && [ForceSellItem] == "true" // Triad Grip
+// [Type] == "Riveted Gloves" && [Rarity] == "Unique"     # [local_has_X_abyss_sockets] >= "1" && [ForceSellItem] == "true" // Command of the Pit w/ 1+ abyssal sockets
+[Type] == "Riveted Gloves" && [Rarity] == "Unique"        # [local_has_X_abyss_sockets] < "2" && [ForceSellItem] == "true" // Command of the Pit w/ only 2 abyssal sockets
+[Type] == "Soldier Gloves" && [Rarity] == "Unique"        # [hits_can_only_kill_frozen_enemies] >= "1" && [ForceSellItem] == "true" // Southbound
+// [Type] == "Soldier Gloves" && [Rarity] == "Unique"     # [minimum_added_lightning_damage_while_you_have_avians_might] >= "1" && [ForceSellItem] == "true" // Saqawal's Winds
+// [Type] == "Zealot Gloves" && [Rarity] == "Unique"      # [ForceSellItem] == "true" // Volkuur's Guidance / Hand of the Fervent
+// [Type] == "Zealot Gloves" && [Rarity] == "Unique"      # [base_cold_damage_can_poison] >= "1" && [ForceSellItem] == "true" // Volkuur's Guidance Cold Damage can Poison
+// [Type] == "Zealot Gloves" && [Rarity] == "Unique"      # [base_fire_damage_can_poison] >= "1" && [ForceSellItem] == "true" // Volkuur's Guidance Fire Damage can Poison
+// [Type] == "Zealot Gloves" && [Rarity] == "Unique"      # [base_lightning_damage_can_poison] >= "1" && [ForceSellItem] == "true" // Volkuur's Guidance Lightning Damage can Poison
+[Type] == "Zealot Gloves" && [Rarity] == "Unique"         # [overwhelm_phys_reduction_%_while_have_sacrificial_zeal] >= "1" && [ForceSellItem] == "true" // Hand of the Fervent
+
+// Evasion & Energy Shield Gloves
+[Type] == "Ambush Mitts" && [Rarity] == "Unique"        # [cannot_penetrate_or_ignore_elemental_resistances] >= "1" && [ForceSellItem] == "true" // Abhorrent Interrogation
+// [Type] == "Ambush Mitts" && [Rarity] == "Unique"     # [trap_throw_skills_have_blood_magic] >= "1" && [ForceSellItem] == "true" // Slavedriver's Hand
+// [Type] == "Assassin's Mitts" && [Rarity] == "Unique" # [ForceSellItem] == "true" // Blasphemer's Grasp / Snakebite / Storm's Gift
+[Type] == "Assassin's Mitts" && [Rarity] == "Unique"    # [remove_random_ailment_on_flask_use_if_all_equipped_items_are_elder] >= "1" && [ForceSellItem] == "true" // Blasphemer's Grasp
+[Type] == "Assassin's Mitts" && [Rarity] == "Unique"    # [base_attack_speed_+%_per_frenzy_charge] >= "1" && [ForceSellItem] == "true" // Snakebite
+// [Type] == "Assassin's Mitts" && [Rarity] == "Unique" # [enemy_shock_on_kill] >= "1" && [ForceSellItem] == "true" // Storm's Gift
+// [Type] == "Carnal Mitts" && [Rarity] == "Unique"     # [ForceSellItem] == "true" // Algor Mortis / Fenumus' Weave / The Embalmer
+// [Type] == "Carnal Mitts" && [Rarity] == "Unique"     # [chance_to_sap_%_vs_enemies_in_chilling_areas] >= "1" && [ForceSellItem] == "true" // Algor Mortis
+// [Type] == "Carnal Mitts" && [Rarity] == "Unique"     # [local_display_grants_skill_spider_aspect_level] >= "1" && [ForceSellItem] == "true" // Fenumus' Weave
+[Type] == "Carnal Mitts" && [Rarity] == "Unique"        # [local_display_socketed_gems_supported_by_X_vile_toxins] >= "1" && [ForceSellItem] == "true" // The Embalmer
+// [Type] == "Clasped Mitts" && [Rarity] == "Unique"    # [ForceSellItem] == "true" // Aukuna's Will / Shadows and Dust
+// [Type] == "Clasped Mitts" && [Rarity] == "Unique"    # [raise_zombie_does_not_use_corpses] >= "1" && [ForceSellItem] == "true" // Aukuna's Will
+[Type] == "Clasped Mitts" && [Rarity] == "Unique"       # [gain_unholy_might_on_rampage_threshold_ms] >= "1" && [ForceSellItem] == "true" // Shadows and Dust
+// [Type] == "Murder Mitts" && [Rarity] == "Unique"     # [ForceSellItem] == "true" // Machina Mitts / Malachai's Mark / Thunderfist
+[Type] == "Murder Mitts" && [Rarity] == "Unique"        # [thaumaturgy_rotation_active] >= "1" && [ForceSellItem] == "true" // Malachai's Mark
+// [Type] == "Murder Mitts" && [Rarity] == "Unique"     # [lose_power_charge_each_second_if_not_detonated_mines_recently] >= "1" && [ForceSellItem] == "true" // Machina Mitts 
+[Type] == "Murder Mitts" && [Rarity] == "Unique"        # [local_display_socketed_gems_get_added_lightning_damage_level] >= "1" && [ForceSellItem] == "true" // Thunderfist 
+// [Type] == "Strapped Mitts" && [Rarity] == "Unique"   # [unique_facebreaker_unarmed_physical_damage_+%_final] >= "1" && [ForceSellItem] == "true" // Facebreaker 
+[Type] == "Strapped Mitts" && [Rarity] == "Unique"      # [unique_facebreaker_unarmed_physical_damage_+%_final] < "780" && [ForceSellItem] == "true" // Well rolled Facebreaker 
+// [Type] == "Strapped Mitts" && [Rarity] == "Unique"   # [unique_facebreaker_unarmed_physical_damage_+%_final] < "800" && [ForceSellItem] == "true" // Perfect Facebreaker 
+[Type] == "Strapped Mitts" && [Rarity] == "Unique"      # [additive_cast_speed_modifiers_apply_to_trap_throwing_speed] >= "1" && [ForceSellItem] == "true" // Architect's Hand
+[Type] == "Wrapped Mitts" && [Rarity] == "Unique"       # [attack_speed_+%_when_on_full_life] >= "1" && [ForceSellItem] == "true" // Ondar's Clasp
+ 
+//////////////////////////////////////////////
+//                                          //
+//                 H e l m e t s            //
+//                                          //
+//////////////////////////////////////////////
+ 
+// Armour Helmets
+[Type] == "Close Helmet" && [Rarity] == "Unique"        # [minions_gain_your_strength] >= "1" && [ForceSellItem] == "true" // The Baron
+// [Type] == "Ezomyte Burgonet" && [Rarity] == "Unique" # [ForceSellItem] == "true" // Abyssus / Cowl of the Thermophile
+[Type] == "Ezomyte Burgonet" && [Rarity] == "Unique"    # [physical_damage_taken_+%] > "44" && [melee_weapon_critical_strike_multiplier_+] < "120" && [ForceSellItem] == "true" // Abyssus
+// [Type] == "Ezomyte Burgonet" && [Rarity] == "Unique" # [physical_damage_taken_+%] <= "40" && [melee_weapon_critical_strike_multiplier_+] >= "120" && [ForceSellItem] == "true" // Perf Abyssus
+[Type] == "Ezomyte Burgonet" && [Rarity] == "Unique"    # [local_item_can_have_x_additional_enchantments] >= "1" && [ForceSellItem] == "true" // Cowl of the Thermophile
+// [Type] == "Iron Hat" && [Rarity] == "Unique"         # [ForceSellItem] == "true" // Ezomyte Hold / Ezomyte Peak / Tear of Entropy
+[Type] == "Iron Hat" && [Rarity] == "Unique"            # [base_cannot_evade] >= "1" && [ForceSellItem] == "true" // Ezomyte Hold
+[Type] == "Iron Hat" && [Rarity] == "Unique"            # [attack_speed_+%_when_on_full_life] >= "1" && [ForceSellItem] == "true" // Tear of Entropy
+[Type] == "Samnite Helmet" && [Rarity] == "Unique"      # [avoid_freeze_and_chill_%_if_you_have_used_a_fire_skill_recently] >= "1" && [ForceSellItem] == "true" // Hrimnor's Resolve
+[Type] == "Siege Helmet" && [Rarity] == "Unique"        # [armour_increased_by_uncapped_fire_resistance] >= "1" && [ForceSellItem] == "true" // The Formless Flame
+
+// Evasion Helmets
+// [Type] == "Leather Cap" && [Rarity] == "Unique"     # [ForceSellItem] == "true" // Goldrim
+[Type] == "Leather Cap" && [Rarity] == "Unique"        # [resist_all_elements_%] < "40" && [ForceSellItem] == "true" // Perfect Res Goldrim 
+[Type] == "Leather Hood" && [Rarity] == "Unique"       # [cold_damage_+%_if_you_have_used_a_fire_skill_recently] >= "1" && [ForceSellItem] == "true" // Heatshiver 
+[Type] == "Lion Pelt" && [Rarity] == "Unique"          # [projectile_attack_damage_+%_per_200_accuracy] >= "1" && [ForceSellItem] == "true" // Obscurantis
+// [Type] == "Silken Hood" && [Rarity] == "Unique"     # [ForceSellItem] == "true" // Starkonja's Head / Saqawal's Flock / Cowl of the Cryophile
+[Type] == "Silken Hood" && [Rarity] == "Unique"        # [evasion_rating_+%_when_on_low_life] >= "1" && [ForceSellItem] == "true" // Starkonja's Head
+// [Type] == "Silken Hood" && [Rarity] == "Unique"     # [local_display_trigger_level_20_tornado_when_you_gain_avians_flight_or_avians_might_%] >= "1" && [ForceSellItem] == "true" // Saqawal's Flock
+[Type] == "Silken Hood" && [Rarity] == "Unique"        # [local_item_can_have_x_additional_enchantments] >= "1" && [ForceSellItem] == "true" // Cowl of the Cryophile
+// [Type] == "Sinner Tricorne" && [Rarity] == "Unique" # [local_socketed_aura_gem_level_+] >= "1" && [ForceSellItem] == "true" // Alpha's howl
+// [Type] == "Sinner Tricorne" && [Rarity] == "Unique" # [local_display_grant_level_x_snipe_skill] >= "1" && [ForceSellItem] == "true" // Assailum
+[Type] == "Tricorne" && [Rarity] == "Unique"           # [base_avoid_shock_%] >= "1" && [ForceSellItem] == "true" // Fairgraves' Tricorne
+[Type] == "Ursine Pelt" && [Rarity] == "Unique"        # [base_item_found_rarity_+%] >= "1" && [ForceSellItem] == "true" // Rat's Nest
+
+// Energy Shield Helmets
+[Type] == "Bone Circlet" && [Rarity] == "Unique"              # [local_socketed_minion_gem_level_+] >= "1" && [ForceSellItem] == "true" // Wraithlord
+[Type] == "Bone Circlet" && [Rarity] == "Unique"              # [spell_skills_always_crit_on_final_repeat] >= "1" && [ForceSellItem] == "true" // Plume of Pursuit
+[Type] == "Hubris Circlet" && [Rarity] == "Unique"            # [additive_spell_damage_modifiers_apply_to_attack_damage_at_150%_value] >= "1" && [ForceSellItem] == "true" // Crown of Eyes 
+[Type] == "Hubris Circlet" && [Rarity] == "Unique"            # [local_display_trigger_level_X_void_gaze_on_skill_use] >= "1" && [ForceSellItem] == "true" // Eber's Unification
+// [Type] == "Hubris Circlet" && [Rarity] == "Unique"         # [non_instant_mana_recovery_from_flasks_also_recovers_life] >= "1" && [ForceSellItem] == "true" // Indigon
+[Type] == "Hubris Circlet" && [Rarity] == "Unique"            # [local_display_cast_level_x_shock_ground_when_hit] >= "1" && [ForceSellItem] == "true" // Ylfeban's Trickery
+// [Type] == "Iron Circlet" && [Rarity] == "Unique"           # [base_movement_velocity_+%] >= "1" && [ForceSellItem] == "true" // Asenath's Mark
+[Type] == "Iron Circlet" && [Rarity] == "Unique"              # [base_deal_no_chaos_damage] >= "1" && [ForceSellItem] == "true" // Wreath of Phrecia
+[Type] == "Lunaris Circlet" && [Rarity] == "Unique"           # [local_socketed_curse_gem_level_+] >= "1" && [ForceSellItem] == "true" // Doedre's Scorn
+// [Type] == "Mind Cage" && [Rarity] == "Unique"              # [local_has_X_abyss_sockets] >= "1" && [ForceSellItem] == "true" // Hale Negator w/ 1+ abyssal sockets
+[Type] == "Mind Cage" && [Rarity] == "Unique"                 # [local_has_X_abyss_sockets] < "2" && [ForceSellItem] == "true" // Hale Negator w/ 2 abyssal sockets
+[Type] == "Mind Cage" && [Rarity] == "Unique"                 # [local_display_socketed_gems_get_concentrated_area_level] >= "1" && [ForceSellItem] == "true" // Rime Gaze
+[Type] == "Mind Cage" && [Rarity] == "Unique"                 # [self_physical_damage_on_skill_use_%_mana_cost] >= "1" && [ForceSellItem] == "true" // Scold's Bridle
+[Type] == "Necromancer Circlet" && [Rarity] == "Unique"       # [elemental_damage_+%] >= "1" && [ForceSellItem] == "true" // Chitus' Apex
+// [Type] == "Necromancer Circlet" && [Rarity] == "Unique"    # [chance_to_gain_power_charge_on_hitting_enemy_affected_by_spiders_web_%] >= "1" && [ForceSellItem] == "true" // Fenumus' Toxins
+// [Type] == "Necromancer Circlet" && [Rarity] == "Unique"    # [keystone_eldritch_battery] >= "1" && [ForceSellItem] == "true" // The Devouring Diadem
+[Type] == "Solaris Circlet" && [Rarity] == "Unique"           # [local_item_can_have_x_additional_enchantments] >= "1" && [ForceSellItem] == "true" // Cowl of the Ceraunophile
+[Type] == "Solaris Circlet" && [Rarity] == "Unique"           # [never_ignite] >= "1" && [ForceSellItem] == "true" // Flamesight
+[Type] == "Solaris Circlet" && [Rarity] == "Unique"           # [never_freeze_or_chill] >= "1" && [ForceSellItem] == "true" // Galesight
+[Type] == "Solaris Circlet" && [Rarity] == "Unique"           # [never_shock] >= "1" && [ForceSellItem] == "true" // Thundersight
+// [Type] == "Steel Circlet" && [Rarity] == "Unique"          # [base_unaffected_by_poison] >= "1" && [ForceSellItem] == "true" // Maw of Conquest
+[Type] == "Tribal Circlet" && [Rarity] == "Unique"            # [summon_raging_spirit_melee_splash_fire_damage_only] >= "1" && [ForceSellItem] == "true" // Mark of the Red Covenant
+[Type] == "Vine Circlet" && [Rarity] == "Unique"              # [keystone_pain_attunement] >= "1" && [ForceSellItem] == "true" // Crown of Thorns
+
+// Armour & Evasion Helmets
+// [Type] == "Fluted Bascinet" && [Rarity] == "Unique"    # [local_display_socketed_skills_deal_double_damage] >= "1" && [ForceSellItem] == "true" // Crest of Desire
+[Type] == "Gilded Sallet" && [Rarity] == "Unique"         # [cannot_leech_when_on_low_life] >= "1" && [ForceSellItem] == "true" // Deidbell
+// [Type] == "Lacquered Helmet" && [Rarity] == "Unique"   # [ForceSellItem] == "true" // Black Sun Crest / The Fledgling
+[Type] == "Lacquered Helmet" && [Rarity] == "Unique"      # [local_socketed_gem_level_+] >= "1" && [ForceSellItem] == "true" // Black Sun Crest
+[Type] == "Lacquered Helmet" && [Rarity] == "Unique"      # [close_range_enemies_avoid_your_projectiles] >= "1" && [ForceSellItem] == "true" // The Fledgling
+// [Type] == "Nightmare Bascinet" && [Rarity] == "Unique" # [ForceSellItem] == "true" // Bringer of Rain / Devoto's Devotion
+[Type] == "Nightmare Bascinet" && [Rarity] == "Unique"    # [disable_chest_slot] >= "1" && [ForceSellItem] == "true" // Bringer of Rain
+[Type] == "Nightmare Bascinet" && [Rarity] == "Unique"    # [silver_footprints_from_item] >= "1" && [ForceSellItem] == "true" // Devoto's Devotion
+[Type] == "Secutor Helm" && [Rarity] == "Unique"          # [minion_block_%] >= "1" && [ForceSellItem] == "true" // Skullhead 
+// [Type] == "Visored Sallet" && [Rarity] == "Unique"     # [base_item_found_rarity_+%] >= "1" && [ForceSellItem] == "true" // The Peregrine 
+[Type] == "Visored Sallet" && [Rarity] == "Unique"        # [base_item_found_rarity_+%] < "30" && [ForceSellItem] == "true" // Perfect The Peregrine 
+
+// Armour & Energy Shield Helemts
+[Type] == "Aventail Helmet" && [Rarity] == "Unique"     # [base_cannot_leech_mana] >= "1" && [ForceSellItem] == "true" // Mindspiral
+// [Type] == "Bone Helmet" && [Rarity] == "Unique"      # [ForceSellItem] == "true" // Maw of Mischief / Ancient Skull
+[Type] == "Bone Helmet" && [Rarity] == "Unique"         # [minion_larger_aggro_radius] >= "1" && [ForceSellItem] == "true" // Maw of Mischief
+[Type] == "Bone Helmet" && [Rarity] == "Unique"         # [minions_go_crazy_on_crit_ms] >= "1" && [ForceSellItem] == "true" // Ancient Skull
+//[Type] == "Crusader Helmet" && [Rarity] == "Unique"   # [start_at_zero_energy_shield] >= "1" && [ForceSellItem] == "true" // Mask of the Spirit Drinker
+// [Type] == "Great Crown" && [Rarity] == "Unique"      # [ForceSellItem] == "true" // Lightpoacher / Geofri's Crest / Forbidden Shako
+// [Type] == "Great Crown" && [Rarity] == "Unique"      # [local_has_X_abyss_sockets] >= "1" && [ForceSellItem] == "true" // Lightpoacher
+[Type] == "Great Crown" && [Rarity] == "Unique"         # [local_has_X_abyss_sockets] < "2" && [ForceSellItem] == "true" // Lightpoacher w/ 2 abyssal sockets
+[Type] == "Great Crown" && [Rarity] == "Unique"         # [local_socketed_gem_level_+] >= "1" && [ForceSellItem] == "true" // Geofri's Crest
+[Type] == "Great Crown" && [Rarity] == "Unique"         # [additional_all_attributes] >= "1" && [ForceSellItem] == "true" // Forbidden Shako
+[Type] == "Great Helmet" && [Rarity] == "Unique"        # [zero_elemental_resistance] >= "1" && [ForceSellItem] == "true" // Veil of the Night
+// [Type] == "Magistrate Crown" && [Rarity] == "Unique" # [ForceSellItem] == "true" // Craiceann's Chitin / Crown of the Tyrant / Mask of the Stitched Demon / Mask of the Tribunal
+[Type] == "Magistrate Crown" && [Rarity] == "Unique"    # [cannot_lose_crab_charges_if_you_have_lost_crab_charges_recently] >= "1" && [ForceSellItem] == "true" // Craiceann's Chitin
+// [Type] == "Magistrate Crown" && [Rarity] == "Unique" # [local_grants_aura_minimum_added_chaos_damage_per_white_socket] >= "1" && [ForceSellItem] == "true" // Crown of the Tyrant
+// [Type] == "Magistrate Crown" && [Rarity] == "Unique" # [gain_no_maximum_life_from_strength] >= "1" && [ForceSellItem] == "true" // Mask of the Stitched Demon
+[Type] == "Magistrate Crown" && [Rarity] == "Unique"    # [dominance_defences_+%_on_nearby_allies_per_100_strength] >= "1" && [ForceSellItem] == "true" // Mask of the Tribunal
+// [Type] == "Praetor Crown" && [Rarity] == "Unique"    # [ForceSellItem] == "true" // Ahn's Contempt / Malachai's Vision / Memory Vault / Viridi's Veil / Voll's Vision
+[Type] == "Praetor Crown" && [Rarity] == "Unique"       # [physical_damage_%_to_gain_as_chaos_while_at_maximum_power_charges] >= "1" && [ForceSellItem] == "true" // Ahn's Contempt
+[Type] == "Praetor Crown" && [Rarity] == "Unique"       # [mana_recharge_rate_per_minute_with_all_corrupted_equipped_items] >= "1" && [ForceSellItem] == "true" // Malachai's Vision
+[Type] == "Praetor Crown" && [Rarity] == "Unique"       # [gain_armour_equal_to_mana_reserved] >= "1" && [ForceSellItem] == "true" // Memory Vault
+[Type] == "Praetor Crown" && [Rarity] == "Unique"       # [hexproof_if_right_ring_is_magic_item] >= "1" && [ForceSellItem] == "true" // Viridi's Veil
+[Type] == "Praetor Crown" && [Rarity] == "Unique"       # [life_+%_with_no_corrupted_equipped_items] >= "1" && [ForceSellItem] == "true" // Voll's Vision
+// [Type] == "Prophet Crown" && [Rarity] == "Unique"    # [ForceSellItem] == "true" // Crown of the Inward Eye / Speaker's Wreath / The Brine Crown / The Broken Crown
+[Type] == "Prophet Crown" && [Rarity] == "Unique"       # [additive_life_modifiers_apply_to_attack_damage_at_30%_value] >= "1" && [ForceSellItem] == "true" // Crown of the Inward Eye
+[Type] == "Prophet Crown" && [Rarity] == "Unique"       # [minions_hits_can_only_kill_ignited_enemies] >= "1" && [ForceSellItem] == "true" // Speaker's Wreath
+[Type] == "Prophet Crown" && [Rarity] == "Unique"       # [base_avoid_freeze_%] >= "1" && [ForceSellItem] == "true" // The Brine Crown
+[Type] == "Prophet Crown" && [Rarity] == "Unique"       # [local_display_socketed_gems_get_cast_on_death_level] >= "1" && [ForceSellItem] == "true" // The Broken Crown
+[Type] == "Soldier Helmet" && [Rarity] == "Unique"      # [base_item_found_rarity_+%] >= "1" && [ForceSellItem] == "true" // Honourhome
+[Type] == "Zealot Helmet" && [Rarity] == "Unique"       # [cast_socketed_spells_on_X_mana_spent] >= "1" && [ForceSellItem] == "true" // Kitava's Thirst
+
+// Evasion & Energy Shield Helmets
+[Type] == "Callous Mask" && [Rarity] == "Unique"    # [local_display_fire_and_cold_resist_debuff] >= "1" && [ForceSellItem] == "true" // Eye of Malice
+// [Type] == "Callous Mask" && [Rarity] == "Unique" # [local_display_summon_harbinger_x_on_equip] == "5" && [ForceSellItem] == "true" // The Tempest's Binding
+[Type] == "Deicide Mask" && [Rarity] == "Unique"    # [local_socketed_curse_gem_level_+] >= "1" && [ForceSellItem] == "true" // Heretic's Veil
+[Type] == "Festival Mask" && [Rarity] == "Unique"   # [local_display_aura_damage_+%] >= "1" && [ForceSellItem] == "true" // Leer Cast
+[Type] == "Golden Mask" && [Rarity] == "Unique"     # [unique_fire_damage_shocks] >= "1" && [ForceSellItem] == "true" // The Three Dragons
+[Type] == "Golden Mask" && [Rarity] == "Unique"     # [lose_all_power_charges_on_block] >= "1" && [ForceSellItem] == "true" // Willclash
+[Type] == "Harlequin Mask" && [Rarity] == "Unique"  # [local_display_grants_skill_cat_aspect_level] >= "1" && [ForceSellItem] == "true" // Farrul's Bite
+[Type] == "Harlequin Mask" && [Rarity] == "Unique"  # [lose_%_of_mana_when_you_use_an_attack_skill] >= "1" && [ForceSellItem] == "true" // Mind of the Council
+[Type] == "Iron Mask" && [Rarity] == "Unique"       # [keystone_mortal_conviction] >= "1" && [ForceSellItem] == "true" // Malachai's Simula 
+[Type] == "Plague Mask" && [Rarity] == "Unique"     # [number_of_additional_mines_to_place_with_at_least_500_int] >= "1" && [ForceSellItem] == "true" // Curtain Call
+[Type] == "Raven Mask" && [Rarity] == "Unique"      # [local_display_cast_level_1_summon_lesser_shrine_on_kill_%] >= "1" && [ForceSellItem] == "true" // The Gull
+[Type] == "Regicide Mask" && [Rarity] == "Unique"   # [damage_reflected_to_enemies_%_gained_as_life] >= "1" && [ForceSellItem] == "true" // Crown of the Pale King
+[Type] == "Regicide Mask" && [Rarity] == "Unique"   # [local_display_grant_level_x_petrification_statue] >= "1" && [ForceSellItem] == "true" // Gorgon's Gaze
+[Type] == "Vaal Mask" && [Rarity] == "Unique"       # [elemental_damage_+%_per_10_dexterity] >= "1" && [ForceSellItem] == "true" // Fractal Thoughts
+// [Type] == "Vaal Mask" && [Rarity] == "Unique"    # [cannot_have_mana_leeched_from] >= "1" && [ForceSellItem] == "true" // The Vertex
+
+//////////////////////////////////////////////
+//                                          //
+//                 S h i e l d s            //
+//                                          //
+//////////////////////////////////////////////
+ 
+// Armour Shields
+[Type] == "Cedar Tower Shield" && [Rarity] == "Unique"       # [you_and_totem_life_regeneration_rate_per_minute_%_per_active_totem] >= "1" && [ForceSellItem] == "true" // Trolltimber Spire  
+[Type] == "Colossal Tower Shield" && [Rarity] == "Unique"    # [gain_onslaught_while_at_maximum_endurance_charges] >= "1" && [ForceSellItem] == "true" // Ahn's Heritage
+[Type] == "Ebony Tower Shield" && [Rarity] == "Unique"       # [curse_with_enfeeble_on_hit_%_against_uncursed_enemies] >= "1" && [ForceSellItem] == "true" // Chernobog's Pillar
+[Type] == "Ebony Tower Shield" && [Rarity] == "Unique"       # [keystone_mortal_conviction] >= "1" && [ForceSellItem] == "true" // Tukohama's Fortress
+// [Type] == "Ezomyte Tower Shield" && [Rarity] == "Unique"  # [permanently_intimidate_enemy_on_block] >= "1" && [ForceSellItem] == "true" // The Anticipation
+[Type] == "Painted Tower Shield" && [Rarity] == "Unique"     # [warcries_have_infinite_power] >= "1" && [ForceSellItem] == "true" // Redblade Banner
+[Type] == "Pinnacle Tower Shield" && [Rarity] == "Unique"    # [base_maximum_life] >= "160" && [ForceSellItem] == "true" // Lioneye's Remorse
+// [Type] == "Pinnacle Tower Shield" && [Rarity] == "Unique" # [local_display_cast_elemental_aegis_on_gain_skill] >= "1" && [ForceSellItem] == "true" // Magna Eclipsis
+// [Type] == "Rawhide Tower Shield" && [Rarity] == "Unique"  # [global_always_hit] >= "1" && [ForceSellItem] == "true" // Lycosidae
+[Type] == "Reinforced Tower Shield" && [Rarity] == "Unique"  # [physical_damage_reduction_rating_+%_against_projectiles] >= "1" && [ForceSellItem] == "true" // Titucius' Span 
+
+// Evasion Shields
+[Type] == "Corrugated Buckler" && [Rarity] == "Unique" # [attack_minimum_added_physical_damage] >= "1" && [ForceSellItem] == "true" // Great Old One's Ward
+[Type] == "Enameled Buckler" && [Rarity] == "Unique"   # [keystone_call_to_arms] >= "1" && [ForceSellItem] == "true" // Mutewind Pennant
+[Type] == "Goathide Buckler" && [Rarity] == "Unique"   # [resist_all_elements_%_per_endurance_charge] >= "1" && [ForceSellItem] == "true" // Remnant of Empires
+[Type] == "Golden Buckler" && [Rarity] == "Unique"     # [reflect_curses] >= "1" && [ForceSellItem] == "true" // Atziri's Mirror
+[Type] == "Lacquered Buckler" && [Rarity] == "Unique"  # [phasing_if_blocked_recently] >= "1" && [ForceSellItem] == "true" // Mistwall
+[Type] == "Painted Buckler" && [Rarity] == "Unique"    # [physical_damage_%_to_add_as_cold] >= "1" && [ForceSellItem] == "true" // Kaltenhalt 
+[Type] == "Pine Buckler" && [Rarity] == "Unique"       # [life_leech_from_physical_attack_damage_permyriad] >= "1" && [ForceSellItem] == "true" // Crest of Perandus 
+[Type] == "Vaal Buckler" && [Rarity] == "Unique"       # [damage_reflected_to_enemies_%_gained_as_life] >= "1" && [ForceSellItem] == "true" // Thousand Teeth Temu
+[Type] == "War Buckler" && [Rarity] == "Unique"        # [curse_skill_effect_duration_+%] >= "1" && [ForceSellItem] == "true" // Chalice of Horrors
+
+// Energy Shield Shields
+[Type] == "Ancient Spirit Shield" && [Rarity] == "Unique"     # [additional_maximum_all_resistances_%_while_poisoned] >= "1" && [ForceSellItem] == "true"// Apep's Slumber
+[Type] == "Brass Spirit Shield" && [Rarity] == "Unique"       # [curse_on_spell_block_level_15_elemental_weakness] >= "1" && [ForceSellItem] == "true" // Sentari's Answer
+[Type] == "Chiming Spirit Shield" && [Rarity] == "Unique"     # [lose_all_endurance_charges_when_reaching_maximum] >= "1" && [ForceSellItem] == "true" // The Eternal Apple
+[Type] == "Fossilised Spirit Shield" && [Rarity] == "Unique"  # [on_cast_lose_all_mana_gain_%_as_maximum_lightning_damage_for_4_seconds] >= "1" && [ForceSellItem] == "true" // Manastorm
+[Type] == "Harmonic Spirit Shield" && [Rarity] == "Unique"    # [lose_all_power_charges_on_reaching_maximum_power_charges] >= "1" && [ForceSellItem] == "true" // Malachai's Loop
+[Type] == "Ivory Spirit Shield" && [Rarity] == "Unique"       # [local_display_trigger_level_x_smoke_cloud_on_trap_triggered] >= "1" && [ForceSellItem] == "true" // Kongming's Strategem
+// [Type] == "Jingling Spirit Shield" && [Rarity] == "Unique" # [critical_strike_multiplier_+_per_1%_block_chance] >= "1" && [ForceSellItem] == "true" // Light of Lunaris
+[Type] == "Tarnished Spirit Shield" && [Rarity] == "Unique"   # [arcane_surge_to_you_and_allies_on_warcry_with_effect_+%_per_5_power_up_to_50%] >= "1" && [ForceSellItem] == "true" // Brinerot Flag
+[Type] == "Tarnished Spirit Shield" && [Rarity] == "Unique"   # [local_socketed_minion_gem_level_+] >= "1" && [ForceSellItem] == "true" // Matua Tupuna 
+[Type] == "Thorium Spirit Shield" && [Rarity] == "Unique"     # [reflect_shocks] >= "1" && [ForceSellItem] == "true" // Esh's Mirror
+[Type] == "Titanium Spirit Shield" && [Rarity] == "Unique"    # [spectres_gain_arcane_surge_when_you_do] >= "1" && [ForceSellItem] == "true" // Bitterbind Point
+[Type] == "Titanium Spirit Shield" && [Rarity] == "Unique"    # [sacrifice_%_life_on_spell_skill] >= "1" && [ForceSellItem] == "true" // Rathpith Globe
+// [Type] == "Vaal Spirit Shield" && [Rarity] == "Unique"     # [bleeding_damage_on_self_converted_to_chaos] >= "1" && [ForceSellItem] == "true" // Apep's Supremacy
+// [Type] == "Vaal Spirit Shield" && [Rarity] == "Unique"     # [chaos_damage_does_not_bypass_energy_shield_while_not_low_life_or_mana] >= "1" && [ForceSellItem] == "true" // Esh's Visage
+
+// Armour & Evasion Shields
+[Type] == "Baroque Round Shield" && [Rarity] == "Unique"    # [spell_block_%_if_blocked_an_attack_recently] >= "1" && [ForceSellItem] == "true" // Daresso's Courage 
+[Type] == "Cardinal Round Shield" && [Rarity] == "Unique"   # [local_display_cast_cold_aegis_on_gain_skill] >= "1" && [ForceSellItem] == "true" // Vix Lunaris
+// [Type] == "Crimson Round Shield" && [Rarity] == "Unique" # [local_display_trigger_level_X_shield_shatter_on_block] >= "1" && [ForceSellItem] == "true" // Shattershard
+// [Type] == "Rotted Round Shield" && [Rarity] == "Unique"  # [base_item_found_rarity_+%] >= "1" && [ForceSellItem] == "true" // Wheel of the Stormsail
+[Type] == "Rotted Round Shield" && [Rarity] == "Unique"     # [base_item_found_rarity_+%] < "40" && [ForceSellItem] == "true" // Perfect Rarity Wheel of the Stormsail
+[Type] == "Studded Round Shield" && [Rarity] == "Unique"    # [curse_on_block_level_5_vulnerability] >= "1" && [ForceSellItem] == "true" // The Deep One's Hide
+[Type] == "Teak Round Shield" && [Rarity] == "Unique"       # [nearby_enemies_are_blinded_while_you_have_active_physical_aegis] >= "1" && [ForceSellItem] == "true" // The Ghastly Theatre
+
+// Armour & Energy Shield Shields
+// [Type] == "Archon Kite Shield" && [Rarity] == "Unique"   # [ForceSellItem] == "true" // Broken Faith / Prism Guardian / Invictus Solaris
+[Type] == "Archon Kite Shield" && [Rarity] == "Unique"      # [unholy_might_while_you_have_no_energy_shield] >= "1" && [ForceSellItem] == "true" // Broken Faith
+[Type] == "Archon Kite Shield" && [Rarity] == "Unique"      # [local_display_cast_fire_aegis_on_gain_skill] >= "1" && [ForceSellItem] == "true" // Invictus Solaris
+// [Type] == "Archon Kite Shield" && [Rarity] == "Unique"   # [local_display_socketed_gems_have_blood_magic] >= "1" && [ForceSellItem] == "true" // Prism Guardian
+// [Type] == "Archon Kite Shield" && [Rarity] == "Unique"   # [local_display_summon_harbinger_x_on_equip] >= "9" && [ForceSellItem] == "true" // The Immortal Will
+// [Type] == "Archon Kite Shield" && [Rarity] == "Unique"   # [local_display_summon_harbinger_x_on_equip] >= "3" && [ForceSellItem] == "true" // The Unshattered Will
+[Type] == "Archon Kite Shield" && [Rarity] == "Unique"      # [local_display_trigger_commandment_of_inferno_on_crit_%] >= "1" && [ForceSellItem] == "true" // Unyielding Flame
+[Type] == "Branded Kite Shield" && [Rarity] == "Unique"     # [cannot_block_attacks] >= "1" && [ForceSellItem] == "true" // Saffell's Frame  
+// [Type] == "Champion Kite Shield" && [Rarity] == "Unique" # [energy_shield_%_of_armour_rating_gained_on_block] >= "1" && [ForceSellItem] == "true" // Aegis Aurora
+[Type] == "Laminated Kite Shield" && [Rarity] == "Unique"   # [chance_to_grant_power_charge_to_nearby_allies_on_kill_%] >= "1" && [ForceSellItem] == "true" // Victario's Charity
+[Type] == "Mosaic Kite Shield" && [Rarity] == "Unique"      # [avoid_ignite_%_when_on_low_life] >= "1" && [ForceSellItem] == "true" // Rise of the Phoenix 
+[Type] == "Plank Kite Shield" && [Rarity] == "Unique"       # [life_regeneration_rate_per_minute_%] >= "1" && [ForceSellItem] == "true" // Springleaf
+[Type] == "Steel Kite Shield" && [Rarity] == "Unique"       # [keystone_glancing_blows] >= "1" && [ForceSellItem] == "true" // Emperor's Vigilance
+
+// Evasion & Energy Shield Shields
+[Type] == "Burnished Spiked Shield" && [Rarity] == "Unique"   # [always_ignite_while_burning] >= "1" && [ForceSellItem] == "true" // Glitterdisc
+[Type] == "Compound Spiked Shield" && [Rarity] == "Unique"    # [unique_nearby_allies_recover_permyriad_max_life_on_death] >= "1" && [ForceSellItem] == "true" // Maligaro's Lens
+// [Type] == "Ezomyte Spiked Shield" && [Rarity] == "Unique"  # [local_display_cast_lightning_aegis_on_gain_skill] >= "1" && [ForceSellItem] == "true" // Perepiteia
+[Type] == "Mirrored Spiked Shield" && [Rarity] == "Unique"    # [keystone_shared_suffering] >= "1" && [ForceSellItem] == "true" // Leper's Alms
+// [Type] == "Mirrored Spiked Shield" && [Rarity] == "Unique" # [chance_to_be_shocked_%] >= "1" && [ForceSellItem] == "true" // Font of Thunder
+[Type] == "Polished Spiked Shield" && [Rarity] == "Unique"    # [you_have_zealots_oath_if_you_havent_been_hit_recently] >= "1" && [ForceSellItem] == "true" // Zeel's Amplifier
+[Type] == "Sovereign Spiked Shield" && [Rarity] == "Unique"   # [lose_%_of_es_on_crit] >= "1" && [ForceSellItem] == "true" // Qotra's Regulator
+[Type] == "Supreme Spiked Shield" && [Rarity] == "Unique"     # [local_display_grants_skill_bear_trap_level] >= "1" && [ForceSellItem] == "true" // Jaws of Agony
+
+//////////////////////////////////////////////
+//                                          //
+//                 W e a p o n s            //
+//                                          //
+//////////////////////////////////////////////
+
+// One-Handed Axes
+[Type] == "Butcher Axe" && [Rarity] == "Unique"    # [intelligence_is_0] >= "1" && [ForceSellItem] == "true" // Actum
+[Type] == "Cleaver" && [Rarity] == "Unique"        # [curse_on_hit_level_flammability] >= "1" && [ForceSellItem] == "true" // Dreadarc
+[Type] == "Decorative Axe" && [Rarity] == "Unique" # [kill_enemy_on_hit_if_under_10%_life] >= "1" && [ForceSellItem] == "true" // Relentless Fury
+[Type] == "Infernal Axe" && [Rarity] == "Unique"   # [local_chill_on_hit_ms_if_in_off_hand] >= "1" && [ForceSellItem] == "true" // Dyadus
+[Type] == "Jade Hatchet" && [Rarity] == "Unique"   # [local_display_socketed_gems_get_flee_level] >= "1" && [ForceSellItem] == "true" // The Screaming Eagle
+[Type] == "Royal Axe" && [Rarity] == "Unique"      # [maximum_rage_per_equipped_one_handed_sword] >= "1" && [ForceSellItem] == "true" // Rigwald's Savagery
+[Type] == "Rusted Hatchet" && [Rarity] == "Unique" # [physical_damage_can_chill] >= "1" && [ForceSellItem] == "true" // Rust of Winter
+// [Type] == "Siege Axe" && [Rarity] == "Unique"   # [melee_attacks_usable_without_mana_cost] >= "1" && [ForceSellItem] == "true" // Soul Taker
+[Type] == "Tomahawk" && [Rarity] == "Unique"       # [local_skills_granted_by_item_are_supported_by_level_x_unique_trigger_support] >= "1" && [ForceSellItem] == "true" // Moonbender's Wing
+[Type] == "Vaal Hatchet" && [Rarity] == "Unique"   # [play_jack_the_axe_sounds] >= "1" && [ForceSellItem] == "true" // Jack, the Axe
+
+// Two-Handed Axes
+[Type] == "Abyssal Axe" && [Rarity] == "Unique"    # [local_display_molten_burst_on_melee_hit_%] >= "1" &&  [ForceSellItem] == "true" // Ngamahu's Flame
+[Type] == "Despot Axe" && [Rarity] == "Unique"     # [warcries_knock_back_enemies] >= "1" &&  [ForceSellItem] == "true" // Debeon's Dirge
+// [Type] == "Despot Axe" && [Rarity] == "Unique"  # [local_display_nearby_allies_have_fortify] >= "1" &&  [ForceSellItem] == "true" // Kingmaker
+[Type] == "Ezomyte Axe" && [Rarity] == "Unique"    # [player_gain_rampage_stacks] >= "1" &&  [ForceSellItem] == "true" // Sinvicta's Mettle
+[Type] == "Ezomyte Axe" && [Rarity] == "Unique"    # [local_unique_counts_as_dual_wielding] >= "1" &&  [ForceSellItem] == "true" // Wings of Entropy
+[Type] == "Headsman Axe" && [Rarity] == "Unique"   # [local_chance_to_bleed_on_hit_%] >= "1" &&  [ForceSellItem] == "true" // The Blood Reaper
+[Type] == "Jasper Chopper" && [Rarity] == "Unique" # [recharge_flasks_on_crit] >= "1" &&  [ForceSellItem] == "true" // The Harvest
+[Type] == "Karui Chopper" && [Rarity] == "Unique"  # [physical_damage_%_to_add_as_fire_per_rage] >= "1" &&  [ForceSellItem] == "true" // Kaom's Primacy
+[Type] == "Labrys" && [Rarity] == "Unique"         # [attacks_chance_to_bleed_25%_vs_cursed_enemies] >= "1" &&  [ForceSellItem] == "true" // Uul-Netol's Kiss
+[Type] == "Poleaxe" && [Rarity] == "Unique"        # [local_weapon_range_+] >= "1" &&  [ForceSellItem] == "true" // Wideswing
+[Type] == "Shadow Axe" && [Rarity] == "Unique"     # [local_always_hit] >= "1" &&  [ForceSellItem] == "true" // Reaper's Pursuit
+// [Type] == "Vaal Axe" && [Rarity] == "Unique"    # [local_socketed_support_gem_level_+] >= "1" &&  [ForceSellItem] == "true" // Atziri's Disfavour
+[Type] == "Vaal Axe" && [Rarity] == "Unique"       # [attacks_use_life_in_place_of_mana] >= "1" &&  [ForceSellItem] == "true" // Hezmana's Bloodlust
+[Type] == "Vaal Axe" && [Rarity] == "Unique"       # [local_display_attack_with_level_X_bone_nova_on_bleeding_enemy_kill] >= "1" &&  [ForceSellItem] == "true" // Uul-Netol's Embrace
+// [Type] == "Void Axe" && [Rarity] == "Unique"    # [enemies_explode_on_kill] >= "1" &&  [ForceSellItem] == "true" // Kitava's Feast
+[Type] == "Woodsplitter" && [Rarity] == "Unique"   # [local_display_trigger_level_x_gore_shockwave_on_melee_hit_with_atleast_150_strength] >= "1" &&  [ForceSellItem] == "true" // Limbsplit
+
+// Bows
+// [Type] == "Assassin Bow" && [Rarity] == "Unique"  # [ForceSellItem] == "true" // Chin Sol / Darkscorn / Arborix
+[Type] == "Assassin Bow" && [Rarity] == "Unique"     # [unique_chin_sol_close_range_knockback] >= "1" &&  [ForceSellItem] == "true" // Chin Sol
+[Type] == "Assassin Bow" && [Rarity] == "Unique"     # [base_physical_damage_%_to_convert_to_chaos] >= "1" &&  [ForceSellItem] == "true" // Darkscorn
+// [Type] == "Assassin Bow" && [Rarity] == "Unique"  # [your_travel_skills_except_dash_are_disabled] >= "1" &&  [ForceSellItem] == "true" // Arborix
+[Type] == "Bone Bow" && [Rarity] == "Unique"         # [life_gained_on_killing_ignited_enemies] >= "1" &&  [ForceSellItem] == "true" // Xoph's Inception
+[Type] == "Citadel Bow" && [Rarity] == "Unique"      # [local_display_socketed_gems_supported_by_level_x_ignite_proliferation] >= "1" &&  [ForceSellItem] == "true" // // Xoph's Nurture
+[Type] == "Crude Bow" && [Rarity] == "Unique"        # [local_socketed_bow_gem_level_+] >= "1" &&  [ForceSellItem] == "true" // Silverbranch
+// [Type] == "Death Bow" && [Rarity] == "Unique"     # [ForceSellItem] == "true" // Death's Harp / Iron Commander
+[Type] == "Death Bow" && [Rarity] == "Unique"        # [base_number_of_additional_arrows] >= "1" &&  [ForceSellItem] == "true" // Death's Harp
+[Type] == "Death Bow" && [Rarity] == "Unique"        # [number_of_additional_siege_ballistae_per_200_dexterity] >= "1" &&  [ForceSellItem] == "true" // Iron Commander
+[Type] == "Decimation Bow" && [Rarity] == "Unique"   # [base_arrows_always_pierce] >= "1" &&  [ForceSellItem] == "true" // Infractem
+// [Type] == "Harbinger Bow" && [Rarity] == "Unique" # [ForceSellItem] == "true" // Nuro's Harp / Slivertongue
+[Type] == "Harbinger Bow" && [Rarity] == "Unique"    # [consecrate_ground_on_shatter_%_chance_for_3_seconds] >= "1" &&  [ForceSellItem] == "true" // Nuro's Harp
+[Type] == "Harbinger Bow" && [Rarity] == "Unique"    # [arrows_always_pierce_after_forking] >= "1" &&  [ForceSellItem] == "true" // Slivertongue
+// [Type] == "Imperial Bow" && [Rarity] == "Unique"  # [ForceSellItem] == "true" // Lioneye's Glare / Windripper
+[Type] == "Imperial Bow" && [Rarity] == "Unique"     # [local_always_hit] >= "1" &&  [ForceSellItem] == "true" // Lioneye's Glare
+// [Type] == "Imperial Bow" && [Rarity] == "Unique"  # [local_critical_strike_chance_+%] >= "1" &&  [ForceSellItem] == "true" // Windripper
+[Type] == "Imperial Bow" && [Rarity] == "Unique"     # [local_critical_strike_chance_+%] < "60" && [StashItem] == "true" // Perfect crit Windripper
+[Type] == "Long Bow" && [Rarity] == "Unique"         # [local_minimum_added_lightning_damage] >= "1" &&  [ForceSellItem] == "true" // Storm Cloud
+// [Type] == "Ranger Bow" && [Rarity] == "Unique"    # [ForceSellItem] == "true" // Null's Inclination / Hopeshredder
+[Type] == "Ranger Bow" && [Rarity] == "Unique"       # [minion_damage_+%_per_10_dex] >= "1" &&  [ForceSellItem] == "true" // Null's Inclination
+[Type] == "Ranger Bow" && [Rarity] == "Unique"       # [movement_velocity_+%_per_frenzy_charge] >= "1" && [ForceSellItem] == "true" // Hopeshredder
+[Type] == "Recurve Bow" && [Rarity] == "Unique"      # [number_of_chains] >= "1" &&  [ForceSellItem] == "true" // Roth's Reach
+[Type] == "Royal Bow" && [Rarity] == "Unique"        # [weapon_physical_damage_%_to_add_as_random_element] >= "1" &&  [ForceSellItem] == "true" // Doomfletch
+[Type] == "Short Bow" && [Rarity] == "Unique"        # [local_mana_gain_per_target] >= "1" &&  [ForceSellItem] == "true" // Quill Rain
+// [Type] == "Spine Bow" && [Rarity] == "Unique"     # [ForceSellItem] == "true" // Reach of the Council / Voltaxic Rift
+[Type] == "Spine Bow" && [Rarity] == "Unique"        # [arrows_from_fourth_firing_point_additional_chains] >= "1" && [ForceSellItem] == "true" // Reach of the Council
+[Type] == "Spine Bow" && [Rarity] == "Unique"        # [chaos_damage_can_shock] >= "1" &&  [ForceSellItem] == "true" // Voltaxic Rift
+[Type] == "Steelwood Bow" && [Rarity] == "Unique"    # [enemies_you_bleed_grant_flask_charges_+%] >= "1" && [ForceSellItem] == "true" // The Crimson Storm
+
+// Claws
+[Type] == "Awl" && [Rarity] == "Unique"            # [damage_+%_with_movement_skills] >= "1" && [ForceSellItem] == "true" // Wildslash
+[Type] == "Blinder" && [Rarity] == "Unique"        # [attack_minimum_added_lightning_damage_per_10_int] >= "1" && [ForceSellItem] == "true" // Hand of Thought and Motion
+[Type] == "Eye Gouger" && [Rarity] == "Unique"     # [keystone_ghost_reaver] >= "1" && [ForceSellItem] == "true" // Essentia Sanguis
+[Type] == "Fright Claw" && [Rarity] == "Unique"    # [base_physical_damage_%_to_convert_to_chaos] >= "1" && [ForceSellItem] == "true" // Mortem Morsu
+[Type] == "Gut Ripper" && [Rarity] == "Unique"     # [local_display_socketed_gems_supported_by_level_x_fortify] >= "1" && [ForceSellItem] == "true" // Advancing Fortress
+[Type] == "Gut Ripper" && [Rarity] == "Unique"     # [local_always_hit] >= "1" && [ForceSellItem] == "true" // Ornament of the East
+[Type] == "Hellion's Paw" && [Rarity] == "Unique"  # [local_life_leech_is_instant] >= "1" && [ForceSellItem] == "true" // Bloodseeker
+[Type] == "Hellion's Paw" && [Rarity] == "Unique"  # [local_display_trigger_level_20_summon_spectral_wolf_on_crit_with_this_weapon_%_chance] >= "1" && [ForceSellItem] == "true" // Law of the Wilds
+[Type] == "Imperial Claw" && [Rarity] == "Unique"  # [attack_minimum_added_lightning_damage_per_10_int] >= "1" && [ForceSellItem] == "true" // Hand of Wisdom and Action 
+[Type] == "Imperial Claw" && [Rarity] == "Unique"  # [physical_damage_+%_while_frozen] >= "1" && [ForceSellItem] == "true" // Izaro's Dilemma
+[Type] == "Imperial Claw" && [Rarity] == "Unique"  # [num_of_additional_chains_at_max_frenzy_charges] >= "1" && [ForceSellItem] == "true" // Touch of Anguish 
+[Type] == "Nailed Fist" && [Rarity] == "Unique"    # [physical_claw_damage_+%_when_on_low_life] >= "1" && [ForceSellItem] == "true" // Last Resort
+[Type] == "Nailed Fist" && [Rarity] == "Unique"    # [local_display_grants_skill_hatred_level] >= "1" && [ForceSellItem] == "true" // Scar of Fate
+[Type] == "Terror Claw" && [Rarity] == "Unique"    # [bleed_duration_per_12_intelligence_+%] >= "1" && [ForceSellItem] == "true" // Rive 
+[Type] == "Terror Claw" && [Rarity] == "Unique"    # [additive_minion_damage_modifiers_apply_to_you_at_150%_value] >= "1" && [ForceSellItem] == "true" // The Scourge
+[Type] == "Thresher Claw" && [Rarity] == "Unique"  # [spell_damage_+%_per_5%_block_chance] >= "1" && [ForceSellItem] == "true" // Cybil's Paw
+[Type] == "Throat Stabber" && [Rarity] == "Unique" # [minimum_added_chaos_damage_vs_enemies_with_5+_poisons] >= "1" && [ForceSellItem] == "true" // The Wasp Nest
+[Type] == "Timeworn Claw" && [Rarity] == "Unique"  # [warcry_skills_cooldown_is_4_seconds] >= "1" && [ForceSellItem] == "true" // Al Dhih
+[Type] == "Vaal Claw" && [Rarity] == "Unique"      # [phase_on_vaal_skill_use_duration_ms] >= "1" && [ForceSellItem] == "true" // Allure   
+[Type] == "Vaal Claw" && [Rarity] == "Unique"      # [keystone_ghost_reaver] >= "1" && [ForceSellItem] == "true" // Essentia Sanguis
+
+// Daggers 
+[Type] == "Ambusher" && [Rarity] == "Unique"       # [local_maim_on_hit_%] >= "1" && [ForceSellItem] == "true" // Taproot
+// [Type] == "Ambusher" && [Rarity] == "Unique"    # [local_display_grants_level_x_hidden_blade] >= "1" && [ForceSellItem] == "true" // The Hidden Blade
+[Type] == "Ambusher" && [Rarity] == "Unique"       # [life_gained_on_cull] >= "1" && [ForceSellItem] == "true" // Goblinedge
+[Type] == "Flaying Knife" && [Rarity] == "Unique"  # [local_life_gain_per_target] >= "1" && [ForceSellItem] == "true" // Mightflay
+[Type] == "Glass Shanke" && [Rarity] == "Unique"   # [add_power_charge_on_kill_%_chance] >= "1" && [ForceSellItem] == "true" // Fragment of Eternity
+[Type] == "Skinning Knife" && [Rarity] == "Unique" # [local_chance_to_bleed_on_crit_50%] >= "1" && [ForceSellItem] == "true" // Goredrill
+[Type] == "Stiletto" && [Rarity] == "Unique"       # [extra_gore] >= "1" && [ForceSellItem] == "true" // Bloodplay
+
+// Rune Daggers
+[Type] == "Boot Blade" && [Rarity] == "Unique"        # [attack_critical_strike_damage_life_leech_permyriad] >= "1" && [ForceSellItem] == "true" // Widowmaker
+[Type] == "Boot Knife" && [Rarity] == "Unique"        # [block_while_dual_wielding_%] >= "1" && [ForceSellItem] == "true" // Ungil's Gauche
+[Type] == "Demon Dagger" && [Rarity] == "Unique"      # [avatar_of_fire_rotation_active] >= "1" && [ForceSellItem] == "true" // Vulconus
+// [Type] == "Ezomyte Dagger" && [Rarity] == "Unique" # [physical_spell_skill_gem_level_+] >= "1" && [ForceSellItem] == "true" // Cold Iron Point
+// [Type] == "Fiend Dagger" && [Rarity] == "Unique"   # [local_display_raise_spider_on_kill_%_chance] >= "1" && [ForceSellItem] == "true" // Arakaali's Fang
+[Type] == "Fiend Dagger" && [Rarity] == "Unique"      # [chaos_damage_chance_to_poison_%] >= "1" && [ForceSellItem] == "true" // The Consuming Dark 
+[Type] == "Imperial Skean" && [Rarity] == "Unique"    # [critical_strike_chance_+%_for_spells_if_you_have_killed_recently] >= "1" && [ForceSellItem] == "true" // Divinarius
+// [Type] == "Imperial Skean" && [Rarity] == "Unique" # [cold_damage_+%_while_off_hand_is_empty] >= "1" && [ForceSellItem] == "true" // White Wind
+[Type] == "Imperial Skean" && [Rarity] == "Unique"    # [cold_damage_+%_while_off_hand_is_empty] < "200" && [ForceSellItem] == "true" // Perf Cold Damage% White Wind
+[Type] == "Platinum Kris" && [Rarity] == "Unique"     # [local_poison_on_critical_strike_chance_%] >= "1" && [ForceSellItem] == "true" // Mark of the Doubting Knight
+[Type] == "Royal Skean" && [Rarity] == "Unique"       # [spells_have_culling_strike] >= "1" && [ForceSellItem] == "true" // Heartbreaker
+[Type] == "Slaughter Knife" && [Rarity] == "Unique"   # [unique_spread_poison_to_nearby_enemies_on_kill] >= "1" && [ForceSellItem] == "true" // Bino's Kitchen Knife
+
+// Fishing Rods
+// [Type] == "Fishing Rod" && [Rarity] == "Unique" # [ForceSellItem] == "true" // Song of the Sirens / Reefbane
+[Type] == "Fishing Rod" && [Rarity] == "Rare"      # [StashItem] == "true"
+[Type] == "Fishing Rod" && [Rarity] == "Magic"     # [StashItem] == "true"
+[Type] == "Fishing Rod" && [Rarity] == "Normal"    # [StashItem] == "true"
+
+// One-Handed Maces
+[Type] == "Auric Mace" && [Rarity] == "Unique"     # [attack_damage_that_stuns_also_chills] >= "1" && [ForceSellItem] == "true" // Callinellus Malleus
+[Type] == "Dream Mace" && [Rarity] == "Unique"     # [life_leech_from_attack_damage_permyriad_vs_bleeding_enemies] >= "1" && [ForceSellItem] == "true" // Flesh-Eater
+[Type] == "Gavel" && [Rarity] == "Unique"          # [killed_monster_dropped_item_rarity_+%_when_frozen] >= "1" && [ForceSellItem] == "true" // Cameria's Maul
+// [Type] == "Gavel" && [Rarity] == "Unique"       # [number_of_chains] >= "1" && [ForceSellItem] == "true" // Mjolner
+[Type] == "Nightmare Mace" && [Rarity] == "Unique" # [chaos_damage_resistance_%_per_endurance_charge] >= "1" && [ForceSellItem] == "true" // Nebuloch
+[Type] == "Ornate Mace" && [Rarity] == "Unique"    # [local_double_damage_to_chilled_enemies] >= "1" && [ForceSellItem] == "true" // Frostbreath
+[Type] == "Rock Breaker" && [Rarity] == "Unique"   # [base_number_of_golems_allowed] >= "1" && [ForceSellItem] == "true" // Clayshaper
+[Type] == "Spiked Club" && [Rarity] == "Unique"    # [extra_gore] >= "1" && [ForceSellItem] == "true" // Gorebreaker
+[Type] == "War Hammer" && [Rarity] == "Unique"     # [local_critical_strike_chance_+%] >= "1" && [ForceSellItem] == "true" // Brightbeak
+[Type] == "War Hammer" && [Rarity] == "Unique"     # [area_damage_+%] >= "1" && [ForceSellItem] == "true" // Lavianga's Wisdom
+
+// Sceptres
+[Type] == "Blood Sceptre" && [Rarity] == "Unique"    # [physical_damage_reduction_rating_per_5_evasion_on_shield] >= "1" && [ForceSellItem] == "true" // Cerberus Limb
+[Type] == "Bronze Sceptre" && [Rarity] == "Unique"   # [spell_critical_strike_chance_+%] >= "1" && [ForceSellItem] == "true" // Axiom Perpetuum
+[Type] == "Carnal Sceptre" && [Rarity] == "Unique"   # [chaos_skill_effect_duration_+%] >= "1" && [ForceSellItem] == "true" // Breath of the Council
+[Type] == "Crystal Sceptre" && [Rarity] == "Unique"  # [local_socketed_fire_gem_level_+] >= "1" && [ForceSellItem] == "true" // Nycta's Lantern
+[Type] == "Crystal Sceptre" && [Rarity] == "Unique"  # [experience_gain_+%] >= "1" && [ForceSellItem] == "true" // The Supreme Truth
+[Type] == "Grinning Fetish" && [Rarity] == "Unique"  # [summoned_skeletons_have_avatar_of_fire] >= "1" && [ForceSellItem] == "true" // Earendel's Embrace
+[Type] == "Iron Sceptre" && [Rarity] == "Unique"     # [damage_+%_vs_frozen_enemies] >= "1" && [ForceSellItem] == "true" // Spine of the First Claimant
+[Type] == "Karui Sceptre" && [Rarity] == "Unique"    # [gain_unholy_might_for_4_seconds_on_crit] >= "1" && [ForceSellItem] == "true" // Death's Hand
+[Type] == "Platinum Sceptre" && [Rarity] == "Unique" # [damage_+%_vs_hindered_enemies] >= "1" && [ForceSellItem] == "true" // Singularity
+[Type] == "Opal Sceptre" && [Rarity] == "Unique"     # [local_display_grants_skill_scorching_ray_level] >= "1" && [ForceSellItem] == "true" // Balefire
+[Type] == "Ritual Sceptre" && [Rarity] == "Unique"   # [attack_minimum_added_fire_damage_per_10_strength] >= "1" && [ForceSellItem] == "true" // Brutus' Lead Sprinkler
+[Type] == "Royal Sceptre" && [Rarity] == "Unique"    # [summoned_phantasms_grant_buff] >= "1" && [ForceSellItem] == "true" // The Black Cane
+[Type] == "Shadow Sceptre" && [Rarity] == "Unique"   # [local_display_socketed_gems_supported_by_x_reduced_mana_cost] >= "1" && [ForceSellItem] == "true" // Bitterdream
+[Type] == "Shadow Sceptre" && [Rarity] == "Unique"   # [enemies_blinded_by_you_while_blinded_have_malediction] >= "1" && [ForceSellItem] == "true" // The Dark Seer
+[Type] == "Tyrant's Sekhem" && [Rarity] == "Unique"  # [redirect_elemental_ailments_to_aura_owner] >= "1" && [ForceSellItem] == "true" // Sign of the Sin Eater
+[Type] == "Vaal Sceptre" && [Rarity] == "Unique"     # [local_display_socketed_gems_get_iron_will_level] >= "1" && [ForceSellItem] == "true" // Doon Cuebiyari
+[Type] == "Vaal Sceptre" && [Rarity] == "Unique"     # [local_display_socketed_gems_get_elemental_proliferation_level] >= "1" && [ForceSellItem] == "true" // Doryani's Catalyst
+[Type] == "Void Sceptre" && [Rarity] == "Unique"     # [elemental_overload_rotation_active] >= "1" && [ForceSellItem] == "true" // Augyre
+[Type] == "Void Sceptre" && [Rarity] == "Unique"     # [zombie_explode_on_kill_%_fire_damage_to_deal] >= "1" && [ForceSellItem] == "true" // Mon'tregul's Grasp
+// [Type] == "Void Sceptre" && [Rarity] == "Unique"  # [lightning_damage_+%_per_lightning_resistance_above_75] >= "1" && [ForceSellItem] == "true" // Nebulis
+
+// Two-Handed Maces
+[Type] == "Brass Maul" && [Rarity] == "Unique"    # [global_cannot_crit] >= "1" && [ForceSellItem] == "true" // Geofri's Baptism
+[Type] == "Dread Maul" && [Rarity] == "Unique"    # [local_attack_speed_+%] >= "1" && [ForceSellItem] == "true" // Voidhome
+[Type] == "Great Mallet" && [Rarity] == "Unique"  # [local_socketed_minion_gem_level_+] >= "1" && [ForceSellItem] == "true" // Chober Chaber
+[Type] == "Great Mallet" && [Rarity] == "Unique"  # [local_weapon_always_crit] >= "1" && [ForceSellItem] == "true" // Trypanon
+[Type] == "Imperial Maul" && [Rarity] == "Unique" # [local_display_socketed_gems_supported_by_level_x_endurance_charge_on_stun] >= "1" && [ForceSellItem] == "true" // Tidebreaker
+[Type] == "Jagged Maul" && [Rarity] == "Unique"   # [explode_on_kill_%_fire_damage_to_deal] >= "1" && [ForceSellItem] == "true" // Quecholli
+[Type] == "Karui Maul" && [Rarity] == "Unique"    # [local_display_socketed_gems_supported_by_level_x_pulverise] >= "1" && [ForceSellItem] == "true" // Marohi Erqi
+[Type] == "Meatgrinder" && [Rarity] == "Unique"   # [chance_to_deal_double_damage_%] >= "1" && [ForceSellItem] == "true" // Brain Rattler
+[Type] == "Sledgehammer" && [Rarity] == "Unique"  # [local_life_leech_from_physical_damage_permyriad] >= "1" && [ForceSellItem] == "true" // Hrimnor's Hymn
+[Type] == "Steelhead" && [Rarity] == "Unique"     # [animate_weapon_number_of_additional_copies] >= "1" && [ForceSellItem] == "true" // Jorrhast's Blacksteel
+[Type] == "Terror Maul" && [Rarity] == "Unique"   # [local_always_hit] >= "1" && [ForceSellItem] == "true" // Kongor's Undying Rage 
+
+// Staves
+[Type] == "Coiled Staff" && [Rarity] == "Unique"       # [local_display_aura_damage_+%_allies_only] >= "1" && [ForceSellItem] == "true" // Dying Breath
+[Type] == "Coiled Staff" && [Rarity] == "Unique"       # [spell_skill_gem_level_+] >= "1" && [ForceSellItem] == "true" // Xirgil's Crank
+[Type] == "Ezomyte Staff" && [Rarity] == "Unique"      # [local_display_gain_power_charge_on_spending_mana] >= "1" && [ForceSellItem] == "true" // Cane of Unravelling
+[Type] == "Ezomyte Staff" && [Rarity] == "Unique"      # [local_display_trigger_level_x_summon_phantasm_on_corpse_consume] >= "1" && [ForceSellItem] == "true" // Soulwrest
+// [Type] == "Ezomyte Staff" && [Rarity] == "Unique"   # [elemental_ailments_reflected_to_self] >= "1" && [ForceSellItem] == "true" // The Fulcrum
+[Type] == "Gnarled Branch" && [Rarity] == "Unique"     # [curse_on_block_level_5_vulnerability] >= "1" && [ForceSellItem] == "true" // The Blood Thorn
+[Type] == "Gnarled Branch" && [Rarity] == "Unique"     # [local_display_socketed_gems_get_trap_level] >= "1" && [ForceSellItem] == "true" // Fencoil
+[Type] == "Highborn Staff" && [Rarity] == "Unique"     # [local_display_grants_level_X_vengeance] >= "1" && [ForceSellItem] == "true" // Martyr of Innocence
+[Type] == "Highborn Staff" && [Rarity] == "Unique"     # [local_display_grants_skill_brand_detonate_level] >= "1" && [ForceSellItem] == "true" // Witchhunter's Judgment
+[Type] == "Imperial Staff" && [Rarity] == "Unique"     # [lightning_ailment_duration_+%] >= "1" && [ForceSellItem] == "true" // Agnerod East
+[Type] == "Imperial Staff" && [Rarity] == "Unique"     # [base_chance_to_shock_%] >= "1" && [ForceSellItem] == "true" // Agnerod North
+[Type] == "Imperial Staff" && [Rarity] == "Unique"     # [base_maximum_lightning_damage_resistance_%] >= "1" && [ForceSellItem] == "true" // Agnerod South
+[Type] == "Imperial Staff" && [Rarity] == "Unique"     # [spell_minimum_added_lightning_damage] >= "1" && [ForceSellItem] == "true" // Agnerod West
+[Type] == "Imperial Staff" && [Rarity] == "Unique"     # [local_display_summon_harbinger_x_on_equip] == "6" && [ForceSellItem] == "true" // The Enmity Divine
+[Type] == "Iron Staff" && [Rarity] == "Unique"         # [local_display_socketed_gems_get_cold_to_fire_level] >= "1" && [ForceSellItem] == "true" // Realmshaper
+[Type] == "Judgement Staff" && [Rarity] == "Unique"    # [max_power_charges] >= "1" && [ForceSellItem] == "true" // Hegemony's Era
+[Type] == "Judgement Staff" && [Rarity] == "Unique"    # [local_display_socketed_gems_supported_by_level_x_greater_spell_echo] >= "1" && [ForceSellItem] == "true" // Pledge of Hands
+[Type] == "Judgement Staff" && [Rarity] == "Unique"    # [local_has_no_sockets] >= "1" && [ForceSellItem] == "true" // The Grey Spire
+[Type] == "Lathi" && [Rarity] == "Unique"              # [fire_spell_skill_gem_level_+] >= "1" && [ForceSellItem] == "true" // The Searing Touch
+[Type] == "Long Staff" && [Rarity] == "Unique"         # [area_of_effect_+%_per_20_int] >= "1" && [ForceSellItem] == "true" // Pillar of the Caged God
+[Type] == "Maelström Staff" && [Rarity] == "Unique"    # [keystone_battlemage] >= "1" && [ForceSellItem] == "true" // Disintegrator
+// [Type] == "Maelström Staff" && [Rarity] == "Unique" # [critical_strike_multiplier_+_per_1%_block_chance] >= "1" && [ForceSellItem] == "true" // Duskdawn
+[Type] == "Maelström Staff" && [Rarity] == "Unique"    # [frozen_monsters_take_increased_damage] >= "1" && [ForceSellItem] == "true" // Taryn's Shiver
+[Type] == "Military Staff" && [Rarity] == "Unique"     # [mine_extra_uses] >= "1" && [ForceSellItem] == "true" // Tremor Rod
+[Type] == "Primordial Staff" && [Rarity] == "Unique"   # [additional_attack_block_%_per_summoned_skeleton] >= "1" && [ForceSellItem] == "true" // Femurs of the Saints
+[Type] == "Royal Staff" && [Rarity] == "Unique"        # [avoid_shock_%_while_chilled] >= "1" && [ForceSellItem] == "true" // The Stormheart
+[Type] == "Serpentine Staff" && [Rarity] == "Unique"   # [local_display_socketed_gems_projectiles_nova] >= "1" && [ForceSellItem] == "true" // Sire of Shards
+[Type] == "Vile Staff" && [Rarity] == "Unique"         # [local_display_grants_skill_icestorm_level] >= "1" && [ForceSellItem] == "true" // The Whispering Ice 
+
+// Generic One-Handed Swords
+[Type] == "Corsair Sword" && [Rarity] == "Unique"    # [buff_auras_dont_affect_allies] >= "1" && [ForceSellItem] == "true" // Ichimonji
+[Type] == "Cutlass" && [Rarity] == "Unique"          # [minions_recover_%_maximum_life_on_killing_poisoned_enemy] >= "1" && [ForceSellItem] == "true" // Severed in Sleep
+[Type] == "Dusk Blade" && [Rarity] == "Unique"       # [local_mana_leech_from_physical_damage_permyriad] >= "1" && [ForceSellItem] == "true" // Ephemeral Edge
+[Type] == "Elder Sword" && [Rarity] == "Unique"      # [local_maim_on_hit] >= "1" && [ForceSellItem] == "true" // Innsbury Edge
+// [Type] == "Elegant Sword" && [Rarity] == "Unique" # [local_weapon_uses_both_hands] >= "1" && [ForceSellItem] == "true" // The Goddess Scorned
+[Type] == "Elegant Sword" && [Rarity] == "Unique"    # [local_display_socketed_gems_get_multistrike_level] >= "1" && [ForceSellItem] == "true" // Lakishu's Blade
+[Type] == "Eternal Sword" && [Rarity] == "Unique"    # [player_far_shot] >= "1" && [ForceSellItem] == "true" // Beltimber Blade
+[Type] == "Eternal Sword" && [Rarity] == "Unique"    # [attack_damage_+%_per_450_evasion] >= "1" && [ForceSellItem] == "true" // Dreamfeather
+[Type] == "Eternal Sword" && [Rarity] == "Unique"    # [keystone_point_blank] >= "1" && [ForceSellItem] == "true" // Grelwood Shank
+[Type] == "Ezomyte Blade" && [Rarity] == "Unique"    # [cannot_leech_life_from_critical_strikes] >= "1" && [ForceSellItem] == "true" // Kondo's Pride
+[Type] == "Gladius" && [Rarity] == "Unique"          # [global_defences_+%_per_white_socket_on_item] >= "1" && [ForceSellItem] == "true" // Scaeva
+// [Type] == "Gladius" && [Rarity] == "Unique"       # [local_display_grants_unholy_might] >= "1" && [ForceSellItem] == "true" // The Iron Mass
+[Type] == "Legion Sword" && [Rarity] == "Unique"     # [sound_on_kill_wolf_call] >= "1" && [ForceSellItem] == "true" // Hyaon's Fury
+[Type] == "Legion Sword" && [Rarity] == "Unique"     # [local_display_summon_harbinger_x_on_equip] >= "1" && [ForceSellItem] == "true" // The Rippling Thoughts
+// [Type] == "Legion Sword" && [Rarity] == "Unique"  # [local_display_trigger_level_x_reflection_skill_on_equip] >= "1" && [ForceSellItem] == "true" // The Saviour
+[Type] == "Midnight Blade" && [Rarity] == "Unique"   # [accuracy_rating_while_at_maximum_frenzy_charges] >= "1" && [ForceSellItem] == "true" // Ahn's Might
+[Type] == "Midnight Blade" && [Rarity] == "Unique"   # [recover_%_maximum_life_on_enemy_ignited] >= "1" && [ForceSellItem] == "true" // Razor of the Seventh Sun
+[Type] == "Midnight Blade" && [Rarity] == "Unique"   # [bleed_dot_multiplier_+_per_rage_if_equipped_axe] >= "1" && [ForceSellItem] == "true" // Rigwald's Command 
+[Type] == "Rusted Sword" && [Rarity] == "Unique"     # [damage_+%_when_on_low_life] >= "1" && [ForceSellItem] == "true" // Redbeak
+[Type] == "Sabre" && [Rarity] == "Unique"            # [damage_taken_+%_from_ghosts] >= "1" && [ForceSellItem] == "true" // The Princess
+[Type] == "Twilight Blade" && [Rarity] == "Unique"   # [global_melee_range_+_per_white_socket_on_item] >= "1" && [ForceSellItem] == "true" // Prismatic Eclipse
+[Type] == "Vaal Blade" && [Rarity] == "Unique"       # [local_attack_speed_+%] >= "1" && [ForceSellItem] == "true" // Rebuke of the Vaal
+[Type] == "Vaal Blade" && [Rarity] == "Unique"       # [local_varunastra_weapon_counts_as_all_1h_melee_weapon_types] >= "1" && [ForceSellItem] == "true" // Varunastra
+[Type] == "Variscite Blade" && [Rarity] == "Unique"  # [local_hits_always_inflict_elemental_ailments] >= "1" && [ForceSellItem] == "true" // Story of the Vaal
+[Type] == "War Sword" && [Rarity] == "Unique"        # [local_always_hit] >= "1" && [ForceSellItem] == "true" // The Tempestuous Steel
+
+// Thrusting Blades
+[Type] == "Antique Rapier" && [Rarity] == "Unique"   # [attacks_num_of_additional_chains_when_in_main_hand] >= "1" && [ForceSellItem] == "true" // Ewar's Mirage
+[Type] == "Basket Rapier" && [Rarity] == "Unique"    # [base_resist_all_elements_%] >= "1" && [ForceSellItem] == "true" // Aurumvorax
+[Type] == "Elegant Foil" && [Rarity] == "Unique"     # [local_weapon_range_+] >= "1" && [ForceSellItem] == "true" // Chitus' Needle
+[Type] == "Estoc" && [Rarity] == "Unique"            # [damage_while_no_frenzy_charges_+%] >= "1" && [ForceSellItem] == "true" // Daresso's Passion
+[Type] == "Jagged Foil" && [Rarity] == "Unique"      # [herald_of_thunder_buff_effect_+%] >= "1" && [ForceSellItem] == "true" // Fidelitas' Spike
+// [Type] == "Jewelled Foil" && [Rarity] == "Unique" # [local_unique_cast_socketed_cold_skills_on_melee_critical_strike] >= "1" && [ForceSellItem] == "true" // Cospri's Malice
+// [Type] == "Vaal Rapier" && [Rarity] == "Unique"   # [local_double_damage_with_attacks] >= "1" && [ForceSellItem] == "true" // Paradoxica
+[Type] == "Whalebone Rapier" && [Rarity] == "Unique" # [local_weapon_uses_both_hands] >= "1" && [ForceSellItem] == "true" // The Goddess Bound
+
+// Two-Handed Swords
+[Type] == "Bastard Sword" && [Rarity] == "Unique"     # [base_avoid_freeze_%] >= "1" && [ForceSellItem] == "true" // Shiversting
+[Type] == "Corroded Blade" && [Rarity] == "Unique"    # [shock_X_nearby_enemies_for_2_s_on_killing_shocked_enemy] >= "1" && [ForceSellItem] == "true" // Thunder of the Dawn
+[Type] == "Etched Greatsword" && [Rarity] == "Unique" # [local_socketed_skill_gem_level_+] >= "1" && [ForceSellItem] == "true" // Edge of Madness
+[Type] == "Ezomyte Blade" && [Rarity] == "Unique"     # [local_chance_to_bleed_on_crit_50%] >= "1" && [ForceSellItem] == "true" // Kondo's Pride
+[Type] == "Highland Blade" && [Rarity] == "Unique"    # [base_movement_velocity_+%] >= "1" && [ForceSellItem] == "true" // Rigwald's Charge
+[Type] == "Infernal Sword" && [Rarity] == "Unique"    # [culling_strike_on_burning_enemies] >= "1" && [ForceSellItem] == "true" // Oro's Sacrifice
+// [Type] == "Infernal Sword" && [Rarity] == "Unique" # [physical_damage_can_shock] >= "1" && [ForceSellItem] == "true" // Starforge
+// [Type] == "Infernal Sword" && [Rarity] == "Unique" # [elemental_damage_can_shock] >= "1" && [ForceSellItem] == "true" // Voidforge
+[Type] == "Lion Sword" && [Rarity] == "Unique"        # [attack_skills_%_physical_as_extra_fire_damage_per_socketed_red_gem] >= "1" && [ForceSellItem] == "true" // Doomsower
+[Type] == "Ornate Sword" && [Rarity] == "Unique"      # [base_number_of_spectres_allowed] >= "1" && [ForceSellItem] == "true" // Queen's Decree
+[Type] == "Reaver Sword" && [Rarity] == "Unique"      # [local_display_manifest_rageblade_disables_weapons] >= "1" && [ForceSellItem] == "true" // The Dancing Dervish
+[Type] == "Reaver Sword" && [Rarity] == "Unique"      # [local_display_socketed_gems_get_blood_magic_level] >= "1" && [ForceSellItem] == "true" // Hiltless
+[Type] == "Tiger Sword" && [Rarity] == "Unique"       # [add_frenzy_charge_on_critical_strike] >= "1" && [ForceSellItem] == "true" // Terminus Est
+
+// Wands
+[Type] == "Carved Wand" && [Rarity] == "Unique"      # [max_power_charges] >= "1" && [ForceSellItem] == "true" // Storm Prison
+// [Type] == "Carved Wand" && [Rarity] == "Unique"   # [local_socketed_skill_gem_level_+1_per_x_player_levels] >= "1" && [ForceSellItem] == "true" // The Poet's Pen
+[Type] == "Crystal Wand" && [Rarity] == "Unique"     # [local_display_nearby_enemies_are_blinded] >= "1" && [ForceSellItem] == "true" // Eclipse Solaris
+[Type] == "Demon's Horn" && [Rarity] == "Unique"     # [explode_enemies_for_25%_life_as_chaos_on_kill_chance_%] >= "1" && [ForceSellItem] == "true" // Obliteration
+[Type] == "Driftwood Wand" && [Rarity] == "Unique"   # [local_socketed_spell_gem_level_+] >= "1" && [ForceSellItem] == "true" // Lifesprig
+[Type] == "Engraved Wand" && [Rarity] == "Unique"    # [local_cannot_be_used_with_chaos_innoculation] >= "1" && [ForceSellItem] == "true" // Midnight Bargain
+[Type] == "Goat's Horn" && [Rarity] == "Unique"      # [life_gained_on_killing_ignited_enemies] >= "1" && [ForceSellItem] == "true" // Abberath's Horn
+[Type] == "Imbued Wand" && [Rarity] == "Unique"      # [local_display_socketed_gems_get_blind_level] >= "1" && [ForceSellItem] == "true" // Moonsorrow
+[Type] == "Opal Wand" && [Rarity] == "Unique"        # [faster_poison_%] >= "1" && [ForceSellItem] == "true" // Apep's Rage
+// [Type] == "Prophecy Wand" && [Rarity] == "Unique" # [max_power_charges] >= "1" && [ForceSellItem] == "true" // Void Battery
+[Type] == "Quartz Wand" && [Rarity] == "Unique"      # [local_display_summon_raging_spirit_on_kill_%] >= "1" && [ForceSellItem] == "true" // Ashcaller
+[Type] == "Sage Wand" && [Rarity] == "Unique"        # [critical_strikes_deal_no_damage] >= "1" && [ForceSellItem] == "true" // Shade of Solaris
+[Type] == "Sage Wand" && [Rarity] == "Unique"        # [local_display_socketed_gems_have_number_of_additional_projectiles] >= "1" && [ForceSellItem] == "true" // Twyzel 
+[Type] == "Spiraled Wand" && [Rarity] == "Unique"    # [local_display_socketed_gems_get_echo_level] >= "1" && [ForceSellItem] == "true" // Reverberation Rod
+[Type] == "Spiraled Wand" && [Rarity] == "Unique"    # [chance_to_gain_power_charge_on_killing_frozen_enemy_%] >= "1" && [ForceSellItem] == "true" // Tulborn
+[Type] == "Tornado Wand" && [Rarity] == "Unique"     # [reduce_enemy_elemental_resistance_with_weapons_%] >= "1" && [ForceSellItem] == "true" // Piscator's Vigil
+[Type] == "Tornado Wand" && [Rarity] == "Unique"     # [critical_strike_multiplier_+_per_power_charge] >= "1" && [ForceSellItem] == "true" // Shimmeron
+
+
+//////////////////////////////////////////////
+//                                          //
+//                 F L A S K                //
+//                                          //
+//////////////////////////////////////////////
+
+// Life Flasks
+[Type] == "Sanctified Life Flask" && [Rarity] == "Unique"  # [local_unique_flask_recover_%_maximum_life_when_effect_reaches_duration] >= "1" && [ForceSellItem] == "true" // Blood of the Karui
+
+// Mana Flasks
+[Type] == "Grand Mana Flask" && [Rarity] == "Unique"       # [local_flask_life_gain_on_skill_use_%_mana_cost] >= "1" && [ForceSellItem] == "true" // Zerphi's Last Breath
+[Type] == "Greater Mana Flask" && [Rarity] == "Unique"     # [local_charges_used_+%] >= "1" && [ForceSellItem] == "true" // Doedre's Elixir
+[Type] == "Sanctified Mana Flask" && [Rarity] == "Unique"  # [local_flask_amount_to_recover_+%] >= "1" && [ForceSellItem] == "true" // Lavianga's Spirit
+
+// Hybrid Flasks
+[Type] == "Hallowed Hybrid Flask" && [Rarity] == "Unique"  # [local_number_of_bloodworms_to_spawn_on_flask_use] >= "1" && [ForceSellItem] == "true" // The Writhing Jar
+[Type] == "Large Hybrid Flask" && [Rarity] == "Unique"     # [local_unique_flask_item_quantity_+%_while_healing] >= "1" && [ForceSellItem] == "true" // Divination Distillate
+
+// Utility Flasks
+// [Type] == "Amethyst Flask" && [Rarity] == "Unique"      # [local_unique_flask_physical_damage_%_to_add_as_chaos_while_healing] >= "1" && [local_unique_flask_elemental_damage_%_to_add_as_chaos_while_healing] >= "1" && [ForceSellItem] == "true" // Atziri's Promise
+[Type] == "Bismuth Flask" && [Rarity] == "Unique"          # [local_unique_flask_elemental_penetration_%_of_highest_uncapped_resistance_type] >= "1" && [ForceSellItem] == "true" // The Wise Oak
+[Type] == "Diamond Flask" && [Rarity] == "Unique"          # [local_poison_duration_+%_during_flask_effect] >= "1" && [ForceSellItem] == "true" // Coralito's Signature 
+[Type] == "Granite Flask" && [Rarity] == "Unique"          # [local_unique_lions_roar_melee_physical_damage_+%_final_during_flask_effect] >= "1" && [ForceSellItem] == "true" // Lion's Roar
+[Type] == "Granite Flask" && [Rarity] == "Unique"          # [local_unique_flask_block_%_while_healing] >= "1" && [local_unique_flask_spell_block_%_while_healing] >= "1" && [ForceSellItem] == "true" // Rumi's Concoction 
+[Type] == "Quartz Flask" && [Rarity] == "Unique"           # [local_unique_flask_instantly_recovers_%_maximum_life] >= "1" && [ForceSellItem] == "true" // Forbidden Taste
+[Type] == "Quartz Flask" && [Rarity] == "Unique"           # [local_unique_flask_vaal_skill_damage_+%_during_flask_effect] >= "1" && [ForceSellItem] == "true" // Soul Catcher
+[Type] == "Quicksilver Flask" && [Rarity] == "Unique"      # [local_charges_used_+%] >= "1" && [local_flask_movement_speed_+%_while_healing] >= "1" && [ForceSellItem] == "true" // Rotgut
+[Type] == "Ruby Flask" && [Rarity] == "Unique"             # [local_unique_chaos_damage_does_not_bypass_energy_shield_during_flask_effect] >= "1" && [ForceSellItem] == "true" // Coruscating Elixir
+// [Type] == "Ruby Flask" && [Rarity] == "Unique"          # [local_flask_area_of_effect_+%_during_flask_effect] >= "1" && [ForceSellItem] == "true" // Dying Sun
+// [Type] == "Sapphire Flask" && [Rarity] == "Unique"      # [local_unique_flask_physical_damage_%_to_add_as_cold_while_healing] >= "1" && [ForceSellItem] == "true" // Taste of Hate
+// [Type] == "Silver Flask" && [Rarity] == "Unique"        # [local_flask_recover_%_maximum_life_on_kill_during_flask_effect] >= "1" && [ForceSellItem] == "true" // Cinderswallow Urn
+[Type] == "Silver Flask" && [Rarity] == "Unique"           # [local_unique_flask_kiaras_determination] >= "1" && [ForceSellItem] == "true" // Kiara's Determination
+// [Type] == "Stibnite Flask" && [Rarity] == "Unique"      # [local_unique_flask_damage_over_time_+%_during_flask_effect] >= "1" && [ForceSellItem] == "true" // Witchfire Brew
+[Type] == "Stibnite Flask" && [Rarity] == "Unique"         # [local_flask_unholy_might_during_flask_effect] >= "1" && [ForceSellItem] == "true" // Sin's Rebirth
+// [Type] == "Sulphur Flask" && [Rarity] == "Unique"       # [local_flask_duration_+%] >= "1" && [local_flask_during_effect_enemy_damage_taken_+%_on_consecrated_ground] >= "1" && [ForceSellItem] == "true" // Bottled Faith
+[Type] == "Sulphur Flask" && [Rarity] == "Unique"          # [local_flask_duration_+%] >= "1" && [local_unique_overflowing_chalice_flask_cannot_gain_flask_charges_during_flask_effect] >= "1" && [ForceSellItem] == "true" // The Overflowing Chalice
+[Type] == "Sulphur Flask" && [Rarity] == "Unique"          # [local_flask_duration_+%] >= "1" && [local_flask_zealots_oath] >= "1" && [ForceSellItem] == "true" // The Sorrow of the Divine
+// [Type] == "Topaz Flask" && [Rarity] == "Unique"         # [local_flask_duration_+%] >= "1" && [local_unique_flask_minimum_added_lightning_damage_to_attacks_during_flask_effect] >= "1" && [ForceSellItem] == "true" // Vessel of Vinktar Attack roll
+// [Type] == "Topaz Flask" && [Rarity] == "Unique"         # [local_flask_duration_+%] >= "1" && [local_unique_flask_minimum_added_lightning_damage_to_spells_during_flask_effect] >= "1" && [ForceSellItem] == "true" // Vessel of Vinktar Spell roll
+// [Type] == "Topaz Flask" && [Rarity] == "Unique"         # [local_flask_duration_+%] >= "1" && [local_unique_flask_physical_damage_%_converted_to_lightning_during_flask_effect] >= "1" && [ForceSellItem] == "true" // Vessel of Vinktar Phys convert 
+// [Type] == "Topaz Flask" && [Rarity] == "Unique"         # [local_flask_duration_+%] >= "1" && [local_unique_flask_lightning_resistance_penetration_%_during_flask_effect] >= "1" && [ForceSellItem] == "true" // Vessel of Vinktar Damage Penetration
