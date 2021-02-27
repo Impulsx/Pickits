@@ -83,16 +83,17 @@
 // For !IDENTIFIED! Chaos Recipe you have to uncomment all lines out here and change the GUI settings! Simply user the other IPD if you make no changes anyway!
 // UNIDENTIFIED RECIPE GUI SETTINGS - LOOK HERE: https://i.imgur.com/05KrqWi.png
 
-[Category] == "Helm" 	&& [Rarity] 	== "Rare" # [base_maximum_life] >= "999" && [TotalResistances] >= "999" && [StashItem] == "true"
-[Category] == "Chest" 	&& [Rarity] 	== "Rare" # [base_maximum_life] >= "999" && [TotalResistances] >= "999" && [StashItem] == "true"
-[Category] == "Amulet" 	&& [Rarity] 	== "Rare" # [base_maximum_life] >= "999" && [TotalResistances] >= "999" && [StashItem] == "true"
-[Category] == "Ring" 	&& [Rarity] 	== "Rare" # [base_maximum_life] >= "999" && [TotalResistances] >= "999" && [StashItem] == "true"
-[Category] == "Belt" 	&& [Rarity] 	== "Rare" # [base_maximum_life] >= "999" && [TotalResistances] >= "999" && [StashItem] == "true"
-[Category] == "Gloves" 	&& [Rarity] 	== "Rare" # [base_maximum_life] >= "999" && [TotalResistances] >= "999" && [StashItem] == "true"
-[Category] == "Boots" 	&& [Rarity] 	== "Rare" # [base_maximum_life] >= "999" && [TotalResistances] >= "999" && [base_movement_velocity_+%] >= "999" && [StashItem] == "true"
+[Category] == "Helm" && [Rarity] == "Rare"        # [base_maximum_life] >= "999" && [TotalResistances] >= "999" && [StashItem] == "true"
+// [Category] == "Chest" && [Rarity] == "Rare"    # [base_maximum_life] >= "999" && [TotalResistances] >= "999" && [StashItem] == "true"
+[Category] == "Amulet" && [Rarity] == "Rare"      # [base_maximum_life] >= "999" && [TotalResistances] >= "999" && [StashItem] == "true"
+[Category] == "Ring" && [Rarity] == "Rare"        # [base_maximum_life] >= "999" && [TotalResistances] >= "999" && [StashItem] == "true"
+[Category] == "Belt" && [Rarity] == "Rare"        # [base_maximum_life] >= "999" && [TotalResistances] >= "999" && [StashItem] == "true"
+[Category] == "Gloves" && [Rarity] == "Rare"      # [base_maximum_life] >= "999" && [TotalResistances] >= "999" && [StashItem] == "true"
+[Category] == "Boots" && [Rarity] == "Rare"       # [base_maximum_life] >= "999" && [TotalResistances] >= "999" && [base_movement_velocity_+%] >= "999" && [StashItem] == "true"
 
-[Category] == "Weapon" 	&& [Rarity] 	== "Rare" # [DPS] > "999" && [StashItem] == "true"
-[Category] == "Shield" 	&& [Rarity] 	== "Rare" # [base_maximum_life] >= "999" && [TotalResistances] >= "999" && [StashItem] == "true"
+[Category] == "1Handed" && [Rarity] == "Rare"     # [DPS] > "999" && [StashItem] == "true"
+// [Category] == "Weapon" && [Rarity] 	== "Rare" # [DPS] > "999" && [StashItem] == "true"
+// [Category] == "Shield" && [Rarity] 	== "Rare" # [base_maximum_life] >= "999" && [TotalResistances] >= "999" && [StashItem] == "true"
 
 
 /////////////////////////////////////////////////////////////////////////////////////
@@ -2181,7 +2182,6 @@
 [Type] == "Terror Maul" && [Rarity] == "Unique"   # [local_always_hit] >= "1" && [ForceSellItem] == "true" // Kongor's Undying Rage 
 
 // Staves
-[Type] == "Coiled Staff" && [Rarity] == "Unique"       # [local_display_aura_damage_+%_allies_only] >= "1" && [ForceSellItem] == "true" // Dying Breath
 [Type] == "Coiled Staff" && [Rarity] == "Unique"       # [spell_skill_gem_level_+] >= "1" && [ForceSellItem] == "true" // Xirgil's Crank
 [Type] == "Ezomyte Staff" && [Rarity] == "Unique"      # [local_display_gain_power_charge_on_spending_mana] >= "1" && [ForceSellItem] == "true" // Cane of Unravelling
 [Type] == "Ezomyte Staff" && [Rarity] == "Unique"      # [local_display_trigger_level_x_summon_phantasm_on_corpse_consume] >= "1" && [ForceSellItem] == "true" // Soulwrest
@@ -2195,12 +2195,13 @@
 [Type] == "Imperial Staff" && [Rarity] == "Unique"     # [base_maximum_lightning_damage_resistance_%] >= "1" && [ForceSellItem] == "true" // Agnerod South
 [Type] == "Imperial Staff" && [Rarity] == "Unique"     # [spell_minimum_added_lightning_damage] >= "1" && [ForceSellItem] == "true" // Agnerod West
 [Type] == "Imperial Staff" && [Rarity] == "Unique"     # [local_display_summon_harbinger_x_on_equip] == "6" && [ForceSellItem] == "true" // The Enmity Divine
+[Type] == "Iron Staff" && [Rarity] == "Unique"         # [local_display_aura_damage_+%_allies_only] >= "1" && [ForceSellItem] == "true" // Dying Breath
+[Type] == "Iron Staff" && [Rarity] == "Unique"         # [area_of_effect_+%_per_20_int] >= "1" && [ForceSellItem] == "true" // Pillar of the Caged God
 [Type] == "Iron Staff" && [Rarity] == "Unique"         # [local_display_socketed_gems_get_cold_to_fire_level] >= "1" && [ForceSellItem] == "true" // Realmshaper
 [Type] == "Judgement Staff" && [Rarity] == "Unique"    # [max_power_charges] >= "1" && [ForceSellItem] == "true" // Hegemony's Era
 [Type] == "Judgement Staff" && [Rarity] == "Unique"    # [local_display_socketed_gems_supported_by_level_x_greater_spell_echo] >= "1" && [ForceSellItem] == "true" // Pledge of Hands
 [Type] == "Judgement Staff" && [Rarity] == "Unique"    # [local_has_no_sockets] >= "1" && [ForceSellItem] == "true" // The Grey Spire
 [Type] == "Lathi" && [Rarity] == "Unique"              # [fire_spell_skill_gem_level_+] >= "1" && [ForceSellItem] == "true" // The Searing Touch
-[Type] == "Long Staff" && [Rarity] == "Unique"         # [area_of_effect_+%_per_20_int] >= "1" && [ForceSellItem] == "true" // Pillar of the Caged God
 [Type] == "Maelström Staff" && [Rarity] == "Unique"    # [keystone_battlemage] >= "1" && [ForceSellItem] == "true" // Disintegrator
 // [Type] == "Maelström Staff" && [Rarity] == "Unique" # [critical_strike_multiplier_+_per_1%_block_chance] >= "1" && [ForceSellItem] == "true" // Duskdawn
 [Type] == "Maelström Staff" && [Rarity] == "Unique"    # [frozen_monsters_take_increased_damage] >= "1" && [ForceSellItem] == "true" // Taryn's Shiver
