@@ -20,11 +20,11 @@ unidentified_chaos_recipe.ipd - For unidentified chaos recipe.. Inlcudes all rew
 
 This is included in the pickits:
 
-/////////////////////////////////////////////////////////////////////////////////////
-//                                                                                 //
-//                                  M A P S                                        //
-//                                                                                 //
-/////////////////////////////////////////////////////////////////////////////////////
+/////////////
+
+// M A P S //
+
+/////////////
 
 // Take all maps - Handling what maps to run is done in the Map.ipd
 
