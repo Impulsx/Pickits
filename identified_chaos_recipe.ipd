@@ -953,7 +953,6 @@
 [Type] == "Luck of the Vaal"             # [StashItem] == "true" //  Vaal Gauntlets corrupted
 
 
-
 //////////////////////////////////////////////
 //                                          //
 //                J E W E L S               //
@@ -972,95 +971,95 @@
 // [Type] == "Large Cluster Jewel" && [Rarity] == "Rare"  # [StashItem] == "true"
 
 // Custom Cluster for frostblades
-[Type] == "Medium Cluster Jewel" && [Rarity] == "Magic"     # [local_affliction_notable_cold_conduction] >= "1" && [StashItem] == "true" // For rolling 1 Added Passive Skill is Cold Conduction 11343 & 1 Added Passive Skill is Stormrider 11349
-[Type] == "Medium Cluster Jewel" && [Rarity] == "Rare" 	    # [local_affliction_notable_cold_conduction] >= "1" && [StashItem] == "true" // For rolling 1 Added Passive Skill is Cold Conduction 11343 & 1 Added Passive Skill is Stormrider 11349
-[Type] == "Medium Cluster Jewel" && [Rarity] == "Magic"     # [local_affliction_notable_stormrider] >= "1" && [StashItem] == "true" // For rolling 1 Added Passive Skill is Cold Conduction 11343 & 1 Added Passive Skill is Stormrider 11349
-[Type] == "Medium Cluster Jewel" && [Rarity] == "Rare" 	    # [local_affliction_notable_stormrider] >= "1" && [StashItem] == "true" // For rolling 1 Added Passive Skill is Cold Conduction 11343 & 1 Added Passive Skill is Stormrider 11349
+[Type] == "Medium Cluster Jewel" && [Rarity] == "Magic" # [local_affliction_notable_cold_conduction] >= "1" && [StashItem] == "true" // For rolling 1 Added Passive Skill is Cold Conduction 11343 & 1 Added Passive Skill is Stormrider 11349
+[Type] == "Medium Cluster Jewel" && [Rarity] == "Rare" 	# [local_affliction_notable_cold_conduction] >= "1" && [StashItem] == "true" // For rolling 1 Added Passive Skill is Cold Conduction 11343 & 1 Added Passive Skill is Stormrider 11349
+[Type] == "Medium Cluster Jewel" && [Rarity] == "Magic" # [local_affliction_notable_stormrider] >= "1" && [StashItem] == "true" // For rolling 1 Added Passive Skill is Cold Conduction 11343 & 1 Added Passive Skill is Stormrider 11349
+[Type] == "Medium Cluster Jewel" && [Rarity] == "Rare" 	# [local_affliction_notable_stormrider] >= "1" && [StashItem] == "true" // For rolling 1 Added Passive Skill is Cold Conduction 11343 & 1 Added Passive Skill is Stormrider 11349
 
 // By popularity
 // local_affliction_notable_widespread_destruction
-[Type] == "Large Cluster Jewel" && [Rarity] == "Magic"      # [local_affliction_notable_widespread_destruction] >= "1" && [StashItem] == "true" 
-[Type] == "Large Cluster Jewel" && [Rarity] == "Rare"       # [local_affliction_notable_widespread_destruction] >= "1" && [StashItem] == "true" 
+[Type] == "Large Cluster Jewel" && [Rarity] == "Magic"  # [local_affliction_notable_widespread_destruction] >= "1" && [StashItem] == "true" 
+[Type] == "Large Cluster Jewel" && [Rarity] == "Rare"   # [local_affliction_notable_widespread_destruction] >= "1" && [StashItem] == "true" 
 
 // local_affliction_notable_renewal
-[Type] == "Medium Cluster Jewel" && [Rarity] == "Magic"     # [local_affliction_notable_renewal] >= "1" && [StashItem] == "true" 
-[Type] == "Large Cluster Jewel" && [Rarity] == "Magic"      # [local_affliction_notable_renewal] >= "1" && [StashItem] == "true" 
-[Type] == "Medium Cluster Jewel" && [Rarity] == "Rare" 	    # [local_affliction_notable_renewal] >= "1" && [StashItem] == "true" 
-[Type] == "Large Cluster Jewel" && [Rarity] == "Rare" 	    # [local_affliction_notable_renewal] >= "1" && [StashItem] == "true" 
+[Type] == "Medium Cluster Jewel" && [Rarity] == "Magic" # [local_affliction_notable_renewal] >= "1" && [StashItem] == "true" 
+[Type] == "Large Cluster Jewel" && [Rarity] == "Magic"  # [local_affliction_notable_renewal] >= "1" && [StashItem] == "true" 
+[Type] == "Medium Cluster Jewel" && [Rarity] == "Rare" 	# [local_affliction_notable_renewal] >= "1" && [StashItem] == "true" 
+[Type] == "Large Cluster Jewel" && [Rarity] == "Rare" 	# [local_affliction_notable_renewal] >= "1" && [StashItem] == "true" 
 
 // local_affliction_notable_first_among_equals
-[Type] == "Medium Cluster Jewel" && [Rarity] == "Magic"     # [local_affliction_notable_replenishing_presence] >= "1" && [StashItem] == "true" 
-[Type] == "Medium Cluster Jewel"  && [Rarity] == "Rare" 	# [local_affliction_notable_replenishing_presence] >= "1" && [StashItem] == "true" 
+[Type] == "Medium Cluster Jewel" && [Rarity] == "Magic" # [local_affliction_notable_replenishing_presence] >= "1" && [StashItem] == "true" 
+[Type] == "Medium Cluster Jewel"  && [Rarity] == "Rare" # [local_affliction_notable_replenishing_presence] >= "1" && [StashItem] == "true" 
 
 // local_affliction_notable_replenishing_presence
-[Type] == "Medium Cluster Jewel" && [Rarity] == "Magic"     # [local_affliction_notable_replenishing_presence] >= "1" && [StashItem] == "true" 
-[Type] == "Medium Cluster Jewel"  && [Rarity] == "Rare" 	# [local_affliction_notable_replenishing_presence] >= "1" && [StashItem] == "true" 
+[Type] == "Medium Cluster Jewel" && [Rarity] == "Magic" # [local_affliction_notable_replenishing_presence] >= "1" && [StashItem] == "true" 
+[Type] == "Medium Cluster Jewel"  && [Rarity] == "Rare" # [local_affliction_notable_replenishing_presence] >= "1" && [StashItem] == "true" 
 
 // local_affliction_notable_prismatic_heart
-[Type] == "Small Cluster Jewel" && [Rarity] == "Magic"      # [local_affliction_notable_prismatic_heart] >= "1" && [StashItem] == "true" 
-[Type] == "Large Cluster Jewel" && [Rarity] == "Magic"      # [local_affliction_notable_prismatic_heart] >= "1" && [StashItem] == "true" 
-[Type] == "Small Cluster Jewel" && [Rarity] == "Rare" 	    # [local_affliction_notable_prismatic_heart] >= "1" && [StashItem] == "true" 
-[Type] == "Large Cluster Jewel" && [Rarity] == "Rare" 	    # [local_affliction_notable_prismatic_heart] >= "1" && [StashItem] == "true" 
+[Type] == "Small Cluster Jewel" && [Rarity] == "Magic"  # [local_affliction_notable_prismatic_heart] >= "1" && [StashItem] == "true" 
+[Type] == "Large Cluster Jewel" && [Rarity] == "Magic"  # [local_affliction_notable_prismatic_heart] >= "1" && [StashItem] == "true" 
+[Type] == "Small Cluster Jewel" && [Rarity] == "Rare" 	# [local_affliction_notable_prismatic_heart] >= "1" && [StashItem] == "true" 
+[Type] == "Large Cluster Jewel" && [Rarity] == "Rare" 	# [local_affliction_notable_prismatic_heart] >= "1" && [StashItem] == "true" 
 
 // local_affliction_notable_vengeful_commander
-[Type] == "Medium Cluster Jewel" && [Rarity] == "Magic"     # [local_affliction_notable_vengeful_commander] >= "1" && [StashItem] == "true" 
-[Type] == "Large Cluster Jewel" && [Rarity] == "Magic"      # [local_affliction_notable_vengeful_commander] >= "1" && [StashItem] == "true" 
-[Type] == "Medium Cluster Jewel" && [Rarity] == "Rare" 	    # [local_affliction_notable_vengeful_commander] >= "1" && [StashItem] == "true" 
-[Type] == "Large Cluster Jewel" && [Rarity] == "Rare" 	    # [local_affliction_notable_vengeful_commander] >= "1" && [StashItem] == "true" 
+[Type] == "Medium Cluster Jewel" && [Rarity] == "Magic" # [local_affliction_notable_vengeful_commander] >= "1" && [StashItem] == "true" 
+[Type] == "Large Cluster Jewel" && [Rarity] == "Magic"  # [local_affliction_notable_vengeful_commander] >= "1" && [StashItem] == "true" 
+[Type] == "Medium Cluster Jewel" && [Rarity] == "Rare" 	# [local_affliction_notable_vengeful_commander] >= "1" && [StashItem] == "true" 
+[Type] == "Large Cluster Jewel" && [Rarity] == "Rare" 	# [local_affliction_notable_vengeful_commander] >= "1" && [StashItem] == "true" 
 
 // local_affliction_notable_wicked_pall
-[Type] == "Medium Cluster Jewel" && [Rarity] == "Magic"     # [local_affliction_notable_wicked_pall] >= "1" && [StashItem] == "true" 
-[Type] == "Large Cluster Jewel" && [Rarity] == "Magic"      # [local_affliction_notable_wicked_pall] >= "1" && [StashItem] == "true" 
-[Type] == "Medium Cluster Jewel" && [Rarity] == "Rare" 	    # [local_affliction_notable_wicked_pall] >= "1" && [StashItem] == "true" 
-[Type] == "Large Cluster Jewel" && [Rarity] == "Rare" 	    # [local_affliction_notable_wicked_pall] >= "1" && [StashItem] == "true" 
+[Type] == "Medium Cluster Jewel" && [Rarity] == "Magic" # [local_affliction_notable_wicked_pall] >= "1" && [StashItem] == "true" 
+[Type] == "Large Cluster Jewel" && [Rarity] == "Magic"  # [local_affliction_notable_wicked_pall] >= "1" && [StashItem] == "true" 
+[Type] == "Medium Cluster Jewel" && [Rarity] == "Rare" 	# [local_affliction_notable_wicked_pall] >= "1" && [StashItem] == "true" 
+[Type] == "Large Cluster Jewel" && [Rarity] == "Rare" 	# [local_affliction_notable_wicked_pall] >= "1" && [StashItem] == "true" 
 
 // local_affliction_notable_exposure_therapy
-[Type] == "Small Cluster Jewel" && [Rarity] == "Magic"      # [local_affliction_notable_exposure_therapy] >= "1" && [StashItem] == "true" 
-[Type] == "Medium Cluster Jewel" && [Rarity] == "Magic"     # [local_affliction_notable_exposure_therapy] >= "1" && [StashItem] == "true" 
-[Type] == "Small Cluster Jewel" && [Rarity] == "Rare" 	    # [local_affliction_notable_exposure_therapy] >= "1" && [StashItem] == "true" 
-[Type] == "Medium Cluster Jewel" && [Rarity] == "Rare" 	    # [local_affliction_notable_exposure_therapy] >= "1" && [StashItem] == "true" 
+[Type] == "Small Cluster Jewel" && [Rarity] == "Magic"  # [local_affliction_notable_exposure_therapy] >= "1" && [StashItem] == "true" 
+[Type] == "Medium Cluster Jewel" && [Rarity] == "Magic" # [local_affliction_notable_exposure_therapy] >= "1" && [StashItem] == "true" 
+[Type] == "Small Cluster Jewel" && [Rarity] == "Rare" 	# [local_affliction_notable_exposure_therapy] >= "1" && [StashItem] == "true" 
+[Type] == "Medium Cluster Jewel" && [Rarity] == "Rare" 	# [local_affliction_notable_exposure_therapy] >= "1" && [StashItem] == "true" 
 
 // local_affliction_notable_rotten_claws
-[Type] == "Large Cluster Jewel" && [Rarity] == "Magic"      # [local_affliction_notable_rotten_claws] >= "1" && [StashItem] == "true" 
-[Type] == "Large Cluster Jewel" && [Rarity] == "Rare" 	    # [local_affliction_notable_rotten_claws] >= "1" && [StashItem] == "true" 
+[Type] == "Large Cluster Jewel" && [Rarity] == "Magic"  # [local_affliction_notable_rotten_claws] >= "1" && [StashItem] == "true" 
+[Type] == "Large Cluster Jewel" && [Rarity] == "Rare" 	# [local_affliction_notable_rotten_claws] >= "1" && [StashItem] == "true" 
 
 // local_affliction_notable_energy_from_naught
-[Type] == "Small Cluster Jewel" && [Rarity] == "Magic"      # [local_affliction_notable_energy_from_naught] >= "1" && [StashItem] == "true" 
-[Type] == "Small Cluster Jewel" && [Rarity] == "Rare" 	    # [local_affliction_notable_energy_from_naught] >= "1" && [StashItem] == "true" 
+[Type] == "Small Cluster Jewel" && [Rarity] == "Magic"  # [local_affliction_notable_energy_from_naught] >= "1" && [StashItem] == "true" 
+[Type] == "Small Cluster Jewel" && [Rarity] == "Rare" 	# [local_affliction_notable_energy_from_naught] >= "1" && [StashItem] == "true" 
 
 // local_affliction_notable_unholy_grace
-[Type] == "Large Cluster Jewel" && [Rarity] == "Magic"      # [local_affliction_notable_unholy_grace] >= "1" && [StashItem] == "true" 
-[Type] == "Large Cluster Jewel" && [Rarity] == "Rare" 	    # [local_affliction_notable_unholy_grace] >= "1" && [StashItem] == "true" 
+[Type] == "Large Cluster Jewel" && [Rarity] == "Magic"  # [local_affliction_notable_unholy_grace] >= "1" && [StashItem] == "true" 
+[Type] == "Large Cluster Jewel" && [Rarity] == "Rare" 	# [local_affliction_notable_unholy_grace] >= "1" && [StashItem] == "true" 
 
 // local_affliction_notable_disorienting_display
-[Type] == "Large Cluster Jewel" && [Rarity] == "Magic"      # [local_affliction_notable_disorienting_display] >= "1" && [StashItem] == "true" 
-[Type] == "Large Cluster Jewel" && [Rarity] == "Rare" 	    # [local_affliction_notable_disorienting_display] >= "1" && [StashItem] == "true" 
+[Type] == "Large Cluster Jewel" && [Rarity] == "Magic"  # [local_affliction_notable_disorienting_display] >= "1" && [StashItem] == "true" 
+[Type] == "Large Cluster Jewel" && [Rarity] == "Rare" 	# [local_affliction_notable_disorienting_display] >= "1" && [StashItem] == "true" 
 
 // local_affliction_notable_feasting_fiends
-[Type] == "Medium Cluster Jewel" && [Rarity] == "Magic"     # [local_affliction_notable_feasting_fiends] >= "1" && [StashItem] == "true" 
-[Type] == "Large Cluster Jewel" && [Rarity] == "Magic"      # [local_affliction_notable_feasting_fiends] >= "1" && [StashItem] == "true" 
-[Type] == "Medium Cluster Jewel" && [Rarity] == "Rare" 	    # [local_affliction_notable_feasting_fiends] >= "1" && [StashItem] == "true" 
-[Type] == "Large Cluster Jewel" && [Rarity] == "Rare" 	    # [local_affliction_notable_feasting_fiends] >= "1" && [StashItem] == "true" 
+[Type] == "Medium Cluster Jewel" && [Rarity] == "Magic" # [local_affliction_notable_feasting_fiends] >= "1" && [StashItem] == "true" 
+[Type] == "Large Cluster Jewel" && [Rarity] == "Magic"  # [local_affliction_notable_feasting_fiends] >= "1" && [StashItem] == "true" 
+[Type] == "Medium Cluster Jewel" && [Rarity] == "Rare" 	# [local_affliction_notable_feasting_fiends] >= "1" && [StashItem] == "true" 
+[Type] == "Large Cluster Jewel" && [Rarity] == "Rare" 	# [local_affliction_notable_feasting_fiends] >= "1" && [StashItem] == "true" 
 
 // local_affliction_notable_doryanis_lesson
-[Type] == "Large Cluster Jewel" && [Rarity] == "Magic"      # [local_affliction_notable_doryanis_lesson] >= "1" && [StashItem] == "true" 
-[Type] == "Large Cluster Jewel" && [Rarity] == "Rare" 	    # [local_affliction_notable_doryanis_lesson] >= "1" && [StashItem] == "true" 
+[Type] == "Large Cluster Jewel" && [Rarity] == "Magic"  # [local_affliction_notable_doryanis_lesson] >= "1" && [StashItem] == "true" 
+[Type] == "Large Cluster Jewel" && [Rarity] == "Rare" 	# [local_affliction_notable_doryanis_lesson] >= "1" && [StashItem] == "true" 
 
 // local_affliction_notable_vicious_bite
-[Type] == "Large Cluster Jewel" && [Rarity] == "Magic"      # [local_affliction_notable_vicious_bite] >= "1" && [StashItem] == "true" 
-[Type] == "Large Cluster Jewel" && [Rarity] == "Rare" 	    # [local_affliction_notable_vicious_bite] >= "1" && [StashItem] == "true" 
+[Type] == "Large Cluster Jewel" && [Rarity] == "Magic"  # [local_affliction_notable_vicious_bite] >= "1" && [StashItem] == "true" 
+[Type] == "Large Cluster Jewel" && [Rarity] == "Rare" 	# [local_affliction_notable_vicious_bite] >= "1" && [StashItem] == "true" 
 
 // local_affliction_notable_spiked_concoction
-[Type] == "Medium Cluster Jewel" && [Rarity] == "Magic"     # [local_affliction_notable_spiked_concoction] >= "1" && [StashItem] == "true" 
-[Type] == "Medium Cluster Jewel" && [Rarity] == "Rare" 	    # [local_affliction_notable_spiked_concoction] >= "1" && [StashItem] == "true" 
+[Type] == "Medium Cluster Jewel" && [Rarity] == "Magic" # [local_affliction_notable_spiked_concoction] >= "1" && [StashItem] == "true" 
+[Type] == "Medium Cluster Jewel" && [Rarity] == "Rare" 	# [local_affliction_notable_spiked_concoction] >= "1" && [StashItem] == "true" 
 
 // local_affliction_notable_brush_with_death
-[Type] == "Small Cluster Jewel" && [Rarity] == "Magic"      # [local_affliction_notable_brush_with_death] >= "1" && [StashItem] == "true" 
-[Type] == "Medium Cluster Jewel" && [Rarity] == "Magic"     # [local_affliction_notable_brush_with_death] >= "1" && [StashItem] == "true" 
-[Type] == "Large Cluster Jewel" && [Rarity] == "Magic"      # [local_affliction_notable_brush_with_death] >= "1" && [StashItem] == "true" 
-[Type] == "Small Cluster Jewel" && [Rarity] == "Rare" 	    # [local_affliction_notable_brush_with_death] >= "1" && [StashItem] == "true" 
-[Type] == "Medium Cluster Jewel" && [Rarity] == "Rare" 	    # [local_affliction_notable_brush_with_death] >= "1" && [StashItem] == "true" 
-[Type] == "Large Cluster Jewel" && [Rarity] == "Rare" 	    # [local_affliction_notable_brush_with_death] >= "1" && [StashItem] == "true" 
+[Type] == "Small Cluster Jewel" && [Rarity] == "Magic"  # [local_affliction_notable_brush_with_death] >= "1" && [StashItem] == "true" 
+[Type] == "Medium Cluster Jewel" && [Rarity] == "Magic" # [local_affliction_notable_brush_with_death] >= "1" && [StashItem] == "true" 
+[Type] == "Large Cluster Jewel" && [Rarity] == "Magic"  # [local_affliction_notable_brush_with_death] >= "1" && [StashItem] == "true" 
+[Type] == "Small Cluster Jewel" && [Rarity] == "Rare" 	# [local_affliction_notable_brush_with_death] >= "1" && [StashItem] == "true" 
+[Type] == "Medium Cluster Jewel" && [Rarity] == "Rare" 	# [local_affliction_notable_brush_with_death] >= "1" && [StashItem] == "true" 
+[Type] == "Large Cluster Jewel" && [Rarity] == "Rare" 	# [local_affliction_notable_brush_with_death] >= "1" && [StashItem] == "true" 
 
 
 // Unique Prismatic Jewels are worth keeping
@@ -1085,13 +1084,14 @@
 [Type] == "Cobalt Jewel" && [Rarity] == "Unique"        # [mana_regeneration_rate_+%] >= "20" && [ForceSellItem] == "true" // Clear Mind
 [Type] == "Cobalt Jewel" && [Rarity] == "Unique"        # [minion_elemental_resistance_%] >= "7" && [ForceSellItem] == "true" // Dead Reckoning
 [Type] == "Cobalt Jewel" && [Rarity] == "Unique"        # [local_unique_jewel_chaos_damage_+%_per_10_int_in_radius] >= "1" && [ForceSellItem] == "true" // Eldritch Knowledge
-// [Type] == "Cobalt Jewel" && [Rarity] == "Unique"     # [maximum_energy_shield_+%] >= "8" && [ForceSellItem] == "true" // Energy From Within
+// [Type] == "Cobalt Jewel" && [Rarity] == "Unique"     # [local_unique_jewel_life_increases_applies_to_energy_shield] >= "1" && [ForceSellItem] == "true" // Energy From Within
 [Type] == "Cobalt Jewel" && [Rarity] == "Unique"        # [local_jewel_nearby_passives_dex_to_int] >= "1" && [ForceSellItem] == "true" // Fertile Mind 
 [Type] == "Cobalt Jewel" && [Rarity] == "Unique"        # [minion_maximum_life_+%] >= "5" && [ForceSellItem] == "true" // Fortified Legion
+// [Type] == "Cobalt Jewel" && [Rarity] == "Unique"     # [local_unique_jewel_notable_passives_in_radius_instead_grant_minion_damage_taken_+%] >= "1" && [ForceSellItem] == "true" // Fortress Covenant
 [Type] == "Cobalt Jewel" && [Rarity] == "Unique"        # [maximum_mana_+%] >= "15" && [ForceSellItem] == "true" // Healthy Mind
 [Type] == "Cobalt Jewel" && [Rarity] == "Unique"        # [chance_to_gain_unholy_might_on_melee_kill_%] >= "5" && [ForceSellItem] == "true" // Malicious Intent
 [Type] == "Cobalt Jewel" && [Rarity] == "Unique"        # [fire_damage_+%] >= "5" && [ForceSellItem] == "true" // Rolling Flames
-[Type] == "Cobalt Jewel" && [Rarity] == "Unique"        # [local_unique_jewel_spectres_gain_soul_eater_on_kill_%_chance_with_50_int_in_radius] >= "1" && [ForceSellItem] == "true" // Unending Hunger
+// [Type] == "Cobalt Jewel" && [Rarity] == "Unique"     # [local_unique_jewel_spectres_gain_soul_eater_on_kill_%_chance_with_50_int_in_radius] >= "1" && [ForceSellItem] == "true" // Unending Hunger
 [Type] == "Cobalt Jewel" && [Rarity] == "Unique"        # [cold_damage_+%] >= "5" && [ForceSellItem] == "true" // Winter's Bounty
 
 
@@ -1104,7 +1104,7 @@
 [Type] == "Crimson Jewel" && [Rarity] == "Unique"       # [local_unique_jewel_damage_increases_applies_to_fire_damage] >= "1" && [ForceSellItem] == "true" // Fireborn
 [Type] == "Crimson Jewel" && [Rarity] == "Unique"       # [life_regeneration_rate_+%] >= "1" && [ForceSellItem] == "true" // Fragile Bloom
 [Type] == "Crimson Jewel" && [Rarity] == "Unique"       # [local_jewel_nearby_passives_dex_to_str] >= "1" && [ForceSellItem] == "true" // Inertia
-// [Type] == "Crimson Jewel" && [Rarity] == "Unique"    # [local_unique_jewel_with_4_notables_gain_X_random_rare_monster_mods_on_kill] >= "5" && [ForceSellItem] == "true" // Inspired Learning
+// [Type] == "Crimson Jewel" && [Rarity] == "Unique"    # [local_unique_jewel_with_4_notables_gain_X_random_rare_monster_mods_on_kill] >= "1" && [ForceSellItem] == "true" // Inspired Learning
 [Type] == "Crimson Jewel" && [Rarity] == "Unique"       # [fire_damage_+%] >= "18" && [ForceSellItem] == "true" // Izaro's Turmoil
 [Type] == "Crimson Jewel" && [Rarity] == "Unique"       # [minimum_added_fire_damage_per_active_buff] >= "1" && [ForceSellItem] == "true" // Mantra of Flames
 [Type] == "Crimson Jewel" && [Rarity] == "Unique"       # [melee_range_+_while_unarmed] >= "1" && [ForceSellItem] == "true" // Martial Artistry
@@ -1115,6 +1115,7 @@
 [Type] == "Crimson Jewel" && [Rarity] == "Unique"       # [local_unique_jewel_glacial_hammer_item_rarity_on_shattering_enemy_+%_with_50_strength_in_radius] >= "20" && [ForceSellItem] == "true" // Shattered Chains
 [Type] == "Crimson Jewel" && [Rarity] == "Unique"       # [local_unique_jewel_totem_life_+X%_per_10_str_in_radius] >= "3" && [ForceSellItem] == "true" // Spire of Stone
 [Type] == "Crimson Jewel" && [Rarity] == "Unique"       # [local_unique_jewel_vigilant_strike_fortifies_nearby_allies_for_x_seconds_with_50_str_in_radius] >= "3" && [ForceSellItem] == "true" // The Vigil
+// [Type] == "Crimson Jewel" && [Rarity] == "Unique"    # [local_unique_jewel_nearby_disconnected_passives_can_be_allocated] >= "1" && [ForceSellItem] == "true" // Thread of Hope
 [Type] == "Crimson Jewel" && [Rarity] == "Unique"       # [local_unique_jewel_heavy_strike_chance_to_deal_double_damage_%_with_50_strength_in_radius] >= "10" && [ForceSellItem] == "true" // Weight of the Empire
 
 
