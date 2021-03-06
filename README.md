@@ -27,5 +27,7 @@ This is included in the pickits:
 /////////////////////////////////////////////////////////////////////////////////////
 
 // Take all maps - Handling what maps to run is done in the Map.ipd
+
 [Category] == "Map" && [MapTier] >= "1"         # [StashItem] == "true" // Take all Maps & Ignore all Contract/Blueprints/Incubators
+
 // [Category] == "Map"                          # [StashItem] == "true" // Take all Maps/Contract/Blueprints/Incubators
