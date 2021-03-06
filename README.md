@@ -16,9 +16,9 @@ unidentified_chaos_recipe.ipd - For unidentified chaos recipe.. Inlcudes all rew
 
 //////
 
-# Map pick it section
+# Map pickit section
 
-This is included in the pickits
+This is included in the pickits:
 
 /////////////////////////////////////////////////////////////////////////////////////
 //                                                                                 //
