@@ -146,7 +146,7 @@
 [Type] == "Fire Arrow Quiver" && [Rarity] == "Unique"           # [ForceSellItem] == "true" // Blackgleam / The Signal Fire
 // [Type] == "Ornate Quiver" && [Rarity] == "Unique"            # [chance_to_trigger_socketed_bow_skill_on_bow_attack_%] == "100" && [ForceSellItem] == "true" // Maloney's Mechanism
 // [Type] == "Penetrating Arrow Quiver" && [Rarity] == "Unique" # [ForceSellItem] == "true" // Drillneck / Voidfletcher
-[Type] == "Penetrating Arrow Quiver" && [Rarity] == "Unique"    # [arrow_damage_+50%_vs_pierced_targets] >= "1" && [ForceSellItem] == "true" // Drillneck 
+[Type] == "Penetrating Arrow Quiver" && [Rarity] == "Unique"    # [arrow_damage_+%_vs_pierced_targets] >= "1" && [ForceSellItem] == "true" // Drillneck 
 // [Type] == "Penetrating Arrow Quiver" && [Rarity] == "Unique" # [maximum_void_arrows] >= "1" && [ForceSellItem] == "true" // Voidfletcher
 [Type] == "Serrated Arrow Quiver" && [Rarity] == "Unique"       # [ForceSellItem] == "true" // Cragfall / Craghead
 [Type] == "Sharktooth Arrow Quiver" && [Rarity] == "Unique"     # [ForceSellItem] == "true" // Hyrri's Bite / Hyrri's Demise
@@ -446,8 +446,8 @@
 [Type] == "Siege Helmet" && [Rarity] == "Unique"        # [armour_increased_by_uncapped_fire_resistance] >= "1" && [ForceSellItem] == "true" // The Formless Flame
 
 // Evasion Helmets
-// [Type] == "Leather Cap" && [Rarity] == "Unique"     # [ForceSellItem] == "true" // Goldrim
-[Type] == "Leather Cap" && [Rarity] == "Unique"        # [resist_all_elements_%] < "40" && [ForceSellItem] == "true" // Perfect Res Goldrim 
+// [Type] == "Leather Cap" && [Rarity] == "Unique"     # [base_resist_all_elements_%] >= "1" && [ForceSellItem] == "true" // Goldrim
+[Type] == "Leather Cap" && [Rarity] == "Unique"        # [base_resist_all_elements_%] < "40" && [ForceSellItem] == "true" // Perfect Res Goldrim 
 [Type] == "Leather Hood" && [Rarity] == "Unique"       # [cold_damage_+%_if_you_have_used_a_fire_skill_recently] >= "1" && [ForceSellItem] == "true" // Heatshiver 
 [Type] == "Lion Pelt" && [Rarity] == "Unique"          # [projectile_attack_damage_+%_per_200_accuracy] >= "1" && [ForceSellItem] == "true" // Obscurantis
 // [Type] == "Silken Hood" && [Rarity] == "Unique"     # [ForceSellItem] == "true" // Starkonja's Head / Saqawal's Flock / Cowl of the Cryophile
@@ -790,7 +790,6 @@
 [Type] == "Terror Maul" && [Rarity] == "Unique"   # [local_always_hit] >= "1" && [ForceSellItem] == "true" // Kongor's Undying Rage 
 
 // Staves
-[Type] == "Coiled Staff" && [Rarity] == "Unique"       # [local_display_aura_damage_+%_allies_only] >= "1" && [ForceSellItem] == "true" // Dying Breath
 [Type] == "Coiled Staff" && [Rarity] == "Unique"       # [spell_skill_gem_level_+] >= "1" && [ForceSellItem] == "true" // Xirgil's Crank
 [Type] == "Ezomyte Staff" && [Rarity] == "Unique"      # [local_display_gain_power_charge_on_spending_mana] >= "1" && [ForceSellItem] == "true" // Cane of Unravelling
 [Type] == "Ezomyte Staff" && [Rarity] == "Unique"      # [local_display_trigger_level_x_summon_phantasm_on_corpse_consume] >= "1" && [ForceSellItem] == "true" // Soulwrest
@@ -804,12 +803,13 @@
 [Type] == "Imperial Staff" && [Rarity] == "Unique"     # [base_maximum_lightning_damage_resistance_%] >= "1" && [ForceSellItem] == "true" // Agnerod South
 [Type] == "Imperial Staff" && [Rarity] == "Unique"     # [spell_minimum_added_lightning_damage] >= "1" && [ForceSellItem] == "true" // Agnerod West
 [Type] == "Imperial Staff" && [Rarity] == "Unique"     # [local_display_summon_harbinger_x_on_equip] == "6" && [ForceSellItem] == "true" // The Enmity Divine
+[Type] == "Iron Staff" && [Rarity] == "Unique"         # [local_display_aura_damage_+%_allies_only] >= "1" && [ForceSellItem] == "true" // Dying Breath
+[Type] == "Iron Staff" && [Rarity] == "Unique"         # [area_of_effect_+%_per_20_int] >= "1" && [ForceSellItem] == "true" // Pillar of the Caged God
 [Type] == "Iron Staff" && [Rarity] == "Unique"         # [local_display_socketed_gems_get_cold_to_fire_level] >= "1" && [ForceSellItem] == "true" // Realmshaper
 [Type] == "Judgement Staff" && [Rarity] == "Unique"    # [max_power_charges] >= "1" && [ForceSellItem] == "true" // Hegemony's Era
 [Type] == "Judgement Staff" && [Rarity] == "Unique"    # [local_display_socketed_gems_supported_by_level_x_greater_spell_echo] >= "1" && [ForceSellItem] == "true" // Pledge of Hands
 [Type] == "Judgement Staff" && [Rarity] == "Unique"    # [local_has_no_sockets] >= "1" && [ForceSellItem] == "true" // The Grey Spire
 [Type] == "Lathi" && [Rarity] == "Unique"              # [fire_spell_skill_gem_level_+] >= "1" && [ForceSellItem] == "true" // The Searing Touch
-[Type] == "Long Staff" && [Rarity] == "Unique"         # [area_of_effect_+%_per_20_int] >= "1" && [ForceSellItem] == "true" // Pillar of the Caged God
 [Type] == "Maelström Staff" && [Rarity] == "Unique"    # [keystone_battlemage] >= "1" && [ForceSellItem] == "true" // Disintegrator
 // [Type] == "Maelström Staff" && [Rarity] == "Unique" # [critical_strike_multiplier_+_per_1%_block_chance] >= "1" && [ForceSellItem] == "true" // Duskdawn
 [Type] == "Maelström Staff" && [Rarity] == "Unique"    # [frozen_monsters_take_increased_damage] >= "1" && [ForceSellItem] == "true" // Taryn's Shiver
