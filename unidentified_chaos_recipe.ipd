@@ -1148,7 +1148,6 @@
 /////////////////////////////////////////////////////////////////////////////////////
 
 // Take all maps - Handling what maps to run is done in the Map.ipd
-
 [Category] == "Map" && [MapTier] >= "1"         # [StashItem] == "true" // Take all Maps & Ignore all Contract/Blueprints/Incubators
 // [Category] == "Map"                          # [StashItem] == "true" // Take all Maps/Contract/Blueprints/Incubators
 
@@ -1539,7 +1538,7 @@
 [Type] == "Fire Arrow Quiver" && [Rarity] == "Unique"           # [ForceSellItem] == "true" // Blackgleam / The Signal Fire
 // [Type] == "Ornate Quiver" && [Rarity] == "Unique"            # [chance_to_trigger_socketed_bow_skill_on_bow_attack_%] == "100" && [ForceSellItem] == "true" // Maloney's Mechanism
 // [Type] == "Penetrating Arrow Quiver" && [Rarity] == "Unique" # [ForceSellItem] == "true" // Drillneck / Voidfletcher
-[Type] == "Penetrating Arrow Quiver" && [Rarity] == "Unique"    # [arrow_damage_+50%_vs_pierced_targets] >= "1" && [ForceSellItem] == "true" // Drillneck 
+[Type] == "Penetrating Arrow Quiver" && [Rarity] == "Unique"    # [arrow_damage_+%_vs_pierced_targets] >= "1" && [ForceSellItem] == "true" // Drillneck 
 // [Type] == "Penetrating Arrow Quiver" && [Rarity] == "Unique" # [maximum_void_arrows] >= "1" && [ForceSellItem] == "true" // Voidfletcher
 [Type] == "Serrated Arrow Quiver" && [Rarity] == "Unique"       # [ForceSellItem] == "true" // Cragfall / Craghead
 [Type] == "Sharktooth Arrow Quiver" && [Rarity] == "Unique"     # [ForceSellItem] == "true" // Hyrri's Bite / Hyrri's Demise
@@ -1839,8 +1838,8 @@
 [Type] == "Siege Helmet" && [Rarity] == "Unique"        # [armour_increased_by_uncapped_fire_resistance] >= "1" && [ForceSellItem] == "true" // The Formless Flame
 
 // Evasion Helmets
-// [Type] == "Leather Cap" && [Rarity] == "Unique"     # [ForceSellItem] == "true" // Goldrim
-[Type] == "Leather Cap" && [Rarity] == "Unique"        # [resist_all_elements_%] < "40" && [ForceSellItem] == "true" // Perfect Res Goldrim 
+// [Type] == "Leather Cap" && [Rarity] == "Unique"     # [base_resist_all_elements_%] >= "1" && [ForceSellItem] == "true" // Goldrim
+[Type] == "Leather Cap" && [Rarity] == "Unique"        # [base_resist_all_elements_%] < "40" && [ForceSellItem] == "true" // Perfect Res Goldrim 
 [Type] == "Leather Hood" && [Rarity] == "Unique"       # [cold_damage_+%_if_you_have_used_a_fire_skill_recently] >= "1" && [ForceSellItem] == "true" // Heatshiver 
 [Type] == "Lion Pelt" && [Rarity] == "Unique"          # [projectile_attack_damage_+%_per_200_accuracy] >= "1" && [ForceSellItem] == "true" // Obscurantis
 // [Type] == "Silken Hood" && [Rarity] == "Unique"     # [ForceSellItem] == "true" // Starkonja's Head / Saqawal's Flock / Cowl of the Cryophile
