@@ -8,7 +8,7 @@ Div card rework - Reworked/updated div cards section; Doesn't pick up all, now i
 
 Unique Item rework - Reworked/updated Uniques section, includes keeping some perfect rolls. Keeps uniques worth +10c or protential profit
 
-Veiled Section - Veiled items farm unid & id
+Veiled Section - Veiled items farm unid & id // Causes you to pick up all rares to check for veiled mod tho.
 
 identified_chaos_recipe.ipd - For identified chaos recipe.. Inlcudes all reworks
 
