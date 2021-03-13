@@ -197,6 +197,11 @@
 
 [Type] == "Rogue's Marker"                  # [StashItem] == "true"
 
+[Type] == "Tailoring Orb"                   # [StashItem] == "true"
+[Type] == "Tempering Orb"                   # [StashItem] == "true"
+[Type] == "Prime Regrading Lens"            # [StashItem] == "true"
+[Type] == "Secondary Regrading Lens"        # [StashItem] == "true"
+
 // [Category] == "Contract"				    # [ForceSellItem] == "true"
 // [Category] == "Blueprint"				# [ForceSellItem] == "true"
 
