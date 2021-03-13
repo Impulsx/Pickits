@@ -1148,7 +1148,6 @@
 /////////////////////////////////////////////////////////////////////////////////////
 
 // Take all maps - Handling what maps to run is done in the Map.ipd
-
 [Category] == "Map" && [MapTier] >= "1"         # [StashItem] == "true" // Take all Maps & Ignore all Contract/Blueprints/Incubators
 // [Category] == "Map"                          # [StashItem] == "true" // Take all Maps/Contract/Blueprints/Incubators
 
@@ -1157,22 +1156,46 @@
 // [Category] == "Map" && [Rarity] == "Rare" 	# [StashItem] == "true" // Take all rare maps
 // [Category] == "Map" && [Rarity] == "Unique" 	# [StashItem] == "true" // Take all unique maps
 
+////////// Fragment sets
 
 // Sacrifice Set
+[Type] == "Sacrifice at Dawn"        # [StashItem] == "true"
+[Type] == "Sacrifice at Noon"        # [StashItem] == "true"
+[Type] == "Sacrifice at Dusk"        # [StashItem] == "true"
+[Type] == "Sacrifice at Midnight"    # [StashItem] == "true"
 
-[Type] == "Sacrifice at Dawn" 		# [StashItem] == "true"
-[Type] == "Sacrifice at Noon" 		# [StashItem] == "true"
-[Type] == "Sacrifice at Dusk" 		# [StashItem] == "true"
-[Type] == "Sacrifice at Midnight" 	# [StashItem] == "true"
+// Mortal Set
+[Type] == "Mortal Grief"             # [StashItem] == "true"
+[Type] == "Mortal Rage"              # [StashItem] == "true"
+[Type] == "Mortal Ignorance"         # [StashItem] == "true"
+[Type] == "Mortal Hope"              # [StashItem] == "true"
 
-[Type] == "Mortal Grief" 			# [StashItem] == "true"
-[Type] == "Mortal Rage" 			# [StashItem] == "true"
-[Type] == "Mortal Ignorance" 		# [StashItem] == "true"
-[Type] == "Mortal Hope" 			# [StashItem] == "true"
+// Pale Court Set
+[Type] == "Volkuur's Key"            # [StashItem] == "true"
+[Type] == "Inya's Key"               # [StashItem] == "true"
+[Type] == "Yriel's Key"              # [StashItem] == "true"
+[Type] == "Eber's Key"               # [StashItem] == "true"
+
+// Key to the Crucible [Shaper]
+[Type] == "Fragment of the Hydra"    # [StashItem] == "true"
+[Type] == "Fragment of the Chimera"  # [StashItem] == "true"
+[Type] == "Fragment of the Minotaur" # [StashItem] == "true"
+[Type] == "Fragment of the Phoenix"  # [StashItem] == "true"
+
+// Key to Decay [Elder]
+[Type] == "Fragment of Purification" # [StashItem] == "true"
+[Type] == "Fragment of Constriction" # [StashItem] == "true"
+[Type] == "Fragment of Eradication"  # [StashItem] == "true"
+[Type] == "Fragment of Enslavement"  # [StashItem] == "true"
+
+// Maddening Object [Uber Elder]
+[Type] == "Fragment of Knowledge"    # [StashItem] == "true"
+[Type] == "Fragment of Shape"        # [StashItem] == "true"
+[Type] == "Fragment of Emptiness"    # [StashItem] == "true"
+[Type] == "Fragment of Terror"       # [StashItem] == "true"
 
 // Other
-
-[Type] == "Divine Vessel" 			# [StashItem] == "true"
+[Type] == "Divine Vessel"            # [StashItem] == "true"
 
 
 
