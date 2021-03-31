@@ -114,7 +114,6 @@
 
 [Type] == "Blacksmith's Whetstone" # [StashItem] == "true"
 [Type] == "Armourer's Scrap"       # [StashItem] == "true"
-[Type] == "Armourer's Scrap"       # [StashItem] == "true"
 [Type] == "Glassblower's Bauble"   # [StashItem] == "true"
 
 [Type] == "Blessed Orb"        # [StashItem] == "true"
