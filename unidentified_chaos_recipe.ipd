@@ -163,6 +163,7 @@
 [Type] == "Redeemer's Exalted Orb" # [StashItem] == "true"
 [Type] == "Warlord's Exalted Orb"  # [StashItem] == "true"
 
+
 ////////// Delirium Currency
 
 [Type] == "Abyssal Delirium Orb" 		# [StashItem] == "true"
@@ -279,6 +280,7 @@
 [Type] == "Primal Scrabbler Grain" 			# [StashItem] == "true"
 
 ////////// Blight Currency
+
 [Type] == "Golden Oil" 		# [StashItem] == "true"
 [Type] == "Silver Oil" 		# [StashItem] == "true"
 [Type] == "Opalescent Oil" 	# [StashItem] == "true"
@@ -367,22 +369,22 @@
 
 ////////// Veiled Rares farm
 // Any
-// [Rarity] == "Rare"                            # [veiled_mod_type] >= "1" && [StashUnid] == "true" // Keep all rare veiled items
-// [Rarity] == "Unique"                          # [veiled_mod_type] >= "1" && [StashUnid] == "true" // Keep all unique veiled items
+// [Rarity] == "Rare"                            # [veiled_mod_type] >= "1" && [StashItem] == "true" // Keep all rare veiled items
+// [Rarity] == "Unique"                          # [veiled_mod_type] >= "1" && [StashItem] == "true" // Keep all unique veiled items
 
 // By item class
-// [Category] == "Helm" && [Rarity] == "Rare"    # [veiled_mod_type] >= "1" && [StashUnid] == "true"
-// [Category] == "Chest" && [Rarity] == "Rare"   # [veiled_mod_type] >= "1" && [StashUnid] == "true"
-// [Category] == "Amulet" && [Rarity] == "Rare"  # [veiled_mod_type] >= "1" && [StashUnid] == "true"
-// [Category] == "Ring" && [Rarity] == "Rare"    # [veiled_mod_type] >= "1" && [StashUnid] == "true"
-// [Category] == "Belt" && [Rarity] == "Rare"    # [veiled_mod_type] >= "1" && [StashUnid] == "true"
-// [Category] == "Gloves" && [Rarity] == "Rare"  # [veiled_mod_type] >= "1" && [StashUnid] == "true"
-// [Category] == "Boots" && [Rarity] == "Rare"   # [veiled_mod_type] >= "1" && [StashUnid] == "true"
+// [Category] == "Helm" && [Rarity] == "Rare"    # [veiled_mod_type] >= "1" && [StashItem] == "true"
+// [Category] == "Chest" && [Rarity] == "Rare"   # [veiled_mod_type] >= "1" && [StashItem] == "true"
+// [Category] == "Amulet" && [Rarity] == "Rare"  # [veiled_mod_type] >= "1" && [StashItem] == "true"
+// [Category] == "Ring" && [Rarity] == "Rare"    # [veiled_mod_type] >= "1" && [StashItem] == "true"
+// [Category] == "Belt" && [Rarity] == "Rare"    # [veiled_mod_type] >= "1" && [StashItem] == "true"
+// [Category] == "Gloves" && [Rarity] == "Rare"  # [veiled_mod_type] >= "1" && [StashItem] == "true"
+// [Category] == "Boots" && [Rarity] == "Rare"   # [veiled_mod_type] >= "1" && [StashItem] == "true"
 
-// [Category] == "Weapon" && [Rarity] == "Rare"  # [veiled_mod_type] >= "1" && [StashUnid] == "true"
-// [Category] == "1Handed" && [Rarity] == "Rare" # [veiled_mod_type] >= "1" && [StashUnid] == "true"
-// [Category] == "2Handed" && [Rarity] == "Rare" # [veiled_mod_type] >= "1" && [StashUnid] == "true"
-// [Category] == "Shield" && [Rarity] == "Rare"  # [veiled_mod_type] >= "1" && [StashUnid] == "true"
+// [Category] == "Weapon" && [Rarity] == "Rare"  # [veiled_mod_type] >= "1" && [StashItem] == "true"
+// [Category] == "1Handed" && [Rarity] == "Rare" # [veiled_mod_type] >= "1" && [StashItem] == "true"
+// [Category] == "2Handed" && [Rarity] == "Rare" # [veiled_mod_type] >= "1" && [StashItem] == "true"
+// [Category] == "Shield" && [Rarity] == "Rare"  # [veiled_mod_type] >= "1" && [StashItem] == "true"
 
 
 ////////// Bestiary Currency
@@ -398,6 +400,13 @@
 [Type] == "Searching Eye Jewel" 	&& [Rarity] == "Rare" # [StashItem] == "true"
 [Type] == "Hypnotic Eye Jewel" 		&& [Rarity] == "Rare" # [StashItem] == "true"
 [Type] == "Ghastly Eye Jewel" 		&& [Rarity] == "Rare" # [StashItem] == "true"
+
+// Abyss Unique
+[Type] == "Stygian Vise" 			&& [Rarity] == "Unique" # [StashItem] == "true"
+[Type] == "Murderous Eye Jewel" 	&& [Rarity] == "Unique" # [StashItem] == "true" // Tecrod's Gaze
+[Type] == "Searching Eye Jewel" 	&& [Rarity] == "Unique" # [StashItem] == "true" // Ulaman's Gaze
+[Type] == "Hypnotic Eye Jewel" 		&& [Rarity] == "Unique" # [StashItem] == "true" // Kurgal's Gaze
+[Type] == "Ghastly Eye Jewel" 		&& [Rarity] == "Unique" # [StashItem] == "true" // Amanamu's Gaze Ghastly Eye Jewel
 
 
 ////////// Breach Currency
@@ -963,7 +972,6 @@
 [Type] == "Luck of the Vaal"             # [StashItem] == "true" //  Vaal Gauntlets corrupted
 
 
-
 //////////////////////////////////////////////
 //                                          //
 //                J E W E L S               //
@@ -1264,8 +1272,8 @@
 //                                          //
 //////////////////////////////////////////////
 
-// [Type] == "Opal Ring" 	&& [ItemLevel] >= "79" # [StashItem] == "true" // Found in Maze, Plaza, Scriptorium, Colosseum
-// [Type] == "Steel Ring" 	&& [ItemLevel] >= "79" # [StashItem] == "true" // Found in Abyss, Lair, Mineral Pools, Volcano
+[Type] == "Opal Ring" 	&& [ItemLevel] >= "79" # [StashItem] == "true" // Found in Maze, Plaza, Scriptorium, Colosseum
+[Type] == "Steel Ring" 	&& [ItemLevel] >= "79" # [StashItem] == "true" // Found in Abyss, Lair, Mineral Pools, Volcano
 
 
 
@@ -1556,7 +1564,7 @@
 // [Type] == "Topaz Ring" && [Rarity] == "Unique"     # [ForceSellItem] == "true" // Astral Projector / Circle of Regret / Kikazaru / Precursor's Emblem / Putembo's Meadow/Mountain/Valley / Storm Secret / Valako's Sign
 // [Type] == "Two-Stone Ring" && [Rarity] == "Unique" # [ForceSellItem] == "true" // Berek's Grip / Berek's Pass / Berek's Respite / Call of the Brotherhood / Precursor's Emblem / Rigwald's Crest
 // [Type] == "Two-Stone Ring" && [Rarity] == "Unique" # [spell_chance_to_shock_frozen_enemies_%] >= "1" && [ForceSellItem] == "true" // Call of the Brotherhood
-// [Type] == "Unset Ring" && [Rarity] == "Unique"     # [ForceSellItem] == "true" // Angler's Plait / Brinerot Mark / Essence Worm / Malachai's Artifice / Mark of Submission / Mutewind Seal / Profane Proxy / Redblade Band / Redblade Band / Rotblood Promise / The Hungry Loop / The Pariah / Vivinsect / Voideye
+// [Type] == "Unset Ring" && [Rarity] == "Unique"     # [ForceSellItem] == "true" // Angler's Plait / Brinerot Mark / Essence Worm / Malachai's Artifice / Mark of Submission / Mutewind Seal / Profane Proxy / Redblade Band / Redblade Band / Rotblood Promise / The Hungry Loop / The Pariah / Triumvirate Authority *NEW / Vivinsect / Voideye
 
 
 //////////////////////////////////////////////
@@ -1970,6 +1978,7 @@
 [Type] == "Regicide Mask" && [Rarity] == "Unique"   # [damage_reflected_to_enemies_%_gained_as_life] >= "1" && [ForceSellItem] == "true" // Crown of the Pale King
 [Type] == "Regicide Mask" && [Rarity] == "Unique"   # [local_display_grant_level_x_petrification_statue] >= "1" && [ForceSellItem] == "true" // Gorgon's Gaze
 [Type] == "Vaal Mask" && [Rarity] == "Unique"       # [elemental_damage_+%_per_10_dexterity] >= "1" && [ForceSellItem] == "true" // Fractal Thoughts
+// [Type] == "Vaal Mask" && [Rarity] == "Unique"       # [local_item_allow_modification_while_corrupted] >= "1" && [ForceSellItem] == "true" // Glimpse of Chaos *NEW
 // [Type] == "Vaal Mask" && [Rarity] == "Unique"    # [cannot_have_mana_leeched_from] >= "1" && [ForceSellItem] == "true" // The Vertex
 
 //////////////////////////////////////////////
@@ -2005,6 +2014,7 @@
 [Type] == "Ancient Spirit Shield" && [Rarity] == "Unique"     # [additional_maximum_all_resistances_%_while_poisoned] >= "1" && [ForceSellItem] == "true"// Apep's Slumber
 [Type] == "Brass Spirit Shield" && [Rarity] == "Unique"       # [curse_on_spell_block_level_15_elemental_weakness] >= "1" && [ForceSellItem] == "true" // Sentari's Answer
 [Type] == "Chiming Spirit Shield" && [Rarity] == "Unique"     # [lose_all_endurance_charges_when_reaching_maximum] >= "1" && [ForceSellItem] == "true" // The Eternal Apple
+// [Type] == "Chiming Spirit Shield" && [Rarity] == "Unique"     # [unaffected_by_ignite_and_shock_while_max_life_mana_within_500] >= "1" && [ForceSellItem] == "true" // The Scales of Justice *NEW
 [Type] == "Fossilised Spirit Shield" && [Rarity] == "Unique"  # [on_cast_lose_all_mana_gain_%_as_maximum_lightning_damage_for_4_seconds] >= "1" && [ForceSellItem] == "true" // Manastorm
 [Type] == "Harmonic Spirit Shield" && [Rarity] == "Unique"    # [lose_all_power_charges_on_reaching_maximum_power_charges] >= "1" && [ForceSellItem] == "true" // Malachai's Loop
 [Type] == "Ivory Spirit Shield" && [Rarity] == "Unique"       # [local_display_trigger_level_x_smoke_cloud_on_trap_triggered] >= "1" && [ForceSellItem] == "true" // Kongming's Strategem
@@ -2040,6 +2050,7 @@
 [Type] == "Mosaic Kite Shield" && [Rarity] == "Unique"      # [avoid_ignite_%_when_on_low_life] >= "1" && [ForceSellItem] == "true" // Rise of the Phoenix 
 [Type] == "Plank Kite Shield" && [Rarity] == "Unique"       # [life_regeneration_rate_per_minute_%] >= "1" && [ForceSellItem] == "true" // Springleaf
 [Type] == "Steel Kite Shield" && [Rarity] == "Unique"       # [keystone_glancing_blows] >= "1" && [ForceSellItem] == "true" // Emperor's Vigilance
+// [Type] == "Steel Kite Shield" && [Rarity] == "Unique"       # [keystone_corrupted_defences] >= "1" && [ForceSellItem] == "true" // Mahuxotl's Machination *NEW
 
 // Evasion & Energy Shield Shields
 [Type] == "Burnished Spiked Shield" && [Rarity] == "Unique"   # [always_ignite_while_burning] >= "1" && [ForceSellItem] == "true" // Glitterdisc
@@ -2233,6 +2244,7 @@
 [Type] == "Iron Staff" && [Rarity] == "Unique"         # [local_display_aura_damage_+%_allies_only] >= "1" && [ForceSellItem] == "true" // Dying Breath
 [Type] == "Iron Staff" && [Rarity] == "Unique"         # [area_of_effect_+%_per_20_int] >= "1" && [ForceSellItem] == "true" // Pillar of the Caged God
 [Type] == "Iron Staff" && [Rarity] == "Unique"         # [local_display_socketed_gems_get_cold_to_fire_level] >= "1" && [ForceSellItem] == "true" // Realmshaper
+// [Type] == "Judgement Staff" && [Rarity] == "Unique"    # [local_display_grants_level_X_queens_demand_skill] >= "1" && [ForceSellItem] == "true" // Atziri's Rule *NEW
 [Type] == "Judgement Staff" && [Rarity] == "Unique"    # [max_power_charges] >= "1" && [ForceSellItem] == "true" // Hegemony's Era
 [Type] == "Judgement Staff" && [Rarity] == "Unique"    # [local_display_socketed_gems_supported_by_level_x_greater_spell_echo] >= "1" && [ForceSellItem] == "true" // Pledge of Hands
 [Type] == "Judgement Staff" && [Rarity] == "Unique"    # [local_has_no_sockets] >= "1" && [ForceSellItem] == "true" // The Grey Spire
@@ -2243,6 +2255,7 @@
 [Type] == "Military Staff" && [Rarity] == "Unique"     # [mine_extra_uses] >= "1" && [ForceSellItem] == "true" // Tremor Rod
 [Type] == "Primordial Staff" && [Rarity] == "Unique"   # [additional_attack_block_%_per_summoned_skeleton] >= "1" && [ForceSellItem] == "true" // Femurs of the Saints
 [Type] == "Royal Staff" && [Rarity] == "Unique"        # [avoid_shock_%_while_chilled] >= "1" && [ForceSellItem] == "true" // The Stormheart
+// [Type] == "Serpentine Staff" && [Rarity] == "Unique"   # [unveiled_mod_effect_+%] >= "1" && [ForceSellItem] == "true" // Cane of Kulemak *NEW
 [Type] == "Serpentine Staff" && [Rarity] == "Unique"   # [local_display_socketed_gems_projectiles_nova] >= "1" && [ForceSellItem] == "true" // Sire of Shards
 [Type] == "Vile Staff" && [Rarity] == "Unique"         # [local_display_grants_skill_icestorm_level] >= "1" && [ForceSellItem] == "true" // The Whispering Ice 
 
@@ -2359,6 +2372,7 @@
 // [Type] == "Topaz Flask" && [Rarity] == "Unique"         # [local_flask_duration_+%] >= "1" && [local_unique_flask_minimum_added_lightning_damage_to_spells_during_flask_effect] >= "1" && [ForceSellItem] == "true" // Vessel of Vinktar Spell roll
 // [Type] == "Topaz Flask" && [Rarity] == "Unique"         # [local_flask_duration_+%] >= "1" && [local_unique_flask_physical_damage_%_converted_to_lightning_during_flask_effect] >= "1" && [ForceSellItem] == "true" // Vessel of Vinktar Phys convert 
 // [Type] == "Topaz Flask" && [Rarity] == "Unique"         # [local_flask_duration_+%] >= "1" && [local_unique_flask_lightning_resistance_penetration_%_during_flask_effect] >= "1" && [ForceSellItem] == "true" // Vessel of Vinktar Damage Penetration
+
 
 
 /////////////////////////////////////////////////////////////////////////////////////
@@ -2647,7 +2661,86 @@
 // [Type] == "Sorrow Mask"                                                 # [StashItem] == "true"
 
 
+/////////////////////////////////////////////////////////////////////////////////////
+//                                                                                 //
+//                              U L T I M A T U M                                  //
+//                                                                                 //
+/////////////////////////////////////////////////////////////////////////////////////
 
+// Currency
+[Type] == "Veiled Chaos Orb" # [StashItem] == "true"
+
+// Div cards
+[Type] == "A Modest Request" # [StashItem] == "true"         // Megalomaniac
+[Type] == "Broken Promises" # [StashItem] == "true"          // Diamond Ring ilvl87 Two-Implicit Synthesised
+[Type] == "Brush, Paint and Palette" # [StashItem] == "true" // The Artist
+[Type] == "Deadly Joy" # [StashItem] == "true"               // Torrent's Reclamation Two-Implicit Corrupted
+[Type] == "Luminous Trove" # [StashItem] == "true"           // Voices
+[Type] == "Prejudice" # [StashItem] == "true"                // Influenced Item
+[Type] == "Sambodhi's Wisdom" # [StashItem] == "true"        // A Master Seeks Help (Jun)
+[Type] == "The Adventuring Spirit" # [StashItem] == "true"   // Victario's Influence
+[Type] == "The Card Sharp" # [StashItem] == "true"           // Divination Scarab
+[Type] == "The Enthusiasts" # [StashItem] == "true"          // Victario's Influence Two-Implicit Corrupted
+[Type] == "The Eternal War" # [StashItem] == "true"          // Timeless Jewel Two-Implicit Corrupted
+[Type] == "The Hook" # [StashItem] == "true"                 // Watchstone
+[Type] == "The Shortcut" # [StashItem] == "true"             // Quicksilver Flask of Adrenaline ilvl100
+[Type] == "Winter's Embrace" # [StashItem] == "true"         // Circle of Fear Three-Implicit Synthesised
+
+// Catalyst
+[Type] == "Accelerating Catalyst" # [StashItem] == "true"
+[Type] == "Noxious Catalyst"      # [StashItem] == "true"
+[Type] == "Unstable Catalyst"     # [StashItem] == "true"
+
+// Incubators
+[Type] == "Blighted Incubator"  # [StashItem] == "true"
+[Type] == "Maddening Incubator" # [StashItem] == "true"
+[Type] == "Morphing Incubator"  # [StashItem] == "true"
+
+// Scarab
+[Type] == "Gilded Abyss Scarab"    # [StashItem] == "true"
+[Type] == "Gilded Blight Scarab"   # [StashItem] == "true"
+[Type] == "Polished Abyss Scarab"  # [StashItem] == "true"
+[Type] == "Polished Blight Scarab" # [StashItem] == "true"
+[Type] == "Rusted Abyss Scarab"    # [StashItem] == "true"
+[Type] == "Rusted Blight Scarab"   # [StashItem] == "true"
+[Type] == "Winged Abyss Scarab"    # [StashItem] == "true"
+[Type] == "Winged Blight Scarab"   # [StashItem] == "true"
+
+// Oil
+[Type] == "Tainted Oil" # [StashItem] == "true"
+
+// Map/Fragment
+[Type] == "Chronicle of Atzoatl" # [StashItem] == "true" // Portal: The Temple of Atzoatl
+[Type] == "Inscribed Ultimatum"  # [StashItem] == "true" // Portal: The Utzaal Arena
+[Type] == "Vaal Reliquary Key"   # [StashItem] == "true" // Portal: Vaal Reliquary
+
+// Uniques
+[Type] == "Unknown gloves" && [Rarity] == "Unique" # [StashItem] == "true" // Hateforge
+[Type] == "Unknown boots" && [Rarity] == "Unique"  # [StashItem] == "true" // Temptation Step
+
+[Type] == "Unknown wand" && [Rarity] == "Unique"   # [StashItem] == "true" // Yaomac's Accord
+[Type] == "Unknown dagger" && [Rarity] == "Unique" # [StashItem] == "true" // Relic of the Pact
+[Type] == "Unknown quiver" && [Rarity] == "Unique" # [StashItem] == "true" // Steelworm
+
+////// Rares
+//// Armor
+// Body
+// STR/DEX/Int
+[Type] == "Grasping Mail"       # [StashItem] == "true"
+// Boots
+[Type] == "Blessed Boots"       # [StashItem] == "true"
+
+// Gloves
+[Type] == "Apothecary's Gloves" # [StashItem] == "true"
+
+//Quiver
+[Type] == "Artillery Quiver"    # [StashItem] == "true"
+
+// Ring
+[Type] == "Iolite Ring"         # [StashItem] == "true" // increased Chaos Damage
+
+// Amulet
+[Type] == "Seaglass Amulet"     # [StashItem] == "true" // faster start of Energy Shield Recharge
 
 /////////////////////////////////////////////////////////////////////////////////////
 //                                                                                 //
