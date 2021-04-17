@@ -2717,11 +2717,11 @@
 
 // Uniques
 [Type] == "Unknown gloves" && [Rarity] == "Unique" # [StashItem] == "true" // Hateforge
-[Type] == "Unknown boots" && [Rarity] == "Unique"  # [StashItem] == "true" // Temptation Step
+[Type] == "Shagreen Boots" && [Rarity] == "Unique"  # [travel_skills_poison_reflected_to_self_up_to_5_poisons] >= "1" [StashItem] == "true" // Temptation Step
 
 [Type] == "Unknown wand" && [Rarity] == "Unique"   # [StashItem] == "true" // Yaomac's Accord
-[Type] == "Unknown dagger" && [Rarity] == "Unique" # [StashItem] == "true" // Relic of the Pact
-[Type] == "Unknown quiver" && [Rarity] == "Unique" # [StashItem] == "true" // Steelworm
+[Type] == "Spiraled Wand" && [Rarity] == "Unique" # [local_display_grants_skill_blood_sacrament_level] >= "1" && [ForceSellItem] == "true" // Relic of the Pact
+[Type] == "Broadhead Arrow Quiver" && [Rarity] == "Unique" # [local_display_grants_skill_call_of_steel] >= "1" && [StashItem] == "true" // Steelworm
 
 ////// Rares
 //// Armor
