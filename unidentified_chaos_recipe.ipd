@@ -2715,10 +2715,10 @@
 [Type] == "Vaal Reliquary Key"   # [StashItem] == "true" // Portal: Vaal Reliquary
 
 // Uniques
-[Type] == "Unknown gloves" && [Rarity] == "Unique" # [StashItem] == "true" // Hateforge
-[Type] == "Shagreen Boots" && [Rarity] == "Unique"  # [travel_skills_poison_reflected_to_self_up_to_5_poisons] >= "1" [StashItem] == "true" // Temptation Step
+[Type] == "Ancient Gauntlets" && [Rarity] == "Unique" # [vaal_attack_rage_cost_instead_of_souls_per_use] >= "1" && [StashItem] == "true" // Hateforge
+[Type] == "Shagreen Boots" && [Rarity] == "Unique"  # [travel_skills_poison_reflected_to_self_up_to_5_poisons] >= "1" && [StashItem] == "true" // Temptation Step
 
-[Type] == "Unknown wand" && [Rarity] == "Unique"   # [StashItem] == "true" // Yaomac's Accord
+[Type] == "Vaal Sceptre" && [Rarity] == "Unique"   # [gain_frenzy_power_endurance_charges_on_vaal_skill_use] >= "1" && [StashItem] == "true" // Yaomac's Accord
 [Type] == "Spiraled Wand" && [Rarity] == "Unique" # [local_display_grants_skill_blood_sacrament_level] >= "1" && [ForceSellItem] == "true" // Relic of the Pact
 [Type] == "Broadhead Arrow Quiver" && [Rarity] == "Unique" # [local_display_grants_skill_call_of_steel] >= "1" && [StashItem] == "true" // Steelworm
 
