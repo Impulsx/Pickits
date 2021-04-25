@@ -1,6 +1,7 @@
-# Pickits
+# Pickits :shipit:
 
-//////
+_____________
+:godmode:
 
 Cluster&Jewels [WIP] - Reworking/updating jewels section, adding cluster jewel notables that are popular/profit
 
@@ -14,19 +15,21 @@ identified_chaos_recipe.ipd - For identified chaos recipe.. Inlcudes all reworks
 
 unidentified_chaos_recipe.ipd - For unidentified chaos recipe.. Inlcudes all reworks
 
-//////
+:finnadie:
+_____________
 
-# Modslist
-//////
+## Modslist :trollface:
+_____________
 
 Modslist is an updated list of mods available updated 3.13 patch which nearly doubled our current modlist in lines available. Old mods list had ~7.5k lines current has ~14k
 
-//////
+_____________
 
-# Map pickit section
+## Map pickit section
 
 This is included in the pickits:
-
+:godmode:
+_____________
 ///////////////
 
 // M A P S //
@@ -38,3 +41,4 @@ This is included in the pickits:
 [Category] == "Map" && [MapTier] >= "1"         # [StashItem] == "true" // Take all Maps & Ignore all Contract/Blueprints/Incubators
 
 // [Category] == "Map"                          # [StashItem] == "true" // Take all Maps/Contract/Blueprints/Incubators
+:finnadie:
