@@ -203,9 +203,6 @@
 [Type] == "Prime Regrading Lens"            # [StashItem] == "true"
 [Type] == "Secondary Regrading Lens"        # [StashItem] == "true"
 
-// [Category] == "Contract"				    # [ForceSellItem] == "true"
-// [Category] == "Blueprint"				# [ForceSellItem] == "true"
-
 [Type] == "Contract: Bunker" 			    # [ForceSellItem] == "true"
 [Type] == "Contract: Laboratory" 		    # [ForceSellItem] == "true"
 [Type] == "Contract: Prohibited Library"    # [ForceSellItem] == "true"
