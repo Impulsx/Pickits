@@ -743,7 +743,7 @@
 // [Type] == "The Army of Blood"         # [StashItem] == "true" //  Bloodbond
 [Type] == "The Artist"                   # [StashItem] == "true" //  Level 4 Enhance Corrupted
 [Type] == "The Astromancer"              # [StashItem] == "true" //  The Eternity Shroud Two-Implicit Corrupted
-[Type] == "The Avenger"                  # [StashItem] == "true" //  Mjölner Corrupted
+[Type] == "The Avenger"                  # [StashItem] == "true" //  MjÃ¶lner Corrupted
 [Type] == "The Awakened"                 # [StashItem] == "true" //  Jewellery Item Level: 86 Double-Influenced Item
 [Type] == "The Bargain"                  # [StashItem] == "true" //  Pure Breachstone
 // [Type] == "The Battle Born"           # [StashItem] == "true" //  Axe
@@ -1238,7 +1238,7 @@
 
 // [Type] == "Onyx Amulet"              # [ChanceItem] == "true" && [Rarity] == "Normal" // Astramentis preferably
 // [Type] == "Slaughter Knife"          # [ChanceItem] == "true" && [Rarity] == "Normal" // Bino's
-// [Type] == "Sharkskin Booots"         # [ChanceItem] == "true" && [Rarity] == "Normal" // Blood Dance (Vaal Roll +1 Frenzy)
+// [Type] == "Sharkskin Boots"         # [ChanceItem] == "true" && [Rarity] == "Normal" // Blood Dance (Vaal Roll +1 Frenzy)
 // [Type] == "Varnished Coat"           # [ChanceItem] == "true" && [Rarity] == "Normal" // Carcass Jack
 // [Type] == "Penetrating Arrow Quiver" # [ChanceItem] == "true" && [Rarity] == "Normal" // Drillneck
 // [Type] == "Deicide Mask"             # [ChanceItem] == "true" && [Rarity] == "Normal" // Heretic's Veil
@@ -2246,9 +2246,9 @@
 [Type] == "Judgement Staff" && [Rarity] == "Unique"    # [local_display_socketed_gems_supported_by_level_x_greater_spell_echo] >= "1" && [ForceSellItem] == "true" // Pledge of Hands
 [Type] == "Judgement Staff" && [Rarity] == "Unique"    # [local_has_no_sockets] >= "1" && [ForceSellItem] == "true" // The Grey Spire
 [Type] == "Lathi" && [Rarity] == "Unique"              # [fire_spell_skill_gem_level_+] >= "1" && [ForceSellItem] == "true" // The Searing Touch
-[Type] == "Maelström Staff" && [Rarity] == "Unique"    # [keystone_battlemage] >= "1" && [ForceSellItem] == "true" // Disintegrator
-// [Type] == "Maelström Staff" && [Rarity] == "Unique" # [critical_strike_multiplier_+_per_1%_block_chance] >= "1" && [ForceSellItem] == "true" // Duskdawn
-[Type] == "Maelström Staff" && [Rarity] == "Unique"    # [frozen_monsters_take_increased_damage] >= "1" && [ForceSellItem] == "true" // Taryn's Shiver
+[Type] == "MaelstrÃ¶m Staff" && [Rarity] == "Unique"    # [keystone_battlemage] >= "1" && [ForceSellItem] == "true" // Disintegrator
+// [Type] == "MaelstrÃ¶m Staff" && [Rarity] == "Unique" # [critical_strike_multiplier_+_per_1%_block_chance] >= "1" && [ForceSellItem] == "true" // Duskdawn
+[Type] == "MaelstrÃ¶m Staff" && [Rarity] == "Unique"    # [frozen_monsters_take_increased_damage] >= "1" && [ForceSellItem] == "true" // Taryn's Shiver
 [Type] == "Military Staff" && [Rarity] == "Unique"     # [mine_extra_uses] >= "1" && [ForceSellItem] == "true" // Tremor Rod
 [Type] == "Primordial Staff" && [Rarity] == "Unique"   # [additional_attack_block_%_per_summoned_skeleton] >= "1" && [ForceSellItem] == "true" // Femurs of the Saints
 [Type] == "Royal Staff" && [Rarity] == "Unique"        # [avoid_shock_%_while_chilled] >= "1" && [ForceSellItem] == "true" // The Stormheart
