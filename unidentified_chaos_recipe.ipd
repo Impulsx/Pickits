@@ -743,7 +743,7 @@
 // [Type] == "The Army of Blood"         # [StashItem] == "true" //  Bloodbond
 [Type] == "The Artist"                   # [StashItem] == "true" //  Level 4 Enhance Corrupted
 [Type] == "The Astromancer"              # [StashItem] == "true" //  The Eternity Shroud Two-Implicit Corrupted
-[Type] == "The Avenger"                  # [StashItem] == "true" //  MjÃ¶lner Corrupted
+[Type] == "The Avenger"                  # [StashItem] == "true" //  Mjölner Corrupted
 [Type] == "The Awakened"                 # [StashItem] == "true" //  Jewellery Item Level: 86 Double-Influenced Item
 [Type] == "The Bargain"                  # [StashItem] == "true" //  Pure Breachstone
 // [Type] == "The Battle Born"           # [StashItem] == "true" //  Axe
@@ -1084,77 +1084,101 @@
 // Unique Primordial & The Anima Stone
 // Primordial Jewels
 [Type] == "Prismatic Jewel" && [Rarity] == "Unique"     # [number_of_golems_allowed_with_3_primordial_jewels] >= "1" && [StashItem] == "true" // The Anima Stone
-[Type] == "Crimson Jewel" && [Rarity] == "Unique" 	    # [golems_larger_aggro_radius] >= "1" && [StashItem] == "true" // Primordial Might
-[Type] == "Cobalt Jewel" && [Rarity] == "Unique" 	    # [golem_cooldown_recovery_+%] >= "1" && [StashItem] == "true" // Primordial Harmony
-[Type] == "Viridian Jewel" && [Rarity] == "Unique" 	    # [golem_attack_and_cast_speed_+%] >= "1" && [StashItem] == "true" // Primordial Eminence
+[Type] == "Crimson Jewel" && [Rarity] == "Unique" 	    # [golems_larger_aggro_radius] >= "1" && [StashItem] == "true"                        // Primordial Might
+[Type] == "Cobalt Jewel" && [Rarity] == "Unique" 	    # [golem_cooldown_recovery_+%] >= "1" && [StashItem] == "true"                        // Primordial Harmony
+[Type] == "Viridian Jewel" && [Rarity] == "Unique" 	    # [golem_attack_and_cast_speed_+%] >= "1" && [StashItem] == "true"                    // Primordial Eminence
 
 // Unique Timeless Jewels are worth keeping
 [Type] == "Timeless Jewel" && [Rarity] == "Unique"      # [StashItem] == "true"
 
 // Cobalt Jewels
-[Type] == "Cobalt Jewel" && [Rarity] == "Unique"        # [StashItem] == "true" // Pick all unique Cobalt Jewels
+[Type] == "Cobalt Jewel" && [Rarity] == "Unique"    # [StashItem] == "true" // Pick all unique Cobalt Jewels
 
-[Type] == "Cobalt Jewel" && [Rarity] == "Unique"        # [maximum_life_+%] >= "6" && [ForceSellItem] == "true" // Anatomical Knowledge
-[Type] == "Cobalt Jewel" && [Rarity] == "Unique"        # [minion_damage_+%] >= "8" && [ForceSellItem] == "true" // Army of Bones
-[Type] == "Cobalt Jewel" && [Rarity] == "Unique"        # [local_jewel_nearby_passives_str_to_int] >= "1" && [ForceSellItem] == "true" // Brute Force Solution 
-[Type] == "Cobalt Jewel" && [Rarity] == "Unique"        # [mana_regeneration_rate_+%] >= "20" && [ForceSellItem] == "true" // Clear Mind
-[Type] == "Cobalt Jewel" && [Rarity] == "Unique"        # [minion_elemental_resistance_%] >= "7" && [ForceSellItem] == "true" // Dead Reckoning
-[Type] == "Cobalt Jewel" && [Rarity] == "Unique"        # [local_unique_jewel_chaos_damage_+%_per_10_int_in_radius] >= "1" && [ForceSellItem] == "true" // Eldritch Knowledge
-// [Type] == "Cobalt Jewel" && [Rarity] == "Unique"     # [local_unique_jewel_life_increases_applies_to_energy_shield] >= "1" && [ForceSellItem] == "true" // Energy From Within
-[Type] == "Cobalt Jewel" && [Rarity] == "Unique"        # [local_jewel_nearby_passives_dex_to_int] >= "1" && [ForceSellItem] == "true" // Fertile Mind 
-[Type] == "Cobalt Jewel" && [Rarity] == "Unique"        # [minion_maximum_life_+%] >= "5" && [ForceSellItem] == "true" // Fortified Legion
-// [Type] == "Cobalt Jewel" && [Rarity] == "Unique"     # [local_unique_jewel_notable_passives_in_radius_instead_grant_minion_damage_taken_+%] >= "1" && [ForceSellItem] == "true" // Fortress Covenant
-[Type] == "Cobalt Jewel" && [Rarity] == "Unique"        # [maximum_mana_+%] >= "15" && [ForceSellItem] == "true" // Healthy Mind
-[Type] == "Cobalt Jewel" && [Rarity] == "Unique"        # [chance_to_gain_unholy_might_on_melee_kill_%] >= "5" && [ForceSellItem] == "true" // Malicious Intent
-[Type] == "Cobalt Jewel" && [Rarity] == "Unique"        # [fire_damage_+%] >= "5" && [ForceSellItem] == "true" // Rolling Flames
-// [Type] == "Cobalt Jewel" && [Rarity] == "Unique"     # [local_unique_jewel_spectres_gain_soul_eater_on_kill_%_chance_with_50_int_in_radius] >= "1" && [ForceSellItem] == "true" // Unending Hunger
-[Type] == "Cobalt Jewel" && [Rarity] == "Unique"        # [cold_damage_+%] >= "5" && [ForceSellItem] == "true" // Winter's Bounty
-
+[Type] == "Cobalt Jewel" && [Rarity] == "Unique"    # [maximum_life_+%] >= "6" && [ForceSellItem] == "true"                                                                             // Anatomical Knowledge
+[Type] == "Cobalt Jewel" && [Rarity] == "Unique"    # [minion_damage_+%] >= "8" && [ForceSellItem] == "true"                                                                            // Army of Bones
+[Type] == "Cobalt Jewel" && [Rarity] == "Unique"    # [local_jewel_nearby_passives_str_to_int] >= "1" && [ForceSellItem] == "true"                                                      // Brute Force Solution 
+[Type] == "Cobalt Jewel" && [Rarity] == "Unique"    # [mana_regeneration_rate_+%] >= "20" && [ForceSellItem] == "true"                                                                  // Clear Mind
+[Type] == "Cobalt Jewel" && [Rarity] == "Unique"    # [elemental_hit_damage_+%] >= "1" && [ForceSellItem] == "true"                                                                     // Combat Focus
+[Type] == "Cobalt Jewel" && [Rarity] == "Unique"    # [minion_elemental_resistance_%] >= "7" && [ForceSellItem] == "true"                                                               // Dead Reckoning
+[Type] == "Cobalt Jewel" && [Rarity] == "Unique"    # [local_unique_jewel_chaos_damage_+%_per_10_int_in_radius] >= "1" && [ForceSellItem] == "true"                                     // Eldritch Knowledge
+// [Type] == "Cobalt Jewel" && [Rarity] == "Unique" # [local_unique_jewel_life_increases_applies_to_energy_shield] >= "1" && [ForceSellItem] == "true"                                  // Energy From Within
+[Type] == "Cobalt Jewel" && [Rarity] == "Unique"    # [local_jewel_nearby_passives_dex_to_int] >= "1" && [ForceSellItem] == "true"                                                      // Fertile Mind 
+[Type] == "Cobalt Jewel" && [Rarity] == "Unique"    # [local_unique_jewel_freezing_pulsedamage+%_if_enemy_shattered_recently_with_50_int_in_radius] >= "1" && [ForceSellItem] == "true" // First Snow
+[Type] == "Cobalt Jewel" && [Rarity] == "Unique"    # [minion_maximum_life_+%] >= "5" && [ForceSellItem] == "true"                                                                      // Fortified Legion
+// [Type] == "Cobalt Jewel" && [Rarity] == "Unique" # [local_unique_jewel_notable_passives_in_radius_instead_grant_minion_damage_taken_+%] >= "1" && [ForceSellItem] == "true"          // Fortress Covenant
+[Type] == "Cobalt Jewel" && [Rarity] == "Unique"    # [summon_skeletons_num_additional_warrior_skeletons] >= "1" && [ForceSellItem] == "true"                                           // From Dust
+[Type] == "Cobalt Jewel" && [Rarity] == "Unique"    # [local_unique_jewel_frostbolt_projectile_acceleration_with_50_int_in_radius] >= "1" && [ForceSellItem] == "true"                  // Frozen Trail
+[Type] == "Cobalt Jewel" && [Rarity] == "Unique"    # [X_mana_per_stackable_unique_jewel] >= "29" && [ForceSellItem] == "true"                                                          // Grand Spectrum
+[Type] == "Cobalt Jewel" && [Rarity] == "Unique"    # [local_unique_jewel_spark_number_of_additional_projectiles_with_40_int_in_radius] >= "1" && [ForceSellItem] == "true"             // Hazardous Research
+[Type] == "Cobalt Jewel" && [Rarity] == "Unique"    # [maximum_mana_+%] >= "15" && [ForceSellItem] == "true"                                                                            // Healthy Mind
+[Type] == "Cobalt Jewel" && [Rarity] == "Unique"    # [chance_to_gain_unholy_might_on_melee_kill_%] >= "5" && [ForceSellItem] == "true"                                                 // Malicious Intent
+[Type] == "Cobalt Jewel" && [Rarity] == "Unique"    # [additional_chance_to_take_critical_strike_%] >= "1" && [ForceSellItem] == "true"                                                 // Reckless Defence
+[Type] == "Cobalt Jewel" && [Rarity] == "Unique"    # [fire_damage_+%] >= "5" && [ForceSellItem] == "true"                                                                              // Rolling Flames
+[Type] == "Cobalt Jewel" && [Rarity] == "Unique"    # [local_unique_jewel_blight_hinder_enemy_chaos_damagetaken+%_with_40_int_in_radius] >= "1" && [ForceSellItem] == "true"            // Spreading Rot
+// [Type] == "Cobalt Jewel" && [Rarity] == "Unique" # [local_unique_jewel_spectres_gain_soul_eater_on_kill_%_chance_with_50_int_in_radius] >= "1" && [ForceSellItem] == "true"          // Unending Hunger
+[Type] == "Cobalt Jewel" && [Rarity] == "Unique"    # [cold_damage_+%] >= "5" && [ForceSellItem] == "true"                                                                              // Winter's Bounty
 
 // Crimson Jewels
 [Type] == "Crimson Jewel" && [Rarity] == "Unique"       # [StashItem] == "true" // Pick all unique Crimson Jewels
 
-[Type] == "Crimson Jewel" && [Rarity] == "Unique"       # [dexterity_+%] >= "4" && [ForceSellItem] == "true" // Brawn
-[Type] == "Crimson Jewel" && [Rarity] == "Unique"       # [local_jewel_nearby_passives_int_to_str] >= "1" && [ForceSellItem] == "true" // Efficient Training
-[Type] == "Crimson Jewel" && [Rarity] == "Unique"       # [local_unique_jewel_energy_shield_increases_applies_to_armour_doubled] >= "1" && [ForceSellItem] == "true" // Energised Armour
-[Type] == "Crimson Jewel" && [Rarity] == "Unique"       # [local_unique_jewel_damage_increases_applies_to_fire_damage] >= "1" && [ForceSellItem] == "true" // Fireborn
-[Type] == "Crimson Jewel" && [Rarity] == "Unique"       # [life_regeneration_rate_+%] >= "1" && [ForceSellItem] == "true" // Fragile Bloom
-[Type] == "Crimson Jewel" && [Rarity] == "Unique"       # [local_jewel_nearby_passives_dex_to_str] >= "1" && [ForceSellItem] == "true" // Inertia
-// [Type] == "Crimson Jewel" && [Rarity] == "Unique"    # [local_unique_jewel_with_4_notables_gain_X_random_rare_monster_mods_on_kill] >= "1" && [ForceSellItem] == "true" // Inspired Learning
-[Type] == "Crimson Jewel" && [Rarity] == "Unique"       # [fire_damage_+%] >= "18" && [ForceSellItem] == "true" // Izaro's Turmoil
-[Type] == "Crimson Jewel" && [Rarity] == "Unique"       # [minimum_added_fire_damage_per_active_buff] >= "1" && [ForceSellItem] == "true" // Mantra of Flames
-[Type] == "Crimson Jewel" && [Rarity] == "Unique"       # [melee_range_+_while_unarmed] >= "1" && [ForceSellItem] == "true" // Martial Artistry
-// [Type] == "Crimson Jewel" && [Rarity] == "Unique"    # [golems_larger_aggro_radius] >= "1" && [ForceSellItem] == "true" // Primordial Might
-[Type] == "Crimson Jewel" && [Rarity] == "Unique"       # [local_unique_jewel_dex_and_int_apply_to_str_melee_damage_bonus_in_radius] >= "1" && [ForceSellItem] == "true" // Might in All Forms
-[Type] == "Crimson Jewel" && [Rarity] == "Unique"       # [totem_number_of_additional_projectiles] >= "2" && [ForceSellItem] == "true" // Rain of Splinters
-[Type] == "Crimson Jewel" && [Rarity] == "Unique"       # [local_unique_jewel_ground_slam_angle_+%_with_50_str_in_radius] >= "1" && [ForceSellItem] == "true" // Rapid Expansion
+[Type] == "Crimson Jewel" && [Rarity] == "Unique"       # [dexterity_+%] >= "4" && [ForceSellItem] == "true"                                                                                     // Brawn
+[Type] == "Crimson Jewel" && [Rarity] == "Unique"       # [traps_and_mines_%_chance_to_poison] >= "1" && [ForceSellItem] == "true"                                                               // Coated Shrapnel
+[Type] == "Crimson Jewel" && [Rarity] == "Unique"       # [elemental_hit_damage_+%] >= "1" && [ForceSellItem] == "true"                                                                          // Combat Focus
+[Type] == "Crimson Jewel" && [Rarity] == "Unique"       # [local_jewel_nearby_passives_int_to_str] >= "1" && [ForceSellItem] == "true"                                                           // Efficient Training
+[Type] == "Crimson Jewel" && [Rarity] == "Unique"       # [local_unique_jewel_energy_shield_increases_applies_to_armour_doubled] >= "1" && [ForceSellItem] == "true"                             // Energised Armour
+[Type] == "Crimson Jewel" && [Rarity] == "Unique"       # [local_unique_jewel_damage_increases_applies_to_fire_damage] >= "1" && [ForceSellItem] == "true"                                       // Fireborn
+[Type] == "Crimson Jewel" && [Rarity] == "Unique"       # [life_regeneration_rate_+%] >= "1" && [ForceSellItem] == "true"                                                                        // Fragile Bloom
+[Type] == "Crimson Jewel" && [Rarity] == "Unique"       # [base_damage_taken_+%] >= "1" && [ForceSellItem] == "true"                                                                             // Fragile Bloom
+[Type] == "Crimson Jewel" && [Rarity] == "Unique"       # [X_armour_per_stackable_unique_jewel] >= "1" && [ForceSellItem] == "true"                                                              // Grand Spectrum
+[Type] == "Crimson Jewel" && [Rarity] == "Unique"       # [local_jewel_nearby_passives_dex_to_str] >= "1" && [ForceSellItem] == "true"                                                           // Inertia
+// [Type] == "Crimson Jewel" && [Rarity] == "Unique"    # [local_unique_jewel_with_4_notables_gain_X_random_rare_monster_mods_on_kill] >= "1" && [ForceSellItem] == "true"                       // Inspired Learning
+[Type] == "Crimson Jewel" && [Rarity] == "Unique"       # [fire_damage_+%] >= "18" && [ForceSellItem] == "true"                                                                                  // Izaro's Turmoil
+[Type] == "Crimson Jewel" && [Rarity] == "Unique"       # [minimum_added_fire_damage_per_active_buff] >= "1" && [ForceSellItem] == "true"                                                        // Mantra of Flames
+[Type] == "Crimson Jewel" && [Rarity] == "Unique"       # [melee_range_+_while_unarmed] >= "1" && [ForceSellItem] == "true"                                                                      // Martial Artistry
+[Type] == "Crimson Jewel" && [Rarity] == "Unique"       # [skill_area_of_effect_when_unarmed_+%] >= "1" && [ForceSellItem] == "true"                                                             // Martial Artistry
+[Type] == "Crimson Jewel" && [Rarity] == "Unique"       # [local_unique_jewel_dex_and_int_apply_to_str_melee_damage_bonus_in_radius] >= "1" && [ForceSellItem] == "true"                         // Might in All Forms
+[Type] == "Crimson Jewel" && [Rarity] == "Unique"       # [local_unique_jewel_cleave_skill_area_of_effect_+%_per_nearby_enemy_with_50_str_in_radius] >= "1" && [ForceSellItem] == "true"         // Overwhelming Odds
+[Type] == "Crimson Jewel" && [Rarity] == "Unique"       # [totem_number_of_additional_projectiles] >= "2" && [ForceSellItem] == "true"                                                           // Rain of Splinters
+[Type] == "Crimson Jewel" && [Rarity] == "Unique"       # [local_unique_jewel_ground_slam_angle_+%_with_50_str_in_radius] >= "1" && [ForceSellItem] == "true"                                    // Rapid Expansion
 [Type] == "Crimson Jewel" && [Rarity] == "Unique"       # [local_unique_jewel_glacial_hammer_item_rarity_on_shattering_enemy_+%_with_50_strength_in_radius] >= "20" && [ForceSellItem] == "true" // Shattered Chains
-[Type] == "Crimson Jewel" && [Rarity] == "Unique"       # [local_unique_jewel_totem_life_+X%_per_10_str_in_radius] >= "3" && [ForceSellItem] == "true" // Spire of Stone
-[Type] == "Crimson Jewel" && [Rarity] == "Unique"       # [local_unique_jewel_vigilant_strike_fortifies_nearby_allies_for_x_seconds_with_50_str_in_radius] >= "3" && [ForceSellItem] == "true" // The Vigil
-// [Type] == "Crimson Jewel" && [Rarity] == "Unique"    # [local_unique_jewel_nearby_disconnected_passives_can_be_allocated] >= "1" && [ForceSellItem] == "true" // Thread of Hope
-[Type] == "Crimson Jewel" && [Rarity] == "Unique"       # [local_unique_jewel_heavy_strike_chance_to_deal_double_damage_%_with_50_strength_in_radius] >= "10" && [ForceSellItem] == "true" // Weight of the Empire
-
+[Type] == "Crimson Jewel" && [Rarity] == "Unique"       # [local_unique_jewel_totem_life_+X%_per_10_str_in_radius] >= "3" && [ForceSellItem] == "true"                                           // Spire of Stone
+[Type] == "Crimson Jewel" && [Rarity] == "Unique"       # [local_unique_jewel_vigilant_strike_fortifies_nearby_allies_for_x_seconds_with_50_str_in_radius] >= "3" && [ForceSellItem] == "true"   // The Vigil
+// [Type] == "Crimson Jewel" && [Rarity] == "Unique"    # [local_unique_jewel_nearby_disconnected_passives_can_be_allocated] >= "1" && [ForceSellItem] == "true"                                 // Thread of Hope
+[Type] == "Crimson Jewel" && [Rarity] == "Unique"       # [local_unique_jewel_heavy_strike_chance_to_deal_double_damage_%_with_50_strength_in_radius] >= "10" && [ForceSellItem] == "true"       // Weight of the Empire
+[Type] == "Crimson Jewel" && [Rarity] == "Unique"       # [local_unique_jewel_molten_strike_skill_area_of_effect_+%_with_50_str_in_radius] >= "1" && [ForceSellItem] == "true"                   // Wildfire
+[Type] == "Crimson Jewel" && [Rarity] == "Unique"       # [local_unique_jewel_glacial_hammer_physical_damage_%_to_convert_to_cold_with_50_str_in_radius] >= "1" && [ForceSellItem] == "true"     // Winter Burial
 
 // Viridian Jewel
-[Type] == "Viridian Jewel" && [Rarity] == "Unique" 		# [StashItem] == "true" // Pick all unique Viridian Jewels
+[Type] == "Viridian Jewel" && [Rarity] == "Unique"    # [StashItem] == "true" // Pick all unique Viridian Jewels
 
-[Type] == "Viridian Jewel" && [Rarity] == "Unique" 	    # [minion_movement_speed_+%] >= "5" && [ForceSellItem] == "true" // Apparitions
-[Type] == "Viridian Jewel" && [Rarity] == "Unique" 	    # [local_jewel_nearby_passives_int_to_dex] >= "1" && [ForceSellItem] == "true" // Careful Planning
-[Type] == "Viridian Jewel" && [Rarity] == "Unique" 	    # [local_unique_jewel_physical_damage_increases_applies_to_cold_damage] >= "1" && [ForceSellItem] == "true" // Cold Steel
-[Type] == "Viridian Jewel" && [Rarity] == "Unique" 	    # [local_jewel_nearby_passives_str_to_dex] >= "1" && [ForceSellItem] == "true" // Fluid Motion
-[Type] == "Viridian Jewel" && [Rarity] == "Unique" 	    # [local_unique_jewel_viper_strike_attack_damage_per_poison_on_enemy_+%_with_50_dexterity_in_radius] >= "4" && [ForceSellItem] == "true" // Growing Agony
-[Type] == "Viridian Jewel" && [Rarity] == "Unique" 	    # [damage_+%_per_equipped_magic_item] >= "20" && [ForceSellItem] == "true" // Hidden Potential
-[Type] == "Viridian Jewel" && [Rarity] == "Unique" 	    # [movement_velocity_+%_while_ignited] >= "10" && [ForceSellItem] == "true" // Hotfooted
-//[Type] == "Viridian Jewel" && [Rarity] == "Unique"    # [local_unique_jewel_nearby_disconnected_passives_can_be_allocated] >= "1" && [ForceSellItem] == "true" // Intuitive Leap
-// [Type] == "Viridian Jewel" && [Rarity] == "Unique"   # [local_unique_jewel_melee_applies_to_bow] >= "1" && [ForceSellItem] == "true" // Lioneye's Fall
-[Type] == "Viridian Jewel" && [Rarity] == "Unique" 	    # [local_unique_jewel_burning_arrow_spread_burning_ground_when_igniting_enemy_on_hit_%_with_50_dexterity_in_radius] >= "10" && [ForceSellItem] == "true" // Pitch Darkness
-[Type] == "Viridian Jewel" && [Rarity] == "Unique" 	    # [local_unique_jewel_evasion_rating_+%_per_X_dex_in_radius] >= "1" && [ForceSellItem] == "true" // Pugilist
-[Type] == "Viridian Jewel" && [Rarity] == "Unique" 	    # [local_unique_jewel_animate_weapon_can_animate_up_to_x_additional_ranged_weapons_with_50_dex_in_radius] >= "4" && [ForceSellItem] == "true" // Spirit Guards
-[Type] == "Viridian Jewel" && [Rarity] == "Unique" 	    # [attack_minimum_added_lightning_damage] >= "1" && [ForceSellItem] == "true" // Static Electricity
-[Type] == "Viridian Jewel" && [Rarity] == "Unique" 	    # [local_unique_jewel_spectral_throw_damage_for_each_enemy_hit_with_spectral_weapon_+%_with_50_dexterity_in_radius] >= "4" && [ForceSellItem] == "true" // Steel Spirit 
-[Type] == "Viridian Jewel" && [Rarity] == "Unique" 	    # [local_unique_jewel_barrage_final_volley_fires_x_additional_projectiles_simultaneously_with_50_dex_in_radius] >= "2" && [ForceSellItem] == "true" // Volley Fire 
-// [Type] == "Viridian Jewel" && [Rarity] == "Unique"   # [local_jewel_copy_stats_from_unallocated_non_notable_passives_in_radius] >= "1" && [ForceSellItem] == "true" // Unnatural Instinct
-// [Type] == "Viridian Jewel" && [Rarity] == "Unique"   # [golem_attack_and_cast_speed_+%] >= "16" && [ForceSellItem] == "true" // Primordial Eminence
+[Type] == "Viridian Jewel" && [Rarity] == "Unique" 	  # [minion_movement_speed_+%] >= "5" && [ForceSellItem] == "true"                                                                                             // Apparitions
+[Type] == "Viridian Jewel" && [Rarity] == "Unique" 	  # [local_jewel_nearby_passives_int_to_dex] >= "1" && [ForceSellItem] == "true"                                                                               // Careful Planning
+[Type] == "Viridian Jewel" && [Rarity] == "Unique"    # [number_of_additional_traps_allowed] >= "1" && [ForceSellItem] == "true"                                                                                   // Cheap Construction
+[Type] == "Viridian Jewel" && [Rarity] == "Unique" 	  # [local_unique_jewel_physical_damage_increases_applies_to_cold_damage] >= "1" && [ForceSellItem] == "true"                                                  // Cold Steel
+[Type] == "Viridian Jewel" && [Rarity] == "Unique"    # [local_unique_jewel_shrapnel_shot_radius_+%_with_50_dex_in_radius] >= "1" && [ForceSellItem] == "true"                                                     // Collateral Damage
+[Type] == "Viridian Jewel" && [Rarity] == "Unique"    # [elemental_hit_damage_+%] >= "1" && [ForceSellItem] == "true"                                                                                              // Combat Focus
+[Type] == "Viridian Jewel" && [Rarity] == "Unique"    # [cold_damage_+%] >= "10" && [ForceSellItem] == "true"                                                                                                      // Fight for Survival
+[Type] == "Viridian Jewel" && [Rarity] == "Unique" 	  # [local_jewel_nearby_passives_str_to_dex] >= "1" && [ForceSellItem] == "true"                                                                               // Fluid Motion
+[Type] == "Viridian Jewel" && [Rarity] == "Unique"    # [elemental_damage_+%_per_stackable_unique_jewel] >= "13" && [ForceSellItem] == "true"                                                                      // Grand Spectrum
+[Type] == "Viridian Jewel" && [Rarity] == "Unique" 	  # [local_unique_jewel_viper_strike_attack_damage_per_poison_on_enemy_+%_with_50_dexterity_in_radius] >= "4" && [ForceSellItem] == "true"                     // Growing Agony
+[Type] == "Viridian Jewel" && [Rarity] == "Unique"    # [local_unique_jewel_viper_strike_chance_to_gain_unholy_might_%_on_hit_per_poison_stack_on_enemy_with_50_dex_in_radius] >= "1" && [ForceSellItem] == "true" // Growing Agony
+[Type] == "Viridian Jewel" && [Rarity] == "Unique"    # [trap_damage_+%] >= "1" && [ForceSellItem] == "true"                                                                                                       // Hair Trigger
+[Type] == "Viridian Jewel" && [Rarity] == "Unique" 	  # [damage_+%_per_equipped_magic_item] >= "20" && [ForceSellItem] == "true"                                                                                   // Hidden Potential
+[Type] == "Viridian Jewel" && [Rarity] == "Unique" 	  # [movement_velocity_+%_while_ignited] >= "10" && [ForceSellItem] == "true"                                                                                  // Hotfooted
+// [Type] == "Viridian Jewel" && [Rarity] == "Unique" # [local_unique_jewel_nearby_disconnected_passives_can_be_allocated] >= "1" && [ForceSellItem] == "true"                                                     // Intuitive Leap
+// [Type] == "Viridian Jewel" && [Rarity] == "Unique" # [local_unique_jewel_melee_applies_to_bow] >= "1" && [ForceSellItem] == "true"                                                                              // Lioneye's Fall
+[Type] == "Viridian Jewel" && [Rarity] == "Unique"    # [local_unique_jewel_dual_strike_main_hand_deals_double_damage_%_with_40_dex_in_radius] >= "2" && [ForceSellItem] == "true"                                 // Might and Influence
+[Type] == "Viridian Jewel" && [Rarity] == "Unique"    # [damage_+%_vs_chilled_enemies] >= "1" && [ForceSellItem] == "true"                                                                                         // Omen on the Winds
+[Type] == "Viridian Jewel" && [Rarity] == "Unique" 	  # [local_unique_jewel_burning_arrow_spread_burning_ground_when_igniting_enemy_on_hit_%_with_50_dexterity_in_radius] >= "10" && [ForceSellItem] == "true"     // Pitch Darkness
+[Type] == "Viridian Jewel" && [Rarity] == "Unique" 	  # [local_unique_jewel_evasion_rating_+%_per_X_dex_in_radius] >= "1" && [ForceSellItem] == "true"                                                             // Pugilist
+[Type] == "Viridian Jewel" && [Rarity] == "Unique"    # [local_unique_jewel_ethereal_knives_number_of_additional_projectiles_with_50_dex_in_radius] >= "1" && [ForceSellItem] == "true"                            // Ring of Blades
+[Type] == "Viridian Jewel" && [Rarity] == "Unique" 	  # [local_unique_jewel_animate_weapon_can_animate_up_to_x_additional_ranged_weapons_with_50_dex_in_radius] >= "4" && [ForceSellItem] == "true"                // Spirit Guards
+[Type] == "Viridian Jewel" && [Rarity] == "Unique" 	  # [attack_minimum_added_lightning_damage] >= "1" && [ForceSellItem] == "true"                                                                                // Static Electricity
+[Type] == "Viridian Jewel" && [Rarity] == "Unique" 	  # [local_unique_jewel_spectral_throw_damage_for_each_enemy_hit_with_spectral_weapon_+%_with_50_dexterity_in_radius] >= "4" && [ForceSellItem] == "true"      // Steel Spirit 
+[Type] == "Viridian Jewel" && [Rarity] == "Unique"    # [local_unique_jewel_burning_arrow_additional_ignite_stacks_with_50_dex_in_radius] >= "2" && [ForceSellItem] == "true"                                      // Sudden Ignition
+[Type] == "Viridian Jewel" && [Rarity] == "Unique"    # [armour_+%_while_bleeding] >= "1" && [ForceSellItem] == "true"                                                                                             // The Golden Rule
+// [Type] == "Viridian Jewel" && [Rarity] == "Unique" # [local_jewel_copy_stats_from_unallocated_non_notable_passives_in_radius] >= "1" && [ForceSellItem] == "true"                                               // Unnatural Instinct
+[Type] == "Viridian Jewel" && [Rarity] == "Unique" 	  # [local_unique_jewel_barrage_final_volley_fires_x_additional_projectiles_simultaneously_with_50_dex_in_radius] >= "2" && [ForceSellItem] == "true"          // Volley Fire 
 
 
 /////////////////////////////////////////////////////////////////////////////////////
@@ -1221,10 +1245,14 @@
 //                                                                                 //
 /////////////////////////////////////////////////////////////////////////////////////
 
-[Sockets] == "6" && [Linked] >= "6"                         # [StashItem] =="true" // Keep 6L6S
+[Sockets] == "6" && [Linked] >= "6"                          # [StashItem] =="true"     // Keep 6L6S
 
-[Sockets] == "6" && [Linked] <= "5" && [Rarity] == "Normal" # [SellUnid] == "true" // Sell 6S Whites
-[Sockets] == "6" && [Linked] <= "5" && [Rarity] == "Magic" 	# [SellUnid] == "true" // Sell 6S Magic
+// [Sockets] == "6" && [Linked] >= "6"  && [Rarity] == "Normal" # [ForceSellItem] =="true" // Sell Normal 6L6S
+// [Sockets] == "6" && [Linked] >= "6"  && [Rarity] == "Magic"  # [ForceSellItem] =="true" // Sell Magic 6L6S
+// [Sockets] == "6" && [Linked] >= "6"  && [Rarity] == "Rare"   # [ForceSellItem] =="true" // Sell Rare 6L6S
+
+[Sockets] == "6" && [Linked] <= "5" && [Rarity] == "Normal"  # [SellUnid] == "true"     // Sell 6S Whites
+[Sockets] == "6" && [Linked] <= "5" && [Rarity] == "Magic" 	 # [SellUnid] == "true"     // Sell 6S Magic
 
 
 
@@ -1238,7 +1266,7 @@
 
 // [Type] == "Onyx Amulet"              # [ChanceItem] == "true" && [Rarity] == "Normal" // Astramentis preferably
 // [Type] == "Slaughter Knife"          # [ChanceItem] == "true" && [Rarity] == "Normal" // Bino's
-// [Type] == "Sharkskin Boots"         # [ChanceItem] == "true" && [Rarity] == "Normal" // Blood Dance (Vaal Roll +1 Frenzy)
+// [Type] == "Sharkskin Boots"          # [ChanceItem] == "true" && [Rarity] == "Normal" // Blood Dance (Vaal Roll +1 Frenzy)
 // [Type] == "Varnished Coat"           # [ChanceItem] == "true" && [Rarity] == "Normal" // Carcass Jack
 // [Type] == "Penetrating Arrow Quiver" # [ChanceItem] == "true" && [Rarity] == "Normal" // Drillneck
 // [Type] == "Deicide Mask"             # [ChanceItem] == "true" && [Rarity] == "Normal" // Heretic's Veil
@@ -1975,7 +2003,7 @@
 [Type] == "Regicide Mask" && [Rarity] == "Unique"   # [damage_reflected_to_enemies_%_gained_as_life] >= "1" && [ForceSellItem] == "true" // Crown of the Pale King
 [Type] == "Regicide Mask" && [Rarity] == "Unique"   # [local_display_grant_level_x_petrification_statue] >= "1" && [ForceSellItem] == "true" // Gorgon's Gaze
 [Type] == "Vaal Mask" && [Rarity] == "Unique"       # [elemental_damage_+%_per_10_dexterity] >= "1" && [ForceSellItem] == "true" // Fractal Thoughts
-// [Type] == "Vaal Mask" && [Rarity] == "Unique"       # [local_item_allow_modification_while_corrupted] >= "1" && [ForceSellItem] == "true" // Glimpse of Chaos *NEW
+// [Type] == "Vaal Mask" && [Rarity] == "Unique"    # [local_item_allow_modification_while_corrupted] >= "1" && [ForceSellItem] == "true" // Glimpse of Chaos *NEW
 // [Type] == "Vaal Mask" && [Rarity] == "Unique"    # [cannot_have_mana_leeched_from] >= "1" && [ForceSellItem] == "true" // The Vertex
 
 //////////////////////////////////////////////
@@ -2047,7 +2075,7 @@
 [Type] == "Mosaic Kite Shield" && [Rarity] == "Unique"      # [avoid_ignite_%_when_on_low_life] >= "1" && [ForceSellItem] == "true" // Rise of the Phoenix 
 [Type] == "Plank Kite Shield" && [Rarity] == "Unique"       # [life_regeneration_rate_per_minute_%] >= "1" && [ForceSellItem] == "true" // Springleaf
 [Type] == "Steel Kite Shield" && [Rarity] == "Unique"       # [keystone_glancing_blows] >= "1" && [ForceSellItem] == "true" // Emperor's Vigilance
-// [Type] == "Steel Kite Shield" && [Rarity] == "Unique"       # [keystone_corrupted_defences] >= "1" && [ForceSellItem] == "true" // Mahuxotl's Machination *NEW
+// [Type] == "Steel Kite Shield" && [Rarity] == "Unique"    # [keystone_corrupted_defences] >= "1" && [ForceSellItem] == "true" // Mahuxotl's Machination *NEW
 
 // Evasion & Energy Shield Shields
 [Type] == "Burnished Spiked Shield" && [Rarity] == "Unique"   # [always_ignite_while_burning] >= "1" && [ForceSellItem] == "true" // Glitterdisc
@@ -2246,9 +2274,9 @@
 [Type] == "Judgement Staff" && [Rarity] == "Unique"    # [local_display_socketed_gems_supported_by_level_x_greater_spell_echo] >= "1" && [ForceSellItem] == "true" // Pledge of Hands
 [Type] == "Judgement Staff" && [Rarity] == "Unique"    # [local_has_no_sockets] >= "1" && [ForceSellItem] == "true" // The Grey Spire
 [Type] == "Lathi" && [Rarity] == "Unique"              # [fire_spell_skill_gem_level_+] >= "1" && [ForceSellItem] == "true" // The Searing Touch
-[Type] == "MaelstrÃ¶m Staff" && [Rarity] == "Unique"    # [keystone_battlemage] >= "1" && [ForceSellItem] == "true" // Disintegrator
-// [Type] == "MaelstrÃ¶m Staff" && [Rarity] == "Unique" # [critical_strike_multiplier_+_per_1%_block_chance] >= "1" && [ForceSellItem] == "true" // Duskdawn
-[Type] == "MaelstrÃ¶m Staff" && [Rarity] == "Unique"    # [frozen_monsters_take_increased_damage] >= "1" && [ForceSellItem] == "true" // Taryn's Shiver
+[Type] == "Maelström Staff" && [Rarity] == "Unique"    # [keystone_battlemage] >= "1" && [ForceSellItem] == "true" // Disintegrator
+// [Type] == "Maelström Staff" && [Rarity] == "Unique" # [critical_strike_multiplier_+_per_1%_block_chance] >= "1" && [ForceSellItem] == "true" // Duskdawn
+[Type] == "Maelström Staff" && [Rarity] == "Unique"    # [frozen_monsters_take_increased_damage] >= "1" && [ForceSellItem] == "true" // Taryn's Shiver
 [Type] == "Military Staff" && [Rarity] == "Unique"     # [mine_extra_uses] >= "1" && [ForceSellItem] == "true" // Tremor Rod
 [Type] == "Primordial Staff" && [Rarity] == "Unique"   # [additional_attack_block_%_per_summoned_skeleton] >= "1" && [ForceSellItem] == "true" // Femurs of the Saints
 [Type] == "Royal Staff" && [Rarity] == "Unique"        # [avoid_shock_%_while_chilled] >= "1" && [ForceSellItem] == "true" // The Stormheart
