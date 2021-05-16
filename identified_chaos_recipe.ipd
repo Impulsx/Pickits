@@ -1079,19 +1079,19 @@
 [Type] == "Large Cluster Jewel" && [Rarity] == "Rare" 	# [local_affliction_notable_brush_with_death] >= "1" && [StashItem] == "true" 
 
 
-// Unique Prismatic Jewels are worth keeping
-[Type] == "Prismatic Jewel" && [Rarity] == "Unique"     # [StashItem] == "true"
-
 // Unique Primordial & The Anima Stone
 // Primordial Jewels
 [Type] == "Prismatic Jewel" && [Rarity] == "Unique"     # [number_of_golems_allowed_with_3_primordial_jewels] >= "1" && [StashItem] == "true" // The Anima Stone
 [Type] == "Crimson Jewel" && [Rarity] == "Unique" 	    # [golems_larger_aggro_radius] >= "1" && [StashItem] == "true"                        // Primordial Might
-// [Type] == "Crimson Jewel" && [Rarity] == "Unique"    # [base_number_of_golems_allowed] <= "-1" && [StashItem] == "true" 				      // Replica Primordial Might
+[Type] == "Crimson Jewel" && [Rarity] == "Unique"       # [base_number_of_golems_allowed] <= "-1" && [StashItem] == "true" 				      // Replica Primordial Might
 [Type] == "Cobalt Jewel" && [Rarity] == "Unique" 	    # [golem_cooldown_recovery_+%] >= "1" && [StashItem] == "true"                        // Primordial Harmony
 [Type] == "Viridian Jewel" && [Rarity] == "Unique" 	    # [golem_attack_and_cast_speed_+%] >= "1" && [StashItem] == "true"                    // Primordial Eminence
 
 // Unique Timeless Jewels are worth keeping
 [Type] == "Timeless Jewel" && [Rarity] == "Unique"      # [StashItem] == "true"
+
+// Unique Prismatic Jewels are worth keeping
+[Type] == "Prismatic Jewel" && [Rarity] == "Unique"     # [StashItem] == "true"
 
 // Cobalt Jewels
 [Type] == "Cobalt Jewel" && [Rarity] == "Unique"    # [StashItem] == "true" // Pick all unique Cobalt Jewels
@@ -1213,7 +1213,7 @@
  // [Type] == "Viridian Jewel" && [Rarity] == "Unique" # [local_unique_jewel_nearby_disconnected_passives_can_be_allocated] >= "1" && [ForceSellItem] == "true" // Intuitive Leap
  // [Type] == "Viridian Jewel" && [Rarity] == "Unique" # [local_unique_jewel_melee_applies_to_bow] >= "1" && [ForceSellItem] == "true" // Lioneye's Fall
 [Type] == "Viridian Jewel" && [Rarity] == "Unique"    # [attacks_impale_on_hit_%_chance] >= "1" && [ForceSellItem] == "true"                                                                                   // Lord of Steel Impale chance
-[Type] == "Viridian Jewel" && [Rarity] == "Unique"    # [impaled_debuff_unmodified_phys_damage_to_deal] >= "1" && [ForceSellItem] == "true"                                                                    // Lord of Steel Impale Overwhelms
+[Type] == "Viridian Jewel" && [Rarity] == "Unique"    # [impale_phys_reduction_%_penalty] >= "1" && [ForceSellItem] == "true"                                                                    			   // Lord of Steel Impale Overwhelms
 [Type] == "Viridian Jewel" && [Rarity] == "Unique"    # [impale_debuff_effect_+%] >= "1" && [ForceSellItem] == "true"                                                                                          // Lord of Steel Impale Effect
 [Type] == "Viridian Jewel" && [Rarity] == "Unique"    # [local_unique_jewel_dual_strike_intimidate_on_hit_while_wielding_axe_with_40_dex_in_radius] >= "1" && [ForceSellItem] == "true"                        // Might and Influence
 [Type] == "Viridian Jewel" && [Rarity] == "Unique"    # [local_unique_jewel_ice_shot_explosion_skill_area_of_effect_+%_with_50_dex_in_radius] >= "1" && [ForceSellItem] == "true"                              // Omen on the Winds
