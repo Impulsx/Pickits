@@ -3,13 +3,13 @@
 _____________
 :godmode:
 
-Cluster&Jewels [WIP] - Reworking/updating jewels section, adding cluster jewel notables that are popular/profit
+Cluster & Jewels - Reworking/updating jewels section, adding cluster jewel notables that are popular/profit
 
 Div card rework - Reworked/updated div cards section; Doesn't pick up all, now ignores all cards besides the ones we want
 
 Unique Item rework - Reworked/updated Uniques section, includes keeping some perfect rolls. Keeps uniques worth +10c or protential profit
 
-Veiled Section - Veiled items farm ID is best but theres a UNID too but auses you to pick up all rares to check for veiled mod.
+Veiled Section WIP - Veiled items farm ID is best but theres a UNID too but auses you to pick up all rares to check for veiled mod.
 
 identified_chaos_recipe.ipd - For identified chaos recipe.. Inlcudes all reworks
 
