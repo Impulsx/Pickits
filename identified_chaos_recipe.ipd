@@ -367,22 +367,22 @@
 
 ////////// Veiled Rares farm
 // Any
-// [Rarity] == "Rare"                            # [veiled_mod_type] >= "1" && [StashItem] == "true" // Keep all rare veiled items
-// [Rarity] == "Unique"                          # [veiled_mod_type] >= "1" && [StashItem] == "true" // Keep all unique veiled items
+// [Rarity] == "Rare"   && [veiled_mod_type] >= "1" # [StashUnid] == "true" // Keep all rare veiled items
+// [Rarity] == "Unique" && [veiled_mod_type] >= "1" # [StashUnid] == "true" // Keep all unique veiled items
 
 // By item class
-// [Category] == "Helm" && [Rarity] == "Rare"    # [veiled_mod_type] >= "1" && [StashItem] == "true"
-// [Category] == "Chest" && [Rarity] == "Rare"   # [veiled_mod_type] >= "1" && [StashItem] == "true"
-// [Category] == "Amulet" && [Rarity] == "Rare"  # [veiled_mod_type] >= "1" && [StashItem] == "true"
-// [Category] == "Ring" && [Rarity] == "Rare"    # [veiled_mod_type] >= "1" && [StashItem] == "true"
-// [Category] == "Belt" && [Rarity] == "Rare"    # [veiled_mod_type] >= "1" && [StashItem] == "true"
-// [Category] == "Gloves" && [Rarity] == "Rare"  # [veiled_mod_type] >= "1" && [StashItem] == "true"
-// [Category] == "Boots" && [Rarity] == "Rare"   # [veiled_mod_type] >= "1" && [StashItem] == "true"
+// [Category] == "Helm"   && [Rarity] == "Rare" && [veiled_mod_type] >= "1" # [StashUnid] == "true"
+// [Category] == "Chest"  && [Rarity] == "Rare" && [veiled_mod_type] >= "1" # [StashUnid] == "true"
+// [Category] == "Amulet" && [Rarity] == "Rare" && [veiled_mod_type] >= "1" # [StashUnid] == "true"
+// [Category] == "Ring"   && [Rarity] == "Rare" && [veiled_mod_type] >= "1" # [StashUnid] == "true"
+// [Category] == "Belt"   && [Rarity] == "Rare" && [veiled_mod_type] >= "1" # [StashUnid] == "true"
+// [Category] == "Gloves" && [Rarity] == "Rare" && [veiled_mod_type] >= "1" # [StashUnid] == "true"
+// [Category] == "Boots"  && [Rarity] == "Rare" && [veiled_mod_type] >= "1" # [StashUnid] == "true"
 
-// [Category] == "Weapon" && [Rarity] == "Rare"  # [veiled_mod_type] >= "1" && [StashItem] == "true"
-// [Category] == "1Handed" && [Rarity] == "Rare" # [veiled_mod_type] >= "1" && [StashItem] == "true"
-// [Category] == "2Handed" && [Rarity] == "Rare" # [veiled_mod_type] >= "1" && [StashItem] == "true"
-// [Category] == "Shield" && [Rarity] == "Rare"  # [veiled_mod_type] >= "1" && [StashItem] == "true"
+// [Category] == "Weapon"  && [Rarity] == "Rare" && [veiled_mod_type] >= "1" # [StashUnid] == "true"
+// [Category] == "1Handed" && [Rarity] == "Rare" && [veiled_mod_type] >= "1" # [StashUnid] == "true"
+// [Category] == "2Handed" && [Rarity] == "Rare" && [veiled_mod_type] >= "1" # [StashUnid] == "true"
+// [Category] == "Shield"  && [Rarity] == "Rare" && [veiled_mod_type] >= "1" # [StashUnid] == "true"
 
 
 ////////// Bestiary Currency
@@ -1210,8 +1210,8 @@
 [Type] == "Viridian Jewel" && [Rarity] == "Unique" 	  # [damage_+%_per_equipped_magic_item] >= "20" && [ForceSellItem] == "true"                                                                               // Hidden Potential
 [Type] == "Viridian Jewel" && [Rarity] == "Unique" 	  # [movement_velocity_+%_while_ignited] >= "10" && [ForceSellItem] == "true"                                                                              // Hotheaded
 [Type] == "Viridian Jewel" && [Rarity] == "Unique"    # [life_leech_uses_chaos_damage_when_X_corrupted_items_equipped] >= "1" && [ForceSellItem] == "true"                                                     // Hungry Abyss
- // [Type] == "Viridian Jewel" && [Rarity] == "Unique" # [local_unique_jewel_nearby_disconnected_passives_can_be_allocated] >= "1" && [ForceSellItem] == "true" // Intuitive Leap
- // [Type] == "Viridian Jewel" && [Rarity] == "Unique" # [local_unique_jewel_melee_applies_to_bow] >= "1" && [ForceSellItem] == "true" // Lioneye's Fall
+ // [Type] == "Viridian Jewel" && [Rarity] == "Unique" # [local_unique_jewel_nearby_disconnected_passives_can_be_allocated] >= "1" && [ForceSellItem] == "true" 											   // Intuitive Leap
+ // [Type] == "Viridian Jewel" && [Rarity] == "Unique" # [local_unique_jewel_melee_applies_to_bow] >= "1" && [ForceSellItem] == "true" 																		   // Lioneye's Fall
 [Type] == "Viridian Jewel" && [Rarity] == "Unique"    # [attacks_impale_on_hit_%_chance] >= "1" && [ForceSellItem] == "true"                                                                                   // Lord of Steel Impale chance
 [Type] == "Viridian Jewel" && [Rarity] == "Unique"    # [impale_phys_reduction_%_penalty] >= "1" && [ForceSellItem] == "true"                                                                    			   // Lord of Steel Impale Overwhelms
 [Type] == "Viridian Jewel" && [Rarity] == "Unique"    # [impale_debuff_effect_+%] >= "1" && [ForceSellItem] == "true"                                                                                          // Lord of Steel Impale Effect
@@ -1238,7 +1238,7 @@
 [Type] == "Viridian Jewel" && [Rarity] == "Unique"    # [local_unique_jewel_movement_speed_+%_per_10_dex_allocated_in_radius] >= "1" && [ForceSellItem] == "true"                                              // Tempered Spirit
 [Type] == "Viridian Jewel" && [Rarity] == "Unique"    # [bleeding_reflected_to_self] >= "1" && [poison_reflected_to_self] >= "1" && [ForceSellItem] == "true"                                                  // The Golden Rule
 [Type] == "Viridian Jewel" && [Rarity] == "Unique"    # [local_unique_jewel_cold_resistance_also_grants_frenzy_charge_on_kill_chance] >= "1" && [ForceSellItem] == "true"                                      // The Green Dream
- // [Type] == "Viridian Jewel" && [Rarity] == "Unique" # [local_jewel_copy_stats_from_unallocated_non_notable_passives_in_radius] >= "1" && [ForceSellItem] == "true" // Unnatural Instinct
+ // [Type] == "Viridian Jewel" && [Rarity] == "Unique" # [local_jewel_copy_stats_from_unallocated_non_notable_passives_in_radius] >= "1" && [ForceSellItem] == "true" 										   // Unnatural Instinct
 [Type] == "Viridian Jewel" && [Rarity] == "Unique" 	  # [local_unique_jewel_barrage_final_volley_fires_x_additional_projectiles_simultaneously_with_50_dex_in_radius] >= "1" && [ForceSellItem] == "true"      // Volley Fire 
 [Type] == "Viridian Jewel" && [Rarity] == "Unique"    # [base movement velocity +%] >= "-15" && [chaos_damage_+%] >= "1" && [ForceSellItem] == "true"                                                          // Weight of Sin
 
@@ -2812,21 +2812,21 @@
 //// Armor
 // Body
 // STR/DEX/Int
-[Type] == "Grasping Mail"       # [StashItem] == "true"
+// [Type] == "Grasping Mail"       # [StashItem] == "true"
 // Boots
-[Type] == "Blessed Boots"       # [StashItem] == "true"
+// [Type] == "Blessed Boots"       # [StashItem] == "true"
 
 // Gloves
-[Type] == "Apothecary's Gloves" # [StashItem] == "true"
+// [Type] == "Apothecary's Gloves" # [StashItem] == "true"
 
 //Quiver
-[Type] == "Artillery Quiver"    # [StashItem] == "true"
+// [Type] == "Artillery Quiver"    # [StashItem] == "true"
 
 // Ring
-[Type] == "Iolite Ring"         # [StashItem] == "true" // increased Chaos Damage
+// [Type] == "Iolite Ring"         # [StashItem] == "true" // increased Chaos Damage
 
 // Amulet
-[Type] == "Seaglass Amulet"     # [StashItem] == "true" // faster start of Energy Shield Recharge
+// [Type] == "Seaglass Amulet"     # [StashItem] == "true" // faster start of Energy Shield Recharge
 
 /////////////////////////////////////////////////////////////////////////////////////
 //                                                                                 //

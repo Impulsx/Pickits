@@ -366,22 +366,22 @@
 
 ////////// Veiled Rares farm
 // Any
-// [Rarity] == "Rare"                            # [veiled_mod_type] >= "1" && [StashItem] == "true" // Keep all rare veiled items
-// [Rarity] == "Unique"                          # [veiled_mod_type] >= "1" && [StashItem] == "true" // Keep all unique veiled items
+// [Rarity] == "Rare"   && [veiled_mod_type] >= "1" # [StashUnid] == "true" // Keep all rare veiled items
+// [Rarity] == "Unique" && [veiled_mod_type] >= "1" # [StashUnid] == "true" // Keep all unique veiled items
 
 // By item class
-// [Category] == "Helm" && [Rarity] == "Rare"    # [veiled_mod_type] >= "1" && [StashItem] == "true"
-// [Category] == "Chest" && [Rarity] == "Rare"   # [veiled_mod_type] >= "1" && [StashItem] == "true"
-// [Category] == "Amulet" && [Rarity] == "Rare"  # [veiled_mod_type] >= "1" && [StashItem] == "true"
-// [Category] == "Ring" && [Rarity] == "Rare"    # [veiled_mod_type] >= "1" && [StashItem] == "true"
-// [Category] == "Belt" && [Rarity] == "Rare"    # [veiled_mod_type] >= "1" && [StashItem] == "true"
-// [Category] == "Gloves" && [Rarity] == "Rare"  # [veiled_mod_type] >= "1" && [StashItem] == "true"
-// [Category] == "Boots" && [Rarity] == "Rare"   # [veiled_mod_type] >= "1" && [StashItem] == "true"
+// [Category] == "Helm"   && [Rarity] == "Rare" && [veiled_mod_type] >= "1" # [StashUnid] == "true"
+// [Category] == "Chest"  && [Rarity] == "Rare" && [veiled_mod_type] >= "1" # [StashUnid] == "true"
+// [Category] == "Amulet" && [Rarity] == "Rare" && [veiled_mod_type] >= "1" # [StashUnid] == "true"
+// [Category] == "Ring"   && [Rarity] == "Rare" && [veiled_mod_type] >= "1" # [StashUnid] == "true"
+// [Category] == "Belt"   && [Rarity] == "Rare" && [veiled_mod_type] >= "1" # [StashUnid] == "true"
+// [Category] == "Gloves" && [Rarity] == "Rare" && [veiled_mod_type] >= "1" # [StashUnid] == "true"
+// [Category] == "Boots"  && [Rarity] == "Rare" && [veiled_mod_type] >= "1" # [StashUnid] == "true"
 
-// [Category] == "Weapon" && [Rarity] == "Rare"  # [veiled_mod_type] >= "1" && [StashItem] == "true"
-// [Category] == "1Handed" && [Rarity] == "Rare" # [veiled_mod_type] >= "1" && [StashItem] == "true"
-// [Category] == "2Handed" && [Rarity] == "Rare" # [veiled_mod_type] >= "1" && [StashItem] == "true"
-// [Category] == "Shield" && [Rarity] == "Rare"  # [veiled_mod_type] >= "1" && [StashItem] == "true"
+[Category] == "Weapon"  && [Rarity] == "Rare" && [veiled_mod_type] >= "1" # [StashUnid] == "true"
+// [Category] == "1Handed" && [Rarity] == "Rare" && [veiled_mod_type] >= "1" # [StashUnid] == "true"
+// [Category] == "2Handed" && [Rarity] == "Rare" && [veiled_mod_type] >= "1" # [StashUnid] == "true"
+// [Category] == "Shield"  && [Rarity] == "Rare" && [veiled_mod_type] >= "1" # [StashUnid] == "true"
 
 
 ////////// Bestiary Currency
@@ -2814,21 +2814,21 @@
 //// Armor
 // Body
 // STR/DEX/Int
-[Type] == "Grasping Mail"       # [StashItem] == "true"
+// [Type] == "Grasping Mail"       # [StashItem] == "true"
 // Boots
-[Type] == "Blessed Boots"       # [StashItem] == "true"
+// [Type] == "Blessed Boots"       # [StashItem] == "true"
 
 // Gloves
-[Type] == "Apothecary's Gloves" # [StashItem] == "true"
+// [Type] == "Apothecary's Gloves" # [StashItem] == "true"
 
 //Quiver
-[Type] == "Artillery Quiver"    # [StashItem] == "true"
+// [Type] == "Artillery Quiver"    # [StashItem] == "true"
 
 // Ring
-[Type] == "Iolite Ring"         # [StashItem] == "true" // increased Chaos Damage
+// [Type] == "Iolite Ring"         # [StashItem] == "true" // increased Chaos Damage
 
 // Amulet
-[Type] == "Seaglass Amulet"     # [StashItem] == "true" // faster start of Energy Shield Recharge
+// [Type] == "Seaglass Amulet"     # [StashItem] == "true" // faster start of Energy Shield Recharge
 
 /////////////////////////////////////////////////////////////////////////////////////
 //                                                                                 //
