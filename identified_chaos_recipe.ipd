@@ -367,8 +367,8 @@
 
 ////////// Veiled Rares farm
 // Any
-// [Rarity] == "Rare"   && [veiled_mod_type] >= "1" # [StashUnid] == "true" // Keep all rare veiled items
-// [Rarity] == "Unique" && [veiled_mod_type] >= "1" # [StashUnid] == "true" // Keep all unique veiled items
+[Rarity] == "Rare"   && [veiled_mod_type] >= "1" # [StashUnid] == "true" // Keep all rare veiled items
+[Rarity] == "Unique" && [veiled_mod_type] >= "1" # [StashUnid] == "true" // Keep all unique veiled items
 
 // By item class
 // [Category] == "Helm"   && [Rarity] == "Rare" && [veiled_mod_type] >= "1" # [StashUnid] == "true"
