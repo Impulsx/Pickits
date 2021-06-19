@@ -1346,7 +1346,7 @@
 // [Type] == "Prophecy Wand"            # [ChanceItem] == "true" // Void Battery
 // [Type] == "Conjurer Gloves"          # [ChanceItem] == "true" // Voidbringer (Vaal Roll +1 Gems)
 // [Type] == "Spine Bow"                # [ChanceItem] == "true" // Voltaxic Rift
-[Type] == "Leather Belt"             # [ChanceItem] == "true" // Headhunter
+// [Type] == "Leather Belt"             # [ChanceItem] == "true" // Headhunter
 
 
 // [Type] == "Sacrificial Garb" && [Rarity] == "Normal" # [StashItem] == "true" // 25% chance to obtain the Shadowstitch. @ the Altar of Corruption at Locus of Corruption
@@ -1834,7 +1834,7 @@
 [Type] == "Legion Boots" && [Rarity] == "Unique"      # [local_socketed_aura_gem_level_+] >= "1" && [ForceSellItem] == "true" // March of the Legion
 [Type] == "Mesh Boots" && [Rarity] == "Unique"        # [wake_of_destruction_ground_lightning_duration_ms] >= "1" && [ForceSellItem] == "true" // Wake of Destruction
 [Type] == "Riveted Boots" && [Rarity] == "Unique"     # [gain_random_charge_per_second_while_stationary] >= "1" && [ForceSellItem] == "true" // Ralakesh's Impatience
-[Type] == "Soldier Boots" && [Rarity] == "Unique"     # [number_of_skeletons_allowed_per_2_old] >= "1" && [ForceSellItem] == "true" // Alberon's Warpath
+[Type] == "Soldier Boots" && [Rarity] == "Unique"     # [base_number_of_skeletons_allowed] >= "1" && [ForceSellItem] == "true" // Alberon's Warpath
 [Type] == "Two-Toned Boots" && [Rarity] == "Unique"   # [immune_to_elemental_status_ailments_while_affected_by_glorious_madness] >= "1" && [ForceSellItem] == "true" // Beacon of Madness Fire/Lightning res, Ele conflux/Ele Ailment Immunity
 
 // Evasion & Energy Shield Boots
