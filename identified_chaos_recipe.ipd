@@ -1528,6 +1528,28 @@
 // DO NOT COMMENT THIS LINE - with "ForceSellItem" there is no need to sell uniques as a general line command, rather by individual lines!
 [Rarity] == "Unique" # [StashItem] == "true"
 
+//////////////////////////////////////////////
+//                                          //
+//                U p g r a d e             //
+//                                          //
+//////////////////////////////////////////////
+
+// Upgradable Uniques 
+
+// - [Prophecy] - Fated Items
+[Type] == "Spiraled Wand" && [Rarity] == "Unique"    # [local_display_socketed_gems_get_echo_level] >= "1" && [ForceSellItem] == "true" // Reverberation Rod - [Power Magnified] - Amplification Rod 
+[Type] == "Golden Buckler" && [Rarity] == "Unique"     # [reflect_curses] >= "1" && [ForceSellItem] == "true" // Atziri's Mirror - [The Queen's Sacrifice] - Atziri's Reflection
+[Type] == "Gavel" && [Rarity] == "Unique"          # [killed_monster_dropped_item_rarity_+%_when_frozen] >= "1" && [ForceSellItem] == "true" // Cameria's Maul - [Cold Greed] - Cameria's Avarice
+[Type] == "Great Mallet" && [Rarity] == "Unique"  # [local_socketed_minion_gem_level_+] >= "1" && [ForceSellItem] == "true" // Chober Chaber - [Faith Exhumed] - Chaber Cairn
+[Type] == "Crystal Wand" && [Rarity] == "Unique"     # [local_display_nearby_enemies_are_blinded] >= "1" && [ForceSellItem] == "true" // Eclipse Solaris - [Blinding Light] - Corona Solaris
+[Type] == "Serrated Arrow Quiver" && [Rarity] == "Unique"       # [ForceSellItem] == "true" // Craghead - [Heavy Blows] - Cragfall
+[Type] == "Death Bow" && [Rarity] == "Unique"        # [base_number_of_additional_arrows] >= "1" &&  [ForceSellItem] == "true" // Death's Harp - [The Bowstring's Music] - Death's Opus
+[Type] == "Royal Bow" && [Rarity] == "Unique"        # [weapon_physical_damage_%_to_add_as_random_element] >= "1" &&  [ForceSellItem] == "true" // Doomfletch - [Ancient Doom] - Doomfletch's Prism
+
+
+// [Type] == "Woodsplitter" && [Rarity] == "Unique" # [local_display_trigger_level_x_gore_shockwave_on_melee_hit_with_atleast_150_strength] >= "1" &&  [ForceSellItem] == "true" // Limbsplit - [Severed Limbs] - The Cauteriser
+
+
 
 //////////////////////////////////////////////
 //                                          //
@@ -1669,7 +1691,6 @@
 // [Type] == "Penetrating Arrow Quiver" && [Rarity] == "Unique" # [ForceSellItem] == "true" // Drillneck / Voidfletcher
 [Type] == "Penetrating Arrow Quiver" && [Rarity] == "Unique"    # [arrow_damage_+%_vs_pierced_targets] >= "1" && [ForceSellItem] == "true" // Drillneck 
 // [Type] == "Penetrating Arrow Quiver" && [Rarity] == "Unique" # [maximum_void_arrows] >= "1" && [ForceSellItem] == "true" // Voidfletcher
-[Type] == "Serrated Arrow Quiver" && [Rarity] == "Unique"       # [ForceSellItem] == "true" // Cragfall / Craghead
 [Type] == "Sharktooth Arrow Quiver" && [Rarity] == "Unique"     # [ForceSellItem] == "true" // Hyrri's Bite / Hyrri's Demise
 [Type] == "Spike-Point Arrow Quiver" && [Rarity] == "Unique"    # [ForceSellItem] == "true" // Saemus' Gift / Soul Strike
 // [Type] == "Two-Point Arrow Quiver" && [Rarity] == "Unique"   # [ForceSellItem] == "true" // Asphyxia's Wrath / Rigwald's Quills / Skirmish
@@ -2089,7 +2110,6 @@
 [Type] == "Corrugated Buckler" && [Rarity] == "Unique" # [attack_minimum_added_physical_damage] >= "1" && [ForceSellItem] == "true" // Great Old One's Ward
 [Type] == "Enameled Buckler" && [Rarity] == "Unique"   # [keystone_call_to_arms] >= "1" && [ForceSellItem] == "true" // Mutewind Pennant
 [Type] == "Goathide Buckler" && [Rarity] == "Unique"   # [resist_all_elements_%_per_endurance_charge] >= "1" && [ForceSellItem] == "true" // Remnant of Empires
-[Type] == "Golden Buckler" && [Rarity] == "Unique"     # [reflect_curses] >= "1" && [ForceSellItem] == "true" // Atziri's Mirror
 [Type] == "Lacquered Buckler" && [Rarity] == "Unique"  # [phasing_if_blocked_recently] >= "1" && [ForceSellItem] == "true" // Mistwall
 [Type] == "Painted Buckler" && [Rarity] == "Unique"    # [physical_damage_%_to_add_as_cold] >= "1" && [ForceSellItem] == "true" // Kaltenhalt 
 [Type] == "Pine Buckler" && [Rarity] == "Unique"       # [life_leech_from_physical_attack_damage_permyriad] >= "1" && [ForceSellItem] == "true" // Crest of Perandus 
@@ -2182,7 +2202,6 @@
 [Type] == "Vaal Axe" && [Rarity] == "Unique"       # [attacks_use_life_in_place_of_mana] >= "1" &&  [ForceSellItem] == "true" // Hezmana's Bloodlust
 [Type] == "Vaal Axe" && [Rarity] == "Unique"       # [local_display_attack_with_level_X_bone_nova_on_bleeding_enemy_kill] >= "1" &&  [ForceSellItem] == "true" // Uul-Netol's Embrace
 // [Type] == "Void Axe" && [Rarity] == "Unique"    # [enemies_explode_on_kill] >= "1" &&  [ForceSellItem] == "true" // Kitava's Feast
-[Type] == "Woodsplitter" && [Rarity] == "Unique"   # [local_display_trigger_level_x_gore_shockwave_on_melee_hit_with_atleast_150_strength] >= "1" &&  [ForceSellItem] == "true" // Limbsplit
 
 // Bows
 // [Type] == "Assassin Bow" && [Rarity] == "Unique"  # [ForceSellItem] == "true" // Chin Sol / Darkscorn / Arborix
@@ -2193,7 +2212,6 @@
 [Type] == "Citadel Bow" && [Rarity] == "Unique"      # [local_display_socketed_gems_supported_by_level_x_ignite_proliferation] >= "1" &&  [ForceSellItem] == "true" // // Xoph's Nurture
 [Type] == "Crude Bow" && [Rarity] == "Unique"        # [local_socketed_bow_gem_level_+] >= "1" &&  [ForceSellItem] == "true" // Silverbranch
 // [Type] == "Death Bow" && [Rarity] == "Unique"     # [ForceSellItem] == "true" // Death's Harp / Iron Commander
-[Type] == "Death Bow" && [Rarity] == "Unique"        # [base_number_of_additional_arrows] >= "1" &&  [ForceSellItem] == "true" // Death's Harp
 [Type] == "Death Bow" && [Rarity] == "Unique"        # [number_of_additional_siege_ballistae_per_200_dexterity] >= "1" &&  [ForceSellItem] == "true" // Iron Commander
 [Type] == "Decimation Bow" && [Rarity] == "Unique"   # [base_arrows_always_pierce] >= "1" &&  [ForceSellItem] == "true" // Infractem
 // [Type] == "Harbinger Bow" && [Rarity] == "Unique" # [ForceSellItem] == "true" // Nuro's Harp / Slivertongue
@@ -2208,7 +2226,6 @@
 [Type] == "Ranger Bow" && [Rarity] == "Unique"       # [minion_damage_+%_per_10_dex] >= "1" &&  [ForceSellItem] == "true" // Null's Inclination
 [Type] == "Ranger Bow" && [Rarity] == "Unique"       # [movement_velocity_+%_per_frenzy_charge] >= "1" && [ForceSellItem] == "true" // Hopeshredder
 [Type] == "Recurve Bow" && [Rarity] == "Unique"      # [number_of_chains] >= "1" &&  [ForceSellItem] == "true" // Roth's Reach
-[Type] == "Royal Bow" && [Rarity] == "Unique"        # [weapon_physical_damage_%_to_add_as_random_element] >= "1" &&  [ForceSellItem] == "true" // Doomfletch
 [Type] == "Short Bow" && [Rarity] == "Unique"        # [local_mana_gain_per_target] >= "1" &&  [ForceSellItem] == "true" // Quill Rain
 // [Type] == "Spine Bow" && [Rarity] == "Unique"     # [ForceSellItem] == "true" // Reach of the Council / Voltaxic Rift
 [Type] == "Spine Bow" && [Rarity] == "Unique"        # [arrows_from_fourth_firing_point_additional_chains] >= "1" && [ForceSellItem] == "true" // Reach of the Council
@@ -2269,7 +2286,6 @@
 // One-Handed Maces
 [Type] == "Auric Mace" && [Rarity] == "Unique"     # [attack_damage_that_stuns_also_chills] >= "1" && [ForceSellItem] == "true" // Callinellus Malleus
 [Type] == "Dream Mace" && [Rarity] == "Unique"     # [life_leech_from_attack_damage_permyriad_vs_bleeding_enemies] >= "1" && [ForceSellItem] == "true" // Flesh-Eater
-[Type] == "Gavel" && [Rarity] == "Unique"          # [killed_monster_dropped_item_rarity_+%_when_frozen] >= "1" && [ForceSellItem] == "true" // Cameria's Maul
 // [Type] == "Gavel" && [Rarity] == "Unique"       # [number_of_chains] >= "1" && [ForceSellItem] == "true" // Mjolner
 [Type] == "Nightmare Mace" && [Rarity] == "Unique" # [chaos_damage_resistance_%_per_endurance_charge] >= "1" && [ForceSellItem] == "true" // Nebuloch
 [Type] == "Ornate Mace" && [Rarity] == "Unique"    # [local_double_damage_to_chilled_enemies] >= "1" && [ForceSellItem] == "true" // Frostbreath
@@ -2303,7 +2319,6 @@
 // Two-Handed Maces
 [Type] == "Brass Maul" && [Rarity] == "Unique"    # [global_cannot_crit] >= "1" && [ForceSellItem] == "true" // Geofri's Baptism
 [Type] == "Dread Maul" && [Rarity] == "Unique"    # [local_attack_speed_+%] >= "1" && [ForceSellItem] == "true" // Voidhome
-[Type] == "Great Mallet" && [Rarity] == "Unique"  # [local_socketed_minion_gem_level_+] >= "1" && [ForceSellItem] == "true" // Chober Chaber
 [Type] == "Great Mallet" && [Rarity] == "Unique"  # [local_weapon_always_crit] >= "1" && [ForceSellItem] == "true" // Trypanon
 [Type] == "Imperial Maul" && [Rarity] == "Unique" # [local_display_socketed_gems_supported_by_level_x_endurance_charge_on_stun] >= "1" && [ForceSellItem] == "true" // Tidebreaker
 [Type] == "Jagged Maul" && [Rarity] == "Unique"   # [explode_on_kill_%_fire_damage_to_deal] >= "1" && [ForceSellItem] == "true" // Quecholli
@@ -2332,7 +2347,7 @@
 [Type] == "Iron Staff" && [Rarity] == "Unique"         # [local_display_socketed_gems_get_cold_to_fire_level] >= "1" && [ForceSellItem] == "true" // Realmshaper
 // [Type] == "Judgement Staff" && [Rarity] == "Unique"    # [local_display_grants_level_X_queens_demand_skill] >= "1" && [ForceSellItem] == "true" // Atziri's Rule *NEW
 [Type] == "Judgement Staff" && [Rarity] == "Unique"    # [max_power_charges] >= "1" && [ForceSellItem] == "true" // Hegemony's Era
-[Type] == "Judgement Staff" && [Rarity] == "Unique"    # [local_display_socketed_gems_supported_by_level_x_greater_spell_echo] >= "1" && [ForceSellItem] == "true" // Pledge of Hands
+// [Type] == "Judgement Staff" && [Rarity] == "Unique"    # [local_display_socketed_gems_supported_by_level_x_greater_spell_echo] >= "1" && [ForceSellItem] == "true" // Pledge of Hands
 [Type] == "Judgement Staff" && [Rarity] == "Unique"    # [local_has_no_sockets] >= "1" && [ForceSellItem] == "true" // The Grey Spire
 [Type] == "Lathi" && [Rarity] == "Unique"              # [fire_spell_skill_gem_level_+] >= "1" && [ForceSellItem] == "true" // The Searing Touch
 [Type] == "Maelström Staff" && [Rarity] == "Unique"    # [keystone_battlemage] >= "1" && [ForceSellItem] == "true" // Disintegrator
@@ -2400,7 +2415,6 @@
 // Wands
 [Type] == "Carved Wand" && [Rarity] == "Unique"      # [max_power_charges] >= "1" && [ForceSellItem] == "true" // Storm Prison
 // [Type] == "Carved Wand" && [Rarity] == "Unique"   # [local_socketed_skill_gem_level_+1_per_x_player_levels] >= "1" && [ForceSellItem] == "true" // The Poet's Pen
-[Type] == "Crystal Wand" && [Rarity] == "Unique"     # [local_display_nearby_enemies_are_blinded] >= "1" && [ForceSellItem] == "true" // Eclipse Solaris
 [Type] == "Demon's Horn" && [Rarity] == "Unique"     # [explode_enemies_for_25%_life_as_chaos_on_kill_chance_%] >= "1" && [ForceSellItem] == "true" // Obliteration
 [Type] == "Driftwood Wand" && [Rarity] == "Unique"   # [local_socketed_spell_gem_level_+] >= "1" && [ForceSellItem] == "true" // Lifesprig
 [Type] == "Engraved Wand" && [Rarity] == "Unique"    # [local_cannot_be_used_with_chaos_innoculation] >= "1" && [ForceSellItem] == "true" // Midnight Bargain
@@ -2411,7 +2425,6 @@
 [Type] == "Quartz Wand" && [Rarity] == "Unique"      # [local_display_summon_raging_spirit_on_kill_%] >= "1" && [ForceSellItem] == "true" // Ashcaller
 [Type] == "Sage Wand" && [Rarity] == "Unique"        # [critical_strikes_deal_no_damage] >= "1" && [ForceSellItem] == "true" // Shade of Solaris
 [Type] == "Sage Wand" && [Rarity] == "Unique"        # [local_display_socketed_gems_have_number_of_additional_projectiles] >= "1" && [ForceSellItem] == "true" // Twyzel 
-[Type] == "Spiraled Wand" && [Rarity] == "Unique"    # [local_display_socketed_gems_get_echo_level] >= "1" && [ForceSellItem] == "true" // Reverberation Rod
 [Type] == "Spiraled Wand" && [Rarity] == "Unique"    # [chance_to_gain_power_charge_on_killing_frozen_enemy_%] >= "1" && [ForceSellItem] == "true" // Tulborn
 [Type] == "Tornado Wand" && [Rarity] == "Unique"     # [reduce_enemy_elemental_resistance_with_weapons_%] >= "1" && [ForceSellItem] == "true" // Piscator's Vigil
 [Type] == "Tornado Wand" && [Rarity] == "Unique"     # [critical_strike_multiplier_+_per_power_charge] >= "1" && [ForceSellItem] == "true" // Shimmeron
