@@ -109,8 +109,9 @@
 [Type] == "Scroll Fragment" 	# [StashItem] == "true"
 [Type] == "Transmutation Shard" # [StashItem] == "true"
 
-[Type] == "Wisdom Scroll" # [StashItem] == "true"
-[Type] == "Portal Scroll" # [StashItem] == "true"
+// Uncommment the two following lines if you want to pickup ALL scrolls ignoring the keep_id_scroll_number / keep_tp_scroll_number settings
+// [Type] == "Wisdom Scroll" # [StashItem] == "true"
+// [Type] == "Portal Scroll" # [StashItem] == "true"
 
 [Type] == "Blacksmith's Whetstone" # [StashItem] == "true"
 [Type] == "Armourer's Scrap"       # [StashItem] == "true"

@@ -108,8 +108,9 @@
 [Type] == "Scroll Fragment" 	# [StashItem] == "true"
 [Type] == "Transmutation Shard" # [StashItem] == "true"
 
-[Type] == "Wisdom Scroll" # [StashItem] == "true"
-[Type] == "Portal Scroll" # [StashItem] == "true"
+// Uncommment the two following lines if you want to pickup ALL scrolls ignoring the keep_id_scroll_number / keep_tp_scroll_number settings
+// [Type] == "Wisdom Scroll" # [StashItem] == "true"
+// [Type] == "Portal Scroll" # [StashItem] == "true"
 
 [Type] == "Blacksmith's Whetstone" # [StashItem] == "true"
 [Type] == "Armourer's Scrap"       # [StashItem] == "true"
@@ -1311,8 +1312,8 @@
 // [Sockets] == "6" && [Linked] >= "6"  && [Rarity] == "Magic"  # [ForceSellItem] =="true" // Sell Magic 6L6S
 // [Sockets] == "6" && [Linked] >= "6"  && [Rarity] == "Rare"   # [ForceSellItem] =="true" // Sell Rare 6L6S
 
-[Sockets] == "6" && [Linked] <= "5" && [Rarity] == "Normal"  # [SellUnid] == "true"     // Sell 6S Whites
-[Sockets] == "6" && [Linked] <= "5" && [Rarity] == "Magic" 	 # [SellUnid] == "true"     // Sell 6S Magic
+// [Sockets] == "6" && [Linked] <= "5" && [Rarity] == "Normal"  # [SellUnid] == "true"     // Sell 6S Whites
+// [Sockets] == "6" && [Linked] <= "5" && [Rarity] == "Magic" 	 # [SellUnid] == "true"     // Sell 6S Magic
 
 
 
