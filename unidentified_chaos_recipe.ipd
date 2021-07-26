@@ -1547,7 +1547,7 @@
 [Type] == "Royal Bow" && [Rarity] == "Unique"        # [weapon_physical_damage_%_to_add_as_random_element] >= "1" &&  [ForceSellItem] == "true" // Doomfletch - [Ancient Doom] - Doomfletch's Prism
 
 
-// [Type] == "Woodsplitter" && [Rarity] == "Unique" # [local_display_trigger_level_x_gore_shockwave_on_melee_hit_with_atleast_150_strength] >= "1" &&  [ForceSellItem] == "true" // Limbsplit - [Severed Limbs] - The Cauteriser
+[Type] == "Woodsplitter" && [Rarity] == "Unique" # [local_display_trigger_level_x_gore_shockwave_on_melee_hit_with_atleast_150_strength] >= "1" &&  [ForceSellItem] == "true" // Limbsplit - [Severed Limbs] - The Cauteriser
 
 
 
@@ -2840,6 +2840,111 @@
 
 // Amulet
 // [Type] == "Seaglass Amulet"     # [StashItem] == "true" // faster start of Energy Shield Recharge
+
+/////////////////////////////////////////////////////////////////////////////////////
+//                                                                                 //
+//                             E X P E D I T I O N                                 //
+//                                                                                 //
+/////////////////////////////////////////////////////////////////////////////////////
+
+// Expedition
+[Type] == "Expedition Logbook" # [StashItem] == "true"
+
+// Currency
+[Type] == "Astragali"        # [StashItem] == "true"
+[Type] == "Burial Medallion" # [StashItem] == "true"
+[Type] == "Enkindling Orb"   # [StashItem] == "true"
+[Type] == "Exotic Coinage"   # [StashItem] == "true"
+[Type] == "Instilling Orb"   # [StashItem] == "true"
+[Type] == "Scrap Metal"      # [StashItem] == "true"
+
+// Artifacts
+[Type] == "Lesser Black Scythe Artifact"   # [StashItem] == "true"
+[Type] == "Lesser Broken Circle Artifact"  # [StashItem] == "true"
+[Type] == "Lesser Order Artifact"          # [StashItem] == "true"
+[Type] == "Lesser Sun Artifact"            # [StashItem] == "true"
+[Type] == "Common Black Scythe Artifact"   # [StashItem] == "true"
+[Type] == "Common Broken Circle Artifact"  # [StashItem] == "true"
+[Type] == "Common Order Artifact"          # [StashItem] == "true"
+[Type] == "Common Sun Artifact"            # [StashItem] == "true"
+[Type] == "Greater Broken Circle Artifact" # [StashItem] == "true"
+[Type] == "Greater Order Artifact"         # [StashItem] == "true"
+[Type] == "Greater Sun Artifact"           # [StashItem] == "true"
+[Type] == "Greater Order Artifact"         # [StashItem] == "true"
+[Type] == "Grand Black Scythe Artifact"    # [StashItem] == "true"
+[Type] == "Grand Broken Circle Artifact"   # [StashItem] == "true"
+[Type] == "Grand Order Artifact"           # [StashItem] == "true"
+[Type] == "Grand Sun Artifact"             # [StashItem] == "true"
+
+// Div cards
+[Type] == "A Sea of Blue"            # [StashItem] == "true" // 13X Orb of Alteration
+[Type] == "Ambitious Obsession"      # [StashItem] == "true" // Skittering Delirium Orb
+[Type] == "Costly Curio"             # [StashItem] == "true" // Double-Influenced Item
+[Type] == "Dementophobia"            # [StashItem] == "true" // 10x Delirium Orb
+[Type] == "Lachrymal Necrosis"       # [StashItem] == "true" // Jewel with [Corrupted Blood cannot be inflicted on you]
+[Type] == "Terrible Secret of Space" # [StashItem] == "true" // Level 21 Golem Gem w/ Any Quality Type @ +23%
+[Type] == "The Blessing of Moosh"    # [StashItem] == "true" // Labyrinth Enchantment
+[Type] == "The Emptiness"            # [StashItem] == "true" // Gem Vaal Breach Quality: +6%
+[Type] == "The Last Supper"          # [StashItem] == "true" // Bino's Kitchen Knife
+[Type] == "The Mind's Eyes"          # [StashItem] == "true" // Astral Projector
+[Type] == "The Offspring"            # [StashItem] == "true" // Ryslatha's Coil
+[Type] == "The Price of Prescience"  # [StashItem] == "true" // Vaal Temple Map Delirium: 100%
+
+
+// Flask 
+// [Type] == "Corundum Flask" # [StashItem] == "true"
+// [Type] == "Gold Flask"     # [StashItem] == "true"
+// [Type] == "Iron Flask"     # [StashItem] == "true"
+
+////// Runic Rares
+//// Armor
+// Helm
+// [Type] == "Runic Crest" # [StashItem] == "true"
+// [Type] == "Runic Crown" # [StashItem] == "true"
+// [Type] == "Runic Helm"  # [StashItem] == "true"
+
+// Body
+
+// Boots
+// [Type] == "Runic Greaves"   # [StashItem] == "true"
+// [Type] == "Runic Sabatons"  # [StashItem] == "true"
+// [Type] == "Runic Sollerets" # [StashItem] == "true"
+
+// Gloves
+// [Type] == "Runic Gages"     # [StashItem] == "true"
+// [Type] == "Runic Gauntlets" # [StashItem] == "true"
+// [Type] == "Runic Gloves"    # [StashItem] == "true"
+
+// Quiver
+// Ring
+// Amulet
+// Flask 
+// Uniques
+// Helm
+[Type] == "Runic Crown" && [Rarity] == "Unique" # [keystone_battlemage] >= "1" && [StashItem] == "true"                                    // Cadigan's Crown Runic Crown
+[Type] == "Runic Helm" && [Rarity] == "Unique"  # [energy_shield_additive_modifiers_instead_apply_to_ward] >= "1" && [StashItem] == "true" // Faithguard Runic Helm
+
+// Body
+
+// Boots
+[Type] == "Runic Sabatons" && [Rarity] == "Unique"  # [local_display_cast_summon_arbalists_on_gain_skill] >= "1" && [StashItem] == "true" // Vorana's March Runic Sabatons
+[Type] == "Runic Sollerets" && [Rarity] == "Unique" # [gain_adrenaline_when_ward_breaks_ms] >= "1" && [StashItem] == "true"               // Olroth's Charge Runic Sollerets
+
+// Gloves
+[Type] == "Runic Gauntlets" && [Rarity] == "Unique" # [gain_flask_charges_every_second_if_hit_unique_enemy_recently] >= "1" && [StashItem] == "true" // Medved's Challenge Runic Gauntlets
+[Type] == "Runic Gloves" && [Rarity] == "Unique"    # [base_damage_bypass_ward_%] >= "1" && [StashItem] == "true"                                    // Nightgrip Runic Gages
+
+// Quiver
+
+// Ring
+
+// Amulet
+
+// Flask 
+[Type] == "Iron Flask" && [Rarity] == "Unique" # [local_flask_gain_endurance_charge_per_second_during_flask_effect] >= "1" && [StashItem] == "true"          // Elixir of the Unbroken Circle Iron Flask
+[Type] == "Iron Flask" && [Rarity] == "Unique" # [local_flask_ward_does_not_break_during_effect] >= "1" && [StashItem] == "true"                             // Olroth's Resolve Iron Flask
+[Type] == "Iron Flask" && [Rarity] == "Unique" # [local_flask_inflict_fire_cold_lightning_exposure_on_nearby_enemies_on_use] >= "1" && [StashItem] == "true" // Starlight Chalice Iron Flask
+[Type] == "Iron Flask" && [Rarity] == "Unique" # [local_flask_culling_strike_during_flask_effect] >= "1" && [StashItem] == "true"                            // Vorana's Preparation Iron Flask
 
 /////////////////////////////////////////////////////////////////////////////////////
 //                                                                                 //
