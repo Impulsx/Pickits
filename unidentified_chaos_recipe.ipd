@@ -1864,7 +1864,7 @@
 // [UniqueName] == "Greed's Embrace" # [ForceSellItem] == "true"
 [UniqueName] == "Craiceann's Carapace" # [ForceSellItem] == "true"
 //[Type] == "Plate Vest" && [Rarity] == "Unique"         # [ForceSellItem] == "true" // Bramble Jack / Wall of Brambles
-[UniqueName] == "Bramble Jack" # [ForceSellItem] == "true"
+[UniqueName] == "Bramblejack" # [ForceSellItem] == "true" // Bramble Jack
 [UniqueName] == "Wall of Brambles" # [ForceSellItem] == "true"
 
 // Evasion Chests
@@ -1981,7 +1981,7 @@
 [UniqueName] == "Deerstalker" # [ForceSellItem] == "true"
 // [Type] == "Goathide Boots" && [Rarity] == "Unique" # [ForceSellItem] == "true" // Abberath's Hooves / Victario's Flight
 // [UniqueName] == "Abberath's Hooves" # [ForceSellItem] == "true"
-[UniqueName] == "Victario's Flight" # [ForceSellItem] == "true"
+[UniqueName] == "Ondar's Flight" # [ForceSellItem] == "true" // Victario's Flight
 [UniqueName] == "Goldwyrm" # [ForceSellItem] == "true"
 // [UniqueName] == "Seven-League Step" # [ForceSellItem] == "true"
 [UniqueName] == "Three-step Assault" # [ForceSellItem] == "true"
