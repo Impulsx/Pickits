@@ -2525,7 +2525,7 @@
 // Staves
 [UniqueName] == "Dying Breath" # [ForceSellItem] == "true" //
 [UniqueName] == "Xirgil's Crank" # [ForceSellItem] == "true" //
-[UniqueName] == "Cane of Unravelling" # [ForceSellItem] == "true" == "true" //
+[UniqueName] == "Cane of Unravelling" # [ForceSellItem] == "true" //
 [UniqueName] == "Soulwrest" # [ForceSellItem] == "true" //
 // [UniqueName] == "The Fulcrum" # [ForceSellItem] == "true" //
 [UniqueName] == "The Blood Thorn" # [ForceSellItem] == "true" //
