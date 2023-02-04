@@ -413,11 +413,11 @@
 ////////// Abyss Currency/Items
 
 // Rares only
-[Type] == "Stygian Vise" 			&& [Rarity] == "Rare" # [StashItem] == "true"
-[Type] == "Murderous Eye Jewel" 	&& [Rarity] == "Rare" # [StashItem] == "true"
-[Type] == "Searching Eye Jewel" 	&& [Rarity] == "Rare" # [StashItem] == "true"
-[Type] == "Hypnotic Eye Jewel" 		&& [Rarity] == "Rare" # [StashItem] == "true"
-[Type] == "Ghastly Eye Jewel" 		&& [Rarity] == "Rare" # [StashItem] == "true"
+[Type] == "Stygian Vise" 			&& [ItemLevel] >= "84" && [Rarity] == "Rare" # [StashItem] == "true"
+[Type] == "Murderous Eye Jewel" 	&& [ItemLevel] >= "84" && [Rarity] == "Rare" # [StashItem] == "true"
+[Type] == "Searching Eye Jewel" 	&& [ItemLevel] >= "84" && [Rarity] == "Rare" # [StashItem] == "true"
+[Type] == "Hypnotic Eye Jewel" 		&& [ItemLevel] >= "84" && [Rarity] == "Rare" # [StashItem] == "true"
+[Type] == "Ghastly Eye Jewel" 		&& [ItemLevel] >= "84" && [Rarity] == "Rare" # [StashItem] == "true"
 
 
 ////////// Breach Currency
@@ -1110,6 +1110,20 @@
 // [Type] == "Medium Cluster Jewel" && [Rarity] == "Rare" # [StashItem] == "true"
 // [Type] == "Large Cluster Jewel" && [Rarity] == "Rare"  # [StashItem] == "true"
 
+[Type] == "Small Cluster Jewel" && [ItemLevel] >= "84"  # [StashItem] == "true"
+[Type] == "Medium Cluster Jewel" && [ItemLevel] >= "84" # [StashItem] == "true"
+[Type] == "Large Cluster Jewel" && [ItemLevel] >= "84"  # [StashItem] == "true"
+
+// Aura Jewels 3.20
+// 10923 Mana reservation
+// 10924 Passive count
+// 11449 Passives effect mod
+// Subject to change on update
+[Type] == "Small Cluster Jewel" && [Rarity] == "Normal" && [10923] == "54" && [10924] == "3" # [StashItem] == "true"
+[Type] == "Small Cluster Jewel" && [Rarity] == "Magic" && [10923] == "54" && [10924] == "3" # [StashItem] == "true"
+[Type] == "Small Cluster Jewel" && [Rarity] == "Rare"  && [10923] == "54" && [10924] == "3" # [11449] >= "25" && [StashItem] == "true"
+
+
 // Custom Cluster for frostblades
 // [Type] == "Medium Cluster Jewel" && [Rarity] == "Magic"     # [local_affliction_notable_cold_conduction] >= "1" && [StashItem] == "true"  // For rolling 1 Added Passive Skill is Cold Conduction 11343 & 1 Added Passive Skill is Stormrider 11349
 // [Type] == "Medium Cluster Jewel" && [Rarity] == "Rare" 	    # [local_affliction_notable_cold_conduction] >= "1" && [StashItem] == "true"  // For rolling 1 Added Passive Skill is Cold Conduction 11343 & 1 Added Passive Skill is Stormrider 11349
@@ -1200,15 +1214,6 @@
 // [Type] == "Small Cluster Jewel" && [Rarity] == "Rare" 	    # [local_affliction_notable_brush_with_death] >= "1" && [StashItem] == "true"
 // [Type] == "Medium Cluster Jewel" && [Rarity] == "Rare" 	    # [local_affliction_notable_brush_with_death] >= "1" && [StashItem] == "true"
 // [Type] == "Large Cluster Jewel" && [Rarity] == "Rare" 	    # [local_affliction_notable_brush_with_death] >= "1" && [StashItem] == "true"
-
-// Aura Jewels
-// 10923 Mana reservation
-// 10924 Passive count
-// 11449 Passives effect mod
-// Subject to change on update
-[Type] == "Small Cluster Jewel" && [Rarity] == "Normal" && [10923] == "54" && [10924] == "3" # [StashItem] == "true"
-[Type] == "Small Cluster Jewel" && [Rarity] == "Magic" && [10923] == "54" && [10924] == "3" # [StashItem] == "true"
-[Type] == "Small Cluster Jewel" && [Rarity] == "Rare"  && [10923] == "54" && [10924] == "3" # [11449] >= "25" && [StashItem] == "true"
 
 
 // Unique Prismatic Jewels are worth keeping
@@ -1524,8 +1529,8 @@
 // [Type] == "Opal Ring" 	&& [ItemLevel] >= "79" # [StashItem] == "true"  // Found in Maze, Plaza, Scriptorium, Colosseum
 // [Type] == "Steel Ring" 	&& [ItemLevel] >= "79" # [StashItem] == "true"  // Found in Abyss, Lair, Mineral Pools, Volcano
 
-[Type] == "Oscillating Sceptre" 	&& [ItemLevel] >= "" # [StashItem] == "true"  // Heist
-[Type] == "Prismatic Jewel" 	&& [ItemLevel] >= "" # [StashItem] == "true"  // Heist
+[Type] == "Oscillating Sceptre" 	&& [ItemLevel] >= "55" # [StashItem] == "true"  // Heist
+[Type] == "Prismatic Jewel" # [StashItem] == "true"  //
 
 
 //////////////////////////////////////////////
@@ -2008,6 +2013,7 @@
 [UniqueName] == "Perfidy" # [ForceSellItem] == "true"
 // [Type] == "Golden Plate" && [Rarity] == "Unique"    # [ForceSellItem] == "true" // Greed's Embrace / Craiceann's Carapace
 // [UniqueName] == "Greed's Embrace" # [ForceSellItem] == "true"
+[UniqueName] == "Greed's Embrace" # [base_item_found_quantity_+%] < "14" && [base_item_found_rarity_+%] < "45" && [ForceSellItem] == "true" //
 [UniqueName] == "Craiceann's Carapace" # [ForceSellItem] == "true"
 //[Type] == "Plate Vest" && [Rarity] == "Unique"         # [ForceSellItem] == "true" // Bramble Jack / Wall of Brambles
 [UniqueName] == "Bramblejack" # [ForceSellItem] == "true" // Bramble Jack
@@ -2251,7 +2257,7 @@
 [UniqueName] == "Wyrmsign" # [ForceSellItem] == "true"
 
 // Armour & Energy Shield Gloves
-// [UniqueName] == "Shackles of the Wretched" # [ForceSellItem] == "true"
+[UniqueName] == "Shackles of the Wretched" # [ForceSellItem] == "true"
 [UniqueName] == "Repentance" # [ForceSellItem] == "true"
 // [UniqueName] == "Shaper's Touch" # [ForceSellItem] == "true"
 // [UniqueName] == "Hands of the High Templar" # [ForceSellItem] == "true"
@@ -2528,7 +2534,7 @@
 [UniqueName] == "The Screaming Eagle" # [ForceSellItem] == "true" //
 [UniqueName] == "Rigwald's Savagery" # [ForceSellItem] == "true" //
 [UniqueName] == "Rust of Winter" # [ForceSellItem] == "true" //
-// [UniqueName] == "Soul Taker" # [ForceSellItem] == "true" //
+// [UniqueName] == "Soul Taker" # [ForceSellItem] == "true" // for kingmaker
 [UniqueName] == "Moonbender's Wing" # [ForceSellItem] == "true" //
 [UniqueName] == "Jack, the Axe" # [ForceSellItem] == "true" //
 
@@ -2624,7 +2630,7 @@
 //[UniqueName] == "White Wind" # [ForceSellItem] == "true"
 [UniqueName] == "White Wind" # [cold_damage_+%_while_off_hand_is_empty] < "200" && [ForceSellItem] == "true" // Perf Cold Damage% White Wind
 [UniqueName] == "Mark of the Doubting Knight" # [ForceSellItem] == "true"
-[UniqueName] == "Heartbreaker" # [ForceSellItem] == "true"
+//[UniqueName] == "Heartbreaker" # [ForceSellItem] == "true" // for kingmaker
 [UniqueName] == "Bino's Kitchen Knife" # [ForceSellItem] == "true"
 
 // Fishing Rods
@@ -3154,7 +3160,7 @@
 // Gloves
 // [Type] == "Apothecary's Gloves" # [StashItem] == "true"
 
-//Quiver
+// Offhand
 // [Type] == "Artillery Quiver"    # [StashItem] == "true"
 
 // Ring
@@ -3207,7 +3213,7 @@
 [Type] == "Terrible Secret of Space" # [StashItem] == "true" // Level 21 Golem Gem w/ Any Quality Type @ +23%
 [Type] == "The Blessing of Moosh"    # [StashItem] == "true" // Labyrinth Enchantment
 [Type] == "The Emptiness"            # [StashItem] == "true" // Gem Vaal Breach Quality: +6%
-[Type] == "The Last Supper"          # [StashItem] == "true" // Bino's Kitchen Knife
+// [Type] == "The Last Supper"          # [StashItem] == "true" // Bino's Kitchen Knife
 [Type] == "The Mind's Eyes"          # [StashItem] == "true" // Astral Projector
 [Type] == "The Offspring"            # [StashItem] == "true" // Ryslatha's Coil
 [Type] == "The Price of Prescience"  # [StashItem] == "true" // Vaal Temple Map Delirium: 100%
@@ -3236,7 +3242,7 @@
 // [Type] == "Runic Gages"     # [StashItem] == "true"
 // [Type] == "Runic Gauntlets" # [StashItem] == "true"
 // [Type] == "Runic Gloves"    # [StashItem] == "true"
-// Quiver
+// Offhand
 // Ring
 // Amulet
 // Flask
@@ -3249,13 +3255,13 @@
 
 // Boots
 [UniqueName] == "Vorana's March" # [StashItem] == "true"
-[UniqueName] == "Olroth's Charge" # [StashItem] == "true"
+// [UniqueName] == "Olroth's Charge" # [StashItem] == "true"
 
 // Gloves
-[UniqueName] == "Medved's Challenge" # [StashItem] == "true"
-[UniqueName] == "Nightgrip" # [StashItem] == "true"
+// [UniqueName] == "Medved's Challenge" # [StashItem] == "true"
+// [UniqueName] == "Nightgrip" # [StashItem] == "true"
 
-// Quiver
+// Offhand
 
 // Ring
 
@@ -3273,6 +3279,80 @@
 //                            	       SCOURGE                                     //
 //                                                                                 //
 /////////////////////////////////////////////////////////////////////////////////////
+// [Category] == "" # [StashItem] == "true"
+// [Type] == "" # [StashItem] == "true" //
+
+// League Mechanic
+
+// Currency
+// Div cards
+[Type] == "A Stone Perfected" # [StashItem] == "true" // Jewel Primordial 1-2 Implicit Corrupted
+[Type] == "Chasing Risk" # [StashItem] == "true" //
+[Type] == "Desperate Crusade" # [StashItem] == "true" //
+// [Type] == "Disdain" # [StashItem] == "true" //
+[Type] == "Eternal Bonds" # [StashItem] == "true" //
+[Type] == "Guardian's Challenge" # [StashItem] == "true" //
+[Type] == "The Aspirant" # [StashItem] == "true" //
+// [Type] == "The Catch" # [StashItem] == "true" //
+[Type] == "The Forgotten Treasure" # [StashItem] == "true" //
+[Type] == "The Fox in the Brambles" # [StashItem] == "true" //
+[Type] == "The Prince of Darkness" # [StashItem] == "true" //
+// [Type] == "The Rabbit's Foot" # [StashItem] == "true" //
+[Type] == "The Scout" # [StashItem] == "true" //
+[Type] == "Treasures of the Vaal" # [StashItem] == "true" //
+// [Type] == "" # [StashItem] == "true" //
+// [Type] == "" # [StashItem] == "true" //
+// [Type] == "" # [StashItem] == "true" //
+// [Type] == "" # [StashItem] == "true" //
+// [Type] == "" # [StashItem] == "true" //
+// [Type] == "" # [StashItem] == "true" //
+// [Type] == "" # [StashItem] == "true" //
+
+// Map/Fragment
+// Memory
+// Catalyst
+// Incubators
+// Scarab
+// Oil
+// Artifacts
+// Gems
+
+////// BaseType
+// Helm
+// Body
+// Belt
+// Boots
+// Gloves
+// Offhand
+// Ring
+// Amulet
+// Flask
+// Weapon
+// Jewel
+
+////// Uniques
+// [Type] == "" && [Rarity] == "Unique" # [] >= "1" && [StashItem] == "true" //
+// [UniqueName] == "" # [ForceSellItem] == "true"
+// [UniqueName] == "" # [StashItem] == "true"
+
+// Helm
+// Body
+// [UniqueName] == "Stasis Prison" # [ForceSellItem] == "true"
+// Belt
+// [UniqueName] == "Mageblood" # [ForceSellItem] == "true"
+// Boots
+// Gloves
+// [UniqueName] == "Gravebind" # [ForceSellItem] == "true"
+// Offhand
+[UniqueName] == "The Oppressor" # [ForceSellItem] == "true"
+// [UniqueName] == "The Squire" # [ForceSellItem] == "true"
+// Ring
+// Amulet
+// [UniqueName] == "Stranglegasp" # [ForceSellItem] == "true"
+// [UniqueName] == "Uul-Netol's Vow" # [ForceSellItem] == "true"
+// Flask
+// Weapon
+// Jewel
 
 
 /////////////////////////////////////////////////////////////////////////////////////
@@ -3280,6 +3360,68 @@
 //                                   ARCHNEMESIS                                   //
 //                                                                                 //
 /////////////////////////////////////////////////////////////////////////////////////
+// [Category] == "" # [StashItem] == "true"
+// [Type] == "" # [StashItem] == "true" //
+
+// League Mechanic
+
+// Currency
+// [Type] == "" # [StashItem] == "true" //
+
+// Div cards
+// [Type] == "Bijoux" # [StashItem] == "true" //
+[Type] == "Duality" # [StashItem] == "true" //
+[Type] == "Imperfect Memories" # [StashItem] == "true" //
+[Type] == "Judging Voices" # [StashItem] == "true" //
+[Type] == "Justified Ambition" # [StashItem] == "true" //
+[Type] == "Magnum Opus" # [StashItem] == "true" //
+// [Type] == "Misery in Darkness" # [StashItem] == "true" //
+// [Type] == "Parasitic Passengers" # [StashItem] == "true" //
+// [Type] == "Silence and Frost" # [StashItem] == "true" //
+// [Type] == "The Magma Crab" # [StashItem] == "true" //
+[Type] == "The One That Got Away" # [StashItem] == "true" //
+// [Type] == "The Tireless Extractor" # [StashItem] == "true" //
+[Type] == "The Transformation" # [StashItem] == "true" //
+// [Type] == "" # [StashItem] == "true" //
+// [Type] == "" # [StashItem] == "true" //
+// [Type] == "" # [StashItem] == "true" //
+
+// Map/Fragment
+// Memory
+// Catalyst
+// Incubators
+// Scarab
+// Oil
+// Artifacts
+// Gems
+
+////// Uniques
+// Helm
+[UniqueName] == "Sudden Dawn" # [ForceSellItem] == "true"
+// Body
+// Belt
+// Boots
+[UniqueName] == "Inextricable Fate" # [ForceSellItem] == "true"
+// Gloves
+[UniqueName] == "Black Zenith" # [ForceSellItem] == "true"
+[UniqueName] == "Ceaseless Feast" # [ForceSellItem] == "true"
+// Offhand
+// [UniqueName] == "Dawnbreaker" # [ForceSellItem] == "true"
+// Ring
+// [UniqueName] == "Polaric Devastation" # [ForceSellItem] == "true"
+// Amulet
+// [UniqueName] == "Ashes of the Stars" # [ForceSellItem] == "true"
+// [UniqueName] == "Crystallised Omniscience" # [ForceSellItem] == "true"
+// Flask
+// Weapon
+// [UniqueName] == "The Annihilating Light" # [ForceSellItem] == "true"
+// [UniqueName] == "The Gluttonous Tide" # [ForceSellItem] == "true"
+// Jewel
+// [UniqueName] == "Dissolution of the Flesh" # [ForceSellItem] == "true"
+// [UniqueName] == "Divine Inferno" # [ForceSellItem] == "true"
+// [UniqueName] == "Forbidden Flame" # [ForceSellItem] == "true"
+// [UniqueName] == "Forbidden Flesh" # [ForceSellItem] == "true"
+// [UniqueName] == "Melding of the Flesh" # [ForceSellItem] == "true"
 
 /////////////////////////////////////////////////////////////////////////////////////
 //                                                                                 //
@@ -3287,8 +3429,43 @@
 //                                                                                 //
 /////////////////////////////////////////////////////////////////////////////////////
 
-// Sentinel Base Types: Sentinels
+// League Mechanic
 
+// Currency
+// Div cards
+[Type] == "A Fate Worse Than Death" # [StashItem] == "true" // Cortex Corrupted
+[Type] == "Altered Perception" # [StashItem] == "true" // Simulacrum
+[Type] == "Darker Half" # [StashItem] == "true" // 5x Eldritch Chaos Orb
+// [Type] == "From Bone to Ashes" # [StashItem] == "true" //Ngamahu's Flame Two-Implicit Corrupted
+[Type] == "Further Invention" # [StashItem] == "true" // Helmet Double-Influenced Item Item Level: 100
+[Type] == "Home" # [StashItem] == "true" // Exceptional Gem Quality: +1-20%
+[Type] == "Rebirth and Renewal" # [StashItem] == "true" // Winged Scarab
+[Type] == "The Apothecary" # [StashItem] == "true" // Mageblood
+// [Type] == "The Brawny Battle Mage" # [StashItem] == "true" // Merciless Tornado Wand Item Level: 100
+[Type] == "The Destination" # [StashItem] == "true" // Watcher's Eye Two-Implicit Corrupted
+[Type] == "The Dungeon Master" # [StashItem] == "true" // Unique Belt Double-Influenced Item
+[Type] == "The Forward Gaze" # [StashItem] == "true" // Replica Item
+
+////// Uniques
+// [Type] == "" && [Rarity] == "Unique" # [] >= "1" && [StashItem] == "true" //
+// [UniqueName] == "" # [ForceSellItem] == "true"
+// [UniqueName] == "" # [StashItem] == "true"
+
+// Helm
+[UniqueName] == "Echoes of Creation" # [ForceSellItem] == "true"
+// Belt
+[UniqueName] == "The Burden of Truth" # [ForceSellItem] == "true"
+// Ring
+// [UniqueName] == "Call of the Void" # [ForceSellItem] == "true"
+
+// Amulet
+[UniqueName] == "The Eternal Struggle" # [ForceSellItem] == "true"
+// Jewel
+// [UniqueName] == "Impossible Escape" # [ForceSellItem] == "true"
+// [UniqueName] == "Sublime Vision" # [ForceSellItem] == "true"
+// [UniqueName] == "Thread of Hope" # [ForceSellItem] == "true"
+
+// Sentinel Base Types: Sentinels
 [Type] == "Rusted Stalker Sentinel" && [Rarity] == "Rare"       # [StashItem] == "true"
 [Type] == "Bronze Stalker Sentinel" && [Rarity] == "Rare"       # [StashItem] == "true"
 [Type] == "Cobalt Stalker Sentinel" && [Rarity] == "Rare"       # [StashItem] == "true"
@@ -3315,6 +3492,75 @@
 [Type] == "Primeval Apex Sentinel" && [Rarity] == "Rare"        # [StashItem] == "true"
 [Type] == "Ancient Apex Sentinel" && [Rarity] == "Rare"         # [StashItem] == "true"
 [Type] == "Cosmic Apex Sentinel" && [Rarity] == "Rare"          # [StashItem] == "true"
+
+/////////////////////////////////////////////////////////////////////////////////////
+//                                                                                 //
+//                                    Kalandra                                     //
+//                                                                                 //
+/////////////////////////////////////////////////////////////////////////////////////
+
+// League Mechanic
+[Type] == "Sacred Crystallised Lifeforce" # [StashItem] == "true" //
+[Type] == "Primal Crystallised Lifeforce" # [StashItem] == "true" //
+[Type] == "Vivid Crystallised Lifeforce" # [StashItem] == "true" //
+[Type] == "Wild Crystallised Lifeforce" # [StashItem] == "true" //
+
+
+// Currency
+// Div cards
+// [Type] == "Astral Protection" # [StashItem] == "true" // Shield Shaper Item
+// [Type] == "Azure Rage" # [StashItem] == "true" // Punishing Map Map Tier: 16
+[Type] == "Broken Truce" # [StashItem] == "true" // Cold Iron Point
+[Type] == "Checkmate" # [StashItem] == "true" // 76x Simulacrum Splinter
+[Type] == "Choking Guilt" # [StashItem] == "true" // Stranglegasp
+[Type] == "Doryani's Epiphany" # [StashItem] == "true" // 3x Regrading Lens
+[Type] == "Endless Night" # [StashItem] == "true" // Maloney's Mechanism
+[Type] == "Gemcutter's Mercy" # [StashItem] == "true" //
+// [Type] == "Lethean Temptation" # [StashItem] == "true" // Nebulis
+[Type] == "Something Dark" # [StashItem] == "true" // Blueprint Area Level: 83 Fully Revealed
+// [Type] == "The Enforcer" # [StashItem] == "true" //
+[Type] == "The Leviathan" # [StashItem] == "true" //
+[Type] == "The Price of Devotion" # [StashItem] == "true" //
+// [Type] == "The Shepherd's Sandals" # [StashItem] == "true" //
+[Type] == "The Shieldbearer" # [StashItem] == "true" //
+
+// Map/Fragment
+[Type] == "Deadly End" # [StashItem] == "true"
+[Type] == "Ignominious Fate" # [StashItem] == "true"
+[Type] == "Victorious Fate" # [StashItem] == "true"
+[Type] == "Will of Chaos" # [StashItem] == "true"
+[Type] == "The Tower of Ordeals" # [StashItem] == "true" // Combined
+
+// Oil
+[Type] == "Reflective Oil" # [StashItem] == "true" //
+
+////// Uniques
+// [Type] == "" && [Rarity] == "Unique" # [] >= "1" && [StashItem] == "true" //
+// [UniqueName] == "" # [ForceSellItem] == "true"
+// [UniqueName] == "" # [StashItem] == "true"
+
+// Helm
+[UniqueName] == "Elevore" # [ForceSellItem] == "true"
+[UniqueName] == "Thrillsteel" # [ForceSellItem] == "true"
+
+// Body
+[UniqueName] == "Ghostwrithe" # [ForceSellItem] == "true"
+
+// Boots
+// Gloves
+// [UniqueName] == "Kaom's Spirit" # [ForceSellItem] == "true"
+// [UniqueName] == "Soul Ascension" # [ForceSellItem] == "true"
+
+// Offhand
+[UniqueName] == "The Poised Prism" # [ForceSellItem] == "true"
+
+// Ring
+// [UniqueName] == "Kalandra's Touch" # [ForceSellItem] == "true"
+
+// Jewel
+// [UniqueName] == "Grand Spectrum" # [ForceSellItem] == "true"
+
+
 
 /////////////////////////////////////////////////////////////////////////////////////
 //                                                                                 //
@@ -3400,18 +3646,6 @@
 // Artifacts
 // Gems
 
-
-////// BaseType
-// Helm
-// Body
-// Boots
-// Gloves
-// Quiver
-// Ring
-// Amulet
-// Flask
-// Weapon
-
 ////// Uniques
 // Helm
 [UniqueName] == "Sandstorm Visage" # [StashItem] == "true"
@@ -3422,7 +3656,7 @@
 [UniqueName] == "Dawnstrider" # [StashItem] == "true"
 // Gloves
 [UniqueName] == "Entropic Devastation" # [StashItem] == "true"
-// Quiver
+// Offhand
 // Ring
 [UniqueName] == "Nimis" # [StashItem] == "true"
 [UniqueName] == "Original Sin" # [StashItem] == "true"
@@ -3477,9 +3711,10 @@
 ////// BaseType
 // Helm
 // Body
+// Belt
 // Boots
 // Gloves
-// Quiver
+// Offhand
 // Ring
 // Amulet
 // Flask
@@ -3493,9 +3728,10 @@
 
 // Helm
 // Body
+// Belt
 // Boots
 // Gloves
-// Quiver
+// Offhand
 // Ring
 // Amulet
 // Flask
