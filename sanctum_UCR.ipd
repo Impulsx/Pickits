@@ -303,47 +303,47 @@
 [Type] == "Timeless Maraketh Emblem" 	# [StashItem] == "true"
 [Type] == "Timeless Templar Emblem" 	# [StashItem] == "true"
 [Type] == "Timeless Vaal Emblem" 		# [StashItem] == "true"
+
 // Incubator
-[Type] == "Abyssal Incubator" # [StashItem] == "true"
-[Type] == "Blighted Incubator" # [StashItem] == "true"
+// [Type] == "Abyssal Incubator" # [StashItem] == "true"
+// [Type] == "Blighted Incubator" # [StashItem] == "true"
 [Type] == "Cartographer's Incubator" # [StashItem] == "true"
-[Type] == "Celestial Armoursmith's Incubator" # [StashItem] == "true"
+// [Type] == "Celestial Armoursmith's Incubator" # [StashItem] == "true"
 [Type] == "Celestial Blacksmith's Incubator" # [StashItem] == "true"
-[Type] == "Celestial Jeweller's Incubator" # [StashItem] == "true"
+// [Type] == "Celestial Jeweller's Incubator" # [StashItem] == "true"
 [Type] == "Diviner's Incubator" # [StashItem] == "true"
-[Type] == "Enchanted Incubator" # [StashItem] == "true"
+// [Type] == "Enchanted Incubator" # [StashItem] == "true"
 [Type] == "Foreboding Incubator" # [StashItem] == "true"
 [Type] == "Fossilised Incubator" # [StashItem] == "true"
-[Type] == "Fragmented Incubator" # [StashItem] == "true"
-[Type] == "Gemcutter's Incubator" # [StashItem] == "true"
-[Type] == "Geomancer's Incubator" # [StashItem] == "true"
+// [Type] == "Fragmented Incubator" # [StashItem] == "true"
+// [Type] == "Geomancer's Incubator" # [StashItem] == "true"
 [Type] == "Infused Incubator" # [StashItem] == "true"
 [Type] == "Kalguuran Incubator" # [StashItem] == "true"
-[Type] == "Maddening Incubator" # [StashItem] == "true"
+// [Type] == "Maddening Incubator" # [StashItem] == "true"
 [Type] == "Morphing Incubator" # [StashItem] == "true"
-[Type] == "Mysterious Incubator" # [StashItem] == "true"
-[Type] == "Obscured Incubator" # [StashItem] == "true"
+// [Type] == "Mysterious Incubator" # [StashItem] == "true"
+// [Type] == "Obscured Incubator" # [StashItem] == "true"
 [Type] == "Ornate Incubator" # [StashItem] == "true"
-[Type] == "Otherworldly Incubator" # [StashItem] == "true"
-[Type] == "Primal Incubator" # [StashItem] == "true"
-[Type] == "Singular Incubator" # [StashItem] == "true"
+// [Type] == "Otherworldly Incubator" # [StashItem] == "true"
+// [Type] == "Primal Incubator" # [StashItem] == "true"
+// [Type] == "Singular Incubator" # [StashItem] == "true"
 [Type] == "Skittering Incubator" # [StashItem] == "true"
-[Type] == "Thaumaturge's Incubator" # [StashItem] == "true"
+// [Type] == "Thaumaturge's Incubator" # [StashItem] == "true"
 
 
 ////////// Harbinger Currency
 
 [Type] == "Orb of Annulment" 	# [StashItem] == "true"
-[Type] == "Orb of Binding" 		# [StashItem] == "true"
+// [Type] == "Orb of Binding" 		# [StashItem] == "true"
 [Type] == "Orb of Horizons" 	# [StashItem] == "true"
 [Type] == "Harbinger's Orb" 	# [StashItem] == "true"
 [Type] == "Engineer's Orb" 		# [StashItem] == "true"
 [Type] == "Ancient Orb" 		# [StashItem] == "true"
 [Type] == "Annulment Shard" 	# [StashItem] == "true"
-[Type] == "Binding Shard" 		# [StashItem] == "true"
-[Type] == "Horizon Shard" 		# [StashItem] == "true"
+// [Type] == "Binding Shard" 		# [StashItem] == "true"
+// [Type] == "Horizon Shard" 		# [StashItem] == "true"
 [Type] == "Harbinger's Shard" 	# [StashItem] == "true"
-[Type] == "Engineer's Shard" 	# [StashItem] == "true"
+// [Type] == "Engineer's Shard" 	# [StashItem] == "true"
 [Type] == "Ancient Shard" 		# [StashItem] == "true"
 [Type] == "Chaos Shard" 		# [StashItem] == "true"
 [Type] == "Mirror Shard" 		# [StashItem] == "true"
@@ -387,8 +387,8 @@
 
 ////////// Veiled Rares farm
 // Any
-// [Rarity] == "Rare"                               # [veiled_mod_type] >= "1" && [StashItem] == "true" // Keep all rare veiled items
-// [Rarity] == "Unique"                             # [veiled_mod_type] >= "1" && [StashItem] == "true" // Keep all unique veiled items
+// [Rarity] == "Rare"   # [veiled_mod_type] >= "1" && [StashItem] == "true" // Keep all rare veiled items
+// [Rarity] == "Unique" # [veiled_mod_type] >= "1" && [StashItem] == "true" // Keep all unique veiled items
 
 // By item class
 // [Category] == "Helm" && [Rarity] == "Rare"    # [veiled_mod_type] >= "1" && [StashItem] == "true"
@@ -490,32 +490,37 @@
 [Type] == "Fundamental Fossil" 		# [StashItem] == "true"
 
 //////////  Archnemesis Currency
-
 [Type] == "Surveyor's Compass"				# [StashItem] == "true"
 [Type] == "Charged Compass"					# [StashItem] == "true"
+
 [Type] == "Lesser Eldritch Ember"			# [StashItem] == "true"
 [Type] == "Greater Eldritch Ember"			# [StashItem] == "true"
 [Type] == "Grand Eldritch Ember"			# [StashItem] == "true"
 [Type] == "Exceptional Eldritch Ember"		# [StashItem] == "true"
+
 [Type] == "Lesser Eldritch Ichor"			# [StashItem] == "true"
 [Type] == "Greater Eldritch Ichor"			# [StashItem] == "true"
 [Type] == "Grand Eldritch Ichor"			# [StashItem] == "true"
 [Type] == "Exceptional Eldritch Ichor" 		# [StashItem] == "true"
+
 [Type] == "Orb of Conflict"					# [StashItem] == "true"
 [Type] == "Orb of Dominance"				# [StashItem] == "true"
+
 [Type] == "Eldritch Chaos Orb"				# [StashItem] == "true"
 [Type] == "Eldritch Exalted Orb"			# [StashItem] == "true"
 [Type] == "Eldritch Orb of Annulment"		# [StashItem] == "true"
-[Type] == "Singular Scouting Report"		# [StashItem] == "true"
+
+// Scouting Report
+// [Type] == "Singular Scouting Report"		# [StashItem] == "true"
 [Type] == "Otherworldly Scouting Report"	# [StashItem] == "true"
 [Type] == "Comprehensive Scouting Report"	# [StashItem] == "true"
-[Type] == "Vaal Scouting Report"			# [StashItem] == "true"
+// [Type] == "Vaal Scouting Report"			# [StashItem] == "true"
 [Type] == "Delirious Scouting Report"		# [StashItem] == "true"
-[Type] == "Operative's Scouting Report"		# [StashItem] == "true"
+// [Type] == "Operative's Scouting Report"		# [StashItem] == "true"
 [Type] == "Blighted Scouting Report"		# [StashItem] == "true"
 [Type] == "Influenced Scouting Report" 		# [StashItem] == "true"
-[Type] == "Explorer's Scouting Report"		# [StashItem] == "true"
-[Type] == "Oil Extractor"					# [StashItem] == "true"
+// [Type] == "Explorer's Scouting Report"		# [StashItem] == "true"
+
 
 //////////  Sentinel Currency
 [Type] == "Power Core"              # [StashItem] == "true"
@@ -666,7 +671,42 @@
 // [Category] == "Talisman"                       # [StashItem] == "true" // Keep all talismans
 // [Category] == "Talisman" && [Rarity] == "Rare" # [StashItem] == "true" // Keep all rare talismans
 
-// [Category] == "Talisman" && [Rarity] == "Unique"  # [StashItem] == "true" // Keep all unique talismans
+// T1
+// [Type] == "Ashscale Talisman" 	# [StashItem] == "true"
+// [Type] == "Black Maw Talisman" 	# [StashItem] == "true"
+// [Type] == "Bonespire Talisman" 	# [StashItem] == "true"
+// [Type] == "Breakrib Talisman" 	# [StashItem] == "true"
+// [Type] == "Chrysalis Talisman" 	# [StashItem] == "true"
+// [Type] == "Deadhand Talisman" 	# [StashItem] == "true"
+// [Type] == "Deep One Talisman" 	# [StashItem] == "true"
+// [Type] == "Lone Antler Talisman" 	# [StashItem] == "true"
+// [Type] == "Mandible Talisman" 	# [StashItem] == "true"
+// [Type] == "Rot Head Talisman" 	# [StashItem] == "true"
+// [Type] == "Undying Flesh Talisman" 	# [StashItem] == "true"
+// [Type] == "Writhing Talisman" 	# [StashItem] == "true"
+// T2
+// [Type] == "Avian Twins Talisman" 	# [StashItem] == "true"
+// [Type] == "Clutching Talisman" 	# [StashItem] == "true"
+// [Type] == "Fangjaw Talisman" 	# [StashItem] == "true"
+// [Type] == "Hexclaw Talisman" 	# [StashItem] == "true"
+// [Type] == "Horned Talisman" 	# [StashItem] == "true"
+// [Type] == "Primal Skull Talisman" 	# [StashItem] == "true"
+// [Type] == "Splitnewt Talisman" 	# [StashItem] == "true"
+// T3
+// [Type] == "Longtooth Talisman" 	# [StashItem] == "true"
+// [Type] == "Monkey Paw Talisman" 	# [StashItem] == "true"
+// [Type] == "Monkey Twins Talisman" 	# [StashItem] == "true"
+// [Type] == "Rotfeather Talisman" 	# [StashItem] == "true"
+// [Type] == "Spinefuse Talisman" 	# [StashItem] == "true"
+// [Type] == "Three Hands Talisman" 	# [StashItem] == "true"
+// [Type] == "Three Rat Talisman" 	# [StashItem] == "true"
+
+[Category] == "Talisman" && [Rarity] == "Unique"  # [StashItem] == "true" // Keep all unique talismans
+[UniqueName] == "Blightwell" # [ForceSellItem] == "true"
+// [UniqueName] == "Eyes of the Greatwolf" # [StashItem] == "true"
+[UniqueName] == "Natural Hierarchy" # [ForceSellItem] == "true"
+[UniqueName] == "Night's Hold" # [ForceSellItem] == "true"
+[UniqueName] == "Rigwald's Curse" # [ForceSellItem] == "true"
 
 /////////////////////////////////////////////////////////////////////////////////////
 //                                                                                 //
@@ -682,6 +722,10 @@
 [Type] == "Empower Support" 	# [StashItem] == "true"
 [Type] == "Enhance Support" 	# [StashItem] == "true"
 [Type] == "Enlighten Support" 	# [StashItem] == "true"
+
+[Type] == "Awakened Empower Support" 	# [StashItem] == "true"
+[Type] == "Awakened Enhance Support" 	# [StashItem] == "true"
+[Type] == "Awakened Enlighten Support" 	# [StashItem] == "true"
 
 /////////////////////////////////////////////////////////////////////////////////////
 //                                                                                 //
@@ -1115,14 +1159,19 @@
 [Type] == "Large Cluster Jewel" && [ItemLevel] >= "84"  # [StashItem] == "true"
 
 // Aura Jewels 3.20
-// 10923 Mana reservation
+// 10923 = 54 = Mana reservation
 // 10924 Passive count
 // 11449 Passives effect mod
 // Subject to change on update
+// add [ItemLevel] >= "84" to filter low clusters that can't roll 35% effect
+// 10923 ? added_small_passive_skills_grant
 [Type] == "Small Cluster Jewel" && [Rarity] == "Normal" && [10923] == "54" && [10924] == "3" # [StashItem] == "true"
 [Type] == "Small Cluster Jewel" && [Rarity] == "Magic" && [10923] == "54" && [10924] == "3" # [StashItem] == "true"
-[Type] == "Small Cluster Jewel" && [Rarity] == "Rare"  && [10923] == "54" && [10924] == "3" # [11449] >= "25" && [StashItem] == "true"
 
+// Effect mod
+// && [11449] >= "25"
+// && [local_affliction_jewel_small_nodes_have_effect_+%] >= "25"
+[Type] == "Small Cluster Jewel" && [Rarity] == "Rare"  && [10923] == "54" && [10924] == "3"  # [StashItem] == "true" // smol effect
 
 // Custom Cluster for frostblades
 // [Type] == "Medium Cluster Jewel" && [Rarity] == "Magic"     # [local_affliction_notable_cold_conduction] >= "1" && [StashItem] == "true"  // For rolling 1 Added Passive Skill is Cold Conduction 11343 & 1 Added Passive Skill is Stormrider 11349
@@ -1529,7 +1578,7 @@
 // [Type] == "Opal Ring" 	&& [ItemLevel] >= "79" # [StashItem] == "true"  // Found in Maze, Plaza, Scriptorium, Colosseum
 // [Type] == "Steel Ring" 	&& [ItemLevel] >= "79" # [StashItem] == "true"  // Found in Abyss, Lair, Mineral Pools, Volcano
 
-[Type] == "Oscillating Sceptre" 	&& [ItemLevel] >= "55" # [StashItem] == "true"  // Heist
+[Type] == "Oscillating Sceptre" && [ItemLevel] >= "55" # [StashItem] == "true"  // Heist
 [Type] == "Prismatic Jewel" # [StashItem] == "true"  //
 
 
@@ -1659,7 +1708,7 @@
 [Type] == "Winged Reliquary Scarab" # [StashItem] == "true"
 [Type] == "Winged Shaper Scarab" # [StashItem] == "true"
 [Type] == "Winged Sulphite Scarab" # [StashItem] == "true"
-[Type] == "Winged Torment Scarab
+[Type] == "Winged Torment Scarab" # [StashItem] == "true"
 
 
 /////////////////////////////////////////////////////////////////////////////////////
@@ -1732,7 +1781,7 @@
 [UniqueName] == "Araku Tiki" # [ForceSellItem] == "true"
 [UniqueName] == "Ngamahu Tiki" # [ForceSellItem] == "true"
 [UniqueName] == "Tavukai" # [ForceSellItem] == "true"
-// [UniqueName] == "The Primordial Chain" # [ForceSellItem] == "true" // The Primordial Chain
+[UniqueName] == "The Primordial Chain" # [ForceSellItem] == "true" // The Primordial Chain
 // [Type] == "Gold Amulet" && [Rarity] == "Unique" # [ForceSellItem] == "true" // Bisco's Collar / Demigod's Presence / Perquil's Toe / The Ascetic / The Ignomon / Winterheart
 // [UniqueName] == "Bisco's Collar" # [ForceSellItem] == "true" //
 [UniqueName] == "Perquil's Toe" # [ForceSellItem] == "true"
@@ -1782,7 +1831,7 @@
 //////////////////////////////////////////////
 
 // [Type] == "Chain Belt" && [Rarity] == "Unique"   # [ForceSellItem] == "true" // Ascent from Flesh / Bated Breath / Chains of Emancipation / Coward's Chains / Coward's Legacy / Maligaro's Restraint
-[UniqueName] == "Ascent from Flesh" # [ForceSellItem] == "true"
+[UniqueName] == "Ascent From Flesh" # [ForceSellItem] == "true"
 [UniqueName] == "Bated Breath" # [ForceSellItem] == "true"
 [UniqueName] == "Chains of Emancipation" # [ForceSellItem] == "true"
 // [UniqueName] == "Coward's Chains" # [ForceSellItem] == "true"
@@ -1975,7 +2024,7 @@
 [UniqueName] == "Scorpion's Call" # [ForceSellItem] == "true"
 [UniqueName] == "Blackgleam" # [ForceSellItem] == "true"
 [UniqueName] == "The Signal Fire" # [ForceSellItem] == "true"
-// [UniqueName] == "Maloney's Mechanism" # [ForceSellItem] == "true"
+// [UniqueName] == "Maloney's Mechanism" # [ForceSellItem] == "true" // Socketed Quiver
 
 // [Type] == "Penetrating Arrow Quiver" && [Rarity] == "Unique" # [ForceSellItem] == "true" // Drillneck / Voidfletcher
 [UniqueName] == "Drillneck" # [ForceSellItem] == "true"
@@ -2013,7 +2062,7 @@
 [UniqueName] == "Perfidy" # [ForceSellItem] == "true"
 // [Type] == "Golden Plate" && [Rarity] == "Unique"    # [ForceSellItem] == "true" // Greed's Embrace / Craiceann's Carapace
 // [UniqueName] == "Greed's Embrace" # [ForceSellItem] == "true"
-[UniqueName] == "Greed's Embrace" # [base_item_found_quantity_+%] < "14" && [base_item_found_rarity_+%] < "45" && [ForceSellItem] == "true" //
+[UniqueName] == "Greed's Embrace" && [base_item_found_quantity_+%] < "14" && [base_item_found_rarity_+%] < "45" # [ForceSellItem] == "true" //
 [UniqueName] == "Craiceann's Carapace" # [ForceSellItem] == "true"
 //[Type] == "Plate Vest" && [Rarity] == "Unique"         # [ForceSellItem] == "true" // Bramble Jack / Wall of Brambles
 [UniqueName] == "Bramblejack" # [ForceSellItem] == "true" // Bramble Jack
@@ -2085,7 +2134,7 @@
 [UniqueName] == "The Ivory Tower" # [ForceSellItem] == "true"
 
 // Evasion & Energy Shield Chests
-
+[UniqueName] == "Bloodbond" # [ForceSellItem] == "true"
 // [UniqueName] == "Saqawal's Nest" # [ForceSellItem] == "true"
 // [UniqueName] == "The Eternity Shroud" # [ForceSellItem] == "true"
 [UniqueName] == "Bloodbound" # [ForceSellItem] == "true"
@@ -2095,6 +2144,7 @@
 // [Type] == "Lacquered Garb" && [Rarity] == "Unique"  # [ForceSellItem] == "true" // Cloak of Defiance / Victario's Influence
 [UniqueName] == "Cloak of Defiance" # [ForceSellItem] == "true"
 // [UniqueName] == "Victario's Influence" # [ForceSellItem] == "true"
+[UniqueName] == "Victario's Influence" && [non_curse_aura_effect_+%] < "15" # [ForceSellItem] == "true"
 // [Type] == "Sadist Garb" && [Rarity] == "Unique"     # [ForceSellItem] == "true" // Inpulsa's Broken Heart / Doppelgänger Guise
 [UniqueName] == "Inpulsa's Broken Heart" # [ForceSellItem] == "true"
 // [UniqueName] == "Doppelgänger Guise" # [ForceSellItem] == "true"
@@ -2184,7 +2234,7 @@
 // [Type] == "Murder Boots" && [Rarity] == "Unique"     # [ForceSellItem] == "true" // Bubonic Trail / Voidwalker
 // [Type] == "Murder Boots" && [Rarity] == "Unique"     # [local_has_X_abyss_sockets] > "2" && [ForceSellItem] == "true" // Bubonic Trail 2 Abyss Jewel
 // [UniqueName] == "Bubonic Trail" # [ForceSellItem] == "true"
-[UniqueName] == "Bubonic Trail" # [local_has_X_abyss_sockets] > "2" && [ForceSellItem] == "true" // Bubonic Trail
+[UniqueName] == "Bubonic Trail" && [local_has_X_abyss_sockets] > "2" # [ForceSellItem] == "true" // Bubonic Trail
 // [UniqueName] == "Voidwalker" # [ForceSellItem] == "true"
 // [UniqueName] == "Dance of the Offered" # [ForceSellItem] == "true"
 [UniqueName] == "Nomic's Storm" # [ForceSellItem] == "true"
@@ -2237,7 +2287,7 @@
 [UniqueName] == "Allelopathy" # [ForceSellItem] == "true"
 [UniqueName] == "Doedre's Tenure" # [ForceSellItem] == "true"
 // [UniqueName] == "Sadima's Touch" # [ForceSellItem] == "true"
-[UniqueName] == "Sadima's Touch" # [base_item_found_quantity_+%] < "10" && [ForceSellItem] == "true" // Perfect Qty Sadima's Touch
+[UniqueName] == "Sadima's Touch" && [base_item_found_quantity_+%] < "10" # [ForceSellItem] == "true" // Perfect Qty Sadima's Touch
 
 // Armour & Evasion Gloves
 // [Type] == "Bronzescale Gauntlets" && [Rarity] == "Unique" # [ForceSellItem] == "true" // Slitherpinch / Vaal Caress
@@ -2253,7 +2303,7 @@
 // [Type] == "Steelscale Gauntlets" && [Rarity] == "Unique" # [local_has_X_abyss_sockets] >= "1" && [ForceSellItem] == "true" // Tombfist w/ 1+ abyssal sockets
 // [Type] == "Steelscale Gauntlets" && [Rarity] == "Unique" # [local_has_X_abyss_sockets] < "2" && [ForceSellItem] == "true" // Tombfist w/ only 2 abyssal sockets
 // [UniqueName] == "Tombfist" # [ForceSellItem] == "true"
-[UniqueName] == "Tombfist" # [local_has_X_abyss_sockets] < "2" && [ForceSellItem] == "true"
+[UniqueName] == "Tombfist" && [local_has_X_abyss_sockets] < "2" # [ForceSellItem] == "true"
 [UniqueName] == "Wyrmsign" # [ForceSellItem] == "true"
 
 // Armour & Energy Shield Gloves
@@ -2261,13 +2311,13 @@
 [UniqueName] == "Repentance" # [ForceSellItem] == "true"
 // [UniqueName] == "Shaper's Touch" # [ForceSellItem] == "true"
 // [UniqueName] == "Hands of the High Templar" # [ForceSellItem] == "true"
-// [UniqueName] == "Null and Void" # [ForceSellItem] == "true"
+[UniqueName] == "Null and Void" # [ForceSellItem] == "true"
 // [UniqueName] == "Offering to the Serpent" # [ForceSellItem] == "true"
 [UniqueName] == "Triad Grip" # [ForceSellItem] == "true"
 // [Type] == "Riveted Gloves" && [Rarity] == "Unique"     # [local_has_X_abyss_sockets] >= "1" && [ForceSellItem] == "true" // Command of the Pit w/ 1+ abyssal sockets
 // [Type] == "Riveted Gloves" && [Rarity] == "Unique"        # [local_has_X_abyss_sockets] < "2" && [ForceSellItem] == "true" // Command of the Pit w/ only 2 abyssal sockets
 // [UniqueName] == "Command of the Pit" # [ForceSellItem] == "true"
-[UniqueName] == "Command of the Pit" # [local_has_X_abyss_sockets] < "2" && [ForceSellItem] == "true"
+[UniqueName] == "Command of the Pit" && [local_has_X_abyss_sockets] < "2" # [ForceSellItem] == "true"
 [UniqueName] == "Southbound" # [ForceSellItem] == "true"
 // [UniqueName] == "Saqawal's Winds" # [ForceSellItem] == "true"
 [UniqueName] == "Hand of the Fervent" # [ForceSellItem] == "true"
@@ -2288,11 +2338,11 @@
 [UniqueName] == "Snakebite" # [ForceSellItem] == "true"
 // [UniqueName] == "Storm's Gift" # [ForceSellItem] == "true"
 // [Type] == "Carnal Mitts" && [Rarity] == "Unique"     # [ForceSellItem] == "true" // Algor Mortis / Fenumus' Weave / The Embalmer
-// [UniqueName] == "Algor Mortis" # [ForceSellItem] == "true"
+[UniqueName] == "Algor Mortis" # [ForceSellItem] == "true"
 // [UniqueName] == "Fenumus' Weave" # [ForceSellItem] == "true"
 [UniqueName] == "The Embalmer" # [ForceSellItem] == "true"
 // [Type] == "Clasped Mitts" && [Rarity] == "Unique"    # [ForceSellItem] == "true" // Aukuna's Will / Shadows and Dust
-// [UniqueName] == "Aukuna's Will" # [ForceSellItem] == "true"
+[UniqueName] == "Aukuna's Will" # [ForceSellItem] == "true"
 [UniqueName] == "Shadows and Dust" # [ForceSellItem] == "true"
 // [Type] == "Murder Mitts" && [Rarity] == "Unique"     # [ForceSellItem] == "true" // Machina Mitts / Malachai's Mark / Thunderfist
 [UniqueName] == "Malachai's Mark" # [ForceSellItem] == "true"
@@ -2301,7 +2351,7 @@
 // [Type] == "Strapped Mitts" && [Rarity] == "Unique"      # [unique_facebreaker_unarmed_melee_physical_damage_+%_final] < "780" && [ForceSellItem] == "true" // Well rolled Facebreaker
 // [Type] == "Strapped Mitts" && [Rarity] == "Unique"   # [unique_facebreaker_unarmed_melee_physical_damage_+%_final] < "800" && [ForceSellItem] == "true" // Perfect Facebreaker
 // [UniqueName] == "Facebreaker" # [ForceSellItem] == "true"
-[UniqueName] == "Facebreaker" # [unique_facebreaker_unarmed_melee_physical_damage_+%_final] < "780" &&  [ForceSellItem] == "true"
+[UniqueName] == "Facebreaker" && [unique_facebreaker_unarmed_melee_physical_damage_+%_final] < "780" # [ForceSellItem] == "true"
 //[UniqueName] == "Facebreaker" # [unique_facebreaker_unarmed_melee_physical_damage_+%_final] < "800" && [ForceSellItem] == "true"
 // [UniqueName] == "Architect's Hand" # [ForceSellItem] == "true"
 [UniqueName] == "Ondar's Clasp" # [ForceSellItem] == "true"
@@ -2316,7 +2366,7 @@
 [UniqueName] == "The Baron" # [ForceSellItem] == "true"
 // [Type] == "Ezomyte Burgonet" && [Rarity] == "Unique" # [ForceSellItem] == "true" // Abyssus / Cowl of the Thermophile
 // [UniqueName] == "Abyssus" # [ForceSellItem] == "true"
-[UniqueName] == "Abyssus" # [physical_damage_taken_+%] > "44" && [ForceSellItem] == "true"
+[UniqueName] == "Abyssus" && [physical_damage_taken_+%] > "44" # [ForceSellItem] == "true"
 // [UniqueName] == "Abyssus" # [physical_damage_taken_+%] <= "40" && [ForceSellItem] == "true" // Perf Abyssus
 [UniqueName] == "Cowl of the Thermophile" # [ForceSellItem] == "true"
 // [Type] == "Iron Hat" && [Rarity] == "Unique"         # [ForceSellItem] == "true" // Ezomyte Hold / Ezomyte Peak / Tear of Entropy
@@ -2328,7 +2378,7 @@
 
 // Evasion Helmets
 // [UniqueName] == "Goldrim" # [ForceSellItem] == "true" // Goldrim
-[UniqueName] == "Goldrim" # [resist_all_elements_%] < "40" && [ForceSellItem] == "true" // Perfect Res Goldrim
+[UniqueName] == "Goldrim" && [resist_all_elements_%] < "40" # [ForceSellItem] == "true" // Perfect Res Goldrim
 [UniqueName] == "Heatshiver" # [ForceSellItem] == "true"
 [UniqueName] == "Obscurantis" # [ForceSellItem] == "true"
 // [Type] == "Silken Hood" && [Rarity] == "Unique"     # [ForceSellItem] == "true" // Starkonja's Head / Saqawal's Flock / Cowl of the Cryophile
@@ -2355,7 +2405,7 @@
 
 // [UniqueName] == "Hale Negator" # [ForceSellItem] == "true"
 // [UniqueName] == "Hale Negator" # [local_has_X_abyss_sockets] >= "1" && [ForceSellItem] == "true" // Hale Negator w/ 1+ abyssal sockets
-[UniqueName] == "Hale Negator" # [local_has_X_abyss_sockets] < "2" && [ForceSellItem] == "true" // Hale Negator w/ 2 abyssal sockets
+[UniqueName] == "Hale Negator" && [local_has_X_abyss_sockets] < "2" # [ForceSellItem] == "true" // Hale Negator w/ 2 abyssal sockets
 
 [UniqueName] == "Rime Gaze" # [ForceSellItem] == "true"
 [UniqueName] == "Scold's Bridle" # [ForceSellItem] == "true"
@@ -2375,7 +2425,7 @@
 [UniqueName] == "Deidbell" # [ForceSellItem] == "true"
 // [Type] == "Lacquered Helmet" && [Rarity] == "Unique"   # [ForceSellItem] == "true" // Black Sun Crest / The Fledgling
 // [UniqueName] == "Black Sun Crest" # [ForceSellItem] == "true"
-[UniqueName] == "Black Sun Crest" # [dexterity_+%] < "14" && [strength_+%] < "14" && [intelligence_+%] < "14" && [ForceSellItem] == "true"
+[UniqueName] == "Black Sun Crest" && [dexterity_+%] < "14" || [strength_+%] < "14" || [intelligence_+%] < "14" # [ForceSellItem] == "true"
 
 [UniqueName] == "The Fledgling" # [ForceSellItem] == "true"
 // [Type] == "Nightmare Bascinet" && [Rarity] == "Unique" # [ForceSellItem] == "true" // Bringer of Rain / Devoto's Devotion
@@ -2393,7 +2443,7 @@
 // [UniqueName] == "Mask of the Spirit Drinker" # [ForceSellItem] == "true"
 // [Type] == "Great Crown" && [Rarity] == "Unique"      # [ForceSellItem] == "true" // Lightpoacher / Geofri's Crest / Forbidden Shako
 //[UniqueName] == "Lightpoacher" # [ForceSellItem] == "true" // Lightpoacher
-[UniqueName] == "Lightpoacher" # [local_has_X_abyss_sockets] < "2" && [ForceSellItem] == "true" // Lightpoacher w/ 2 abyssal sockets
+[UniqueName] == "Lightpoacher" && [local_has_X_abyss_sockets] < "2" # [ForceSellItem] == "true" // Lightpoacher w/ 2 abyssal sockets
 
 [UniqueName] == "Geofri's Crest" # [ForceSellItem] == "true"
 // [UniqueName] == "Forbidden Shako" # [ForceSellItem] == "true"
@@ -2440,7 +2490,7 @@
 //                                          //
 //////////////////////////////////////////////
 
-// Armour Shields
+// Armour
 [UniqueName] == "Trolltimber Spire" # [ForceSellItem] == "true"
 [UniqueName] == "Ahn's Heritage" # [ForceSellItem] == "true"
 [UniqueName] == "Chernobog's Pillar" # [ForceSellItem] == "true"
@@ -2469,7 +2519,7 @@
 [UniqueName] == "The Eternal Apple" # [ForceSellItem] == "true"
 [UniqueName] == "Manastorm" # [ForceSellItem] == "true"
 [UniqueName] == "Malachai's Loop" # [ForceSellItem] == "true"
-[UniqueName] == "Kongming's Strategem" # [ForceSellItem] == "true"
+[UniqueName] == "Kongming's Stratagem" # [ForceSellItem] == "true"
 // [UniqueName] == "Light of Lunaris" # [ForceSellItem] == "true"
 [UniqueName] == "Brinerot Flag" # [ForceSellItem] == "true"
 [UniqueName] == "Matua Tupuna" # [ForceSellItem] == "true"
@@ -2484,7 +2534,7 @@
 [UniqueName] == "Vix Lunaris" # [ForceSellItem] == "true"
 // [UniqueName] == "Shattershard" # [ForceSellItem] == "true"
 // [UniqueName] == "Wheel of the Stormsail" # [ForceSellItem] == "true"
-[UniqueName] == "Wheel of the Stormsail" # [base_item_found_rarity_+%] < "40" && [ForceSellItem] == "true" // Perfect Rarity Wheel of the Stormsail
+[UniqueName] == "Wheel of the Stormsail" && [base_item_found_rarity_+%] < "40" # [ForceSellItem] == "true" // Perfect Rarity Wheel of the Stormsail
 [UniqueName] == "The Deep One's Hide" # [ForceSellItem] == "true"
 [UniqueName] == "The Ghastly Theatre" # [ForceSellItem] == "true"
 [UniqueName] == "The Oppressor" # [ForceSellItem] == "true"
@@ -2574,7 +2624,7 @@
 // [Type] == "Imperial Bow" && [Rarity] == "Unique"  # [ForceSellItem] == "true" // Lioneye's Glare / Windripper
 // [UniqueName] == "Lioneye's Glare" # [ForceSellItem] == "true" //
 // [UniqueName] == "Windripper" # [ForceSellItem] == "true"
-[UniqueName] == "Windripper" # [local_critical_strike_chance_+%] < "60" && [ForceSellItem] == "true" // Perfect crit Windripper
+[UniqueName] == "Windripper" && [local_critical_strike_chance_+%] < "60" # [ForceSellItem] == "true" // Perfect crit Windripper
 
 [UniqueName] == "Storm Cloud" # [ForceSellItem] == "true" //
 // [Type] == "Ranger Bow" && [Rarity] == "Unique"    # [ForceSellItem] == "true" // Null's Inclination / Hopeshredder
@@ -2628,9 +2678,9 @@
 [UniqueName] == "The Consuming Dark" # [ForceSellItem] == "true" //
 // [UniqueName] == "Divinarius" # [ForceSellItem] == "true"
 //[UniqueName] == "White Wind" # [ForceSellItem] == "true"
-[UniqueName] == "White Wind" # [cold_damage_+%_while_off_hand_is_empty] < "200" && [ForceSellItem] == "true" // Perf Cold Damage% White Wind
+[UniqueName] == "White Wind" && [cold_damage_+%_while_off_hand_is_empty] < "200" # [ForceSellItem] == "true" // Perf Cold Damage% White Wind
 [UniqueName] == "Mark of the Doubting Knight" # [ForceSellItem] == "true"
-//[UniqueName] == "Heartbreaker" # [ForceSellItem] == "true" // for kingmaker
+[UniqueName] == "Heartbreaker" # [ForceSellItem] == "true" // for kingmaker but common
 [UniqueName] == "Bino's Kitchen Knife" # [ForceSellItem] == "true"
 
 // Fishing Rods
@@ -2758,7 +2808,7 @@
 [UniqueName] == "Thunder of the Dawn" # [ForceSellItem] == "true" //
 [UniqueName] == "Edge of Madness" # [ForceSellItem] == "true" //
 [UniqueName] == "Kondo's Pride" # [ForceSellItem] == "true" //
-[UniqueName] == "Rigwald's Charge" # [ForceSellItem] == "true" //
+[UniqueName] == "Rigvald's Charge" # [ForceSellItem] == "true" // Internal misspelling? Rigwald's Charge
 [UniqueName] == "Oro's Sacrifice" # [ForceSellItem] == "true" //
 // [UniqueName] == "Starforge" # [ForceSellItem] == "true" //
 // [UniqueName] == "Voidforge" # [ForceSellItem] == "true" //
@@ -3311,7 +3361,7 @@
 // Map/Fragment
 // Memory
 // Catalyst
-// Incubators
+// Incubator
 // Scarab
 // Oil
 // Artifacts
@@ -3389,7 +3439,7 @@
 // Map/Fragment
 // Memory
 // Catalyst
-// Incubators
+// Incubator
 // Scarab
 // Oil
 // Artifacts
@@ -3640,7 +3690,7 @@
 [Type] == "Kirac's Memory" # [StashItem] == "true"
 [Type] == "Einhar's Memory" # [StashItem] == "true"
 // Catalyst
-// Incubators
+// Incubator
 // Scarab
 // Oil
 // Artifacts
@@ -3702,7 +3752,7 @@
 // Map/Fragment
 // Memory
 // Catalyst
-// Incubators
+// Incubator
 // Scarab
 // Oil
 // Artifacts
