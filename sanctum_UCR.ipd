@@ -194,39 +194,47 @@
 
 [Type] == "Rogue's Marker"                  # [StashItem] == "true"
 
-// [Type] == "^Contract" # [StashItem] == "true"
+// [Category] == "Contract" && [ItemLevel] >= "83" # [StashItem] == "true" // Does not work
+// [Type] == "^Contract:\W" && [ItemLevel] >= "83" # [StashItem] == "true" // Regex match, does not work
+[Type] == "Contract: Bunker" 			   && [ItemLevel] >= "83" # [StashItem] == "true"
+[Type] == "Contract: Laboratory" 		   && [ItemLevel] >= "83" # [StashItem] == "true"
+[Type] == "Contract: Prohibited Library"   && [ItemLevel] >= "83" # [StashItem] == "true"
+[Type] == "Contract: Records Office" 	   && [ItemLevel] >= "83" # [StashItem] == "true"
+[Type] == "Contract: Repository" 		   && [ItemLevel] >= "83" # [StashItem] == "true"
+[Type] == "Contract: Smuggler's Den" 	   && [ItemLevel] >= "83" # [StashItem] == "true"
+[Type] == "Contract: Tunnels" 			   && [ItemLevel] >= "83" # [StashItem] == "true"
+[Type] == "Contract: Underbelly" 		   && [ItemLevel] >= "83" # [StashItem] == "true"
+[Type] == "Contract: Mansion"              && [ItemLevel] >= "83" # [StashItem] == "true"
 
-[Type] == "Contract: Bunker" 			    # [StashItem] == "true"
-[Type] == "Contract: Laboratory" 		    # [StashItem] == "true"
-[Type] == "Contract: Prohibited Library"    # [StashItem] == "true"
-[Type] == "Contract: Records Office" 	    # [StashItem] == "true"
-[Type] == "Contract: Repository" 		    # [StashItem] == "true"
-[Type] == "Contract: Smuggler's Den" 	    # [StashItem] == "true"
-[Type] == "Contract: Tunnels" 			    # [StashItem] == "true"
-[Type] == "Contract: Underbelly" 		    # [StashItem] == "true"
-[Type] == "Contract: Mansion"               # [StashItem] == "true"
-
-// [Type] == "^Blueprint" # [StashItem] == "true"
-
-[Type] == "Blueprint: Bunker" 				# [StashItem] == "true"
-[Type] == "Blueprint: Laboratory" 			# [StashItem] == "true"
-[Type] == "Blueprint: Prohibited Library" 	# [StashItem] == "true"
-[Type] == "Blueprint: Records Office" 		# [StashItem] == "true"
-[Type] == "Blueprint: Repository" 			# [StashItem] == "true"
-[Type] == "Blueprint: Smuggler's Den" 		# [StashItem] == "true"
-[Type] == "Blueprint: Tunnels" 				# [StashItem] == "true"
-[Type] == "Blueprint: Underbelly" 			# [StashItem] == "true"
-[Type] == "Blueprint: Mansion" 				# [StashItem] == "true"
+// [Type] == "^Blueprint:\W" && [ItemLevel] >= "83" # [StashItem] == "true" // Regex match, does not work
+[Type] == "Blueprint: Bunker" 			    && [ItemLevel] >= "83" # [StashItem] == "true"
+[Type] == "Blueprint: Laboratory" 		    && [ItemLevel] >= "83" # [StashItem] == "true"
+[Type] == "Blueprint: Prohibited Library"   && [ItemLevel] >= "83" # [StashItem] == "true"
+[Type] == "Blueprint: Records Office" 	    && [ItemLevel] >= "83" # [StashItem] == "true"
+[Type] == "Blueprint: Repository" 		    && [ItemLevel] >= "83" # [StashItem] == "true"
+[Type] == "Blueprint: Smuggler's Den" 	    && [ItemLevel] >= "83" # [StashItem] == "true"
+[Type] == "Blueprint: Tunnels" 			    && [ItemLevel] >= "83" # [StashItem] == "true"
+[Type] == "Blueprint: Underbelly" 		    && [ItemLevel] >= "83" # [StashItem] == "true"
+[Type] == "Blueprint: Mansion" 			    && [ItemLevel] >= "83" # [StashItem] == "true"
 
 
 
 ////////// Metamorph Currency
+[Category] == "Organ" # [StashItem] == "true" // TEST - quest item?
 
-[Type] == "*Brain" 	# [StashItem] == "true"
-[Type] == "*Eye" 	# [StashItem] == "true"
-[Type] == "*Lung" 	# [StashItem] == "true"
-[Type] == "*Heart" 	# [StashItem] == "true"
-[Type] == "*Liver" 	# [StashItem] == "true"
+// Regex
+// [Type] == "Brain$" 	# [StashItem] == "true"
+// [Type] == "Eye$" 	# [StashItem] == "true"
+// [Type] == "Lung$" 	# [StashItem] == "true"
+// [Type] == "Heart$" 	# [StashItem] == "true"
+// [Type] == "Liver$" 	# [StashItem] == "true"
+
+// Old
+// [Type] == "*Brain" 	# [StashItem] == "true"
+// [Type] == "*Eye" 	# [StashItem] == "true"
+// [Type] == "*Lung" 	# [StashItem] == "true"
+// [Type] == "*Heart" 	# [StashItem] == "true"
+// [Type] == "*Liver" 	# [StashItem] == "true"
 
 ////////// Harvest Currency
 
