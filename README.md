@@ -30,9 +30,6 @@ _____________
 ## Map pickit section
 
 This is included in the pickits:
-
-:godmode:
-
 _____________
 ///////////////
 
@@ -45,5 +42,3 @@ _____________
 [Category] == "Map" && [MapTier] >= "1"         # [StashItem] == "true" // Take all Maps & Ignore all Contract/Blueprints/Incubators
 
 // [Category] == "Map"                          # [StashItem] == "true" // Take all Maps/Contract/Blueprints/Incubators
-
-:finnadie:
