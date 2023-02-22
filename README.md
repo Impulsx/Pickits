@@ -1,7 +1,6 @@
-# Pickits :shipit:
-
-_____________
 :godmode:
+_____________
+# Pickits :shipit:
 
 Cluster & Jewels - Reworked/updated jewels section, adding cluster jewel notables that are popular/profit
 
@@ -15,7 +14,7 @@ identified_chaos_recipe.ipd - For identified chaos recipe.. Inlcudes all reworks
 
 unidentified_chaos_recipe.ipd - For unidentified chaos recipe.. Inlcudes all reworks
 
-[CURRENT] League Section will be found at bottom of Pickit to edit as you desire
+[INSERT CURRENT] League Section will be found at bottom of Pickit to edit as you desire
 
 :finnadie:
 _____________
