@@ -16,7 +16,6 @@ unidentified_chaos_recipe.ipd - For unidentified chaos recipe.. Inlcudes all rew
 
 [INSERT CURRENT] League Section will be found at bottom of Pickit to edit as you desire
 
-:finnadie:
 _____________
 
 ## Modslist :trollface:
@@ -38,3 +37,5 @@ This is included in the pickits:
 
 // [Category] == "Map"                          # [StashItem] == "true" // Take all Maps/Contract/Blueprints/Incubators
 _____________
+
+:finnadie:
