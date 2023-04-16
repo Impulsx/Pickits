@@ -110,15 +110,15 @@
 ////////// Base Currency
 
 // if enabled, the bot will pickup all scrolls and ignoring the GUI settings
-[Type] == "Wisdom Scroll" 	# [StashItem] == "true"
-[Type] == "Portal Scroll" 	# [StashItem] == "true"
+// [Type] == "Wisdom Scroll" 	# [StashItem] == "true"
+// [Type] == "Portal Scroll" 	# [StashItem] == "true"
 
 [Type] == "Alchemy Shard" 		# [StashItem] == "true"
 [Type] == "Alteration Shard" 	# [StashItem] == "true"
 [Type] == "Transmutation Shard" # [StashItem] == "true"
 
-[Type] == "Blacksmith's Whetstone" 	# [StashItem] == "true"
-[Type] == "Armourer's Scrap" 		# [StashItem] == "true"
+// [Type] == "Blacksmith's Whetstone" 	# [StashItem] == "true"
+// [Type] == "Armourer's Scrap" 		# [StashItem] == "true"
 [Type] == "Glassblower's Bauble" 	# [StashItem] == "true"
 
 [Type] == "Blessed Orb" 		# [StashItem] == "true"
@@ -237,7 +237,6 @@
 // [Type] == "*Liver" 	# [StashItem] == "true"
 
 ////////// Harvest Currency
-
 [Type] == "Wild Ursaling Seed" 				# [StashItem] == "true"
 [Type] == "Wild Hellion Seed" 				# [StashItem] == "true"
 [Type] == "Wild Thornwolf Seed" 			# [StashItem] == "true"
@@ -399,13 +398,13 @@
 // [Rarity] == "Unique" && [veiled_mod_type] >= "1" # [StashUnid] == "true" // Keep all unique veiled items
 
 // By item class
-// [Category] == "Helm" && [Rarity] == "Rare" && [veiled_mod_type]    # [StashUnid] == "true"
-// [Category] == "Chest" && [Rarity] == "Rare" && [veiled_mod_type]   # [StashUnid] == "true"
-// [Category] == "Amulet" && [Rarity] == "Rare" && [veiled_mod_type]  # [StashUnid] == "true"
-// [Category] == "Ring" && [Rarity] == "Rare" && [veiled_mod_type]    # [StashUnid] == "true"
-// [Category] == "Belt" && [Rarity] == "Rare" && [veiled_mod_type]    # [StashUnid] == "true"
-// [Category] == "Gloves" && [Rarity] == "Rare" && [veiled_mod_type]  # [StashUnid] == "true"
-// [Category] == "Boots" && [Rarity] == "Rare" && [veiled_mod_type]   # [StashUnid] == "true"
+// [Category] == "Helm" && [Rarity] == "Rare" && [veiled_mod_type] >= "1"     # [StashUnid] == "true"
+// [Category] == "Chest" && [Rarity] == "Rare" && [veiled_mod_type] >= "1"    # [StashUnid] == "true"
+// [Category] == "Amulet" && [Rarity] == "Rare" && [veiled_mod_type] >= "1"   # [StashUnid] == "true"
+// [Category] == "Ring" && [Rarity] == "Rare" && [veiled_mod_type] >= "1"     # [StashUnid] == "true"
+// [Category] == "Belt" && [Rarity] == "Rare" && [veiled_mod_type] >= "1"     # [StashUnid] == "true"
+// [Category] == "Gloves" && [Rarity] == "Rare" && [veiled_mod_type] >= "1"   # [StashUnid] == "true"
+// [Category] == "Boots" && [Rarity] == "Rare" && [veiled_mod_type] >= "1"    # [StashUnid] == "true"
 
 // [Category] == "Weapon" && [Rarity] == "Rare" && [veiled_mod_type] >= "1" #  [StashUnid] == "true"
 // [Category] == "1Handed" && [Rarity] == "Rare" && [veiled_mod_type] >= "1" #  [StashUnid] == "true"
@@ -450,8 +449,8 @@
 [Type] == "Tul's Breachstone" 			# [StashItem] == "true"
 [Type] == "Tul's Charged Breachstone" 	# [StashItem] == "true"
 [Type] == "Tul's Enriched Breachstone" 	# [StashItem] == "true"
-
 [Type] == "Tul's Pure Breachstone" 		# [StashItem] == "true"
+
 [Type] == "Esh's Breachstone" 			# [StashItem] == "true"
 [Type] == "Esh's Charged Breachstone" 	# [StashItem] == "true"
 [Type] == "Esh's Enriched Breachstone" 	# [StashItem] == "true"
@@ -2873,7 +2872,7 @@
 
 // Hybrid Flasks
 [UniqueName] == "The Writhing Jar" # [ForceSellItem] == "true"
-[UniqueName] == "Divination Distillate" # [ForceSellItem] == "true"
+// [UniqueName] == "Divination Distillate" # [ForceSellItem] == "true"
 
 // Utility Flasks
 // [UniqueName] == "Atziri's Promise" # [ForceSellItem] == "true"
@@ -3516,9 +3515,6 @@
 [Type] == "The Forward Gaze" # [StashItem] == "true" // Replica Item
 
 ////// Uniques
-// [Type] == "" && [Rarity] == "Unique" # [] >= "1" && [StashItem] == "true" //
-// [UniqueName] == "" # [ForceSellItem] == "true"
-// [UniqueName] == "" # [StashItem] == "true"
 
 // Helm
 [UniqueName] == "Echoes of Creation" # [ForceSellItem] == "true"
@@ -3604,9 +3600,6 @@
 [Type] == "Reflective Oil" # [StashItem] == "true" //
 
 ////// Uniques
-// [Type] == "" && [Rarity] == "Unique" # [] >= "1" && [StashItem] == "true" //
-// [UniqueName] == "" # [ForceSellItem] == "true"
-// [UniqueName] == "" # [StashItem] == "true"
 
 // Helm
 [UniqueName] == "Elevore" # [ForceSellItem] == "true"
@@ -3760,8 +3753,7 @@
 //                                  CRUCIBLEH                                      //
 //                                                                                 //
 /////////////////////////////////////////////////////////////////////////////////////
-// [Category] == "" # [StashItem] == "true"
-// [Type] == "" # [StashItem] == "true" //
+
 
 // League Mechanic
 [Type] == "Crystalline Geode" # [StashItem] == "true" //
@@ -3803,9 +3795,6 @@
 // Jewel
 
 ////// Uniques
-// [Type] == "" && [Rarity] == "Unique" # [] >= "1" && [StashItem] == "true" //
-// [UniqueName] == "" # [ForceSellItem] == "true"
-// [UniqueName] == "" # [StashItem] == "true"
 
 // Helm
 [UniqueName] == "Blood Price" # [StashItem] == "true"
