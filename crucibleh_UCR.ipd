@@ -1826,7 +1826,7 @@
 [UniqueName] == "Impresense" # [ForceSellItem] == "true"
 [UniqueName] == "Yoke of Suffering" # [ForceSellItem] == "true"
 // [UniqueName] == "Presence of Chayula" # [ForceSellItem] == "true"
-// [UniqueName] == "Eye of Chayula" # [ForceSellItem] == "true"
+[UniqueName] == "Eye of Chayula" # [ForceSellItem] == "true"
 // [Type] == "Paua Amulet" && [Rarity] == "Unique"      # [ForceSellItem] == "true" // Atziri's Foible / Sacrificial Heart / Sidhebreath / Zerphi's Heart
 // [UniqueName] == "Atziri's Foible" # [ForceSellItem] == "true"
 [UniqueName] == "Sacrificial Heart" # [ForceSellItem] == "true" // Sacrificial Heart
@@ -2192,7 +2192,7 @@
 // [UniqueName] == "Windscream" # [ForceSellItem] == "true"
 // [UniqueName] == "Windshriek" # [ForceSellItem] == "true"
 // [Type] == "Titan Greaves" && [Rarity] == "Unique"      # [ForceSellItem] == "true" // Kaom's Roots / The Red Trail
-// [UniqueName] == "Kaom's Roots" # [ForceSellItem] == "true"
+[UniqueName] == "Kaom's Roots" # [ForceSellItem] == "true"
 [UniqueName] == "The Red Trail" # [ForceSellItem] == "true"
 
 // Evasion Boots
@@ -2212,7 +2212,7 @@
 
 // Energy Shield Boots
 [UniqueName] == "Inya's Epiphany" # [ForceSellItem] == "true"
-[UniqueName] == "RainbowStride" # [ForceSellItem] == "true"
+[UniqueName] == "Rainbowstride" # [ForceSellItem] == "true"
 [UniqueName] == "Shavronne's Pace" # [ForceSellItem] == "true"
 // [UniqueName] == "Ralakesh's Impatience" # [ForceSellItem] == "true"
 [UniqueName] == "Bones of Ullr" # [ForceSellItem] == "true"
@@ -2287,7 +2287,7 @@
 [UniqueName] == "Doryani's Fist" # [ForceSellItem] == "true"
 
 // Evasion Gloves
-// [UniqueName] == "Maligaro's Virtuosity" # [ForceSellItem] == "true"
+[UniqueName] == "Maligaro's Virtuosity" # [ForceSellItem] == "true"
 [UniqueName] == "Great Old One's Tentacles" # [ForceSellItem] == "true"
 [UniqueName] == "Hrimsorrow" # [ForceSellItem] == "true"
 [UniqueName] == "Oskarm" # [ForceSellItem] == "true"
@@ -2395,14 +2395,14 @@
 
 // Evasion Helmets
 // [UniqueName] == "Goldrim" # [ForceSellItem] == "true" // Goldrim
-[UniqueName] == "Goldrim" && [resist_all_elements_%] < "40" # [ForceSellItem] == "true" // Perfect Res Goldrim
+[UniqueName] == "Goldrim" && [base_resist_all_elements_%] < "40" # [ForceSellItem] == "true" // Perfect Res Goldrim
 [UniqueName] == "Heatshiver" # [ForceSellItem] == "true"
 [UniqueName] == "Obscurantis" # [ForceSellItem] == "true"
 // [Type] == "Silken Hood" && [Rarity] == "Unique"     # [ForceSellItem] == "true" // Starkonja's Head / Saqawal's Flock / Cowl of the Cryophile
 [UniqueName] == "Starkonja's Head" # [ForceSellItem] == "true"
 // [UniqueName] == "Saqawal's Flock" # [ForceSellItem] == "true"
 [UniqueName] == "Cowl of the Cryophile" # [ForceSellItem] == "true"
-// [UniqueName] == "Alpha's howl" # [ForceSellItem] == "true"
+[UniqueName] == "Alpha's howl" # [ForceSellItem] == "true"
 // [UniqueName] == "Assailum" # [ForceSellItem] == "true"
 [UniqueName] == "Fairgraves' Tricorne" # [ForceSellItem] == "true"
 [UniqueName] == "Rat's Nest" # [ForceSellItem] == "true"
@@ -2646,10 +2646,10 @@
 
 [UniqueName] == "Storm Cloud" # [ForceSellItem] == "true" //
 // [Type] == "Ranger Bow" && [Rarity] == "Unique"    # [ForceSellItem] == "true" // Null's Inclination / Hopeshredder
-// [UniqueName] == "Null's Inclination" # [ForceSellItem] == "true" //
+[UniqueName] == "Null's Inclination" # [ForceSellItem] == "true" //
 // [UniqueName] == "Hopeshredder" # [ForceSellItem] == "true" //
 [UniqueName] == "Roth's Reach" # [ForceSellItem] == "true" //
-// [UniqueName] == "Doomfletch" # [ForceSellItem] == "true" //
+[UniqueName] == "Doomfletch" # [ForceSellItem] == "true" //
 [UniqueName] == "Quill Rain" # [ForceSellItem] == "true" //
 // [Type] == "Spine Bow" && [Rarity] == "Unique"     # [ForceSellItem] == "true" // Reach of the Council / Voltaxic Rift
 [UniqueName] == "Reach of the Council" # [ForceSellItem] == "true" //
@@ -3797,32 +3797,32 @@
 ////// Uniques
 
 // Helm
-[UniqueName] == "Blood Price" # [StashItem] == "true"
-[UniqueName] == "El'Abin's Visage" # [StashItem] == "true"
+[UniqueName] == "Blood Price" # [ForceSellItem] == "true"
+// [UniqueName] == "El'Abin's Visage" # [ForceSellItem] == "true"
 // Body
-[UniqueName] == "The Fourth Vow" # [StashItem] == "true"
+// [UniqueName] == "The Fourth Vow" # [ForceSellItem] == "true"
 // Belt
-[UniqueName] == "Ceinture of Benevolence" # [StashItem] == "true"
-[UniqueName] == "Chain of Endurance" # [StashItem] == "true"
+[UniqueName] == "Ceinture of Benevolence" # [ForceSellItem] == "true"
+[UniqueName] == "Chain of Endurance" # [ForceSellItem] == "true"
 // Boots
-[UniqueName] == "Orbala's Stand" # [StashItem] == "true"
+[UniqueName] == "Orbala's Stand" # [ForceSellItem] == "true"
 // Gloves
-[UniqueName] == "Stormseeker" # [StashItem] == "true"
-[UniqueName] == "Tanu Ahi" # [StashItem] == "true"
+[UniqueName] == "Stormseeker" # [ForceSellItem] == "true"
+[UniqueName] == "Tanu Ahi" # [ForceSellItem] == "true"
 // Offhand
 // Ring
-[UniqueName] == "Soulbound" # [StashItem] == "true"
+// [UniqueName] == "Soulbound" # [ForceSellItem] == "true"
 // Amulet
-[UniqueName] == "Bloodsoaked Medallion" # [StashItem] == "true"
-[UniqueName] == "Tainted Pact" # [StashItem] == "true"
+[UniqueName] == "Bloodsoaked Medallion" # [ForceSellItem] == "true"
+[UniqueName] == "Tainted Pact" # [ForceSellItem] == "true"
 // Flask
 // Weapon
-[UniqueName] == "The Geomantic Gyre" # [StashItem] == "true"
-[UniqueName] == "The Redblade" # [StashItem] == "true"
-[UniqueName] == "Widowhail" # [StashItem] == "true"
+// [UniqueName] == "The Geomantic Gyre" # [ForceSellItem] == "true"
+// [UniqueName] == "The Redblade" # [ForceSellItem] == "true"
+// [UniqueName] == "Widowhail" # [ForceSellItem] == "true"
 // Jewel
-[UniqueName] == "Ancestral Vision" # [StashItem] == "true"
-[UniqueName] == "Bloodnotch" # [StashItem] == "true"
+// [UniqueName] == "Ancestral Vision" # [ForceSellItem] == "true"
+// [UniqueName] == "Bloodnotch" # [ForceSellItem] == "true"
 
 /////////////////////////////////////////////////////////////////////////////////////
 //                                                                                 //
