@@ -1373,7 +1373,7 @@
 // [UniqueName] == "Might of the Meek" # [ForceSellItem] == "true"
 [UniqueName] == "Firesong" # [ForceSellItem] == "true"
 [UniqueName] == "Split Personality" # [ForceSellItem] == "true"
-[UniqueName] == "Immutable Force" # [ForceSellItem] == "true"
+// [UniqueName] == "Immutable Force" # [ForceSellItem] == "true"
 [UniqueName] == "Inertia" # [ForceSellItem] == "true"
 [UniqueName] == "Replica Primordial Might" # [ForceSellItem] == "true"
 [UniqueName] == "Tempered Flesh" # [ForceSellItem] == "true"
