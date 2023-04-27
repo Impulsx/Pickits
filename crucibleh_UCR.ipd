@@ -2078,7 +2078,7 @@
 [UniqueName] == "Perfidy" # [ForceSellItem] == "true"
 // [Type] == "Golden Plate" && [Rarity] == "Unique"    # [ForceSellItem] == "true" // Greed's Embrace / Craiceann's Carapace
 // [UniqueName] == "Greed's Embrace" # [ForceSellItem] == "true"
-[UniqueName] == "Greed's Embrace" && [base_item_found_quantity_+%] < "14" && [base_item_found_rarity_+%] < "45" # [ForceSellItem] == "true" //
+[UniqueName] == "Greed's Embrace" && [base_item_found_quantity_+%] < "14" && [base_item_found_rarity_+%] < "49" # [ForceSellItem] == "true" //
 [UniqueName] == "Craiceann's Carapace" # [ForceSellItem] == "true"
 //[Type] == "Plate Vest" && [Rarity] == "Unique"         # [ForceSellItem] == "true" // Bramble Jack / Wall of Brambles
 [UniqueName] == "Bramblejack" # [ForceSellItem] == "true" // Bramble Jack
