@@ -1439,18 +1439,21 @@
 
 // Take all maps - Handling what maps to run is done in the Map.ipd
 
-[Category] == "Map" && [MapTier] >= "1"         # [StashItem] == "true"  // Take all Maps & Ignore all Contract/Blueprints/Incubators
-// [Category] == "Map" && [MapTier] >= "14"         # [StashItem] == "true"  // Take all Maps T14+
+[Category] == "Map" && [MapTier] >= "1" # [StashItem] == "true"  // Take all Maps & Ignore all Contract/Blueprints/Incubators
+// [Category] == "Map" && [MapTier] >= "6" # [StashItem] == "true"  // Yellow
+// [Category] == "Map" && [MapTier] >= "11" # [StashItem] == "true"  // Red
+// [Category] == "Map" && [MapTier] >= "14" # [StashItem] == "true"  // Take all Maps T14+
 
-// [Category] == "Map"                          # [StashItem] == "true" // Take all Maps/Contract/Blueprints/Incubators
+// [Category] == "Map" # [StashItem] == "true" // Take all Maps/Contract/Blueprints/Incubators
 
 // [Category] == "Map" && [Rarity] == "Normal" 	# [StashItem] == "true" // Take all normal maps
 // [Category] == "Map" && [Rarity] == "Magic" 	# [StashItem] == "true" // Take all magic maps
 // [Category] == "Map" && [Rarity] == "Rare" 	# [StashItem] == "true" // Take all rare maps
 // [Category] == "Map" && [Rarity] == "Unique" 	# [StashItem] == "true" // Take all unique maps
 
-// [Category] == "Map" && [map_is_corrupted] >= "1" && [Rarity] == "Normal"  # [ForceSellItem] == "true" // Take all Maps & Ignore all Contract/Blueprints/Incubators
-// [Category] == "Map" && [map_is_corrupted] >= "1" && [Rarity] == "Magic"  # [ForceSellItem] == "true" // Take all Maps & Ignore all Contract/Blueprints/Incubators
+// Test do not work
+// [Category] == "Map" && [map_is_corrupted] >= "1" && [Rarity] == "Normal"  # [ForceSellItem] == "true" //
+// [Category] == "Map" && [map_is_corrupted] >= "1" && [Rarity] == "Magic"  # [ForceSellItem] == "true" //
 
 
 // Sacrifice Set
