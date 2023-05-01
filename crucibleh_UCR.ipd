@@ -1440,8 +1440,8 @@
 // Take all maps - Handling what maps to run is done in the Map.ipd
 
 [Category] == "Map" && [MapTier] >= "1" # [StashItem] == "true"  // Take all Maps & Ignore all Contract/Blueprints/Incubators
-// [Category] == "Map" && [MapTier] >= "6" # [StashItem] == "true"  // Yellow
-// [Category] == "Map" && [MapTier] >= "11" # [StashItem] == "true"  // Red
+// [Category] == "Map" && [MapTier] >= "6" # [StashItem] == "true"  // Ignores whites Yellow+
+// [Category] == "Map" && [MapTier] >= "11" # [StashItem] == "true"  // Picks only Red+
 // [Category] == "Map" && [MapTier] >= "14" # [StashItem] == "true"  // Take all Maps T14+
 
 // [Category] == "Map" # [StashItem] == "true" // Take all Maps/Contract/Blueprints/Incubators
@@ -1510,6 +1510,7 @@
 [Type] == "Maven's Invitation: The Forgotten"       # [StashItem] == "true"
 [Type] == "Maven's Invitation: The Hidden"          # [StashItem] == "true"
 [Type] == "Maven's Invitation: The Feared"          # [StashItem] == "true"
+
 [Type] == "Maven's Invitation: Haewark Hamlet"      # [StashItem] == "true"
 [Type] == "Maven's Invitation: Tirn's End"          # [StashItem] == "true"
 [Type] == "Maven's Invitation: Lex Proxima"         # [StashItem] == "true"
