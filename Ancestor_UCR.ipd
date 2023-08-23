@@ -110,15 +110,15 @@
 ////////// Base Currency
 
 // if enabled, the bot will pickup all scrolls and ignoring the GUI settings
-// [Type] == "Wisdom Scroll" 	# [StashItem] == "true"
-// [Type] == "Portal Scroll" 	# [StashItem] == "true"
+[Type] == "Wisdom Scroll" 	# [StashItem] == "true"
+[Type] == "Portal Scroll" 	# [StashItem] == "true"
 
 [Type] == "Alchemy Shard" 		# [StashItem] == "true"
 [Type] == "Alteration Shard" 	# [StashItem] == "true"
 [Type] == "Transmutation Shard" # [StashItem] == "true"
 
-// [Type] == "Blacksmith's Whetstone" 	# [StashItem] == "true"
-// [Type] == "Armourer's Scrap" 		# [StashItem] == "true"
+[Type] == "Blacksmith's Whetstone" 	# [StashItem] == "true"
+[Type] == "Armourer's Scrap" 		# [StashItem] == "true"
 [Type] == "Glassblower's Bauble" 	# [StashItem] == "true"
 
 [Type] == "Blessed Orb" 		# [StashItem] == "true"
@@ -1577,12 +1577,12 @@
 
 // [Type] == "Sacrificial Garb"         # [ChanceItem] == "true" && [Rarity] == "Normal" // 25% chance to obtain the Shadowstitch. @ the Altar of Corruption at Locus of Corruption
 
-// T1
-[Type] == "Heavy Belt" # [ChanceItem] == "true" && [Rarity] == "Normal" // Mageblood
-[Type] == "Leather Belt" # [ChanceItem] == "true" && [Rarity] == "Normal" // Headhunter
-[Type] == "Elegant Round Shield" # [ChanceItem] == "true" && [Rarity] == "Normal" // Squire
-// T2
-[Type] == "Champion Kite Shield" # [ChanceItem] == "true" && [Rarity] == "Normal" // Aegis Aurora
+// // T1
+// [Type] == "Heavy Belt" # [ChanceItem] == "true" && [Rarity] == "Normal" // Mageblood
+// [Type] == "Leather Belt" # [ChanceItem] == "true" && [Rarity] == "Normal" // Headhunter
+// [Type] == "Elegant Round Shield" # [ChanceItem] == "true" && [Rarity] == "Normal" // Squire
+// // T2
+// [Type] == "Champion Kite Shield" # [ChanceItem] == "true" && [Rarity] == "Normal" // Aegis Aurora
 
 //////////////////////////////////////////////
 //                                          //
