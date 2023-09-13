@@ -115,7 +115,7 @@
 
 [Type] == "Alchemy Shard" 		# [StashItem] == "true"
 [Type] == "Alteration Shard" 	# [StashItem] == "true"
-[Type] == "Transmutation Shard" # [StashItem] == "true"
+// [Type] == "Transmutation Shard" # [StashItem] == "true"
 
 [Type] == "Blacksmith's Whetstone" 	# [StashItem] == "true"
 [Type] == "Armourer's Scrap" 		# [StashItem] == "true"
@@ -192,7 +192,7 @@
 
 ////////// Heist Currency
 
-[Type] == "Rogue's Marker"                  # [StashItem] == "true"
+[Type] == "Rogue's Marker" # [StashItem] == "true"
 
 // [Category] == "Contract" && [ItemLevel] >= "83" # [StashItem] == "true" // Does not work
 // [Type] == "^Contract:\W" && [ItemLevel] >= "83" # [StashItem] == "true" // Regex match, does not work
@@ -518,7 +518,7 @@
 [Type] == "Eldritch Orb of Annulment"		# [StashItem] == "true"
 
 // Scouting Report
-// [Type] == "Singular Scouting Report"		# [StashItem] == "true"
+[Type] == "Singular Scouting Report"		# [StashItem] == "true"
 [Type] == "Otherworldly Scouting Report"	# [StashItem] == "true"
 [Type] == "Comprehensive Scouting Report"	# [StashItem] == "true"
 // [Type] == "Vaal Scouting Report"			# [StashItem] == "true"
@@ -1163,24 +1163,62 @@
 // [Type] == "Medium Cluster Jewel" && [Rarity] == "Rare" # [StashItem] == "true"
 // [Type] == "Large Cluster Jewel" && [Rarity] == "Rare"  # [StashItem] == "true"
 
+// ilvl
 [Type] == "Small Cluster Jewel" && [ItemLevel] >= "84"  # [StashItem] == "true"
 [Type] == "Medium Cluster Jewel" && [ItemLevel] >= "84" # [StashItem] == "true"
 [Type] == "Large Cluster Jewel" && [ItemLevel] >= "84"  # [StashItem] == "true"
 
-// Aura Jewels 3.20
-// 10923 = 54 = Mana reservation
-// 10924 Passive count
-// 11449 Passives effect mod
+// Aura
+// 10923 / local_jewel_expansion_passive_node_index = 54 = Mana reservation
+// 10924 / local_jewel_expansion_passive_node_count / Passive count
 // Subject to change on update
 // add [ItemLevel] >= "84" to filter low clusters that can't roll 35% effect
-// 10923 ? added_small_passive_skills_grant
-[Type] == "Small Cluster Jewel" && [Rarity] == "Normal" && [10923] == "54" && [10924] == "3" # [StashItem] == "true"
-[Type] == "Small Cluster Jewel" && [Rarity] == "Magic" && [10923] == "54" && [10924] == "3" # [StashItem] == "true"
+// [11449] effect / && [local_affliction_jewel_small_nodes_have_effect_+%] >= "25"
+[Type] == "Small Cluster Jewel" && [local_jewel_expansion_passive_node_index] == "54" && [local_jewel_expansion_passive_node_count] == "3" # [StashItem] == "true"
+// [Type] == "Small Cluster Jewel"  && [ItemLevel] >= "50" && [local_jewel_expansion_passive_node_index] == "54" && [local_jewel_expansion_passive_node_count] == "3" # [StashItem] == "true"
+[Type] == "Small Cluster Jewel" && [ItemLevel] >= "84" && [local_jewel_expansion_passive_node_index] == "54" && [local_jewel_expansion_passive_node_count] == "2" # [StashItem] == "true"
 
-// Effect mod
-// && [11449] >= "25"
-// && [local_affliction_jewel_small_nodes_have_effect_+%] >= "25"
-[Type] == "Small Cluster Jewel" && [Rarity] == "Rare"  && [10923] == "54" && [10924] == "3"  # [StashItem] == "true" // smol effect
+// Bow
+// [Type] == "Large Cluster Jewel" && [ItemLevel] >= "84"  && [local_jewel_expansion_passive_node_index] == "4" && [local_jewel_expansion_passive_node_count] >= "11" # [StashItem] == "true" //Cheap
+[Type] == "Large Cluster Jewel" && [ItemLevel] >= "84" && [local_jewel_expansion_passive_node_index] == "4" && [local_jewel_expansion_passive_node_count] == "12" # [StashItem] == "true"
+
+// Flask
+[Type] == "Medium Cluster Jewel" && [ItemLevel] >= "84" && [local_jewel_expansion_passive_node_index] == "37" && [local_jewel_expansion_passive_node_count] == "6" # [StashItem] == "true"
+
+// Minion
+[Type] == "Large Cluster Jewel" && [ItemLevel] >= "84" && [local_jewel_expansion_passive_node_index] == "17" && [local_jewel_expansion_passive_node_count] == "12" # [StashItem] == "true"
+
+// Fire
+// [Type] == "Large Cluster Jewel" && [ItemLevel] >= "84" && [local_jewel_expansion_passive_node_index] == "13" && [local_jewel_expansion_passive_node_count] == "8" # [StashItem] == "true"
+[Type] == "Large Cluster Jewel" && [ItemLevel] >= "50" && [local_jewel_expansion_passive_node_index] == "13" && [local_jewel_expansion_passive_node_count] == "8" # [StashItem] == "true"
+
+// Chaos
+// [Type] == "Large Cluster Jewel" && [ItemLevel] >= "84" && [local_jewel_expansion_passive_node_index] == "16" && [local_jewel_expansion_passive_node_count] == "8" # [StashItem] == "true"
+[Type] == "Large Cluster Jewel" && [ItemLevel] >= "50" && [local_jewel_expansion_passive_node_index] == "16" && [local_jewel_expansion_passive_node_count] == "8" # [StashItem] == "true"
+
+// Lightning get local_jewel_expansion_passive_node_index
+// [Type] == "Large Cluster Jewel" && [ItemLevel] >= "84" && [local_jewel_expansion_passive_node_index] == "" && [local_jewel_expansion_passive_node_count] == "12" # [StashItem] == "true"
+
+// Attack
+// [Type] == "Large Cluster Jewel" && [ItemLevel] >= "84" && [local_jewel_expansion_passive_node_index] == "9" && [local_jewel_expansion_passive_node_count] == "8" # [StashItem] == "true"
+[Type] == "Large Cluster Jewel" && [ItemLevel] >= "50" && [local_jewel_expansion_passive_node_index] == "9" && [local_jewel_expansion_passive_node_count] == "8" # [StashItem] == "true"
+
+// Physical get local_jewel_expansion_passive_node_index
+// [Type] == "Large Cluster Jewel" && [ItemLevel] >= "84" && [local_jewel_expansion_passive_node_index] == "" && [local_jewel_expansion_passive_node_count] == "8" # [StashItem] == "true"
+// [Type] == "Large Cluster Jewel" && [ItemLevel] >= "50" && [local_jewel_expansion_passive_node_index] == "" && [local_jewel_expansion_passive_node_count] == "8" # [StashItem] == "true"
+
+// Axe get local_jewel_expansion_passive_node_index
+// [Type] == "Large Cluster Jewel" && [ItemLevel] >= "84" && [local_jewel_expansion_passive_node_index] == "" && [local_jewel_expansion_passive_node_count] == "8" # [StashItem] == "true"
+// [Type] == "Large Cluster Jewel" && [ItemLevel] >= "50" && [local_jewel_expansion_passive_node_index] == "" && [local_jewel_expansion_passive_node_count] == "8" # [StashItem] == "true"
+
+// Cold
+// [Type] == "Large Cluster Jewel" && [ItemLevel] >= "84" && [local_jewel_expansion_passive_node_index] == "15" && [local_jewel_expansion_passive_node_count] == "12" # [StashItem] == "true"
+[Type] == "Large Cluster Jewel" && [ItemLevel] >= "50" && [local_jewel_expansion_passive_node_index] == "15" && [local_jewel_expansion_passive_node_count] == "12" # [StashItem] == "true"
+
+// Trap&Mine
+// [Type] == "Medium Cluster Jewel" && [ItemLevel] >= "84" && [local_jewel_expansion_passive_node_index] == "33" && [local_jewel_expansion_passive_node_count] == "4" # [StashItem] == "true" //Trap/Mine throwing speed i84+
+[Type] == "Medium Cluster Jewel" && [ItemLevel] >= "50" && [local_jewel_expansion_passive_node_index] == "33" && [local_jewel_expansion_passive_node_count] == "4" # [StashItem] == "true" // ilvl50-67 ideal for rolling: Guerilla Tactics & Surprise Sabo / Set and Forget
+
 
 // Custom Cluster for frostblades
 // [Type] == "Medium Cluster Jewel" && [Rarity] == "Magic"     # [local_affliction_notable_cold_conduction] >= "1" && [StashItem] == "true"  // For rolling 1 Added Passive Skill is Cold Conduction 11343 & 1 Added Passive Skill is Stormrider 11349
@@ -1439,17 +1477,17 @@
 
 // Take all maps - Handling what maps to run is done in the Map.ipd
 
-[Category] == "Map" && [MapTier] >= "1" # [StashItem] == "true"  // Take all Maps & Ignore all Contract/Blueprints/Incubators
-// [Category] == "Map" && [MapTier] >= "6" # [StashItem] == "true"  // Ignores whites Yellow+
-// [Category] == "Map" && [MapTier] >= "11" # [StashItem] == "true"  // Picks only Red+
-// [Category] == "Map" && [MapTier] >= "14" # [StashItem] == "true"  // Take all Maps T14+
+// [Category] == "Map" && [MapTier] >= "1" # [StashItem] == "true"  // Take all Maps & Ignore all Contract/Blueprints/Incubators
+// [Category] == "Map" && [MapTier] >= "6" # [StashItem] == "true"  // Picks only Yellow+
+[Category] == "Map" && [MapTier] >= "11" # [StashItem] == "true"  // Picks only Red+
+// [Category] == "Map" && [MapTier] >= "14" # [StashItem] == "true"  // Take all Maps T14+ [Conquer/Boss maps can drop T14-18]
 
 // [Category] == "Map" # [StashItem] == "true" // Take all Maps/Contract/Blueprints/Incubators
 
 // [Category] == "Map" && [Rarity] == "Normal" 	# [StashItem] == "true" // Take all normal maps
 // [Category] == "Map" && [Rarity] == "Magic" 	# [StashItem] == "true" // Take all magic maps
 // [Category] == "Map" && [Rarity] == "Rare" 	# [StashItem] == "true" // Take all rare maps
-// [Category] == "Map" && [Rarity] == "Unique" 	# [StashItem] == "true" // Take all unique maps
+// [Category] == "Map" && [Rarity] == "Unique" 	# [StashItem] == "true" // Take all unique maps Handled by UNIQUE ITEMS meta rule
 
 // Test do not work
 // [Category] == "Map" && [map_is_corrupted] >= "1" && [Rarity] == "Normal"  # [ForceSellItem] == "true" //
@@ -1577,11 +1615,11 @@
 
 // [Type] == "Sacrificial Garb"         # [ChanceItem] == "true" && [Rarity] == "Normal" // 25% chance to obtain the Shadowstitch. @ the Altar of Corruption at Locus of Corruption
 
-// // T1
+// T1
 // [Type] == "Heavy Belt" # [ChanceItem] == "true" && [Rarity] == "Normal" // Mageblood
 // [Type] == "Leather Belt" # [ChanceItem] == "true" && [Rarity] == "Normal" // Headhunter
 // [Type] == "Elegant Round Shield" # [ChanceItem] == "true" && [Rarity] == "Normal" // Squire
-// // T2
+// T2
 // [Type] == "Champion Kite Shield" # [ChanceItem] == "true" && [Rarity] == "Normal" // Aegis Aurora
 
 //////////////////////////////////////////////
@@ -1603,54 +1641,66 @@
 //                                          //
 //////////////////////////////////////////////
 
-// [Type] == "Small Life Flask"
-// [Type] == "Medium Life Flask"
-// [Type] == "Large Life Flask"
-// [Type] == "Greater Life Flask"
-// [Type] == "Grand Life Flask"
-// [Type] == "Giant Life Flask"
-// [Type] == "Colossal Life Flask"
-// [Type] == "Sacred Life Flask"
-// [Type] == "Hallowed Life Flask"
-// [Type] == "Sanctified Life Flask"
-// [Type] == "Divine Life Flask"
-// [Type] == "Eternal Life Flask"
+// [Type] == "Small Life Flask"      # [StashItem] == "true"
+// [Type] == "Medium Life Flask"     # [StashItem] == "true"
+// [Type] == "Large Life Flask"      # [StashItem] == "true"
+// [Type] == "Greater Life Flask"    # [StashItem] == "true"
+// [Type] == "Grand Life Flask"      # [StashItem] == "true"
+// [Type] == "Giant Life Flask"      # [StashItem] == "true"
+// [Type] == "Colossal Life Flask"   # [StashItem] == "true"
+// [Type] == "Sacred Life Flask"     # [StashItem] == "true"
+// [Type] == "Hallowed Life Flask"   # [StashItem] == "true"
+// [Type] == "Sanctified Life Flask" # [StashItem] == "true"
+// [Type] == "Divine Life Flask"     # [StashItem] == "true"
+// [Type] == "Eternal Life Flask"    # [StashItem] == "true"
 
-// [Type] == "Small Mana Flask"
-// [Type] == "Medium Mana Flask"
-// [Type] == "Large Mana Flask"
-// [Type] == "Greater Mana Flask"
-// [Type] == "Grand Mana Flask"
-// [Type] == "Giant Mana Flask"
-// [Type] == "Colossal Mana Flask"
-// [Type] == "Sacred Mana Flask"
-// [Type] == "Hallowed Mana Flask"
-// [Type] == "Sanctified Mana Flask"
-// [Type] == "Divine Mana Flask"
-// [Type] == "Eternal Mana Flask"
+// [Type] == "Small Mana Flask"      # [StashItem] == "true"
+// [Type] == "Medium Mana Flask"     # [StashItem] == "true"
+// [Type] == "Large Mana Flask"      # [StashItem] == "true"
+// [Type] == "Greater Mana Flask"    # [StashItem] == "true"
+// [Type] == "Grand Mana Flask"      # [StashItem] == "true"
+// [Type] == "Giant Mana Flask"      # [StashItem] == "true"
+// [Type] == "Colossal Mana Flask"   # [StashItem] == "true"
+// [Type] == "Sacred Mana Flask"     # [StashItem] == "true"
+// [Type] == "Hallowed Mana Flask"   # [StashItem] == "true"
+// [Type] == "Sanctified Mana Flask" # [StashItem] == "true"
+// [Type] == "Divine Mana Flask"     # [StashItem] == "true"
+// [Type] == "Eternal Mana Flask"    # [StashItem] == "true"
 
-// [Type] == "Small Hybrid Flask"
-// [Type] == "Medium Hybrid Flask"
-// [Type] == "Large Hybrid Flask"
-// [Type] == "Colossal Hybrid Flask"
-// [Type] == "Sacred Hybrid Flask"
-// [Type] == "Hallowed Hybrid Flask"
+// [Type] == "Small Hybrid Flask"    # [StashItem] == "true"
+// [Type] == "Medium Hybrid Flask"   # [StashItem] == "true"
+// [Type] == "Large Hybrid Flask"    # [StashItem] == "true"
+// [Type] == "Colossal Hybrid Flask" # [StashItem] == "true"
+// [Type] == "Sacred Hybrid Flask"   # [StashItem] == "true"
+// [Type] == "Hallowed Hybrid Flask" # [StashItem] == "true"
 
-// [Type] == "Quicksilver Flask"
-// [Type] == "Bismuth Flask"
-// [Type] == "Stibnite Flask"
-// [Type] == "Amethyst Flask"
-// [Type] == "Ruby Flask"
-// [Type] == "Sapphire Flask"
-// [Type] == "Topaz Flask"
-// [Type] == "Silver Flask"
-// [Type] == "Aquamarine Flask"
-// [Type] == "Diamond Flask"
-// [Type] == "Granite Flask"
-// [Type] == "Jade Flask"
-// [Type] == "Quartz Flask"
-// [Type] == "Sulphur Flask"
-// [Type] == "Basalt Flask"
+// [Type] == "Quicksilver Flask" # [StashItem] == "true"
+// [Type] == "Bismuth Flask"     # [StashItem] == "true"
+// [Type] == "Stibnite Flask"    # [StashItem] == "true"
+// [Type] == "Amethyst Flask"    # [StashItem] == "true"
+// [Type] == "Ruby Flask"        # [StashItem] == "true"
+// [Type] == "Sapphire Flask"    # [StashItem] == "true"
+// [Type] == "Topaz Flask"       # [StashItem] == "true"
+// [Type] == "Silver Flask"      # [StashItem] == "true"
+// [Type] == "Aquamarine Flask"  # [StashItem] == "true"
+// [Type] == "Diamond Flask"     # [StashItem] == "true"
+// [Type] == "Granite Flask"     # [StashItem] == "true"
+// [Type] == "Jade Flask"        # [StashItem] == "true"
+// [Type] == "Quartz Flask"      # [StashItem] == "true"
+// [Type] == "Sulphur Flask"     # [StashItem] == "true"
+// [Type] == "Basalt Flask"      # [StashItem] == "true"
+
+// RF
+// [Type] == "Eternal Life Flask" && [ItemLevel] >= "82" && [Quality] >= "10" # [StashItem] == "true"
+
+// [Type] == "Quicksilver Flask" && [ItemLevel] >= "82" # [StashItem] == "true"
+// [Type] == "Granite Flask" && [ItemLevel] >= "82" # [StashItem] == "true"
+// [Type] == "Ruby Flask" && [ItemLevel] >= "82" # [StashItem] == "true"
+
+// [Type] == "Amethyst Flask" && [ItemLevel] >= "82" # [StashItem] == "true"
+// [Type] == "Quartz Flask" && [ItemLevel] >= "82" # [StashItem] == "true"
+// [Type] == "Silver Flask" && [ItemLevel] >= "82" # [StashItem] == "true"
+
 
 
 
@@ -1979,7 +2029,7 @@
 // [UniqueName] == "Circle of Anguish" # [ForceSellItem] == "true"
 // [UniqueName] == "Emberwake" # [ForceSellItem] == "true"
 // [UniqueName] == "Mokou's Embrace" # [ForceSellItem] == "true"
-// [UniqueName] == "Ngamahu's Sign" # [ForceSellItem] == "true"
+// [UniqueName] == "Ngamahus Sign" # [ForceSellItem] == "true"
 // [UniqueName] == "Warrior's Legacy" # [ForceSellItem] == "true"
 
 // [Type] == "Sapphire Ring" && [Rarity] == "Unique"  # [ForceSellItem] == "true" // Circle of Fear / Dream Fragments / Pyre / Snakepit / Tasalio's Sign / Uzaza's Meadow/Mountain/Valley
@@ -3074,6 +3124,25 @@
 // [Type] == "Viridian Jewel" && [Rarity] == "Rare" # [base_resist_all_elements_%] >= "8" && [StashItem] == "true" // Keep all resist mod jewel
 // [Type] == "Viridian Jewel" && [Rarity] == "Rare" # [damage_over_time_+%] >= "10" && [StashItem] == "true" // Keep DoT mod jewel (Poison/Chaos builds)
 // [Type] == "Viridian Jewel" && [Rarity] == "Rare" # [critical_strike_chance_+%] >= "20" && [StashItem] == "true" // Keep double crit chance mod jewel
+
+////////////// Starting Gear //////////////
+/////// RF
+// Sceptres
+// [Type] == "" # [StashItem] == "true" //
+
+// Burn dmg
+// [Type] == "Opal Sceptre" # [burn_damage_+%] >= "26" && [fire_spell_skill_gem_level_+] >= "1" && [StashItem] == "true" //
+// [Type] == "Void Sceptre" # [burn_damage_+%] >= "26" && [fire_spell_skill_gem_level_+] >= "1" && [StashItem] == "true" //
+
+// DoT
+// [Type] == "Opal Sceptre" # [damage_over_time_+%] >= "26" && [fire_spell_skill_gem_level_+] >= "1" && [StashItem] == "true" //
+// [Type] == "Void Sceptre" # [damage_over_time_+%] >= "26" && [fire_spell_skill_gem_level_+] >= "1" && [StashItem] == "true" //
+
+// [Type] == "Opal Sceptre" # [fire_damage_over_time_+%] >= "26" && [fire_spell_skill_gem_level_+] >= "1" && [StashItem] == "true" //
+// [Type] == "Void Sceptre" # [fire_damage_over_time_+%] >= "26" && [fire_spell_skill_gem_level_+] >= "1" && [StashItem] == "true" //
+
+// [Type] == "Opal Sceptre" # [minion_damage_over_time_multiplier_+] >= "26" && [fire_spell_skill_gem_level_+] >= "1" && [StashItem] == "true" //
+// [Type] == "Void Sceptre" # [minion_damage_over_time_multiplier_+] >= "26" && [fire_spell_skill_gem_level_+] >= "1" && [StashItem] == "true" //
 
 
 /////////////////////////////////////////////////////////////////////////////////////
