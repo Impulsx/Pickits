@@ -1477,9 +1477,9 @@
 
 // Take all maps - Handling what maps to run is done in the Map.ipd
 
-// [Category] == "Map" && [MapTier] >= "1" # [StashItem] == "true"  // Take all Maps & Ignore all Contract/Blueprints/Incubators
+[Category] == "Map" && [MapTier] >= "1" # [StashItem] == "true"  // Take all Maps & Ignore all Contract/Blueprints/Incubators
 // [Category] == "Map" && [MapTier] >= "6" # [StashItem] == "true"  // Picks only Yellow+
-[Category] == "Map" && [MapTier] >= "11" # [StashItem] == "true"  // Picks only Red+
+// [Category] == "Map" && [MapTier] >= "11" # [StashItem] == "true"  // Picks only Red+
 // [Category] == "Map" && [MapTier] >= "14" # [StashItem] == "true"  // Take all Maps T14+ [Conquer/Boss maps can drop T14-18]
 
 // [Category] == "Map" # [StashItem] == "true" // Take all Maps/Contract/Blueprints/Incubators
