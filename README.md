@@ -25,10 +25,10 @@ _____________
 ## Map pickit section :neckbeard:
 
 This is included in the pickits:
-```c++
+```c#
 ///////////////
 
-// M A P S //
+//  M A P S  //
 
 ///////////////
 
