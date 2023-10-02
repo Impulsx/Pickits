@@ -110,8 +110,8 @@
 ////////// Base Currency
 
 // if enabled, the bot will pickup all scrolls and ignoring the GUI settings
-[Type] == "Wisdom Scroll" 	# [StashItem] == "true"
-[Type] == "Portal Scroll" 	# [StashItem] == "true"
+// [Type] == "Wisdom Scroll" 	# [StashItem] == "true"
+// [Type] == "Portal Scroll" 	# [StashItem] == "true"
 
 [Type] == "Alchemy Shard" 		# [StashItem] == "true"
 [Type] == "Alteration Shard" 	# [StashItem] == "true"
@@ -132,7 +132,7 @@
 
 [Type] == "Orb of Alchemy" 			# [StashItem] == "true"
 [Type] == "Orb of Alteration" 		# [StashItem] == "true"
-[Type] == "Orb of Transmutation" 	# [StashItem] == "true"
+// [Type] == "Orb of Transmutation" 	# [StashItem] == "true"
 [Type] == "Orb of Augmentation" 	# [StashItem] == "true"
 [Type] == "Orb of Chance" 			# [StashItem] == "true"
 [Type] == "Orb of Fusing" 			# [StashItem] == "true"
@@ -339,7 +339,6 @@
 
 
 ////////// Harbinger Currency
-
 [Type] == "Orb of Annulment" 	# [StashItem] == "true"
 [Type] == "Orb of Binding" 		# [StashItem] == "true"
 [Type] == "Orb of Horizons" 	# [StashItem] == "true"
@@ -378,7 +377,6 @@
 [Type] == "Second Piece of Time" 		# [StashItem] == "true"
 
 ////////// Incursion Currency
-
 [Type] == "Stone of Passage" 	# [StashItem] == "true"
 [Type] == "Flashpowder Keg" 	# [StashItem] == "true"
 
@@ -876,7 +874,7 @@
 [Type] == "Last Hope"                    # [StashItem] == "true" //  Mortal Hope
 [Type] == "Left to Fate"                 # [StashItem] == "true" //  Map Map Tier: 16 Unidentified Corrupted
 // [Type] == "Light and Truth"           # [StashItem] == "true" //  Crystal Sceptre
-// [Type] == "Lingering Remnants"        # [StashItem] == "true" //  Vaal Temple Map Item Level: 83 Corrupted
+[Type] == "Lingering Remnants"           # [StashItem] == "true" //  Vaal Temple Map Item Level: 83 Corrupted
 [Type] == "Lost Worlds"                  # [StashItem] == "true" //  Map Map Tier: 15
 [Type] == "Love Through Ice"             # [StashItem] == "true" //  Unnatural Instinct Two-Implicit Corrupted
 [Type] == "Loyalty"                      # [StashItem] == "true" //  3x Orb of Fusing
@@ -961,7 +959,7 @@
 // [Type] == "The Doppelganger"          # [StashItem] == "true" //  Superior Mirror Arrow Quality: +20%
 // [Type] == "The Dragon"                # [StashItem] == "true" //  Coruscating Elixir
 [Type] == "The Dragon's Heart"           # [StashItem] == "true" //  Level 4 Empower Corrupted
-// [Type] == "The Dreamer"               # [StashItem] == "true" //  Chayula Item
+[Type] == "The Dreamer"                  # [StashItem] == "true" //  Chayula Item
 // [Type] == "The Dreamland"             # [StashItem] == "true" //  Poorjoy's Asylum
 // [Type] == "The Drunken Aristocrat"    # [StashItem] == "true" //  Divination Distillate
 // [Type] == "The Easy Stroll"           # [StashItem] == "true" //  Terrace Map Modifiers: 8 Corrupted
@@ -974,7 +972,7 @@
 [Type] == "The Ethereal"                 # [StashItem] == "true" //  Six-Link Vaal Regalia
 // [Type] == "The Explorer"              # [StashItem] == "true" //  Map Corrupted
 [Type] == "The Eye of Terror"            # [StashItem] == "true" //  Pure Chayula Breachstone
-// [Type] == "The Eye of the Dragon"     # [StashItem] == "true" //  Jewel Corrupted
+[Type] == "The Eye of the Dragon"        # [StashItem] == "true" //  Jewel Corrupted
 // [Type] == "The Fathomless Depths"     # [StashItem] == "true" //  Lightpoacher
 // [Type] == "The Feast"                 # [StashItem] == "true" //  Romira's Banquet Corrupted
 [Type] == "The Fiend"                    # [StashItem] == "true" //  Headhunter Corrupted
@@ -1113,7 +1111,7 @@
 [Type] == "The Wind"                     # [StashItem] == "true" //  Windripper
 // [Type] == "The Witch"                 # [StashItem] == "true" //  Kiara's Determination
 [Type] == "The Wolf"                     # [StashItem] == "true" //  Rigwald Item
-// [Type] == "The Wolf's Legacy"         # [StashItem] == "true" //  Vaults of Atziri
+[Type] == "The Wolf's Legacy"            # [StashItem] == "true" //  Vaults of Atziri
 // [Type] == "The Wolf's Shadow"         # [StashItem] == "true" //  Hyaon's Fury
 [Type] == "The Wolven King's Bite"       # [StashItem] == "true" //  Rigwald's Quills
 // [Type] == "The Wolverine"             # [StashItem] == "true" //  Claw Corrupted
@@ -1122,10 +1120,10 @@
 [Type] == "The Wretched"                 # [StashItem] == "true" //  Belt
 // [Type] == "Thirst for Knowledge"      # [StashItem] == "true" //  Gluttony
 [Type] == "Three Faces in the Dark"      # [StashItem] == "true" //  3x Chaos Orb
-// [Type] == "Three Voices"              # [StashItem] == "true" //  3x Essence
+[Type] == "Three Voices"                 # [StashItem] == "true" //  3x Essence
 // [Type] == "Thunderous Skies"          # [StashItem] == "true" //  Storm Cloud
 [Type] == "Time-Lost Relic"              # [StashItem] == "true" //  League-Specific Item
-// [Type] == "Tranquillity"              # [StashItem] == "true" //  Voltaxic Rift
+[Type] == "Tranquillity"                 # [StashItem] == "true" //  Voltaxic Rift
 [Type] == "Treasure Hunter"              # [StashItem] == "true" //  Vaults of Atziri Corrupted
 [Type] == "Triskaidekaphobia"            # [StashItem] == "true" //  Map Map Tier: 13 Quality: +13% Delirium: 100% Modifiers: 8 Corrupted
 // [Type] == "Turn the Other Cheek"      # [StashItem] == "true" //  Pacifism Corrupted
@@ -1133,7 +1131,7 @@
 [Type] == "Underground Forest"           # [StashItem] == "true" //  10x Awakened Sextant
 [Type] == "Unrequited Love"              # [StashItem] == "true" //  19x Mirror Shard
 [Type] == "Vanity"                       # [StashItem] == "true" //  Tabula Rasa Corrupted
-// [Type] == "Vile Power"                # [StashItem] == "true" //  Ancient Doom
+// [Type] == "Vile Power"                # [StashItem] == "true" //  Doomfletch
 [Type] == "Vinia's Token"                # [StashItem] == "true" //  10x Orb of Regret
 [Type] == "Void of the Elements"         # [StashItem] == "true" //  Overpowering Opal Ring Item Level: 100 Elder Item
 [Type] == "Volatile Power"               # [StashItem] == "true" //  Superior Vaal Gem Quality: +20% Corrupted
@@ -1175,12 +1173,13 @@
 // add [ItemLevel] >= "84" to filter low clusters that can't roll 35% effect
 // [11449] effect / && [local_affliction_jewel_small_nodes_have_effect_+%] >= "25"
 [Type] == "Small Cluster Jewel" && [local_jewel_expansion_passive_node_index] == "54" && [local_jewel_expansion_passive_node_count] == "3" # [StashItem] == "true"
-// [Type] == "Small Cluster Jewel"  && [ItemLevel] >= "50" && [local_jewel_expansion_passive_node_index] == "54" && [local_jewel_expansion_passive_node_count] == "3" # [StashItem] == "true"
+[Type] == "Small Cluster Jewel"  && ([ItemLevel] >= "50" && [ItemLevel] <= "67") && [local_jewel_expansion_passive_node_index] == "54" && [local_jewel_expansion_passive_node_count] == "3" # [StashItem] == "true"
 [Type] == "Small Cluster Jewel" && [ItemLevel] >= "84" && [local_jewel_expansion_passive_node_index] == "54" && [local_jewel_expansion_passive_node_count] == "2" # [StashItem] == "true"
 
 // Bow
-// [Type] == "Large Cluster Jewel" && [ItemLevel] >= "84"  && [local_jewel_expansion_passive_node_index] == "4" && [local_jewel_expansion_passive_node_count] >= "11" # [StashItem] == "true" //Cheap
+[Type] == "Large Cluster Jewel" && [ItemLevel] >= "84"  && [local_jewel_expansion_passive_node_index] == "4" && [local_jewel_expansion_passive_node_count] >= "11" # [StashItem] == "true" //Cheap
 [Type] == "Large Cluster Jewel" && [ItemLevel] >= "84" && [local_jewel_expansion_passive_node_index] == "4" && [local_jewel_expansion_passive_node_count] == "12" # [StashItem] == "true"
+[Type] == "Large Cluster Jewel" && ([ItemLevel] >= "50" && [ItemLevel] <= "67") && [local_jewel_expansion_passive_node_index] == "4" && [local_jewel_expansion_passive_node_count] == "8" # [StashItem] == "true"
 
 // Flask
 [Type] == "Medium Cluster Jewel" && [ItemLevel] >= "84" && [local_jewel_expansion_passive_node_index] == "37" && [local_jewel_expansion_passive_node_count] == "6" # [StashItem] == "true"
@@ -1189,35 +1188,35 @@
 [Type] == "Large Cluster Jewel" && [ItemLevel] >= "84" && [local_jewel_expansion_passive_node_index] == "17" && [local_jewel_expansion_passive_node_count] == "12" # [StashItem] == "true"
 
 // Fire
-// [Type] == "Large Cluster Jewel" && [ItemLevel] >= "84" && [local_jewel_expansion_passive_node_index] == "13" && [local_jewel_expansion_passive_node_count] == "8" # [StashItem] == "true"
-[Type] == "Large Cluster Jewel" && [ItemLevel] >= "50" && [local_jewel_expansion_passive_node_index] == "13" && [local_jewel_expansion_passive_node_count] == "8" # [StashItem] == "true"
+[Type] == "Large Cluster Jewel" && [ItemLevel] >= "84" && [local_jewel_expansion_passive_node_index] == "13" && [local_jewel_expansion_passive_node_count] == "8" # [StashItem] == "true"
+[Type] == "Large Cluster Jewel" && ([ItemLevel] >= "50" && [ItemLevel] <= "67") && [local_jewel_expansion_passive_node_index] == "13" && [local_jewel_expansion_passive_node_count] == "8" # [StashItem] == "true"
 
 // Chaos
-// [Type] == "Large Cluster Jewel" && [ItemLevel] >= "84" && [local_jewel_expansion_passive_node_index] == "16" && [local_jewel_expansion_passive_node_count] == "8" # [StashItem] == "true"
-[Type] == "Large Cluster Jewel" && [ItemLevel] >= "50" && [local_jewel_expansion_passive_node_index] == "16" && [local_jewel_expansion_passive_node_count] == "8" # [StashItem] == "true"
+[Type] == "Large Cluster Jewel" && [ItemLevel] >= "84" && [local_jewel_expansion_passive_node_index] == "16" && [local_jewel_expansion_passive_node_count] == "8" # [StashItem] == "true"
+[Type] == "Large Cluster Jewel" && ([ItemLevel] >= "50" && [ItemLevel] <= "67") && [local_jewel_expansion_passive_node_index] == "16" && [local_jewel_expansion_passive_node_count] == "8" # [StashItem] == "true"
 
 // Lightning get local_jewel_expansion_passive_node_index
-// [Type] == "Large Cluster Jewel" && [ItemLevel] >= "84" && [local_jewel_expansion_passive_node_index] == "" && [local_jewel_expansion_passive_node_count] == "12" # [StashItem] == "true"
+[Type] == "Large Cluster Jewel" && [ItemLevel] >= "84" && [local_jewel_expansion_passive_node_index] == "14" && [local_jewel_expansion_passive_node_count] == "12" # [StashItem] == "true"
 
 // Attack
-// [Type] == "Large Cluster Jewel" && [ItemLevel] >= "84" && [local_jewel_expansion_passive_node_index] == "9" && [local_jewel_expansion_passive_node_count] == "8" # [StashItem] == "true"
-[Type] == "Large Cluster Jewel" && [ItemLevel] >= "50" && [local_jewel_expansion_passive_node_index] == "9" && [local_jewel_expansion_passive_node_count] == "8" # [StashItem] == "true"
+[Type] == "Large Cluster Jewel" && [ItemLevel] >= "84" && [local_jewel_expansion_passive_node_index] == "9" && [local_jewel_expansion_passive_node_count] == "8" # [StashItem] == "true"
+[Type] == "Large Cluster Jewel" && ([ItemLevel] >= "50" && [ItemLevel] <= "67") && [local_jewel_expansion_passive_node_index] == "9" && [local_jewel_expansion_passive_node_count] == "8" # [StashItem] == "true"
 
 // Physical get local_jewel_expansion_passive_node_index
 // [Type] == "Large Cluster Jewel" && [ItemLevel] >= "84" && [local_jewel_expansion_passive_node_index] == "" && [local_jewel_expansion_passive_node_count] == "8" # [StashItem] == "true"
-// [Type] == "Large Cluster Jewel" && [ItemLevel] >= "50" && [local_jewel_expansion_passive_node_index] == "" && [local_jewel_expansion_passive_node_count] == "8" # [StashItem] == "true"
+// [Type] == "Large Cluster Jewel" && ([ItemLevel] >= "50" && [ItemLevel] <= "67") && [local_jewel_expansion_passive_node_index] == "" && [local_jewel_expansion_passive_node_count] == "8" # [StashItem] == "true"
 
 // Axe get local_jewel_expansion_passive_node_index
 // [Type] == "Large Cluster Jewel" && [ItemLevel] >= "84" && [local_jewel_expansion_passive_node_index] == "" && [local_jewel_expansion_passive_node_count] == "8" # [StashItem] == "true"
-// [Type] == "Large Cluster Jewel" && [ItemLevel] >= "50" && [local_jewel_expansion_passive_node_index] == "" && [local_jewel_expansion_passive_node_count] == "8" # [StashItem] == "true"
+// [Type] == "Large Cluster Jewel" && ([ItemLevel] >= "50" && [ItemLevel] <= "67") && [local_jewel_expansion_passive_node_index] == "" && [local_jewel_expansion_passive_node_count] == "8" # [StashItem] == "true"
 
 // Cold
-// [Type] == "Large Cluster Jewel" && [ItemLevel] >= "84" && [local_jewel_expansion_passive_node_index] == "15" && [local_jewel_expansion_passive_node_count] == "12" # [StashItem] == "true"
-[Type] == "Large Cluster Jewel" && [ItemLevel] >= "50" && [local_jewel_expansion_passive_node_index] == "15" && [local_jewel_expansion_passive_node_count] == "12" # [StashItem] == "true"
+[Type] == "Large Cluster Jewel" && [ItemLevel] >= "84" && [local_jewel_expansion_passive_node_index] == "15" && [local_jewel_expansion_passive_node_count] == "12" # [StashItem] == "true"
+[Type] == "Large Cluster Jewel" && ([ItemLevel] >= "50" && [ItemLevel] <= "67") && [local_jewel_expansion_passive_node_index] == "15" && [local_jewel_expansion_passive_node_count] == "12" # [StashItem] == "true"
 
 // Trap&Mine
-// [Type] == "Medium Cluster Jewel" && [ItemLevel] >= "84" && [local_jewel_expansion_passive_node_index] == "33" && [local_jewel_expansion_passive_node_count] == "4" # [StashItem] == "true" //Trap/Mine throwing speed i84+
-[Type] == "Medium Cluster Jewel" && [ItemLevel] >= "50" && [local_jewel_expansion_passive_node_index] == "33" && [local_jewel_expansion_passive_node_count] == "4" # [StashItem] == "true" // ilvl50-67 ideal for rolling: Guerilla Tactics & Surprise Sabo / Set and Forget
+[Type] == "Medium Cluster Jewel" && [ItemLevel] >= "84" && [local_jewel_expansion_passive_node_index] == "33" && [local_jewel_expansion_passive_node_count] == "4" # [StashItem] == "true" //Trap/Mine throwing speed i84+
+[Type] == "Medium Cluster Jewel" && ([ItemLevel] >= "50" && [ItemLevel] <= "67") && [local_jewel_expansion_passive_node_index] == "33" && [local_jewel_expansion_passive_node_count] == "4" # [StashItem] == "true" // ilvl50-67 ideal for rolling: Guerilla Tactics & Surprise Sabo / Set and Forget
 
 
 // Custom Cluster for frostblades
@@ -1477,10 +1476,10 @@
 
 // Take all maps - Handling what maps to run is done in the Map.ipd
 
-[Category] == "Map" && [MapTier] >= "1" # [StashItem] == "true"  // Take all Maps & Ignore all Contract/Blueprints/Incubators
+// [Category] == "Map" && [MapTier] >= "1" # [StashItem] == "true"  // Take all Maps & Ignore all Contract/Blueprints/Incubators
 // [Category] == "Map" && [MapTier] >= "6" # [StashItem] == "true"  // Picks only Yellow+
 // [Category] == "Map" && [MapTier] >= "11" # [StashItem] == "true"  // Picks only Red+
-// [Category] == "Map" && [MapTier] >= "14" # [StashItem] == "true"  // Take all Maps T14+ [Conquer/Boss maps can drop T14-18]
+[Category] == "Map" && [MapTier] >= "14" # [StashItem] == "true"  // Take all Maps T14+ [Conquer/Boss maps can drop T14-18]
 
 // [Category] == "Map" # [StashItem] == "true" // Take all Maps/Contract/Blueprints/Incubators
 
@@ -1537,11 +1536,11 @@
 
 // Invitations
 [Type] == "Writhing Invitation"						# [StashItem] == "true"
-[Type] == "Screaming Invitation"					# [StashItem] == "true"
+[Type] == "Screaming Invitation"					# [StashItem] == "true" // Eater
 [Type] == "Polaric Invitation"						# [StashItem] == "true"
-[Type] == "Incandescent Invitation"					# [StashItem] == "true"
+[Type] == "Incandescent Invitation"					# [StashItem] == "true" // Exarch
 
-[Type] == "Maven's Invitation: The Atlas"			# [StashItem] == "true"
+// [Type] == "Maven's Invitation: The Atlas"			# [StashItem] == "true"
 [Type] == "Maven's Invitation: The Elderslayers"	# [StashItem] == "true"
 [Type] == "Maven's Invitation: The Formed"          # [StashItem] == "true"
 [Type] == "Maven's Invitation: The Twisted"         # [StashItem] == "true"
@@ -1549,14 +1548,14 @@
 [Type] == "Maven's Invitation: The Hidden"          # [StashItem] == "true"
 [Type] == "Maven's Invitation: The Feared"          # [StashItem] == "true"
 
-[Type] == "Maven's Invitation: Haewark Hamlet"      # [StashItem] == "true"
-[Type] == "Maven's Invitation: Tirn's End"          # [StashItem] == "true"
-[Type] == "Maven's Invitation: Lex Proxima"         # [StashItem] == "true"
-[Type] == "Maven's Invitation: Lex Ejoris"          # [StashItem] == "true"
-[Type] == "Maven's Invitation: New Vastir"          # [StashItem] == "true"
-[Type] == "Maven's Invitation: Glennach Cairns"     # [StashItem] == "true"
-[Type] == "Maven's Invitation: Valdo's Rest"        # [StashItem] == "true"
-[Type] == "Maven's Invitation: Lira Arthain"        # [StashItem] == "true"
+// [Type] == "Maven's Invitation: Haewark Hamlet"      # [StashItem] == "true"
+// [Type] == "Maven's Invitation: Tirn's End"          # [StashItem] == "true"
+// [Type] == "Maven's Invitation: Lex Proxima"         # [StashItem] == "true"
+// [Type] == "Maven's Invitation: Lex Ejoris"          # [StashItem] == "true"
+// [Type] == "Maven's Invitation: New Vastir"          # [StashItem] == "true"
+// [Type] == "Maven's Invitation: Glennach Cairns"     # [StashItem] == "true"
+// [Type] == "Maven's Invitation: Valdo's Rest"        # [StashItem] == "true"
+// [Type] == "Maven's Invitation: Lira Arthain"        # [StashItem] == "true"
 
 
 // Reliquary Keys
@@ -1616,11 +1615,11 @@
 // [Type] == "Sacrificial Garb"         # [ChanceItem] == "true" && [Rarity] == "Normal" // 25% chance to obtain the Shadowstitch. @ the Altar of Corruption at Locus of Corruption
 
 // T1
-// [Type] == "Heavy Belt" # [ChanceItem] == "true" && [Rarity] == "Normal" // Mageblood
-// [Type] == "Leather Belt" # [ChanceItem] == "true" && [Rarity] == "Normal" // Headhunter
-// [Type] == "Elegant Round Shield" # [ChanceItem] == "true" && [Rarity] == "Normal" // Squire
+[Type] == "Heavy Belt" # [ChanceItem] == "true" && [Rarity] == "Normal" // Mageblood
+[Type] == "Leather Belt" # [ChanceItem] == "true" && [Rarity] == "Normal" // Headhunter
+[Type] == "Elegant Round Shield" # [ChanceItem] == "true" && [Rarity] == "Normal" // Squire
 // T2
-// [Type] == "Champion Kite Shield" # [ChanceItem] == "true" && [Rarity] == "Normal" // Aegis Aurora
+[Type] == "Champion Kite Shield" # [ChanceItem] == "true" && [Rarity] == "Normal" // Aegis Aurora
 
 //////////////////////////////////////////////
 //                                          //
@@ -1921,7 +1920,7 @@
 [UniqueName] == "Auxium" # [ForceSellItem] == "true"
 // [Type] == "Heavy Belt" && [Rarity] == "Unique"   # [ForceSellItem] == "true" // Belt of the Deceiver / Bisco's Leash / Doryani's Invitation / Dyadian Dawn / Meginord's Girdle / Mother's Embrace / Siegebreaker / String of Servitude / Survivor's Guilt
 [UniqueName] == "Belt of the Deceiver" # [ForceSellItem] == "true"
-[UniqueName] == "Bisco's Leash" # [ForceSellItem] == "true"
+// [UniqueName] == "Bisco's Leash" # [ForceSellItem] == "true"
 [UniqueName] == "Dyadian Dawn" # [ForceSellItem] == "true"
 [UniqueName] == "Meginord's Girdle" # [ForceSellItem] == "true"
 [UniqueName] == "Mother's Embrace" # [ForceSellItem] == "true"
@@ -2132,7 +2131,8 @@
 [UniqueName] == "Perfidy" # [ForceSellItem] == "true"
 // [Type] == "Golden Plate" && [Rarity] == "Unique"    # [ForceSellItem] == "true" // Greed's Embrace / Craiceann's Carapace
 // [UniqueName] == "Greed's Embrace" # [ForceSellItem] == "true"
-[UniqueName] == "Greed's Embrace" && [base_item_found_quantity_+%] < "14" && [base_item_found_rarity_+%] < "49" # [ForceSellItem] == "true" //
+// [UniqueName] == "Greed's Embrace" && ([base_item_found_quantity_+%] < "14" && [base_item_found_rarity_+%] < "49") # [ForceSellItem] == "true" // Perfect
+[UniqueName] == "Greed's Embrace" && ([base_item_found_quantity_+%] < "14" && [base_item_found_rarity_+%] < "40") # [ForceSellItem] == "true" //
 [UniqueName] == "Craiceann's Carapace" # [ForceSellItem] == "true"
 //[Type] == "Plate Vest" && [Rarity] == "Unique"         # [ForceSellItem] == "true" // Bramble Jack / Wall of Brambles
 [UniqueName] == "Bramblejack" # [ForceSellItem] == "true" // Bramble Jack
@@ -2154,13 +2154,13 @@
 [UniqueName] == "Fox's Fortune" # [ForceSellItem] == "true"
 // [Type] == "Zodiac Leather" && [Rarity] == "Unique"    # [ForceSellItem] == "true" // Hyrri's Ire / The Perfect Form
 // [UniqueName] == "Hyrri's Ire" # [ForceSellItem] == "true"
-[UniqueName] == "The Perfect Form" # [ForceSellItem] == "true"
+// [UniqueName] == "The Perfect Form" # [ForceSellItem] == "true"
 
 
 // Energy Shield Chests
 [UniqueName] == "The Coming Calamity" # [ForceSellItem] == "true"
 [UniqueName] == "Vis Mortis" # [ForceSellItem] == "true"
-[UniqueName] == "Fleshcrafter" # [ForceSellItem] == "true"
+// [UniqueName] == "Fleshcrafter" # [ForceSellItem] == "true"
 // [UniqueName] == "Shavronne's Wrappings" # [ForceSellItem] == "true"
 // [UniqueName] == "Dialla's Malefaction" # [ForceSellItem] == "true"
 [UniqueName] == "Zahndethus' Cassock" # [ForceSellItem] == "true"
@@ -2179,7 +2179,7 @@
 [UniqueName] == "Infernal Mantle" # [ForceSellItem] == "true"
 
 // Armour & Evasion Chests
-[UniqueName] == "Lightning Coil" # [ForceSellItem] == "true"
+// [UniqueName] == "Lightning Coil" # [ForceSellItem] == "true"
 [UniqueName] == "Daresso's Defiance" # [ForceSellItem] == "true"
 [UniqueName] == "Viper's Scalea" # [ForceSellItem] == "true"
 // [UniqueName] == "Belly of the Beast" # [ForceSellItem] == "true"
@@ -2247,14 +2247,15 @@
 // [UniqueName] == "Windshriek" # [ForceSellItem] == "true"
 // [Type] == "Titan Greaves" && [Rarity] == "Unique"      # [ForceSellItem] == "true" // Kaom's Roots / The Red Trail
 [UniqueName] == "Kaom's Roots" # [ForceSellItem] == "true"
-[UniqueName] == "The Red Trail" # [ForceSellItem] == "true"
+// [UniqueName] == "The Red Trail" # [ForceSellItem] == "true"
 
 // Evasion Boots
 [UniqueName] == "Deerstalker" # [ForceSellItem] == "true"
 // [Type] == "Goathide Boots" && [Rarity] == "Unique" # [ForceSellItem] == "true" // Abberath's Hooves / Victario's Flight
 // [UniqueName] == "Abberath's Hooves" # [ForceSellItem] == "true"
 [UniqueName] == "Ondar's Flight" # [ForceSellItem] == "true" // Victario's Flight
-[UniqueName] == "Goldwyrm" # [ForceSellItem] == "true"
+// [UniqueName] == "Goldwyrm" # [ForceSellItem] == "true"
+[UniqueName] == "Goldwyrm" # [base_item_found_quantity_+%] <= "19" && [ForceSellItem] == "true"
 // [UniqueName] == "Seven-League Step" # [ForceSellItem] == "true"
 [UniqueName] == "Three-step Assault" # [ForceSellItem] == "true"
 [UniqueName] == "The Blood Dance" # [ForceSellItem] == "true"
@@ -2450,7 +2451,7 @@
 // Evasion Helmets
 // [UniqueName] == "Goldrim" # [ForceSellItem] == "true" // Goldrim
 [UniqueName] == "Goldrim" && [base_resist_all_elements_%] < "40" # [ForceSellItem] == "true" // Perfect Res Goldrim
-[UniqueName] == "Heatshiver" # [ForceSellItem] == "true"
+// [UniqueName] == "Heatshiver" # [ForceSellItem] == "true"
 [UniqueName] == "Obscurantis" # [ForceSellItem] == "true"
 // [Type] == "Silken Hood" && [Rarity] == "Unique"     # [ForceSellItem] == "true" // Starkonja's Head / Saqawal's Flock / Cowl of the Cryophile
 [UniqueName] == "Starkonja's Head" # [ForceSellItem] == "true"
@@ -2492,12 +2493,43 @@
 [UniqueName] == "Crown of Thorns" # [ForceSellItem] == "true"
 
 // Armour & Evasion Helmets
-// [UniqueName] == "Crest of Desire" # [ForceSellItem] == "true"
+[UniqueName] == "Crest of Desire" # [ForceSellItem] == "true"
 [UniqueName] == "Deidbell" # [ForceSellItem] == "true"
 // [Type] == "Lacquered Helmet" && [Rarity] == "Unique"   # [ForceSellItem] == "true" // Black Sun Crest / The Fledgling
 // [UniqueName] == "Black Sun Crest" # [ForceSellItem] == "true"
-// [UniqueName] == "Black Sun Crest" # [dexterity_+%] < "10" && [strength_+%] < "10" && [intelligence_+%] < "10" [ForceSellItem] == "true"
-[UniqueName] == "Black Sun Crest" # [dexterity_+%] < "12" || [strength_+%] < "12" || [intelligence_+%] < "12" && [ForceSellItem] == "true"
+// [UniqueName] == "Black Sun Crest" # ([dexterity_+%] <= "12" || [strength_+%] <= "12" || [intelligence_+%] <= "12") && [ForceSellItem] == "true"
+[UniqueName] == "Black Sun Crest" # ([dexterity_+%] <= "12" && [strength_+%] <= "12" && [intelligence_+%] <= "12") && [ForceSellItem] == "true"
+/*
+([dexterity_+%] <= "12" && [strength_+%] <= "12")
+([dexterity_+%] <= "12" && [intelligence_+%] <= "12")
+([strength_+%] <= "12" && [intelligence_+%] <= "12")
+
+dexterity = "13"
+strength = "15"
+intelligence = "15"
+
+if (dexterity <= "12" or strength <= "12" or intelligence <= "12" or (dexterity <= "14" and strength <= "14" and intelligence <= "14")) then
+ print("both 1or |".. " dex: "..dexterity.." str: "..strength.." int: "..intelligence)
+else
+print("both no")
+end
+if (dexterity <= "12" and strength <= "12" and intelligence <= "12" or (dexterity <= "14" or strength <= "14" or intelligence <= "14")) then
+ print("both 1and |".. " dex: "..dexterity.." str: "..strength.." int: "..intelligence)
+else
+print("both no")
+end
+if (dexterity <= "12" or strength <= "12" or intelligence <= "12") then
+ print("or |".. " dex: "..dexterity.." str: "..strength.." int: "..intelligence)
+else
+print("or no")
+end
+
+if (dexterity <= "12" and strength <= "12" and intelligence <= "12") then
+ print("and |".. " dex: "..dexterity.." str: "..strength.." int: "..intelligence)
+else
+print("and no")
+end
+*/
 
 [UniqueName] == "The Fledgling" # [ForceSellItem] == "true"
 // [Type] == "Nightmare Bascinet" && [Rarity] == "Unique" # [ForceSellItem] == "true" // Bringer of Rain / Devoto's Devotion
@@ -2552,7 +2584,7 @@
 [UniqueName] == "Curtain Call" # [ForceSellItem] == "true"
 [UniqueName] == "The Gull" # [ForceSellItem] == "true"
 [UniqueName] == "Crown of the Pale King" # [ForceSellItem] == "true"
-[UniqueName] == "Gorgon's Gaze" # [ForceSellItem] == "true"
+// [UniqueName] == "Gorgon's Gaze" # [ForceSellItem] == "true"
 [UniqueName] == "Fractal Thoughts" # [ForceSellItem] == "true"
 // [UniqueName] == "The Vertex" # [ForceSellItem] == "true"
 
@@ -2590,20 +2622,18 @@
 [UniqueName] == "Sentari's Answer" # [ForceSellItem] == "true"
 [UniqueName] == "The Eternal Apple" # [ForceSellItem] == "true"
 [UniqueName] == "Manastorm" # [ForceSellItem] == "true"
-[UniqueName] == "Malachai's Loop" # [ForceSellItem] == "true"
+// [UniqueName] == "Malachai's Loop" # [ForceSellItem] == "true"
 [UniqueName] == "Kongming's Stratagem" # [ForceSellItem] == "true"
-// [UniqueName] == "Light of Lunaris" # [ForceSellItem] == "true"
 [UniqueName] == "Brinerot Flag" # [ForceSellItem] == "true"
 [UniqueName] == "Matua Tupuna" # [ForceSellItem] == "true"
 [UniqueName] == "Esh's Mirror" # [ForceSellItem] == "true"
 [UniqueName] == "Bitterbind Point" # [ForceSellItem] == "true"
-[UniqueName] == "Rathpith Globe" # [ForceSellItem] == "true"
+// [UniqueName] == "Rathpith Globe" # [ForceSellItem] == "true"
 // [UniqueName] == "Apep's Supremacy" # [ForceSellItem] == "true"
 // [UniqueName] == "Esh's Visage" # [ForceSellItem] == "true"
 
 // Armour & Evasion Shields
 [UniqueName] == "Daresso's Courage" # [ForceSellItem] == "true"
-[UniqueName] == "Vix Lunaris" # [ForceSellItem] == "true"
 // [UniqueName] == "Shattershard" # [ForceSellItem] == "true"
 // [UniqueName] == "Wheel of the Stormsail" # [ForceSellItem] == "true"
 [UniqueName] == "Wheel of the Stormsail" && [base_item_found_rarity_+%] < "40" # [ForceSellItem] == "true" // Perfect Rarity Wheel of the Stormsail
@@ -2617,7 +2647,6 @@
 // Armour & Energy Shield Shields
 // [Type] == "Archon Kite Shield" && [Rarity] == "Unique"   # [ForceSellItem] == "true" // Broken Faith / Prism Guardian / Invictus Solaris
 [UniqueName] == "Broken Faith" # [ForceSellItem] == "true"
-[UniqueName] == "Invictus Solaris" # [ForceSellItem] == "true"
 // [UniqueName] == "Prism Guardian" # [ForceSellItem] == "true"
 // [UniqueName] == "The Immortal Will" # [ForceSellItem] == "true"
 // [UniqueName] == "The Unshattered Will" # [ForceSellItem] == "true"
@@ -2658,7 +2687,7 @@
 [UniqueName] == "Rust of Winter" # [ForceSellItem] == "true" //
 // [UniqueName] == "Soul Taker" # [ForceSellItem] == "true" // for kingmaker
 [UniqueName] == "Moonbender's Wing" # [ForceSellItem] == "true" //
-[UniqueName] == "Jack, the Axe" # [ForceSellItem] == "true" //
+[UniqueName] == "Jack, The Axe" # [ForceSellItem] == "true" //
 
 // Two-Handed Axes
 [UniqueName] == "Ngamahu's Flame" # [ForceSellItem] == "true" //
@@ -2752,7 +2781,6 @@
 //[UniqueName] == "White Wind" # [ForceSellItem] == "true"
 [UniqueName] == "White Wind" && [cold_damage_+%_while_off_hand_is_empty] < "200" # [ForceSellItem] == "true" // Perf Cold Damage% White Wind
 [UniqueName] == "Mark of the Doubting Knight" # [ForceSellItem] == "true"
-[UniqueName] == "Heartbreaker" # [ForceSellItem] == "true" // for kingmaker but common
 [UniqueName] == "Bino's Kitchen Knife" # [ForceSellItem] == "true"
 
 // Fishing Rods
@@ -2818,10 +2846,6 @@
 [UniqueName] == "Fencoil" # [ForceSellItem] == "true" //
 [UniqueName] == "Martyr of Innocence" # [ForceSellItem] == "true" //
 [UniqueName] == "Witchhunter's Judgment" # [ForceSellItem] == "true" //
-[UniqueName] == "Agnerod East" # [ForceSellItem] == "true" //
-[UniqueName] == "Agnerod North" # [ForceSellItem] == "true" //
-[UniqueName] == "Agnerod South" # [ForceSellItem] == "true" //
-[UniqueName] == "Agnerod West" # [ForceSellItem] == "true" //
 [UniqueName] == "The Enmity Divine" # [ForceSellItem] == "true" //
 [UniqueName] == "Realmshaper" # [ForceSellItem] == "true" //
 [UniqueName] == "Hegemony's Era" # [ForceSellItem] == "true" //
@@ -2841,13 +2865,11 @@
 // Generic One-Handed Swords
 [UniqueName] == "Ichimonji" # [ForceSellItem] == "true" //
 [UniqueName] == "Severed in Sleep" # [ForceSellItem] == "true" //
-[UniqueName] == "Ephemeral Edge" # [ForceSellItem] == "true" //
+// [UniqueName] == "Ephemeral Edge" # [ForceSellItem] == "true" //
 [UniqueName] == "Innsbury Edge" # [ForceSellItem] == "true" //
 // [UniqueName] == "The Goddess Scorned" # [ForceSellItem] == "true" //
 [UniqueName] == "Lakishu's Blade" # [ForceSellItem] == "true" //
-[UniqueName] == "Beltimber Blade" # [ForceSellItem] == "true" //
 [UniqueName] == "Dreamfeather" # [ForceSellItem] == "true" //
-[UniqueName] == "Grelwood Shank" # [ForceSellItem] == "true" //
 [UniqueName] == "Kondo's Pride" # [ForceSellItem] == "true" //
 [UniqueName] == "Scaeva" # [ForceSellItem] == "true" //
 // [UniqueName] == "The Iron Mass" # [ForceSellItem] == "true" //
@@ -2873,7 +2895,6 @@
 [UniqueName] == "Fidelitas' Spike" # [ForceSellItem] == "true" //
 // [UniqueName] == "Cospri's Malice" # [ForceSellItem] == "true" //
 // [UniqueName] == "Paradoxica" # [ForceSellItem] == "true" //
-[UniqueName] == "The Goddess Bound" # [ForceSellItem] == "true" //
 
 // Two-Handed Swords
 [UniqueName] == "Shiversting" # [ForceSellItem] == "true" //
@@ -2902,7 +2923,6 @@
 [UniqueName] == "Apep's Rage" # [ForceSellItem] == "true" //
 // [UniqueName] == "Void Battery" # [ForceSellItem] == "true" //
 [UniqueName] == "Ashcaller" # [ForceSellItem] == "true" //
-[UniqueName] == "Shade of Solaris" # [ForceSellItem] == "true" //
 [UniqueName] == "Twyzel" # [ForceSellItem] == "true" //
 [UniqueName] == "Reverberation Rod" # [ForceSellItem] == "true" //
 [UniqueName] == "Tulborn" # [ForceSellItem] == "true" //
@@ -2953,6 +2973,40 @@
 // [Type] == "Topaz Flask" && [Rarity] == "Unique" # [local_flask_duration_+%] >= "1" && [local_unique_flask_minimum_added_lightning_damage_to_spells_during_flask_effect] >= "1" && [ForceSellItem] == "true" // Vessel of Vinktar Spell roll
 // [Type] == "Topaz Flask" && [Rarity] == "Unique" # [local_flask_duration_+%] >= "1" && [local_unique_flask_physical_damage_%_converted_to_lightning_during_flask_effect] >= "1" && [ForceSellItem] == "true" // Vessel of Vinktar Phys convert
 // [Type] == "Topaz Flask" && [Rarity] == "Unique" # [local_flask_duration_+%] >= "1" && [local_unique_flask_lightning_resistance_penetration_%_during_flask_effect] >= "1" && [ForceSellItem] == "true" // Vessel of Vinktar Damage Penetration
+
+/////////////////////////////////////////////////////////////////////////////////////
+//                                                                                 //
+//                                Combine Uniques                                  //
+//                                                                                 //
+/////////////////////////////////////////////////////////////////////////////////////
+
+// The Vinktar Square
+// [UniqueName] == "Agnerod East" # [ForceSellItem] == "true" //
+// [UniqueName] == "Agnerod North" # [ForceSellItem] == "true" //
+// [UniqueName] == "Agnerod South" # [ForceSellItem] == "true" //
+// [UniqueName] == "Agnerod West" # [ForceSellItem] == "true" //
+
+// Kingmaker
+// [UniqueName] == "Soul Taker" # [ForceSellItem] == "true" // for kingmaker
+[UniqueName] == "Heartbreaker" # [ForceSellItem] == "true" // for kingmaker but common
+
+// Arborix
+[UniqueName] == "Grelwood Shank" # [ForceSellItem] == "true" //
+[UniqueName] == "Beltimber Blade" # [ForceSellItem] == "true" //
+
+// Duskdawn
+// [UniqueName] == "Shade of Solaris" # [ForceSellItem] == "true" //
+// [UniqueName] == "Light of Lunaris" # [ForceSellItem] == "true" //
+
+// The Goddess Scorned
+[UniqueName] == "The Goddess Bound" # [ForceSellItem] == "true" // with 20% quality
+// [Type] == "Elegant Sword" && [Rarity] == "Normal" && [Quality] >= "20" # [StashItem] == "true" // with 20% quality
+// [Type] == "Combustion Support" # [StashItem] == "true" // with at least 1% quality
+
+
+// Magna Eclipsis
+[UniqueName] == "Invictus Solaris" # [ForceSellItem] == "true"
+[UniqueName] == "Vix Lunaris" # [ForceSellItem] == "true"
 
 /////////////////////////////////////////////////////////////////////////////////////
 //                                                                                 //
@@ -3128,8 +3182,6 @@
 ////////////// Starting Gear //////////////
 /////// RF
 // Sceptres
-// [Type] == "" # [StashItem] == "true" //
-
 // Burn dmg
 // [Type] == "Opal Sceptre" # [burn_damage_+%] >= "26" && [fire_spell_skill_gem_level_+] >= "1" && [StashItem] == "true" //
 // [Type] == "Void Sceptre" # [burn_damage_+%] >= "26" && [fire_spell_skill_gem_level_+] >= "1" && [StashItem] == "true" //
@@ -3258,7 +3310,7 @@
 [Type] == "Broken Promises" # [StashItem] == "true"          // Diamond Ring ilvl87 Two-Implicit Synthesised
 [Type] == "Brush, Paint and Palette" # [StashItem] == "true" // The Artist
 [Type] == "Deadly Joy" # [StashItem] == "true"               // Torrent's Reclamation Two-Implicit Corrupted
-[Type] == "Luminous Trove" # [StashItem] == "true"           // Voices
+[Type] == "Luminous Trove" # [StashItem] == "true"           // Voices Corrupted
 [Type] == "Prejudice" # [StashItem] == "true"                // Influenced Item
 [Type] == "Sambodhi's Wisdom" # [StashItem] == "true"        // A Master Seeks Help (Jun)
 [Type] == "The Adventuring Spirit" # [StashItem] == "true"   // Victario's Influence
@@ -3420,8 +3472,7 @@
 //                            	       SCOURGE                                     //
 //                                                                                 //
 /////////////////////////////////////////////////////////////////////////////////////
-// [Category] == "" # [StashItem] == "true"
-// [Type] == "" # [StashItem] == "true" //
+
 
 // League Mechanic
 
@@ -3438,16 +3489,9 @@
 [Type] == "The Forgotten Treasure" # [StashItem] == "true" //
 [Type] == "The Fox in the Brambles" # [StashItem] == "true" //
 [Type] == "The Prince of Darkness" # [StashItem] == "true" //
-// [Type] == "The Rabbit's Foot" # [StashItem] == "true" //
+[Type] == "The Rabbit's Foot" # [StashItem] == "true" //
 [Type] == "The Scout" # [StashItem] == "true" //
 [Type] == "Treasures of the Vaal" # [StashItem] == "true" //
-// [Type] == "" # [StashItem] == "true" //
-// [Type] == "" # [StashItem] == "true" //
-// [Type] == "" # [StashItem] == "true" //
-// [Type] == "" # [StashItem] == "true" //
-// [Type] == "" # [StashItem] == "true" //
-// [Type] == "" # [StashItem] == "true" //
-// [Type] == "" # [StashItem] == "true" //
 
 // Map/Fragment
 // Memory
@@ -3472,10 +3516,6 @@
 // Jewel
 
 ////// Uniques
-// [Type] == "" && [Rarity] == "Unique" # [] >= "1" && [StashItem] == "true" //
-// [UniqueName] == "" # [ForceSellItem] == "true"
-// [UniqueName] == "" # [StashItem] == "true"
-
 // Helm
 // Body
 // [UniqueName] == "Stasis Prison" # [ForceSellItem] == "true"
@@ -3501,31 +3541,24 @@
 //                                   ARCHNEMESIS                                   //
 //                                                                                 //
 /////////////////////////////////////////////////////////////////////////////////////
-// [Category] == "" # [StashItem] == "true"
-// [Type] == "" # [StashItem] == "true" //
-
 // League Mechanic
 
 // Currency
-// [Type] == "" # [StashItem] == "true" //
 
 // Div cards
-// [Type] == "Bijoux" # [StashItem] == "true" //
-[Type] == "Duality" # [StashItem] == "true" //
-[Type] == "Imperfect Memories" # [StashItem] == "true" //
-[Type] == "Judging Voices" # [StashItem] == "true" //
-[Type] == "Justified Ambition" # [StashItem] == "true" //
-[Type] == "Magnum Opus" # [StashItem] == "true" //
-// [Type] == "Misery in Darkness" # [StashItem] == "true" //
-// [Type] == "Parasitic Passengers" # [StashItem] == "true" //
-// [Type] == "Silence and Frost" # [StashItem] == "true" //
-// [Type] == "The Magma Crab" # [StashItem] == "true" //
-[Type] == "The One That Got Away" # [StashItem] == "true" //
-// [Type] == "The Tireless Extractor" # [StashItem] == "true" //
-[Type] == "The Transformation" # [StashItem] == "true" //
-// [Type] == "" # [StashItem] == "true" //
-// [Type] == "" # [StashItem] == "true" //
-// [Type] == "" # [StashItem] == "true" //
+[Type] == "Bijoux" # [StashItem] == "true"                // ilvl84 Cluster
+[Type] == "Duality" # [StashItem] == "true"               // ilvl100 double-influenced normal body armour
+[Type] == "Imperfect Memories" # [StashItem] == "true"    // ilvl100 ring 3 synthesised implicit modifiers
+[Type] == "Judging Voices" # [StashItem] == "true"        // Forbidden Shako
+[Type] == "Justified Ambition" # [StashItem] == "true"    // Synthesised Map
+[Type] == "Magnum Opus" # [StashItem] == "true"           // ilvl100 item 3 synthesised implicit modifiers
+[Type] == "Misery in Darkness" # [StashItem] == "true"     // Shroud of the Lightless
+// [Type] == "Parasitic Passengers" # [StashItem] == "true"   // 10x incubators ilvl 84
+[Type] == "Silence and Frost" # [StashItem] == "true"      // The Pandemonius
+// [Type] == "The Magma Crab" # [StashItem] == "true"         // level 21 Vaal Molten Shell
+[Type] == "The One That Got Away" # [StashItem] == "true" // Replica Bated Breath
+// [Type] == "The Tireless Extractor" # [StashItem] == "true" // 10x oil
+[Type] == "The Transformation" # [StashItem] == "true"    // Tainted Mythic Orb
 
 // Map/Fragment
 // Memory
@@ -3588,7 +3621,6 @@
 [Type] == "The Forward Gaze" # [StashItem] == "true" // Replica Item
 
 ////// Uniques
-
 // Helm
 [UniqueName] == "Echoes of Creation" # [ForceSellItem] == "true"
 // Belt
@@ -3659,7 +3691,7 @@
 // [Type] == "The Enforcer" # [StashItem] == "true" //
 [Type] == "The Leviathan" # [StashItem] == "true" //
 [Type] == "The Price of Devotion" # [StashItem] == "true" //
-// [Type] == "The Shepherd's Sandals" # [StashItem] == "true" //
+[Type] == "The Shepherd's Sandals" # [StashItem] == "true" // Boots Two Implicit Corrupt
 [Type] == "The Shieldbearer" # [StashItem] == "true" //
 
 // Map/Fragment
@@ -3694,8 +3726,6 @@
 
 // Jewel
 // [UniqueName] == "Grand Spectrum" # [ForceSellItem] == "true"
-
-
 
 /////////////////////////////////////////////////////////////////////////////////////
 //                                                                                 //
@@ -3929,95 +3959,103 @@
 // Currency
 [Type] == "Hinekora's Lock"                    # [StashItem] == "true" //
 [Type] == "Silver Coin"                        # [StashItem] == "true" //
-    // Tatoo
-[Type] == "Tattoo of the Ngamahu Firewalker"   # [StashItem] == "true" //
-[Type] == "Tattoo of the Ngamahu Shaman"       # [StashItem] == "true" //
-[Type] == "Tattoo of the Ngamahu Warrior"      # [StashItem] == "true" //
-[Type] == "Tattoo of the Ngamahu Warmonger"    # [StashItem] == "true" //
-[Type] == "Tattoo of the Ngamahu Woodcarver"   # [StashItem] == "true" //
-[Type] == "Loyalty Tattoo of Kaom"             # [StashItem] == "true" //
-[Type] == "Tattoo of the Ngamahu Makanga"      # [StashItem] == "true" //
-[Type] == "Tattoo of the Kitava Blood Drinker" # [StashItem] == "true" //
-[Type] == "Tattoo of the Kitava Rebel"         # [StashItem] == "true" //
-[Type] == "Tattoo of the Kitava Warrior"       # [StashItem] == "true" //
-[Type] == "Tattoo of the Kitava Heart Eater"   # [StashItem] == "true" //
-[Type] == "Tattoo of the Kitava Shaman"        # [StashItem] == "true" //
-[Type] == "Loyalty Tattoo of Utula"            # [StashItem] == "true" //
-[Type] == "Tattoo of the Kitava Makanga"       # [StashItem] == "true" //
-[Type] == "Tattoo of the Tukohama Shaman"      # [StashItem] == "true" //
-[Type] == "Tattoo of the Tukohama Warrior"     # [StashItem] == "true" //
-[Type] == "Tattoo of the Tukohama Brawler"     # [StashItem] == "true" //
-[Type] == "Tattoo of the Tukohama Warmonger"   # [StashItem] == "true" //
-[Type] == "Tattoo of the Tukohama Warcaller"   # [StashItem] == "true" //
-[Type] == "Loyalty Tattoo of Akoya"            # [StashItem] == "true" //
-[Type] == "Tattoo of the Tukohama Makanga"     # [StashItem] == "true" //
-[Type] == "Tattoo of the Rongokurai Warrior"   # [StashItem] == "true" //
-[Type] == "Tattoo of the Rongokurai Brute"     # [StashItem] == "true" //
-[Type] == "Tattoo of the Rongokurai Goliath"   # [StashItem] == "true" //
-[Type] == "Tattoo of the Rongokurai Turtle"    # [StashItem] == "true" //
-[Type] == "Tattoo of the Rongokurai Guard"     # [StashItem] == "true" //
-[Type] == "Loyalty Tattoo of Kahuturoa"        # [StashItem] == "true" //
-[Type] == "Tattoo of the Rongokurai Makanga"   # [StashItem] == "true" //
-[Type] == "Tattoo of the Tasalio Bladedancer"  # [StashItem] == "true" //
-[Type] == "Tattoo of the Tasalio Tideshifter"  # [StashItem] == "true" //
-[Type] == "Tattoo of the Tasalio Shaman"       # [StashItem] == "true" //
-[Type] == "Tattoo of the Tasalio Warrior"      # [StashItem] == "true" //
-[Type] == "Tattoo of the Tasalio Scout"        # [StashItem] == "true" //
-[Type] == "Loyalty Tattoo of Rakiata"          # [StashItem] == "true" //
-[Type] == "Tattoo of the Tasalio Makanga"      # [StashItem] == "true" //
-[Type] == "Tattoo of the Arohongui Moonwarden" # [StashItem] == "true" //
-[Type] == "Tattoo of the Arohongui Scout"      # [StashItem] == "true" //
-[Type] == "Tattoo of the Arohongui Warrior"    # [StashItem] == "true" //
-[Type] == "Tattoo of the Arohongui Warmonger"  # [StashItem] == "true" //
-[Type] == "Tattoo of the Arohongui Shaman"     # [StashItem] == "true" //
-[Type] == "Loyalty Tattoo of Ikiaho"           # [StashItem] == "true" //
-[Type] == "Tattoo of the Arohongui Makanga"    # [StashItem] == "true" //
-[Type] == "Tattoo of the Ramako Scout"         # [StashItem] == "true" //
-[Type] == "Tattoo of the Ramako Archer"        # [StashItem] == "true" //
-[Type] == "Tattoo of the Ramako Sniper"        # [StashItem] == "true" //
-[Type] == "Tattoo of the Ramako Fleetfoot"     # [StashItem] == "true" //
-[Type] == "Tattoo of the Ramako Shaman"        # [StashItem] == "true" //
-[Type] == "Loyalty Tattoo of Ahuana"           # [StashItem] == "true" //
-[Type] == "Tattoo of the Ramako Makanga"       # [StashItem] == "true" //
-[Type] == "Tattoo of the Hinekora Warrior"     # [StashItem] == "true" //
-[Type] == "Tattoo of the Hinekora Deathwarden" # [StashItem] == "true" //
-[Type] == "Tattoo of the Hinekora Shaman"      # [StashItem] == "true" //
-[Type] == "Tattoo of the Hinekora Storyteller" # [StashItem] == "true" //
-[Type] == "Tattoo of the Hinekora Warmonger"   # [StashItem] == "true" //
-[Type] == "Loyalty Tattoo of Tawhanuku"        # [StashItem] == "true" //
-[Type] == "Tattoo of the Hinekora Makanga"     # [StashItem] == "true" //
-[Type] == "Tattoo of the Tawhoa Naturalist"    # [StashItem] == "true" //
-[Type] == "Tattoo of the Tawhoa Scout"         # [StashItem] == "true" //
-[Type] == "Tattoo of the Tawhoa Warrior"       # [StashItem] == "true" //
-[Type] == "Tattoo of the Tawhoa Herbalist"     # [StashItem] == "true" //
-[Type] == "Tattoo of the Tawhoa Shaman"        # [StashItem] == "true" //
-[Type] == "Loyalty Tattoo of Maata"            # [StashItem] == "true" //
-[Type] == "Tattoo of the Tawhoa Makanga"       # [StashItem] == "true" //
-[Type] == "Tattoo of the Valako Stormrider"    # [StashItem] == "true" //
-[Type] == "Tattoo of the Valako Scout"         # [StashItem] == "true" //
-[Type] == "Tattoo of the Valako Warrior"       # [StashItem] == "true" //
-[Type] == "Tattoo of the Valako Shieldbearer"  # [StashItem] == "true" //
-[Type] == "Tattoo of the Valako Shaman"        # [StashItem] == "true" //
-[Type] == "Loyalty Tattoo of Kiloava"          # [StashItem] == "true" //
-[Type] == "Tattoo of the Valako Makanga"       # [StashItem] == "true" //
-[Type] == "Honoured Tattoo of the Dove"        # [StashItem] == "true" //
-[Type] == "Honoured Tattoo of the Sky"         # [StashItem] == "true" //
-[Type] == "Honoured Tattoo of the Tuatara"     # [StashItem] == "true" //
-[Type] == "Honoured Tattoo of the Pillager"    # [StashItem] == "true" //
-[Type] == "Honoured Tattoo of the Turtle"      # [StashItem] == "true" //
-[Type] == "Honoured Tattoo of the Oak"         # [StashItem] == "true" //
-[Type] == "Honoured Tattoo of the Hatungo"     # [StashItem] == "true" //
-[Type] == "Honoured Tattoo of the Flock"       # [StashItem] == "true" //
-[Type] == "Honoured Tattoo of the Warlord"     # [StashItem] == "true" //
-[Type] == "Honoured Tattoo of the Mountain"    # [StashItem] == "true" //
-[Type] == "Honoured Tattoo of the Pa"          # [StashItem] == "true" //
-[Type] == "Honoured Tattoo of the Hunter"      # [StashItem] == "true" //
-[Type] == "Honoured Tattoo of the Barbarian"   # [StashItem] == "true" //
-[Type] == "Honoured Tattoo of the Berserker"   # [StashItem] == "true" //
-[Type] == "Honoured Tattoo of the Wise"        # [StashItem] == "true" //
-[Type] == "Honoured Tattoo of the Storm"       # [StashItem] == "true" //
-[Type] == "Honoured Tattoo of the Flood"       # [StashItem] == "true" //
-    // Omen
+// Tatoo
+    // Honoured
+[Type] == "Honoured Tattoo of the Barbarian" # [StashItem] == "true" // +1% to maximum Cold Resistance | +1 to Maximum Frenzy Charges
+[Type] == "Honoured Tattoo of the Berserker" # [StashItem] == "true" // You gain Onslaught for 4 seconds on Hit
+[Type] == "Honoured Tattoo of the Dove"      # [StashItem] == "true" // +4% to Chaos Resistance
+[Type] == "Honoured Tattoo of the Flock"     # [StashItem] == "true" // 1% increased effect of Non-Curse Auras from your Skills
+[Type] == "Honoured Tattoo of the Flood"     # [StashItem] == "true" // Gain Arcane Surge on Hit with Spells
+[Type] == "Honoured Tattoo of the Hatungo"   # [StashItem] == "true" // 1% increased Reservation Efficiency of Skills
+[Type] == "Honoured Tattoo of the Hunter"    # [StashItem] == "true" // +1 to Level of all Dexterity Skill Gems
+[Type] == "Honoured Tattoo of the Makanga"   # [StashItem] == "true" // +2% to all maximum Resistances
+[Type] == "Honoured Tattoo of the Mountain"  # [StashItem] == "true" // +1% to maximum Fire Resistance | +1 to Maximum Endurance Charges
+[Type] == "Honoured Tattoo of the Oak"       # [StashItem] == "true" // 2% increased maximum Life
+[Type] == "Honoured Tattoo of the Pa"        # [StashItem] == "true" // Melee Hits Fortify
+[Type] == "Honoured Tattoo of the Pillager"  # [StashItem] == "true" // 3% increased Rarity of Items found
+[Type] == "Honoured Tattoo of the Sky"       # [StashItem] == "true" // +3% to all Elemental Resistances
+[Type] == "Honoured Tattoo of the Storm"     # [StashItem] == "true" // +1% to maximum Lightning Resistance | +1 to Maximum Power Charges
+[Type] == "Honoured Tattoo of the Tuatara"   # [StashItem] == "true" // +4 to all Attributes
+[Type] == "Honoured Tattoo of the Turtle"    # [StashItem] == "true" // 3% increased Global Defences
+[Type] == "Honoured Tattoo of the Warlord"   # [StashItem] == "true" // +1 to Level of all Strength Skill Gems
+[Type] == "Honoured Tattoo of the Wise"      # [StashItem] == "true" // +1 to Level of all Intelligence Skill Gems
+
+    // Loyalty
+[Type] == "Loyalty Tattoo of Ahuana"    # [StashItem] == "true" // Trigger Summon Spirit of Ahuana Skill when you Suppress Spell Damage from a Unique Enemy
+[Type] == "Loyalty Tattoo of Akoya"     # [StashItem] == "true" // Trigger Summon Spirit of Akoya Skill when you reach Maximum Rage while a Unique Enemy is in your Presence
+[Type] == "Loyalty Tattoo of Ikiaho"    # [StashItem] == "true" // Trigger Summon Spirit of Ikiaho Skill when you use a Travel Skill while a Unique Enemy is in your Presence
+[Type] == "Loyalty Tattoo of Kahuturoa" # [StashItem] == "true" // Trigger Summon Spirit of Kahuturoa Skill when you take a Critical Strike from a Unique Enemy
+[Type] == "Loyalty Tattoo of Kaom"      # [StashItem] == "true" // Trigger Summon Spirit of Kaom Skill when a Totem dies while a Unique Enemy is in your Presence
+[Type] == "Loyalty Tattoo of Kiloava"   # [StashItem] == "true" // Trigger Summon Spirit of Kiloava Skill when you Block Damage from a Unique Enemy
+[Type] == "Loyalty Tattoo of Maata"     # [StashItem] == "true" // Trigger Summon Spirit of Maata Skill when you reach Low Life while a Unique Enemy is in your Presence
+[Type] == "Loyalty Tattoo of Rakiata"   # [StashItem] == "true" // Trigger Summon Spirit of Rakiata Skill on Critical Strike against Marked Unique Enemy
+[Type] == "Loyalty Tattoo of Tawhanuku" # [StashItem] == "true" // Trigger Summon Spirit of Tawhanuku Skill when Energy Shield Recharge starts while a Unique Enemy is in your Presence
+[Type] == "Loyalty Tattoo of Utula"     # [StashItem] == "true" // Trigger Summon Spirit of Utula Skill on taking a Savage Hit from a Unique Enemy
+
+    // Other
+[Type] == "Ancestral Tattoo of Bloodlines"     # [StashItem] == "true" // 2% increased Recovery Rate of Life, Mana and Energy Shield per Tribe for which you have an allocated Tattoo
+[Type] == "Tattoo of the Arohongui Makanga"    # [StashItem] == "true" // +1% to maximum Cold Resistance
+[Type] == "Tattoo of the Arohongui Moonwarden" # [StashItem] == "true" // +8% to Cold Resistance
+[Type] == "Tattoo of the Arohongui Scout"      # [StashItem] == "true" // 15% chance to Avoid being Chilled | 15% chance to Avoid being Frozen
+[Type] == "Tattoo of the Arohongui Shaman"     # [StashItem] == "true" // 5% increased Effect of Herald Buffs on you
+[Type] == "Tattoo of the Arohongui Warmonger"  # [StashItem] == "true" // Killing Blows have 10% chance to Shatter Enemies as though Frozen
+[Type] == "Tattoo of the Arohongui Warrior"    # [StashItem] == "true" // Adds 3 to 5 Cold Damage
+[Type] == "Tattoo of the Hinekora Deathwarden" # [StashItem] == "true" // 6% reduced Effect of Curses on you
+[Type] == "Tattoo of the Hinekora Makanga"     # [StashItem] == "true" // 8% increased Effect of your Curses
+[Type] == "Tattoo of the Hinekora Shaman"      # [StashItem] == "true" // Regenerate 3 Mana per second
+[Type] == "Tattoo of the Hinekora Storyteller" # [StashItem] == "true" // 3% increased Skill Effect Duration
+[Type] == "Tattoo of the Hinekora Warmonger"   # [StashItem] == "true" // Minions have 6% increased maximum Life
+[Type] == "Tattoo of the Hinekora Warrior"     # [StashItem] == "true" // 10% increased Energy Shield Recharge Rate
+[Type] == "Tattoo of the Kitava Blood Drinker" # [StashItem] == "true" // 0.5% of Attack Damage Leeched as Life
+[Type] == "Tattoo of the Kitava Heart Eater"   # [StashItem] == "true" // Killing Blows have 4% chance to Consume corpses to recover 10% of Maximum Life
+[Type] == "Tattoo of the Kitava Makanga"       # [StashItem] == "true" // 80% increased Maximum total Life Recovery per second from Leech
+[Type] == "Tattoo of the Kitava Rebel"         # [StashItem] == "true" // 15% chance to Avoid Bleeding
+[Type] == "Tattoo of the Kitava Shaman"        # [StashItem] == "true" // 4% increased Life Reservation Efficiency of Skills
+[Type] == "Tattoo of the Kitava Warrior"       # [StashItem] == "true" // Adds 2 to 3 Physical Damage
+[Type] == "Tattoo of the Ngamahu Firewalker"   # [StashItem] == "true" // +8% to Fire Resistance
+[Type] == "Tattoo of the Ngamahu Makanga"      # [StashItem] == "true" // +1% to maximum Fire Resistance
+[Type] == "Tattoo of the Ngamahu Shaman"       # [StashItem] == "true" // 15% reduced Ignite Duration on you
+[Type] == "Tattoo of the Ngamahu Warmonger"    # [StashItem] == "true" // Enemies you Kill have a 2% chance to Explode, dealing a tenth of their maximum Life as Fire Damage
+[Type] == "Tattoo of the Ngamahu Warrior"      # [StashItem] == "true" // Adds 3 to 5 Fire Damage
+[Type] == "Tattoo of the Ngamahu Woodcarver"   # [StashItem] == "true" // 6% increased Totem Life
+[Type] == "Tattoo of the Ramako Archer"        # [StashItem] == "true" // 5% increased Global Accuracy Rating
+[Type] == "Tattoo of the Ramako Fleetfoot"     # [StashItem] == "true" // 2% increased Movement Speed
+[Type] == "Tattoo of the Ramako Makanga"       # [StashItem] == "true" // Skills fire an additional Projectile
+[Type] == "Tattoo of the Ramako Scout"         # [StashItem] == "true" // +80 to Evasion Rating
+[Type] == "Tattoo of the Ramako Shaman"        # [StashItem] == "true" // +2% chance to Suppress Spell Damage
+[Type] == "Tattoo of the Ramako Sniper"        # [StashItem] == "true" // 8% increased Projectile Speed
+[Type] == "Tattoo of the Rongokurai Brute"     # [StashItem] == "true" // 15% increased Stun Threshold
+[Type] == "Tattoo of the Rongokurai Goliath"   # [StashItem] == "true" // 10% increased Stun Duration on Enemies
+[Type] == "Tattoo of the Rongokurai Guard"     # [StashItem] == "true" // Guard Skills have 6% increased Duration
+[Type] == "Tattoo of the Rongokurai Makanga"   # [StashItem] == "true" // 8% chance to Defend with 200% of Armour
+[Type] == "Tattoo of the Rongokurai Turtle"    # [StashItem] == "true" // You take 10% reduced Extra Damage from Critical Strikes
+[Type] == "Tattoo of the Rongokurai Warrior"   # [StashItem] == "true" // 8% increased Armour
+[Type] == "Tattoo of the Tasalio Bladedancer"  # [StashItem] == "true" // Attacks have 5% chance to Maim on Hit
+[Type] == "Tattoo of the Tasalio Makanga"      # [StashItem] == "true" // 8% increased Cooldown Recovery Rate
+[Type] == "Tattoo of the Tasalio Scout"        # [StashItem] == "true" // 5% increased Effect of your Marks
+[Type] == "Tattoo of the Tasalio Shaman"       # [StashItem] == "true" // 5% chance to Hinder Enemies on Hit with Spells
+[Type] == "Tattoo of the Tasalio Tideshifter"  # [StashItem] == "true" // 15% chance to Avoid being Stunned
+[Type] == "Tattoo of the Tasalio Warrior"      # [StashItem] == "true" // 5% chance to Blind Enemies on Hit with Attacks
+[Type] == "Tattoo of the Tawhoa Herbalist"     # [StashItem] == "true" // 6% increased Flask Effect Duration
+[Type] == "Tattoo of the Tawhoa Makanga"       # [StashItem] == "true" // Flasks applied to you have 8% increased Effect
+[Type] == "Tattoo of the Tawhoa Naturalist"    # [StashItem] == "true" // 8% increased Life Recovery from Flasks | 8% increased Mana Recovery from Flasks
+[Type] == "Tattoo of the Tawhoa Scout"         # [StashItem] == "true" // 15% chance to Avoid being Poisoned
+[Type] == "Tattoo of the Tawhoa Shaman"        # [StashItem] == "true" // 2% of Damage taken Recouped as Life
+[Type] == "Tattoo of the Tawhoa Warrior"       # [StashItem] == "true" // Adds 2 to 3 Chaos Damage
+[Type] == "Tattoo of the Tukohama Brawler"     # [StashItem] == "true" // 10% chance to Knock Enemies Back on hit
+[Type] == "Tattoo of the Tukohama Makanga"     # [StashItem] == "true" // 16% increased Life Regeneration rate
+[Type] == "Tattoo of the Tukohama Shaman"      # [StashItem] == "true" // Regenerate 15 Life per second
+[Type] == "Tattoo of the Tukohama Warcaller"   # [StashItem] == "true" // 10% increased Warcry Cooldown Recovery Rate
+[Type] == "Tattoo of the Tukohama Warmonger"   # [StashItem] == "true" // +0.1 metres to Melee Strike Range
+[Type] == "Tattoo of the Tukohama Warrior"     # [StashItem] == "true" // Melee Hits which Stun have 5% chance to Fortify
+[Type] == "Tattoo of the Valako Makanga"       # [StashItem] == "true" // +1% to maximum Lightning Resistance
+[Type] == "Tattoo of the Valako Scout"         # [StashItem] == "true" // 15% reduced Effect of Shock on you
+[Type] == "Tattoo of the Valako Shaman"        # [StashItem] == "true" // 1% Chance to Block Spell Damage
+[Type] == "Tattoo of the Valako Shieldbearer"  # [StashItem] == "true" // +1% Chance to Block Attack Damage
+[Type] == "Tattoo of the Valako Stormrider"    # [StashItem] == "true" // +8% to Lightning Resistance
+[Type] == "Tattoo of the Valako Warrior"       # [StashItem] == "true" // Adds 1 to 7 Lightning Damage
+
+// Omen
 [Type] == "Omen of Amelioration"               # [StashItem] == "true" //
 [Type] == "Omen of Return"                     # [StashItem] == "true" //
 [Type] == "Omen of Death-dancing"              # [StashItem] == "true" //
