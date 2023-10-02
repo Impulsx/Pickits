@@ -25,7 +25,7 @@ _____________
 ## Map pickit section :neckbeard:
 
 This is included in the pickits:
-```
+```c++
 ///////////////
 
 // M A P S //
