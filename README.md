@@ -25,7 +25,7 @@ _____________
 ## Map pickit section :neckbeard:
 
 This is included in the pickits:
-
+```
 ///////////////
 
 // M A P S //
@@ -37,6 +37,7 @@ This is included in the pickits:
 [Category] == "Map" && [MapTier] >= "1"         # [StashItem] == "true" // Take all Maps & Ignore all Contract/Blueprints/Incubators
 
 // [Category] == "Map"                          # [StashItem] == "true" // Take all Maps/Contract/Blueprints/Incubators
+```
 _____________
 
 :finnadie:
